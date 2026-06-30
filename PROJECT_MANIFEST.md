@@ -21,28 +21,30 @@ receives feedback, and builds mastery over time.
 - App form: local-network web app.
 - Audience: three children, ages 7, 10, and 12.
 - Primary learning loop: listen to a spoken word, type the spelling, receive
-  feedback.
+feedback.
 - Session length: moderately short sessions of roughly 10-12 words.
 - Word pools: bundled grade-level pools with many more words than a single
-  session; each session samples from the larger pool.
+session; each session samples from the larger pool.
 - Initial challenge levels: Grade 2, Grade 5, and Grade 7.
 - Profiles: each child should have separate progress tracking.
 - Storage: server-side SQLite so progress is shared across devices on the home
-  network.
+network.
 - Progress emphasis: mastery focused rather than only score focused.
 - Progress data should include accuracy, attempts, streaks, mastered words, and
-  words needing review.
+words needing review.
 - Audio direction: pre-generated text-to-speech audio is preferred.
 - Candidate TTS system: Kokoro.
 - Kokoro voice reference:
-  <https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md#american-english>
+[https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md#american-english](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md#american-english)
 - Kokoro implementation note: very short isolated utterances can be less reliable,
-  so generated clips should likely use a phrase plus repetition, such as
-  "Your word is: adventure. Adventure." instead of only "adventure."
+so generated clips should likely use a phrase plus repetition, such as
+"Your word is: adventure. Adventure." instead of only "adventure."
 - Media/theme references requested by the user: Helldivers, Roblox, Harry Potter,
-  Toy Story, Percy Jackson, Dr Seuss, Goat Simulator, and Untitled Goose Game.
+Toy Story, Percy Jackson, Dr Seuss, Goat Simulator, and Untitled Goose Game.
 - The user is comfortable using direct references to copyrighted media because
-  this is private household software running only on a local network.
+this is private household software running only on a local network.
+
+
 
 ## V1 Product Scope
 
@@ -72,6 +74,8 @@ V1 should not start by building:
 - A large parent-management console unless later confirmed as required for V1.
 - Multiple complex mini-games before the core listen-and-type loop works.
 
+
+
 ## Themes and Media Interests
 
 The user wants the experience to feel connected to the children's interests:
@@ -94,11 +98,11 @@ Implementation guidance:
 
 - Prefer locally bundled assets so the app works reliably on the home network.
 - Keep theme support data-driven where practical, for example theme name, color
-  palette, icon set, background image, feedback sounds, and reward labels.
+palette, icon set, background image, feedback sounds, and reward labels.
 - Avoid making theme support block the core spelling loop.
 - Start with a small number of complete themes rather than many incomplete ones.
 - If copyrighted source assets are used, keep them out of any public package,
-  release, demo, or shared repository unless the user later changes the policy.
+release, demo, or shared repository unless the user later changes the policy.
 
 Open theme questions:
 
@@ -106,9 +110,11 @@ Open theme questions:
 - Should each child have separate unlocked themes?
 - Which themes should ship first?
 - Should themes affect only visuals/audio, or should they also change reward names
-  and session framing?
+and session framing?
 - Should any theme include proper nouns as spelling words, or should proper nouns
-  stay separate from grade-level spelling practice?
+stay separate from grade-level spelling practice?
+
+
 
 ## Learning and Game Mechanics
 
@@ -137,15 +143,26 @@ Likely answer-checking behavior:
 Open gameplay questions:
 
 - Should sessions use exactly 10 words, exactly 12 words, or a configurable count?
+  - Let's just go 10 words
 - How many attempts should a child get per word?
+  - Just one
 - Should hints be available?
+  - Yes.  The child may ask for a hint and one letter can be populated.  They can ask two times per word.
 - If hints are available, which types should exist: definition, example sentence,
-  first letter, syllables, word length, or replay audio?
+first letter, syllables, word length, or replay audio?
+  - See above
 - Should hint usage reduce points or only affect mastery?
+  - No
 - Should the correct spelling be shown immediately after a miss?
+  - Yes
 - Should missed words reappear within the same session?
+  - No
 - Should a child be able to pause or abandon a session?
+  - If they do, progress is lost.
 - Should the app include a daily goal or streak target?
+  - No
+
+
 
 ## Content and Curriculum
 
@@ -167,7 +184,7 @@ Recommended word record fields:
 - `definition`: optional child-friendly definition.
 - `example_sentence`: optional sentence used for hints or audio.
 - `difficulty_tags`: optional tags such as common, challenge, homophone, prefix,
-  suffix, or tricky.
+suffix, or tricky.
 - `theme_tags`: optional links to themes if a word is relevant to a theme.
 - `audio_word_path`: path to primary audio prompt.
 - `audio_sentence_path`: optional path to sentence audio.
@@ -175,13 +192,21 @@ Recommended word record fields:
 Open content questions:
 
 - Should grade levels use strict curriculum lists or flexible age-appropriate
-  challenge pools?
+challenge pools?
+  - Flexible is fine
 - Should each level include stretch words above grade level?
+  - If the child gets 100% of earlier questions right
 - Should proper nouns from favorite media be included?
+  - Sure
 - Should media-related words be mixed into normal sessions or kept in themed bonus
-  sessions?
+sessions?
+  - Themed bonus sessions
 - Should parent word editing/import be part of V1 or deferred to V2?
+  - v1
 - Should word definitions and example sentences be required before a word can ship?
+  - No
+
+
 
 ## Audio Requirements
 
@@ -209,18 +234,26 @@ Reasons to prefer pre-generated audio:
 Possible fallback:
 
 - Browser speech synthesis can be used later as a fallback if an audio file is
-  missing.
+missing.
 
 Open audio questions:
 
 - Which Kokoro voice should be the default?
+  - Let's use **af_heart**
 - Should each child choose a voice?
+  - No, not yet.
 - Should each theme have its own voice or sound treatment?
+  - No
 - Should audio generation be a separate script or part of app admin tooling?
+  - I don't understand the difference.  Your call.
 - Should the repo store generated audio files, or should they be generated into a
-  local ignored directory?
+local ignored directory?
+  - Repo can store them.
 - Should clips include word only, word plus sentence, word plus definition, or all
-  of these?
+of these?
+  - I'm fine with word plus sentence.
+
+
 
 ## Progress Tracking Requirements
 
@@ -250,7 +283,7 @@ Recommended mastery model:
 - Incorrect answers decrease or delay mastery.
 - Missed words become higher priority for future sessions.
 - A word becomes mastered only after repeated correct answers across multiple
-  sessions or days.
+sessions or days.
 
 The exact mastery rule is not yet confirmed and should be answered before coding
 the spaced-review logic.
@@ -258,13 +291,22 @@ the spaced-review logic.
 Open progress questions:
 
 - What exact rule defines a mastered word?
+  - A word that's spelled correctly three times in a row.
 - Should mastery require correctness on multiple different days?
+  - No
 - Should missed words automatically repeat in the next session?
+  - No, just eventually
 - Should there be separate mastery per grade level if the same word appears in
-  more than one pool?
+more than one pool?
+  - No
 - Should parents be able to reset a child's progress?
+  - No
 - Should the app support export or backup of progress data?
+  - No, repo is fine.
 - Should there be a parent dashboard in V1?
+  - Yes
+
+
 
 ## Likely Technical Direction
 
@@ -278,21 +320,21 @@ Recommended default direction:
 - Backend: lightweight Node/Express or Python/FastAPI service.
 - Database: SQLite.
 - Assets: static images, icons, sound effects, and generated audio served by the
-  backend or frontend public asset directory.
+backend or frontend public asset directory.
 - Running locally: one command should start the local server if possible.
 - Local network: server should be able to bind to a LAN-accessible host, such as
-  `0.0.0.0`, when the user wants access from tablets or other computers.
+`0.0.0.0`, when the user wants access from tablets or other computers.
 
 Important implementation notes:
 
 - Keep the first version easy to run on a family computer.
 - Avoid requiring cloud services for normal gameplay.
 - Avoid requiring login passwords unless a parent/admin screen later needs a
-  simple gate.
+simple gate.
 - Use SQLite migrations or a clear initialization path so the database can be
-  recreated from scratch.
+recreated from scratch.
 - Keep word lists in editable structured files, such as JSON, YAML, or SQLite seed
-  data.
+data.
 - Keep generated audio and media asset organization predictable.
 
 Potential first database concepts:
@@ -329,6 +371,8 @@ Potential V2 improvements:
 - Placement test to suggest a challenge level.
 - Optional local-only parent PIN.
 
+
+
 ## Open Questions For The User
 
 Answering these will let the next Codex session create a decision-complete build
@@ -337,74 +381,48 @@ plan before app scaffolding begins.
 Profiles:
 
 - What are the three child profile names or nicknames?
+  - PT
+  - Smallfry
+  - TomTom
 - Should each profile have an avatar, color, or default theme?
+  - No, they can pick
 - Should children be able to edit their own profile choices?
+  - Yes
 
-Gameplay:
 
-- Should a session contain exactly 10 words, exactly 12 words, or be configurable?
-- How many attempts should a child get per word?
-- Should the child be able to replay word audio without penalty?
-- Should the correct spelling be revealed immediately after a miss?
-- Should missed words repeat within the same session?
-- Should the app allow pausing or abandoning a session?
-
-Hints:
-
-- Should hints be available in V1?
-- Which hint types should exist: definition, example sentence, first letter,
-  syllables, word length, or replay audio?
-- Should hint use affect score or mastery?
-
-Mastery and review:
-
-- What exact rule should define a mastered word?
-- Should mastery require correct answers across multiple days?
-- How aggressively should missed words reappear?
-- Should mastered words occasionally return for review?
-- Should parents be able to reset mastery for a word or child?
 
 Rewards and themes:
 
 - Should themes be available immediately or unlocked?
+  - I like the idea of unlocking.  Let them unlock as they get more words correct.
 - Which theme should be implemented first?
+  - You pick
 - Should each child have separate theme unlocks?
+  - If you mean does each child need to unlock them, yes.
 - Should rewards be badges, ranks, points, collectibles, animations, or a mix?
+  - Let's do a mix of badges and animations that unlock as they progress.
 - Should theme visuals use direct media assets, original inspired assets, or a mix?
-
-Words:
-
-- Should word pools be strict curriculum lists or flexible age-appropriate lists?
-- Should each grade include stretch words?
-- Should proper nouns from media interests be included as spelling words?
-- Should media-themed words be part of normal grade practice or bonus sessions?
-- Should parent word editing/import be included in V1 or saved for V2?
+  - All of the above
 
 Audio:
 
-- Which Kokoro voice should be used first?
-- Should the app generate only word prompts or also sentence and hint prompts?
-- Should audio generation be a separate script?
-- Should generated audio be checked into the repo or kept as local generated
-  assets?
 - Should browser speech synthesis exist as a fallback in V1?
-
-Parent/admin:
-
-- Is a parent dashboard required in V1?
-- If yes, what should it show: accuracy, hard words, sessions, streaks, time spent,
-  mastery, or recommendations?
-- Should there be a simple parent PIN?
-- Should there be export/backup controls in V1?
+  - No
 
 Technical:
 
 - Should the first implementation use Node/Express, Python/FastAPI, or another
-  preferred backend?
+preferred backend?
+  - Your call
 - Should the app target tablets, laptops, or both?
+  - Both
 - Should setup prioritize one-command local development?
+  - Not necessarily
 - Should deployment be local-only on one machine, or should it eventually run on a
-  small always-on home server?
+small always-on home server?
+  - Home server
+
+
 
 ## Acceptance Criteria For The Manifest
 
@@ -415,4 +433,5 @@ Technical:
 - The manifest does not scaffold application code.
 - The manifest does not lock a final stack beyond a likely technical direction.
 - A future Codex session can read this file and continue planning or implementation
-  without needing the original chat history.
+without needing the original chat history.
+
