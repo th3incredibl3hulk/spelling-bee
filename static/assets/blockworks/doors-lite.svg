@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Friendly hallway door</title>
+  <desc id="desc">A not-too-scary door surprise with a friendly glowing-eyed hallway figure.</desc>
+  <rect width="720" height="520" fill="#111827"/>
+  <path d="M0 0 H720 V520 H0 Z" fill="#1f2937"/>
+  <path d="M126 76 H594 L664 520 H56 Z" fill="#334155"/>
+  <path d="M184 86 H536 L578 520 H142 Z" fill="#475569"/>
+  <g transform="translate(258 72)">
+    <rect x="0" y="0" width="204" height="366" rx="18" fill="#7c2d12" stroke="#f97316" stroke-width="10"/>
+    <rect x="22" y="24" width="160" height="142" rx="10" fill="#9a3412" stroke="#fed7aa" stroke-width="5"/>
+    <rect x="22" y="194" width="160" height="142" rx="10" fill="#9a3412" stroke="#fed7aa" stroke-width="5"/>
+    <circle cx="170" cy="184" r="14" fill="#facc15"/>
+    <rect x="52" y="-34" width="100" height="44" rx="8" fill="#111827" stroke="#facc15" stroke-width="6"/>
+    <text x="102" y="-5" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="24" fill="#facc15">DOOR 5</text>
+  </g>
+  <g transform="translate(476 238)">
+    <path d="M58 0 C100 22 112 84 82 128 C50 174 4 142 0 88 C-4 34 18 5 58 0 Z" fill="#0f172a"/>
+    <circle cx="43" cy="58" r="11" fill="#60a5fa"/>
+    <circle cx="76" cy="66" r="11" fill="#60a5fa"/>
+    <path d="M38 104 Q62 118 88 100" fill="none" stroke="#60a5fa" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(72 70)">
+    <rect x="0" y="0" width="178" height="82" rx="14" fill="#ffffff"/>
+    <text x="89" y="34" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="21" fill="#111827">ROOM CLEAR</text>
+    <text x="89" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#475569">keep spelling</text>
+  </g>
+</svg>

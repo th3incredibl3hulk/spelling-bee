@@ -1,0 +1,123 @@
+[
+  {
+    "id": "storybook",
+    "name": "Storybook Quest",
+    "description": "Paper trails, bookmarks, margin notes, and page-turn rewards.",
+    "unlock_correct_count": 0,
+    "accent": "#0f9f8f",
+    "background": "paper",
+    "icon": "book-open",
+    "reward_label": "Page Badge",
+    "animation": "page-pop"
+  },
+  {
+    "id": "blockworks",
+    "name": "BlockWorks",
+    "description": "Chunky blocks, obby rails, checkpoints, and bouncing build pieces.",
+    "unlock_correct_count": 10,
+    "accent": "#e85d3f",
+    "background": "blocks",
+    "icon": "box",
+    "reward_label": "Builder Badge",
+    "animation": "brick-bounce"
+  },
+  {
+    "id": "mario-course",
+    "name": "Mario Course",
+    "description": "Pipes, coin blocks, flagpoles, hill hops, and bright platform checkpoints.",
+    "unlock_correct_count": 15,
+    "accent": "#ef4444",
+    "background": "course",
+    "icon": "flag",
+    "reward_label": "Course Flag",
+    "animation": "coin-pop"
+  },
+  {
+    "id": "space-cadets",
+    "name": "Space Cadets",
+    "description": "Mission lights, orbit sweeps, tactical patches, and drop-zone props.",
+    "unlock_correct_count": 25,
+    "accent": "#60a5fa",
+    "background": "stars",
+    "icon": "rocket",
+    "reward_label": "Mission Patch",
+    "animation": "orbit-sweep"
+  },
+  {
+    "id": "luigi-mansion",
+    "name": "Luigi's Mansion",
+    "description": "Flashlight beams, mansion keys, friendly ghosts, dusty halls, and spooky rewards.",
+    "unlock_correct_count": 35,
+    "accent": "#22c55e",
+    "background": "mansion",
+    "icon": "flashlight",
+    "reward_label": "Mansion Key",
+    "animation": "flashlight-sweep"
+  },
+  {
+    "id": "wizard-school",
+    "name": "Wizard School",
+    "description": "Lantern-lit library panels, spell cards, runes, and floating sparks.",
+    "unlock_correct_count": 45,
+    "accent": "#a78bfa",
+    "background": "library",
+    "icon": "sparkles",
+    "reward_label": "House Badge",
+    "animation": "spark-float"
+  },
+  {
+    "id": "toybox",
+    "name": "Toybox Rescue",
+    "description": "Bright toy-shelf colors, rockets, dinosaurs, prize tokens, and launch pops.",
+    "unlock_correct_count": 70,
+    "accent": "#f59e0b",
+    "background": "toybox",
+    "icon": "badge",
+    "reward_label": "Toy Token",
+    "animation": "toy-hop"
+  },
+  {
+    "id": "demigod-camp",
+    "name": "Demigod Camp",
+    "description": "Sea-blue quest maps, bronze shields, wave sweeps, and camp marks.",
+    "unlock_correct_count": 100,
+    "accent": "#0891b2",
+    "background": "camp",
+    "icon": "shield",
+    "reward_label": "Quest Mark",
+    "animation": "wave-rise"
+  },
+  {
+    "id": "silly-rhymes",
+    "name": "Silly Rhymes",
+    "description": "Bent rhyme labels, nonsense tiles, big color pops, and wobble motion.",
+    "unlock_correct_count": 130,
+    "accent": "#db2777",
+    "background": "rhyme",
+    "icon": "wand",
+    "reward_label": "Rhyme Badge",
+    "animation": "wiggle"
+  },
+  {
+    "id": "goat-yard",
+    "name": "Goat Yard",
+    "description": "Hay rails, ramps, trophies, and stunt props that crash across the screen.",
+    "unlock_correct_count": 160,
+    "accent": "#65a30d",
+    "background": "yard",
+    "icon": "trophy",
+    "reward_label": "Stunt Badge",
+    "animation": "stunt-pop"
+  },
+  {
+    "id": "garden-goose",
+    "name": "Garden Goose",
+    "description": "Picnic labels, rake trails, bell rings, and sneaky garden-job props.",
+    "unlock_correct_count": 200,
+    "accent": "#0284c7",
+    "background": "garden",
+    "icon": "bell",
+    "reward_label": "Garden Bell",
+    "animation": "bell-ring"
+  }
+]

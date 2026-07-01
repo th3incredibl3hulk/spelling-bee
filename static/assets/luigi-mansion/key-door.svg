@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 390" role="img" aria-labelledby="title desc">
+  <title id="title">Mansion key door</title>
+  <desc id="desc">Original mansion door with a bright key reward.</desc>
+  <rect width="520" height="390" rx="22" fill="#1e1b4b"/>
+  <path d="M50 70h420v250H50z" fill="#312e81" stroke="#7c3aed" stroke-width="8"/>
+  <path d="M196 320V116c0-46 30-72 64-72s64 26 64 72v204z" fill="#111827" stroke="#c4b5fd" stroke-width="10"/>
+  <circle cx="296" cy="208" r="9" fill="#fde68a"/>
+  <g transform="translate(104 154)">
+    <circle cx="38" cy="38" r="28" fill="none" stroke="#facc15" stroke-width="14"/>
+    <path d="M66 38h150" stroke="#facc15" stroke-width="14" stroke-linecap="round"/>
+    <path d="M170 38v34M202 38v26" stroke="#facc15" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <path d="M72 94h72M376 94h72M72 292h72M376 292h72" stroke="#a78bfa" stroke-width="8" stroke-linecap="round"/>
+</svg>

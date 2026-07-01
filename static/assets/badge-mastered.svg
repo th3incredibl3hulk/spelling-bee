@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">Mastery badge</title>
+  <desc id="desc">A gold badge with a check mark.</desc>
+  <circle cx="110" cy="110" r="92" fill="#facc15"/>
+  <circle cx="110" cy="110" r="70" fill="#fff7ed" stroke="#f97316" stroke-width="10"/>
+  <path d="M72 112 L99 139 L151 82" fill="none" stroke="#0f9f8f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M68 184 L52 218 L104 197 Z" fill="#2563eb"/>
+  <path d="M152 184 L168 218 L116 197 Z" fill="#db2777"/>
+</svg>

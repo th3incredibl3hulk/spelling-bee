@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Letter burst</title>
+  <desc id="desc">Colorful letter tiles, books, and badge shapes for the spelling app.</desc>
+  <rect width="900" height="420" fill="#fff7ed"/>
+  <path d="M0 322 C150 270 235 372 360 320 C520 252 645 382 900 288 L900 420 L0 420 Z" fill="#d1fae5"/>
+  <path d="M0 92 C145 42 240 128 370 74 C528 12 642 142 900 54 L900 0 L0 0 Z" fill="#dbeafe"/>
+  <g transform="translate(90 90)">
+    <rect x="0" y="0" width="98" height="98" rx="8" fill="#0f9f8f"/>
+    <text x="49" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">A</text>
+  </g>
+  <g transform="translate(210 170) rotate(-8)">
+    <rect x="0" y="0" width="98" height="98" rx="8" fill="#f97316"/>
+    <text x="49" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">B</text>
+  </g>
+  <g transform="translate(610 76) rotate(7)">
+    <rect x="0" y="0" width="98" height="98" rx="8" fill="#2563eb"/>
+    <text x="49" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">C</text>
+  </g>
+  <g transform="translate(720 198) rotate(-5)">
+    <rect x="0" y="0" width="98" height="98" rx="8" fill="#db2777"/>
+    <text x="49" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Z</text>
+  </g>
+  <g transform="translate(386 130)">
+    <path d="M0 22 L120 0 L230 34 L110 62 Z" fill="#facc15"/>
+    <path d="M0 22 L110 62 L110 180 L0 136 Z" fill="#f59e0b"/>
+    <path d="M110 62 L230 34 L230 148 L110 180 Z" fill="#f97316"/>
+    <path d="M110 62 L110 180" stroke="#7c2d12" stroke-width="6"/>
+    <path d="M24 56 L86 76 L86 128 L24 108 Z" fill="#fffbeb"/>
+    <path d="M144 78 L204 62 L204 116 L144 132 Z" fill="#fffbeb"/>
+  </g>
+  <g fill="#0f172a" opacity="0.12">
+    <circle cx="104" cy="322" r="14"/>
+    <circle cx="332" cy="86" r="10"/>
+    <circle cx="822" cy="126" r="12"/>
+    <circle cx="542" cy="332" r="9"/>
+  </g>
+</svg>

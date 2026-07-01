@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">BlockWorks server victory</title>
+  <desc id="desc">A blocky server victory screen for a perfect spelling run.</desc>
+  <rect width="720" height="520" fill="#0f172a"/>
+  <rect x="32" y="32" width="656" height="456" rx="22" fill="#2563eb"/>
+  <path d="M64 376 L156 284 L246 340 L356 222 L486 318 L656 188 V488 H64 Z" fill="#22c55e"/>
+  <g opacity="0.95">
+    <rect x="94" y="88" width="532" height="110" rx="16" fill="#ffffff" stroke="#111827" stroke-width="8"/>
+    <text x="360" y="134" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="38" fill="#111827">SERVER VICTORY</text>
+    <text x="360" y="174" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="28" fill="#ef4444">10 / 10 SPELLING RUN</text>
+  </g>
+  <g transform="translate(116 246)">
+    <rect x="0" y="0" width="112" height="112" rx="12" fill="#facc15" stroke="#111827" stroke-width="8"/>
+    <rect x="32" y="32" width="48" height="48" rx="7" fill="#ffffff"/>
+    <rect x="154" y="18" width="112" height="112" rx="12" fill="#ef4444" stroke="#111827" stroke-width="8"/>
+    <rect x="186" y="50" width="48" height="48" rx="7" fill="#ffffff"/>
+    <rect x="308" y="-6" width="112" height="112" rx="12" fill="#60a5fa" stroke="#111827" stroke-width="8"/>
+    <rect x="340" y="26" width="48" height="48" rx="7" fill="#ffffff"/>
+    <rect x="462" y="26" width="112" height="112" rx="12" fill="#22c55e" stroke="#111827" stroke-width="8"/>
+    <rect x="494" y="58" width="48" height="48" rx="7" fill="#ffffff"/>
+  </g>
+  <g transform="translate(244 404)">
+    <rect x="0" y="0" width="232" height="54" rx="12" fill="#111827"/>
+    <text x="116" y="36" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="26" fill="#ffffff">ADMIN ENERGY</text>
+  </g>
+</svg>
