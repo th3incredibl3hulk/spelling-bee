@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" role="img" aria-labelledby="title desc">
+  <title id="title">Wonder flower course banner</title>
+  <desc id="desc">Colorful wonder-flower hills inspired platform course banner art.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="768" height="432" fill="url(#sky)"/>
+  <circle cx="120" cy="90" r="34" fill="#fef08a"/>
+  <circle cx="640" cy="70" r="28" fill="#fef08a"/>
+  <path d="M0 280c120-80 220-80 320 0 90-70 180-70 280 0 90-50 168-50 168 0v152H0z" fill="#4ade80"/>
+  <rect y="320" width="768" height="112" fill="#16a34a"/>
+  <g transform="translate(320 180)">
+    <circle cx="64" cy="64" r="64" fill="#f472b6"/>
+    <circle cx="64" cy="64" r="44" fill="#fb7185"/>
+    <circle cx="64" cy="64" r="24" fill="#fef08a"/>
+    <path d="M64 0v24M64 104v24M0 64h24M104 64h24M18 18l17 17M93 93l17 17M18 110l17-17M93 35l17-17" stroke="#fff7ed" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(120 220)">
+    <rect width="96" height="82" rx="10" fill="#facc15" stroke="#78350f" stroke-width="8"/>
+    <path d="M48 28c-16 0-25 8-25 21 0 12 8 20 20 22v-15c-4-1-7-4-7-8 0-6 5-9 12-9 8 0 13 5 13 12 0 8-8 13-18 13v21h17V83c14-5 24-14 24-28 0-14-11-18-36-18z" fill="#7c2d12"/>
+  </g>
+  <g transform="translate(560 210)">
+    <rect x="16" y="82" width="120" height="96" rx="16" fill="#16a34a" stroke="#064e3b" stroke-width="10"/>
+    <rect x="-8" y="26" width="168" height="68" rx="18" fill="#22c55e" stroke="#064e3b" stroke-width="10"/>
+  </g>
+  <rect x="36" y="36" width="260" height="54" rx="12" fill="#111827" opacity="0.82"/>
+  <text x="166" y="72" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="28" fill="#ffffff">WONDER HILLS</text>
+</svg>

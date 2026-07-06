@@ -134,80 +134,566 @@ const THEME_TREATMENTS = {
     missProps: ["BUMP", "MISS", "TRY"],
     correctMessages: ["Coin collected.", "Flagpole climbed.", "Checkpoint cleared."],
     missMessages: ["Back to the pipe.", "Try another jump.", "Checkpoint reset."],
+    brandLogo: "/assets/mario-course/Mario_Series_Logo.svg",
+    brandMark: "/assets/mario-course/Mario_emblem.svg",
     stageImages: [
-      "/assets/mario-course/course-flag.svg",
-      "/assets/mario-course/coin-block.svg"
+      "/assets/mario-course/curated/odyssey-banner.png",
+      "/assets/mario-course/curated/smb-world-banner.png"
     ],
     flyImages: [
-      "/assets/mario-course/coin-block.svg",
-      "/assets/mario-course/course-flag.svg",
-      "/assets/mario-course/pipe-hill.svg"
+      "/assets/mario-course/Mario_emblem.svg",
+      "/assets/mario-course/star-power.svg",
+      "/assets/mario-course/curated/odyssey-banner.png",
+      "/assets/mario-course/curated/smb-world-banner.png",
+      "/assets/mario-course/curated/wonder-banner.svg"
     ],
     missImages: [
-      "/assets/mario-course/pipe-hill.svg"
-    ]
+      "/assets/mario-course/pipe-reset.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/mario-course/course-selfie.svg",
+        title: "Jump shot unlocked",
+        text: "Five correct answers in this run. Photo-finish energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/mario-course/star-power.svg",
+        title: "Star power reached",
+        text: "Seven correct answers. The ? block crate lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/mario-course/curated/wonder-banner.svg",
+        title: "Wonder hills bonus",
+        text: "Eight correct answers. The wonder-flower hills are cheering."
+      },
+      {
+        threshold: 10,
+        image: "/assets/mario-course/course-victory.svg",
+        title: "Course clear",
+        text: "Perfect 10. That is flagpole-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/mario-course/star-power.svg",
+        title: "Star power saved",
+        text: "The course run keeps moving."
+      },
+      {
+        image: "/assets/mario-course/pipe-reset.svg",
+        title: "Pipe checkpoint",
+        text: "Friendly warp-pipe bonus. Keep going."
+      },
+      {
+        image: "/assets/mario-course/course-selfie.svg",
+        title: "Jump-shot photobomb",
+        text: "A quick jump-shot crashed the spelling round."
+      },
+      {
+        image: "/assets/mario-course/curated/odyssey-banner.png",
+        title: "Odyssey capture drop",
+        text: "A bright capture moment showed up for that spelling win."
+      },
+      {
+        image: "/assets/mario-course/curated/kart-banner.svg",
+        title: "Rainbow run found",
+        text: "A rainbow-road kart card popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/mario-course/curated/wonder-banner.svg",
+        title: "Wonder hills bonus",
+        text: "The wonder-flower hills are still glowing."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/mario-course/pipe-reset.svg",
+        title: "Pipe reset",
+        text: "Not scary. Just a checkpoint back to the pipe."
+      }
+    ],
+    crateImage: "/assets/mario-course/mystery-question-block.svg",
+    sideImage: "/assets/mario-course/curated/odyssey-banner.png",
+    sideLabel: "Surprise coin",
+    sideTitle: "Odyssey watch"
   },
   "space-cadets": {
     className: "theme-space-cadets",
     scene: "Drop Zone",
-    tagline: "Mission lights, orbit lines, patches, and tactical callouts.",
-    cardLine: "Orbit sweeps and mission patches",
-    props: ["ORBIT", "SHIP", "DROP", "PATCH", "LASER"],
+    tagline: "Orbital strikes, stratagems, extraction drops, and Super Earth callouts.",
+    cardLine: "Orbital sweeps and stratagem pulls",
+    props: ["ORBIT", "DROP", "SQUAD", "LIBERTY", "STRATAGEM"],
     missProps: ["SCAN", "RETRY", "SIGNAL"],
-    correctMessages: ["Mission objective secured.", "Orbit confirmed.", "Squad score uploaded."],
-    missMessages: ["Signal recalibrating.", "Mission log updated.", "Target spelling marked."]
+    correctMessages: ["Mission objective secured.", "Liberty defended.", "Stratagem approved."],
+    missMessages: ["Extraction recalibrating.", "Mission log updated.", "Target spelling marked."],
+    brandLogo: "/assets/space-cadets/helldivers-wordmark.svg",
+    brandMark: "/assets/space-cadets/super-earth-emblem.svg",
+    stageImages: [
+      "/assets/space-cadets/curated/gameplay-banner.jpg",
+      "/assets/space-cadets/curated/oppression-poster.webp"
+    ],
+    flyImages: [
+      "/assets/space-cadets/super-earth-emblem.svg",
+      "/assets/space-cadets/orbital-strike.svg",
+      "/assets/space-cadets/curated/gameplay-banner.jpg",
+      "/assets/space-cadets/curated/oppression-poster.webp",
+      "/assets/space-cadets/curated/terminids-banner.svg"
+    ],
+    missImages: [
+      "/assets/space-cadets/extraction-fail.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/space-cadets/extraction-selfie.svg",
+        title: "Extraction ready",
+        text: "Five correct answers in this run. Drop ship energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/space-cadets/orbital-strike.svg",
+        title: "Orbital strike reached",
+        text: "Seven correct answers. The stratagem crate lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/space-cadets/curated/terminids-banner.svg",
+        title: "Terminid front bonus",
+        text: "Eight correct answers. The bug front is watching the streak."
+      },
+      {
+        threshold: 10,
+        image: "/assets/space-cadets/mission-victory.svg",
+        title: "Mission accomplished",
+        text: "Perfect 10. That is Super Earth-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/space-cadets/orbital-strike.svg",
+        title: "Orbital strike saved",
+        text: "The mission keeps moving."
+      },
+      {
+        image: "/assets/space-cadets/extraction-fail.svg",
+        title: "Extraction recalibration",
+        text: "Friendly reset bonus. Keep going."
+      },
+      {
+        image: "/assets/space-cadets/extraction-selfie.svg",
+        title: "Squad photobomb",
+        text: "A quick extraction selfie crashed the spelling round."
+      },
+      {
+        image: "/assets/space-cadets/curated/gameplay-banner.jpg",
+        title: "Gameplay drop",
+        text: "Helldivers 2 action showed up for that spelling win."
+      },
+      {
+        image: "/assets/space-cadets/curated/automatons-flag.svg",
+        title: "Automatons flag found",
+        text: "An Automatons faction card popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/space-cadets/curated/illuminate-banner.svg",
+        title: "Illuminate sector bonus",
+        text: "The Illuminate sector is still glowing."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/space-cadets/extraction-fail.svg",
+        title: "Extraction reset",
+        text: "Not scary. Just a recalibration back to the drop zone."
+      }
+    ],
+    crateImage: "/assets/space-cadets/stratagem-crate.svg",
+    sideImage: "/assets/space-cadets/curated/oppression-poster.webp",
+    sideLabel: "Propaganda drop",
+    sideTitle: "Super Earth watch"
   },
   "luigi-mansion": {
     className: "theme-luigi-mansion",
     scene: "Mansion Hall",
-    tagline: "Flashlight beams, keys, friendly ghosts, dusty doors, and green glow.",
+    tagline: "Flashlight beams, mansion keys, Poltergust pulls, and spooky-green glow.",
     cardLine: "Flashlights sweep and keys sparkle",
-    props: ["KEY", "GLOW", "GHOST", "DOOR", "GEM"],
+    props: ["KEY", "GLOW", "GHOST", "VACUUM", "GEM"],
     missProps: ["DUST", "WEB", "TRY"],
-    correctMessages: ["Key discovered.", "Lights restored.", "Ghost gently captured."],
+    correctMessages: ["Key discovered.", "Ghost gently captured.", "Flashlight charged."],
     missMessages: ["Flashlight flickered.", "Dust mark added.", "Hallway reset."],
+    brandLogo: "/assets/luigi-mansion/luigis-mansion-wordmark.svg",
+    brandMark: "/assets/luigi-mansion/Luigi_emblem.svg",
     stageImages: [
-      "/assets/luigi-mansion/mansion-hall.svg",
-      "/assets/luigi-mansion/flashlight-ghost.svg"
+      "/assets/luigi-mansion/curated/lm3-banner.jpg",
+      "/assets/luigi-mansion/curated/dark-moon-banner.png"
     ],
     flyImages: [
-      "/assets/luigi-mansion/key-door.svg",
-      "/assets/luigi-mansion/flashlight-ghost.svg",
-      "/assets/luigi-mansion/mansion-hall.svg"
+      "/assets/luigi-mansion/Luigi_emblem.svg",
+      "/assets/luigi-mansion/flashlight-checkpoint.svg",
+      "/assets/luigi-mansion/curated/lm3-banner.jpg",
+      "/assets/luigi-mansion/curated/dark-moon-banner.png",
+      "/assets/luigi-mansion/curated/king-boo-banner.svg"
     ],
     missImages: [
-      "/assets/luigi-mansion/key-door.svg"
-    ]
+      "/assets/luigi-mansion/dust-reset.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/luigi-mansion/mansion-selfie.svg",
+        title: "Ghost snap unlocked",
+        text: "Five correct answers in this run. Portrait energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/luigi-mansion/flashlight-checkpoint.svg",
+        title: "Flashlight checkpoint",
+        text: "Seven correct answers. The portrait crate lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/luigi-mansion/curated/king-boo-banner.svg",
+        title: "King Boo tower bonus",
+        text: "Eight correct answers. The tower is watching the streak."
+      },
+      {
+        threshold: 10,
+        image: "/assets/luigi-mansion/mansion-victory.svg",
+        title: "Mansion cleared",
+        text: "Perfect 10. That is Poltergust-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/luigi-mansion/flashlight-checkpoint.svg",
+        title: "Flashlight saved",
+        text: "The mansion hunt keeps moving."
+      },
+      {
+        image: "/assets/luigi-mansion/dust-reset.svg",
+        title: "Dusty hallway",
+        text: "Friendly reset bonus. Keep going."
+      },
+      {
+        image: "/assets/luigi-mansion/mansion-selfie.svg",
+        title: "Ghost photobomb",
+        text: "A quick ghost snap crashed the spelling round."
+      },
+      {
+        image: "/assets/luigi-mansion/curated/lm2hd-artwork.jpg",
+        title: "2HD artwork drop",
+        text: "Luigi's Mansion 2HD art showed up for that spelling win."
+      },
+      {
+        image: "/assets/luigi-mansion/curated/gooigi-banner.svg",
+        title: "Gooigi slime found",
+        text: "A gooey helper card popped in. Keep the hunt moving."
+      },
+      {
+        image: "/assets/luigi-mansion/curated/king-boo-banner.svg",
+        title: "King Boo tower bonus",
+        text: "The spooky tower is still glowing."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/luigi-mansion/dust-reset.svg",
+        title: "Hallway reset",
+        text: "Not scary. Just a flashlight flicker back to the hall."
+      }
+    ],
+    crateImage: "/assets/luigi-mansion/ghost-portrait-crate.svg",
+    sideImage: "/assets/luigi-mansion/curated/dark-moon-screenshot.png",
+    sideLabel: "Spooky drop",
+    sideTitle: "Dark Moon watch"
   },
   "wizard-school": {
     className: "theme-wizard-school",
     scene: "Library Hall",
-    tagline: "Lantern light, spell cards, floating sparks, and house badges.",
+    tagline: "Hogwarts lanterns, spell cards, Hedwig drops, and house points.",
     cardLine: "Spell sparks drift upward",
-    props: ["WAND", "OWL", "RUNE", "SPELL", "GOLD"],
+    props: ["WAND", "OWL", "CHARM", "SPELL", "HOUSE"],
     missProps: ["DUST", "RUNE", "FIX"],
     correctMessages: ["Charm cast cleanly.", "House points added.", "Spellwork approved."],
-    missMessages: ["Rune corrected.", "Spell fizzled softly.", "Try the incantation again."]
+    missMessages: ["Spell fizzled softly.", "Rune corrected.", "Try the incantation again."],
+    brandLogo: "/assets/wizard-school/Harry_Potter_logo.svg",
+    brandMark: "/assets/wizard-school/Hogwarts_Coat_of_Arms.svg",
+    stageImages: [
+      "/assets/wizard-school/curated/hogwarts-castle-banner.jpg",
+      "/assets/wizard-school/curated/philosopher-stone-cover.jpg"
+    ],
+    flyImages: [
+      "/assets/wizard-school/Hogwarts_Coat_of_Arms.svg",
+      "/assets/wizard-school/charm-checkpoint.svg",
+      "/assets/wizard-school/curated/hogwarts-castle-banner.jpg",
+      "/assets/wizard-school/curated/philosopher-stone-cover.jpg",
+      "/assets/wizard-school/curated/hedwig-banner.svg"
+    ],
+    missImages: [
+      "/assets/wizard-school/spell-fizzle.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/wizard-school/library-selfie.svg",
+        title: "Spell snap unlocked",
+        text: "Five correct answers in this run. Owl-post energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/wizard-school/charm-checkpoint.svg",
+        title: "Charm checkpoint",
+        text: "Seven correct answers. The magical trunk lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/wizard-school/curated/bertie-botts-beans.png",
+        title: "Bertie Bott's bonus",
+        text: "Eight correct answers. Every-flavour beans are cheering."
+      },
+      {
+        threshold: 10,
+        image: "/assets/wizard-school/hogwarts-victory.svg",
+        title: "House victory",
+        text: "Perfect 10. That is Hogwarts-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/wizard-school/charm-checkpoint.svg",
+        title: "Charm saved",
+        text: "The spellwork keeps moving."
+      },
+      {
+        image: "/assets/wizard-school/spell-fizzle.svg",
+        title: "Spell fizzle",
+        text: "Friendly fizzle bonus. Keep going."
+      },
+      {
+        image: "/assets/wizard-school/library-selfie.svg",
+        title: "Owl photobomb",
+        text: "A quick spell snap crashed the spelling round."
+      },
+      {
+        image: "/assets/wizard-school/curated/platform-nine-banner.jpg",
+        title: "Platform drop",
+        text: "Platform nine and three-quarters showed up for that spelling win."
+      },
+      {
+        image: "/assets/wizard-school/curated/quidditch-banner.svg",
+        title: "Quidditch pitch found",
+        text: "A broom-flight card popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/wizard-school/curated/headmaster-banner.svg",
+        title: "Headmaster's office",
+        text: "The headmaster's office is still glowing."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/wizard-school/spell-fizzle.svg",
+        title: "Incantation reset",
+        text: "Not scary. Just a soft fizzle back to the library."
+      }
+    ],
+    crateImage: "/assets/wizard-school/magical-trunk-crate.svg",
+    sideImage: "/assets/wizard-school/curated/hedwig-banner.svg",
+    sideLabel: "Owl post",
+    sideTitle: "Hedwig watch"
   },
   toybox: {
     className: "theme-toybox",
     scene: "Toy Shelf",
-    tagline: "Bright toy pieces, launch trails, shelf labels, and prize tokens.",
+    tagline: "Woody, Buzz, Pizza Planet, Andy's room, and prize-box rescues.",
     cardLine: "Toy pieces hop into view",
-    props: ["ROCKET", "BOOT", "DINO", "STAR", "YOYO"],
+    props: ["ROCKET", "BOOT", "DINO", "STAR", "SLINKY"],
     missProps: ["TAPE", "BOX", "RESET"],
-    correctMessages: ["Toy token collected.", "Rocket launched.", "Shelf mission complete."],
-    missMessages: ["Back to the toy box.", "Loose part found.", "Retape the label."]
+    correctMessages: ["Toy token collected.", "To infinity and beyond.", "Shelf mission complete."],
+    missMessages: ["Back to the toy box.", "Loose part found.", "Retape the label."],
+    brandLogo: "/assets/toybox/Toy_Story_logo.svg",
+    brandMark: "/assets/toybox/star-command-badge.svg",
+    stageImages: [
+      "/assets/toybox/curated/toy-story-one.jpg",
+      "/assets/toybox/curated/woody-banner.jpg"
+    ],
+    flyImages: [
+      "/assets/toybox/star-command-badge.svg",
+      "/assets/toybox/launch-checkpoint.svg",
+      "/assets/toybox/curated/toy-story-one.jpg",
+      "/assets/toybox/curated/toy-story-two.jpg",
+      "/assets/toybox/curated/pizza-planet-banner.svg"
+    ],
+    missImages: [
+      "/assets/toybox/loose-part-reset.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/toybox/shelf-selfie.svg",
+        title: "Shelf snap unlocked",
+        text: "Five correct answers in this run. Rescue energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/toybox/launch-checkpoint.svg",
+        title: "Launch checkpoint",
+        text: "Seven correct answers. The prize box lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/toybox/curated/pizza-planet-banner.svg",
+        title: "Pizza Planet bonus",
+        text: "Eight correct answers. The claw machine is cheering."
+      },
+      {
+        threshold: 10,
+        image: "/assets/toybox/toybox-victory.svg",
+        title: "Toybox victory",
+        text: "Perfect 10. That is sheriff-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/toybox/launch-checkpoint.svg",
+        title: "Launch saved",
+        text: "The rescue run keeps moving."
+      },
+      {
+        image: "/assets/toybox/loose-part-reset.svg",
+        title: "Loose part found",
+        text: "Friendly reset bonus. Keep going."
+      },
+      {
+        image: "/assets/toybox/shelf-selfie.svg",
+        title: "Toy photobomb",
+        text: "A quick shelf snap crashed the spelling round."
+      },
+      {
+        image: "/assets/toybox/curated/toy-story-land-banner.jpg",
+        title: "Toy Story Land drop",
+        text: "Toy Story Land showed up for that spelling win."
+      },
+      {
+        image: "/assets/toybox/curated/slinky-banner.svg",
+        title: "Slinky run found",
+        text: "A slinky stair card popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/toybox/curated/andys-room-banner.svg",
+        title: "Andy's room bonus",
+        text: "The cloud-wall room is still glowing."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/toybox/loose-part-reset.svg",
+        title: "Toy box reset",
+        text: "Not scary. Just a loose part back to the shelf."
+      }
+    ],
+    crateImage: "/assets/toybox/prize-box-crate.svg",
+    sideImage: "/assets/toybox/curated/pizza-planet-banner.svg",
+    sideLabel: "Claw machine",
+    sideTitle: "Pizza Planet watch"
   },
   "demigod-camp": {
     className: "theme-demigod-camp",
     scene: "Camp Quest",
-    tagline: "Sea-blue maps, bronze shields, quest marks, and wave sweeps.",
+    tagline: "Poseidon tridents, oracle prophecies, labyrinth runs, and Olympus victories.",
     cardLine: "Quest marks and bronze shields",
-    props: ["MAP", "WAVE", "BOLT", "SHIELD", "QUEST"],
+    props: ["TRIDENT", "QUEST", "ORACLE", "WAVE", "BOLT"],
     missProps: ["ORACLE", "MARK", "MAP"],
     correctMessages: ["Quest mark earned.", "Cabin banner raised.", "Hero point claimed."],
-    missMessages: ["Oracle note recorded.", "Map route corrected.", "The quest continues."]
+    missMessages: ["Oracle note recorded.", "Map route corrected.", "The quest continues."],
+    brandLogo: "/assets/demigod-camp/demigod-camp-wordmark.svg",
+    brandMark: "/assets/demigod-camp/poseidon-emblem.svg",
+    stageImages: [
+      "/assets/demigod-camp/curated/lightning-thief-cover.jpg",
+      "/assets/demigod-camp/curated/parthenon-banner.jpg"
+    ],
+    flyImages: [
+      "/assets/demigod-camp/poseidon-emblem.svg",
+      "/assets/demigod-camp/oracle-checkpoint.svg",
+      "/assets/demigod-camp/curated/lightning-thief-cover.jpg",
+      "/assets/demigod-camp/curated/sea-of-monsters.gif",
+      "/assets/demigod-camp/curated/labyrinth-banner.svg"
+    ],
+    missImages: [
+      "/assets/demigod-camp/oracle-reset.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/demigod-camp/camp-selfie.svg",
+        title: "Camp snap unlocked",
+        text: "Five correct answers in this run. Quest energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/demigod-camp/oracle-checkpoint.svg",
+        title: "Oracle checkpoint",
+        text: "Seven correct answers. The quest cache lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/demigod-camp/curated/labyrinth-banner.svg",
+        title: "Labyrinth bonus",
+        text: "Eight correct answers. The maze is cheering."
+      },
+      {
+        threshold: 10,
+        image: "/assets/demigod-camp/olympus-victory.svg",
+        title: "Olympus victory",
+        text: "Perfect 10. That is demigod-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/demigod-camp/oracle-checkpoint.svg",
+        title: "Quest saved",
+        text: "The prophecy run keeps moving."
+      },
+      {
+        image: "/assets/demigod-camp/oracle-reset.svg",
+        title: "Oracle note found",
+        text: "Friendly reset bonus. Keep going."
+      },
+      {
+        image: "/assets/demigod-camp/camp-selfie.svg",
+        title: "Camp photobomb",
+        text: "A quick camp snap crashed the spelling round."
+      },
+      {
+        image: "/assets/demigod-camp/curated/camp-gates-banner.svg",
+        title: "Camp gates drop",
+        text: "The bronze gates showed up for that spelling win."
+      },
+      {
+        image: "/assets/demigod-camp/curated/ambrosia-banner.svg",
+        title: "Ambrosia bowl found",
+        text: "A golden ambrosia card popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/demigod-camp/curated/zeus-icon.jpg",
+        title: "Olympus bonus",
+        text: "The throne room is still glowing."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/demigod-camp/oracle-reset.svg",
+        title: "Oracle reset",
+        text: "Not scary. Just an oracle note back to camp."
+      }
+    ],
+    crateImage: "/assets/demigod-camp/quest-cache-crate.svg",
+    sideImage: "/assets/demigod-camp/curated/labyrinth-banner.svg",
+    sideLabel: "Labyrinth",
+    sideTitle: "Oracle watch"
   },
   "silly-rhymes": {
     className: "theme-silly-rhymes",
@@ -240,6 +726,12 @@ const THEME_TREATMENTS = {
     missMessages: ["Rake trail corrected.", "Quiet mischief paused.", "Garden note added."]
   }
 };
+
+const REWARD_THEME_IDS = new Set(["blockworks", "mario-course", "space-cadets", "luigi-mansion", "wizard-school", "toybox", "demigod-camp"]);
+
+function hasRewardTheme(themeId) {
+  return REWARD_THEME_IDS.has(themeId);
+}
 
 async function api(path, options = {}) {
   const response = await fetch(path, {
@@ -369,22 +861,29 @@ function renderSurpriseLayer(props, correct) {
   `;
 }
 
-function buildBlockworksMoment(correct) {
-  if (state.session?.theme_id !== "blockworks") return null;
-  const treatment = treatmentFor("blockworks");
+function buildThemeMoment(correct) {
+  const themeId = state.session?.theme_id;
+  if (!hasRewardTheme(themeId)) return null;
+  const treatment = treatmentFor(themeId);
   if (correct && state.session.correct_count >= 10) {
-    return {
-      image: "/assets/blockworks/server-victory.svg",
-      title: "Server victory loading",
-      text: "Perfect run is in sight."
-    };
+    const victory = treatment.milestoneStages?.find((stage) => stage.threshold === 10);
+    if (victory) {
+      return {
+        image: victory.image,
+        title: `${victory.title} loading`,
+        text: "Perfect run is in sight."
+      };
+    }
   }
   if (correct && state.session.correct_count >= 7) {
-    return {
-      image: "/assets/blockworks/obby-checkpoint.svg",
-      title: "Checkpoint lane",
-      text: "Mystery crate progress is active."
-    };
+    const checkpoint = treatment.milestoneStages?.find((stage) => stage.threshold === 7);
+    if (checkpoint) {
+      return {
+        image: checkpoint.image,
+        title: `${checkpoint.title} lane`,
+        text: "Mystery crate progress is active."
+      };
+    }
   }
   if (correct && (state.session.correct_count >= 5 || Math.random() < 0.42)) {
     return randomItem(treatment.surpriseMoments);
@@ -412,7 +911,7 @@ function renderThemeStage(theme, treatment, variant = "full") {
   return `
     <div class="theme-stage ${variant}">
       <div class="stage-copy">
-        <span>${treatment.brandLogo ? `<img class="stage-logo" src="${escapeHtml(treatment.brandLogo)}" alt="Roblox">` : escapeHtml(treatment.scene)}</span>
+        <span>${treatment.brandLogo ? `<img class="stage-logo" src="${escapeHtml(treatment.brandLogo)}" alt="${escapeHtml(treatment.scene)}">` : escapeHtml(treatment.scene)}</span>
         <strong>${escapeHtml(theme.name)}</strong>
         <small>${escapeHtml(treatment.tagline)}</small>
       </div>
@@ -434,14 +933,16 @@ function renderThemeImageStack(treatment, variant = "full") {
   return `<div class="theme-image-stack ${variant === "compact" ? "compact" : ""}" aria-hidden="true">${images.join("")}</div>`;
 }
 
-function renderBlockworksMilestone(kind = "inline") {
-  if (state.session?.theme_id !== "blockworks" || state.session.correct_count < 5) {
+function renderThemeMilestone(kind = "inline") {
+  const themeId = state.session?.theme_id;
+  if (!hasRewardTheme(themeId) || state.session.correct_count < 5) {
     return "";
   }
-  const treatment = treatmentFor("blockworks");
-  const milestone = [...treatment.milestoneStages]
+  const treatment = treatmentFor(themeId);
+  const milestone = [...(treatment.milestoneStages || [])]
     .reverse()
     .find((stage) => state.session.correct_count >= stage.threshold);
+  if (!milestone) return "";
   return `
     <div class="blockworks-milestone ${kind}">
       <img src="${escapeHtml(milestone.image)}" alt="">
@@ -470,7 +971,7 @@ function renderRewardEvents(events = []) {
 
 function renderCrateReward(crate) {
   if (!crate) return "";
-  const treatment = treatmentFor("blockworks");
+  const treatment = treatmentFor(crate.theme_id || state.session?.theme_id);
   if (!crate.collectible) {
     return `
       <div class="crate-reward">
@@ -607,7 +1108,7 @@ function renderSetup() {
           </div>
           <button class="btn small secondary" data-action="toggle-edit-child">Edit</button>
         </div>
-        ${selectedTheme.id === "blockworks" ? renderXpMeter(child.stats.xp) : ""}
+        ${hasRewardTheme(selectedTheme.id) ? renderXpMeter(child.stats.xp) : ""}
         <div id="child-edit-slot"></div>
 
         <div class="section-title"><h3>Challenge</h3></div>
@@ -624,7 +1125,7 @@ function renderSetup() {
         </div>
         <div class="metric-line">
           <span class="pill strong">${SESSION_WORD_COUNT()} words</span>
-          ${selectedTheme.id === "blockworks" ? `<span class="pill strong">${escapeHtml(child.stats.xp.rank)}</span>` : ""}
+          ${hasRewardTheme(selectedTheme.id) ? `<span class="pill strong">${escapeHtml(child.stats.xp.rank)}</span>` : ""}
           <span class="pill">2 hints each</span>
           <span class="pill">1 try</span>
         </div>
@@ -749,14 +1250,14 @@ function renderSession() {
               <span class="muted">${escapeHtml(treatment.scene)}</span>
               <strong>${escapeHtml(randomItem(treatment.props))}</strong>
             </div>
-            ${session.theme_id === "blockworks" ? `
+            ${treatment.sideImage ? `
               <div class="session-card blockworks-side-card">
                 <img src="${escapeHtml(treatment.sideImage)}" alt="">
                 <span class="muted">${escapeHtml(treatment.sideLabel || "Surprise room")}</span>
-                <strong>${escapeHtml(treatment.sideTitle || "Door 5")}</strong>
+                <strong>${escapeHtml(treatment.sideTitle || "Bonus watch")}</strong>
               </div>
             ` : ""}
-            ${renderBlockworksMilestone("side")}
+            ${renderThemeMilestone("side")}
             <button class="btn secondary" data-action="use-hint" ${current.hints_used >= current.max_hints || current.answered ? "disabled" : ""}>${icon("hint")}Hint</button>
             <button class="btn warn" data-action="abandon-session">End Session</button>
           </aside>
@@ -787,7 +1288,7 @@ function renderFeedback(feedback) {
       ${feedback.correct && feedback.xp_earned ? `<span class="xp-toast">+${feedback.xp_earned} XP</span>` : ""}
       ${feedback.definition ? `<span>${escapeHtml(feedback.definition)}</span>` : ""}
       ${feedback.example_sentence ? `<span class="muted">${escapeHtml(feedback.example_sentence)}</span>` : ""}
-      ${renderBlockworksMilestone("feedback")}
+      ${renderThemeMilestone("feedback")}
       ${renderSurpriseMoment(feedback.surpriseMoment)}
       ${renderSurpriseLayer(props, feedback.correct)}
       <div class="form-actions">
@@ -834,7 +1335,7 @@ function renderSummary() {
         <div class="unlock-list">${unlocks}</div>
         <div class="section-title"><h3>Badges</h3></div>
         <div class="badge-list">${badges}</div>
-        ${renderBlockworksMilestone("summary")}
+        ${renderThemeMilestone("summary")}
         <div class="form-actions" style="margin-top: 20px;">
           <button class="btn primary" data-action="back-to-setup">${icon("play")}New Session</button>
           <button class="btn secondary" data-action="go-home">${icon("back")}Profiles</button>
@@ -1108,7 +1609,7 @@ async function submitAnswer(form) {
   state.session.xp_earned = (state.session.xp_earned || 0) + (result.xp_earned || 0);
   result.themeMessage = randomItem(result.correct ? treatment.correctMessages : treatment.missMessages);
   result.surpriseProps = buildSurpriseProps(treatment, result.correct);
-  result.surpriseMoment = buildBlockworksMoment(result.correct);
+  result.surpriseMoment = buildThemeMoment(result.correct);
   state.feedback = result;
   if (result.session_complete) {
     state.session.summary = result.summary;

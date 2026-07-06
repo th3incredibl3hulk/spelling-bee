@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" role="img" aria-labelledby="title desc">
+  <title id="title">Hedwig owl banner</title>
+  <desc id="desc">Original Hedwig-inspired owl and letter banner art for reward moments.</desc>
+  <rect width="768" height="432" fill="#1e1b4b"/>
+  <circle cx="120" cy="80" r="36" fill="#fde68a" opacity="0.35"/>
+  <circle cx="640" cy="70" r="28" fill="#fde68a" opacity="0.25"/>
+  <g transform="translate(280 90)">
+    <ellipse cx="104" cy="120" rx="88" ry="70" fill="#f8fafc"/>
+    <ellipse cx="104" cy="108" rx="52" ry="44" fill="#e2e8f0"/>
+    <circle cx="84" cy="98" r="10" fill="#111827"/>
+    <circle cx="124" cy="98" r="10" fill="#111827"/>
+    <path d="M92 118 L104 128 L116 118" fill="#f59e0b"/>
+    <path d="M36 88 L8 70 M172 88 L200 70 M48 150 L20 170 M160 150 L188 170" stroke="#cbd5e1" stroke-width="10" stroke-linecap="round"/>
+    <rect x="150" y="150" width="120" height="80" rx="6" fill="#fef3c7" stroke="#a78bfa" stroke-width="5" transform="rotate(12 210 190)"/>
+    <circle cx="188" cy="176" r="14" fill="#7c3aed" transform="rotate(12 210 190)"/>
+  </g>
+  <rect x="36" y="36" width="220" height="54" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="4"/>
+  <text x="146" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#fef3c7">HEDWIG DROP</text>
+</svg>

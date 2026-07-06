@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Extraction recalibration</title>
+  <desc id="desc">A friendly extraction recalibration card for a miss.</desc>
+  <rect width="720" height="520" fill="#0f172a"/>
+  <rect x="0" y="360" width="720" height="160" fill="#1e293b"/>
+  <g transform="translate(250 120)">
+    <ellipse cx="110" cy="200" rx="110" ry="28" fill="#111827" opacity="0.5"/>
+    <path d="M40 200 L180 200" stroke="#f97316" stroke-width="8" stroke-dasharray="16 12" stroke-linecap="round"/>
+    <rect x="70" y="80" width="80" height="120" rx="8" fill="#334155" stroke="#f8fafc" stroke-width="6"/>
+    <path d="M110 40 L130 80 H90 Z" fill="#f97316"/>
+    <circle cx="110" cy="110" r="18" fill="#f8fafc" opacity="0.8"/>
+    <path d="M98 110h24M110 98v24" stroke="#ef4444" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(124 392)">
+    <rect x="0" y="0" width="472" height="64" rx="8" fill="#111827" stroke="#f97316" stroke-width="5"/>
+    <text x="236" y="42" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#f8fafc">EXTRACTION RECALIBRATING</text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Launch checkpoint</title>
+  <desc id="desc">A to-infinity launch checkpoint for a strong spelling streak.</desc>
+  <rect width="720" height="520" fill="#1e3a8a"/>
+  <circle cx="120" cy="80" r="6" fill="#ffffff" opacity="0.8"/>
+  <circle cx="220" cy="50" r="4" fill="#ffffff" opacity="0.7"/>
+  <circle cx="520" cy="70" r="5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="620" cy="120" r="4" fill="#ffffff" opacity="0.6"/>
+  <g transform="translate(300 140)">
+    <path d="M60 220 L60 80 L100 40 L140 80 L140 220 Z" fill="#ef4444" stroke="#111827" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="100" cy="120" r="28" fill="#60a5fa" stroke="#111827" stroke-width="6"/>
+    <path d="M20 220 H180 L160 260 H40 Z" fill="#f97316" stroke="#111827" stroke-width="6"/>
+    <path d="M100 40 L100 0 L120 40" fill="#fde68a"/>
+    <path d="M40 180 Q100 120 160 180" fill="none" stroke="#fde68a" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <g transform="translate(124 372)">
+    <rect x="0" y="0" width="472" height="76" rx="12" fill="#111827" stroke="#60a5fa" stroke-width="6"/>
+    <text x="236" y="31" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="24" fill="#ffffff">LAUNCH CHECKPOINT</text>
+    <text x="236" y="58" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="18" fill="#fbbf24">to infinity and beyond</text>
+  </g>
+</svg>

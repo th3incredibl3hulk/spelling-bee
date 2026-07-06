@@ -111,6 +111,448 @@ BLOCKWORKS_COLLECTIBLES = [
         "description": "A rare pull for high-scoring BlockWorks sessions.",
     },
 ]
+MARIO_COURSE_COLLECTIBLES = [
+    {
+        "id": "star-power",
+        "name": "Star Power Flex",
+        "rarity": "common",
+        "image_path": "/assets/mario-course/star-power.svg",
+        "description": "A glowing star checkpoint for steady spelling.",
+    },
+    {
+        "id": "course-selfie",
+        "name": "Five Correct Jump Shot",
+        "rarity": "common",
+        "image_path": "/assets/mario-course/course-selfie.svg",
+        "description": "A celebratory jump-shot card for a five-correct run.",
+    },
+    {
+        "id": "pipe-reset-card",
+        "name": "Pipe Checkpoint",
+        "rarity": "common",
+        "image_path": "/assets/mario-course/pipe-reset.svg",
+        "description": "A friendly warp-pipe reset card for brave spellers.",
+    },
+    {
+        "id": "smb-classic",
+        "name": "Classic World Box",
+        "rarity": "rare",
+        "image_path": "/assets/mario-course/curated/smb-world-banner.png",
+        "description": "A classic platform box card for a squad-style reward drop.",
+    },
+    {
+        "id": "odyssey-capture",
+        "name": "Odyssey Capture",
+        "rarity": "rare",
+        "image_path": "/assets/mario-course/curated/odyssey-banner.png",
+        "description": "A bright capture-style banner for clean answers.",
+    },
+    {
+        "id": "mario-emblem",
+        "name": "M Emblem Token",
+        "rarity": "rare",
+        "image_path": "/assets/mario-course/Mario_emblem.svg",
+        "description": "A local emblem-token reward for clean answers.",
+    },
+    {
+        "id": "wonder-hills",
+        "name": "Wonder Hills",
+        "rarity": "epic",
+        "image_path": "/assets/mario-course/curated/wonder-banner.svg",
+        "description": "A wonder-flower hill scene for an eight-correct Mario run.",
+    },
+    {
+        "id": "rainbow-run",
+        "name": "Rainbow Run",
+        "rarity": "epic",
+        "image_path": "/assets/mario-course/curated/kart-banner.svg",
+        "description": "A rainbow-road kart card from the curated course set.",
+    },
+    {
+        "id": "course-victory",
+        "name": "Course Clear",
+        "rarity": "epic",
+        "image_path": "/assets/mario-course/course-victory.svg",
+        "description": "A full-session flagpole card for boss-level spelling.",
+    },
+    {
+        "id": "course-legend",
+        "name": "Course Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/mario-course/course-legend.svg",
+        "description": "A rare pull for high-scoring Mario Course sessions.",
+    },
+]
+SPACE_CADETS_COLLECTIBLES = [
+    {
+        "id": "orbital-strike",
+        "name": "Orbital Strike Flex",
+        "rarity": "common",
+        "image_path": "/assets/space-cadets/orbital-strike.svg",
+        "description": "A locked-in orbital strike for steady spelling.",
+    },
+    {
+        "id": "extraction-selfie",
+        "name": "Five Correct Extraction",
+        "rarity": "common",
+        "image_path": "/assets/space-cadets/extraction-selfie.svg",
+        "description": "A celebratory extraction card for a five-correct run.",
+    },
+    {
+        "id": "extraction-fail-card",
+        "name": "Extraction Recalibration",
+        "rarity": "common",
+        "image_path": "/assets/space-cadets/extraction-fail.svg",
+        "description": "A friendly recalibration card for brave spellers.",
+    },
+    {
+        "id": "gameplay-drop",
+        "name": "Gameplay Drop",
+        "rarity": "rare",
+        "image_path": "/assets/space-cadets/curated/gameplay-banner.jpg",
+        "description": "A Helldivers 2 gameplay card for a squad-style reward drop.",
+    },
+    {
+        "id": "oppression-poster",
+        "name": "Machinery of Oppression",
+        "rarity": "rare",
+        "image_path": "/assets/space-cadets/curated/oppression-poster.webp",
+        "description": "A propaganda-style poster card for clean answers.",
+    },
+    {
+        "id": "super-earth-emblem",
+        "name": "Super Earth Emblem",
+        "rarity": "rare",
+        "image_path": "/assets/space-cadets/super-earth-emblem.svg",
+        "description": "A local emblem-token reward for clean answers.",
+    },
+    {
+        "id": "terminids-front",
+        "name": "Terminid Front",
+        "rarity": "epic",
+        "image_path": "/assets/space-cadets/curated/terminids-banner.svg",
+        "description": "A bug-front scene for an eight-correct Space Cadets run.",
+    },
+    {
+        "id": "automatons-flag",
+        "name": "Automatons Flag",
+        "rarity": "epic",
+        "image_path": "/assets/space-cadets/curated/automatons-flag.svg",
+        "description": "An Automatons faction card from the curated Helldivers set.",
+    },
+    {
+        "id": "mission-victory",
+        "name": "Mission Accomplished",
+        "rarity": "epic",
+        "image_path": "/assets/space-cadets/mission-victory.svg",
+        "description": "A full-session victory card for boss-level spelling.",
+    },
+    {
+        "id": "helldiver-legend",
+        "name": "Helldiver Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/space-cadets/helldiver-legend.svg",
+        "description": "A rare pull for high-scoring Space Cadets sessions.",
+    },
+]
+LUIGI_MANSION_COLLECTIBLES = [
+    {
+        "id": "flashlight-checkpoint",
+        "name": "Flashlight Flex",
+        "rarity": "common",
+        "image_path": "/assets/luigi-mansion/flashlight-checkpoint.svg",
+        "description": "A glowing flashlight checkpoint for steady spelling.",
+    },
+    {
+        "id": "mansion-selfie",
+        "name": "Five Correct Ghost Snap",
+        "rarity": "common",
+        "image_path": "/assets/luigi-mansion/mansion-selfie.svg",
+        "description": "A celebratory ghost-hunt card for a five-correct run.",
+    },
+    {
+        "id": "dust-reset-card",
+        "name": "Dusty Hallway",
+        "rarity": "common",
+        "image_path": "/assets/luigi-mansion/dust-reset.svg",
+        "description": "A friendly hallway reset card for brave spellers.",
+    },
+    {
+        "id": "lm3-hotel",
+        "name": "Last Resort Hotel",
+        "rarity": "rare",
+        "image_path": "/assets/luigi-mansion/curated/lm3-banner.jpg",
+        "description": "A Luigi's Mansion 3 hotel card for a squad-style reward drop.",
+    },
+    {
+        "id": "dark-moon-box",
+        "name": "Dark Moon Box",
+        "rarity": "rare",
+        "image_path": "/assets/luigi-mansion/curated/dark-moon-banner.png",
+        "description": "A Dark Moon box-art card for clean answers.",
+    },
+    {
+        "id": "luigi-emblem",
+        "name": "Luigi Emblem",
+        "rarity": "rare",
+        "image_path": "/assets/luigi-mansion/Luigi_emblem.svg",
+        "description": "A local Luigi emblem-token reward for clean answers.",
+    },
+    {
+        "id": "king-boo-tower",
+        "name": "King Boo Tower",
+        "rarity": "epic",
+        "image_path": "/assets/luigi-mansion/curated/king-boo-banner.svg",
+        "description": "A spooky tower scene for an eight-correct mansion run.",
+    },
+    {
+        "id": "poltergust-drop",
+        "name": "Poltergust Drop",
+        "rarity": "epic",
+        "image_path": "/assets/luigi-mansion/curated/poltergust.jpg",
+        "description": "A Poltergust vacuum card from the curated mansion set.",
+    },
+    {
+        "id": "mansion-victory",
+        "name": "Mansion Cleared",
+        "rarity": "epic",
+        "image_path": "/assets/luigi-mansion/mansion-victory.svg",
+        "description": "A full-session mansion-clear card for boss-level spelling.",
+    },
+    {
+        "id": "ghost-hunter-legend",
+        "name": "Ghost Hunter Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/luigi-mansion/ghost-hunter-legend.svg",
+        "description": "A rare pull for high-scoring Luigi's Mansion sessions.",
+    },
+]
+WIZARD_SCHOOL_COLLECTIBLES = [
+    {
+        "id": "charm-checkpoint",
+        "name": "Charm Flex",
+        "rarity": "common",
+        "image_path": "/assets/wizard-school/charm-checkpoint.svg",
+        "description": "A glowing charm checkpoint for steady spelling.",
+    },
+    {
+        "id": "library-selfie",
+        "name": "Five Correct Spell Snap",
+        "rarity": "common",
+        "image_path": "/assets/wizard-school/library-selfie.svg",
+        "description": "A celebratory library card for a five-correct run.",
+    },
+    {
+        "id": "spell-fizzle-card",
+        "name": "Spell Fizzle",
+        "rarity": "common",
+        "image_path": "/assets/wizard-school/spell-fizzle.svg",
+        "description": "A friendly fizzle card for brave spellers.",
+    },
+    {
+        "id": "philosopher-stone",
+        "name": "Philosopher's Stone",
+        "rarity": "rare",
+        "image_path": "/assets/wizard-school/curated/philosopher-stone-cover.jpg",
+        "description": "A first-year book cover card for a squad-style reward drop.",
+    },
+    {
+        "id": "platform-nine",
+        "name": "Platform Nine and Three-Quarters",
+        "rarity": "rare",
+        "image_path": "/assets/wizard-school/curated/platform-nine-banner.jpg",
+        "description": "A King's Cross platform card for clean answers.",
+    },
+    {
+        "id": "hogwarts-crest",
+        "name": "Hogwarts Crest",
+        "rarity": "rare",
+        "image_path": "/assets/wizard-school/Hogwarts_Coat_of_Arms.svg",
+        "description": "A Hogwarts crest-token reward for clean answers.",
+    },
+    {
+        "id": "bertie-botts",
+        "name": "Bertie Bott's Beans",
+        "rarity": "epic",
+        "image_path": "/assets/wizard-school/curated/bertie-botts-beans.png",
+        "description": "A every-flavour bean card for an eight-correct wizard run.",
+    },
+    {
+        "id": "hedwig-drop",
+        "name": "Hedwig Drop",
+        "rarity": "epic",
+        "image_path": "/assets/wizard-school/curated/hedwig-banner.svg",
+        "description": "An owl-post card from the curated wizard school set.",
+    },
+    {
+        "id": "hogwarts-victory",
+        "name": "House Victory",
+        "rarity": "epic",
+        "image_path": "/assets/wizard-school/hogwarts-victory.svg",
+        "description": "A full-session house victory card for boss-level spelling.",
+    },
+    {
+        "id": "wizard-legend",
+        "name": "Wizard Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/wizard-school/wizard-legend.svg",
+        "description": "A rare pull for high-scoring Wizard School sessions.",
+    },
+]
+TOYBOX_COLLECTIBLES = [
+    {
+        "id": "launch-checkpoint",
+        "name": "Launch Flex",
+        "rarity": "common",
+        "image_path": "/assets/toybox/launch-checkpoint.svg",
+        "description": "A to-infinity launch checkpoint for steady spelling.",
+    },
+    {
+        "id": "shelf-selfie",
+        "name": "Five Correct Shelf Snap",
+        "rarity": "common",
+        "image_path": "/assets/toybox/shelf-selfie.svg",
+        "description": "A celebratory shelf card for a five-correct run.",
+    },
+    {
+        "id": "loose-part-card",
+        "name": "Loose Part",
+        "rarity": "common",
+        "image_path": "/assets/toybox/loose-part-reset.svg",
+        "description": "A friendly toy-box reset card for brave spellers.",
+    },
+    {
+        "id": "toy-story-one",
+        "name": "Toy Story One",
+        "rarity": "rare",
+        "image_path": "/assets/toybox/curated/toy-story-one.jpg",
+        "description": "A classic Toy Story poster card for a squad-style reward drop.",
+    },
+    {
+        "id": "toy-story-two",
+        "name": "Toy Story Two",
+        "rarity": "rare",
+        "image_path": "/assets/toybox/curated/toy-story-two.jpg",
+        "description": "A sequel poster card for clean answers.",
+    },
+    {
+        "id": "star-command",
+        "name": "Star Command Badge",
+        "rarity": "rare",
+        "image_path": "/assets/toybox/star-command-badge.svg",
+        "description": "A local star-command badge reward for clean answers.",
+    },
+    {
+        "id": "pizza-planet",
+        "name": "Pizza Planet",
+        "rarity": "epic",
+        "image_path": "/assets/toybox/curated/pizza-planet-banner.svg",
+        "description": "A claw-machine scene for an eight-correct toybox run.",
+    },
+    {
+        "id": "woody-drop",
+        "name": "Sheriff Drop",
+        "rarity": "epic",
+        "image_path": "/assets/toybox/curated/woody-banner.jpg",
+        "description": "A theme-park sheriff card from the curated Toy Story set.",
+    },
+    {
+        "id": "toybox-victory",
+        "name": "Toybox Victory",
+        "rarity": "epic",
+        "image_path": "/assets/toybox/toybox-victory.svg",
+        "description": "A full-session rescue card for boss-level spelling.",
+    },
+    {
+        "id": "toy-legend",
+        "name": "Toy Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/toybox/toy-legend.svg",
+        "description": "A rare pull for high-scoring Toybox Rescue sessions.",
+    },
+]
+DEMIGOD_CAMP_COLLECTIBLES = [
+    {
+        "id": "oracle-checkpoint",
+        "name": "Oracle Flex",
+        "rarity": "common",
+        "image_path": "/assets/demigod-camp/oracle-checkpoint.svg",
+        "description": "An oracle checkpoint for steady spelling.",
+    },
+    {
+        "id": "camp-selfie",
+        "name": "Five Correct Camp Snap",
+        "rarity": "common",
+        "image_path": "/assets/demigod-camp/camp-selfie.svg",
+        "description": "A celebratory camp card for a five-correct run.",
+    },
+    {
+        "id": "oracle-reset-card",
+        "name": "Oracle Note",
+        "rarity": "common",
+        "image_path": "/assets/demigod-camp/oracle-reset.svg",
+        "description": "A friendly oracle reset card for brave spellers.",
+    },
+    {
+        "id": "lightning-thief",
+        "name": "Lightning Thief",
+        "rarity": "rare",
+        "image_path": "/assets/demigod-camp/curated/lightning-thief-cover.jpg",
+        "description": "A Lightning Thief cover card for a quest-style reward drop.",
+    },
+    {
+        "id": "sea-of-monsters",
+        "name": "Sea of Monsters",
+        "rarity": "rare",
+        "image_path": "/assets/demigod-camp/curated/sea-of-monsters.gif",
+        "description": "A sea quest card for clean answers.",
+    },
+    {
+        "id": "poseidon-emblem",
+        "name": "Poseidon Emblem",
+        "rarity": "rare",
+        "image_path": "/assets/demigod-camp/poseidon-emblem.svg",
+        "description": "A sea-blue trident emblem reward for clean answers.",
+    },
+    {
+        "id": "labyrinth",
+        "name": "Labyrinth",
+        "rarity": "epic",
+        "image_path": "/assets/demigod-camp/curated/labyrinth-banner.svg",
+        "description": "A twisting maze scene for an eight-correct camp run.",
+    },
+    {
+        "id": "parthenon",
+        "name": "Parthenon",
+        "rarity": "epic",
+        "image_path": "/assets/demigod-camp/curated/parthenon-banner.jpg",
+        "description": "A temple banner from the curated Greek myth set.",
+    },
+    {
+        "id": "olympus-victory",
+        "name": "Olympus Victory",
+        "rarity": "epic",
+        "image_path": "/assets/demigod-camp/olympus-victory.svg",
+        "description": "A full-session quest card for boss-level spelling.",
+    },
+    {
+        "id": "demigod-legend",
+        "name": "Demigod Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/demigod-camp/demigod-legend.svg",
+        "description": "A rare pull for high-scoring Demigod Camp sessions.",
+    },
+]
+THEME_COLLECTIBLES = {
+    "blockworks": BLOCKWORKS_COLLECTIBLES,
+    "mario-course": MARIO_COURSE_COLLECTIBLES,
+    "space-cadets": SPACE_CADETS_COLLECTIBLES,
+    "luigi-mansion": LUIGI_MANSION_COLLECTIBLES,
+    "wizard-school": WIZARD_SCHOOL_COLLECTIBLES,
+    "toybox": TOYBOX_COLLECTIBLES,
+    "demigod-camp": DEMIGOD_CAMP_COLLECTIBLES,
+}
+REWARD_THEME_IDS = frozenset(THEME_COLLECTIBLES)
 
 
 SCHEMA = """
@@ -558,10 +1000,10 @@ def child_collectibles(conn: sqlite3.Connection, child_id: int, limit: int | Non
     return [row_to_dict(row) for row in conn.execute(sql, args)]
 
 
-def public_collectible(record: dict) -> dict:
+def public_collectible(record: dict, theme_id: str) -> dict:
     return {
         "id": record["id"],
-        "theme_id": "blockworks",
+        "theme_id": theme_id,
         "rarity": record["rarity"],
         "name": record["name"],
         "image_path": record["image_path"],
@@ -569,7 +1011,7 @@ def public_collectible(record: dict) -> dict:
     }
 
 
-def blockworks_rarity_pool(correct_count: int) -> list[str]:
+def theme_rarity_pool(correct_count: int) -> list[str]:
     if correct_count >= 10:
         return ["common", "rare", "rare", "epic", "epic", "legendary"]
     if correct_count >= 9:
@@ -579,15 +1021,19 @@ def blockworks_rarity_pool(correct_count: int) -> list[str]:
     return []
 
 
-def award_blockworks_crate(
+def award_theme_crate(
     conn: sqlite3.Connection,
     child_id: int,
     session_id: int,
+    theme_id: str,
     correct_count: int,
 ) -> dict | None:
-    pool = blockworks_rarity_pool(correct_count)
+    if theme_id not in REWARD_THEME_IDS:
+        return None
+    pool = theme_rarity_pool(correct_count)
     if not pool:
         return None
+    collectibles = THEME_COLLECTIBLES[theme_id]
     owned = {
         row["collectible_id"]
         for row in conn.execute(
@@ -598,20 +1044,29 @@ def award_blockworks_crate(
     rarity = random.choice(pool)
     candidates = [
         collectible
-        for collectible in BLOCKWORKS_COLLECTIBLES
+        for collectible in collectibles
         if collectible["rarity"] == rarity and collectible["id"] not in owned
     ]
     if not candidates:
         candidates = [
             collectible
-            for collectible in BLOCKWORKS_COLLECTIBLES
+            for collectible in collectibles
             if collectible["id"] not in owned
         ]
+    theme_label = {
+        "blockworks": "BlockWorks",
+        "mario-course": "Mario Course",
+        "space-cadets": "Space Cadets",
+        "luigi-mansion": "Luigi's Mansion",
+        "wizard-school": "Wizard School",
+        "toybox": "Toybox Rescue",
+        "demigod-camp": "Demigod Camp",
+    }.get(theme_id, theme_id.replace("-", " ").title())
     if not candidates:
         return {
             "opened": True,
-            "theme_id": "blockworks",
-            "message": "All BlockWorks cards are already collected.",
+            "theme_id": theme_id,
+            "message": f"All {theme_label} cards are already collected.",
             "collectible": None,
         }
     collectible = random.choice(candidates)
@@ -621,11 +1076,12 @@ def award_blockworks_crate(
           child_id, collectible_id, theme_id, rarity, name, image_path,
           description, source_session_id, unlocked_at
         )
-        VALUES (?, ?, 'blockworks', ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (
             child_id,
             collectible["id"],
+            theme_id,
             collectible["rarity"],
             collectible["name"],
             collectible["image_path"],
@@ -636,10 +1092,19 @@ def award_blockworks_crate(
     )
     return {
         "opened": True,
-        "theme_id": "blockworks",
+        "theme_id": theme_id,
         "message": f"{collectible['rarity'].title()} crate pull",
-        "collectible": public_collectible(collectible),
+        "collectible": public_collectible(collectible, theme_id),
     }
+
+
+def award_blockworks_crate(
+    conn: sqlite3.Connection,
+    child_id: int,
+    session_id: int,
+    correct_count: int,
+) -> dict | None:
+    return award_theme_crate(conn, child_id, session_id, "blockworks", correct_count)
 
 
 def blockworks_reward_events(correct_count: int) -> list[dict]:
@@ -681,6 +1146,270 @@ def blockworks_reward_events(correct_count: int) -> list[dict]:
             }
         )
     return events
+
+
+def mario_course_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "course-selfie",
+                "title": "Jump shot unlocked",
+                "description": "Five correct answers triggered a Mario jump-shot card.",
+                "image_path": "/assets/mario-course/course-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "star-power-seven",
+                "title": "Star power checkpoint",
+                "description": "Seven correct answers opened the ? block crate lane.",
+                "image_path": "/assets/mario-course/star-power.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "wonder-eight",
+                "title": "Wonder hills bonus",
+                "description": "Eight correct answers lit up the wonder-flower hills.",
+                "image_path": "/assets/mario-course/curated/wonder-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "course-victory",
+                "title": "Course clear",
+                "description": "Perfect run. The flagpole is waiting at the end.",
+                "image_path": "/assets/mario-course/course-victory.svg",
+            }
+        )
+    return events
+
+
+def space_cadets_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "extraction-selfie",
+                "title": "Extraction ready",
+                "description": "Five correct answers triggered a helldiver extraction card.",
+                "image_path": "/assets/space-cadets/extraction-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "orbital-strike-seven",
+                "title": "Orbital strike checkpoint",
+                "description": "Seven correct answers opened the stratagem crate lane.",
+                "image_path": "/assets/space-cadets/orbital-strike.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "terminids-eight",
+                "title": "Terminid front bonus",
+                "description": "Eight correct answers reached the Terminid front.",
+                "image_path": "/assets/space-cadets/curated/terminids-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "mission-victory",
+                "title": "Mission accomplished",
+                "description": "Perfect run. Liberty secured for Super Earth.",
+                "image_path": "/assets/space-cadets/mission-victory.svg",
+            }
+        )
+    return events
+
+
+def luigi_mansion_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "mansion-selfie",
+                "title": "Ghost snap unlocked",
+                "description": "Five correct answers triggered a mansion ghost-snap card.",
+                "image_path": "/assets/luigi-mansion/mansion-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "flashlight-seven",
+                "title": "Flashlight checkpoint",
+                "description": "Seven correct answers opened the portrait crate lane.",
+                "image_path": "/assets/luigi-mansion/flashlight-checkpoint.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "king-boo-eight",
+                "title": "King Boo tower bonus",
+                "description": "Eight correct answers reached the King Boo tower.",
+                "image_path": "/assets/luigi-mansion/curated/king-boo-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "mansion-victory",
+                "title": "Mansion cleared",
+                "description": "Perfect run. Every ghost has been vacuumed.",
+                "image_path": "/assets/luigi-mansion/mansion-victory.svg",
+            }
+        )
+    return events
+
+
+def wizard_school_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "library-selfie",
+                "title": "Spell snap unlocked",
+                "description": "Five correct answers triggered a library spell-snap card.",
+                "image_path": "/assets/wizard-school/library-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "charm-seven",
+                "title": "Charm checkpoint",
+                "description": "Seven correct answers opened the magical trunk lane.",
+                "image_path": "/assets/wizard-school/charm-checkpoint.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "bertie-botts-eight",
+                "title": "Bertie Bott's bonus",
+                "description": "Eight correct answers opened a box of every-flavour beans.",
+                "image_path": "/assets/wizard-school/curated/bertie-botts-beans.png",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "hogwarts-victory",
+                "title": "House victory",
+                "description": "Perfect run. Ten points to your house.",
+                "image_path": "/assets/wizard-school/hogwarts-victory.svg",
+            }
+        )
+    return events
+
+
+def toybox_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "shelf-selfie",
+                "title": "Shelf snap unlocked",
+                "description": "Five correct answers triggered a toy shelf snap card.",
+                "image_path": "/assets/toybox/shelf-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "launch-seven",
+                "title": "Launch checkpoint",
+                "description": "Seven correct answers opened the prize box lane.",
+                "image_path": "/assets/toybox/launch-checkpoint.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "pizza-planet-eight",
+                "title": "Pizza Planet bonus",
+                "description": "Eight correct answers reached the Pizza Planet claw machine.",
+                "image_path": "/assets/toybox/curated/pizza-planet-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "toybox-victory",
+                "title": "Toybox victory",
+                "description": "Perfect run. The toys are rescued.",
+                "image_path": "/assets/toybox/toybox-victory.svg",
+            }
+        )
+    return events
+
+
+def demigod_camp_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "camp-selfie",
+                "title": "Camp snap unlocked",
+                "description": "Five correct answers triggered a camp snap card.",
+                "image_path": "/assets/demigod-camp/camp-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "oracle-seven",
+                "title": "Oracle checkpoint",
+                "description": "Seven correct answers opened the quest cache lane.",
+                "image_path": "/assets/demigod-camp/oracle-checkpoint.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "labyrinth-eight",
+                "title": "Labyrinth bonus",
+                "description": "Eight correct answers reached the twisting labyrinth.",
+                "image_path": "/assets/demigod-camp/curated/labyrinth-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "olympus-victory",
+                "title": "Olympus victory",
+                "description": "Perfect run. The quest is complete.",
+                "image_path": "/assets/demigod-camp/olympus-victory.svg",
+            }
+        )
+    return events
+
+
+def theme_reward_events(theme_id: str, correct_count: int) -> list[dict]:
+    if theme_id == "blockworks":
+        return blockworks_reward_events(correct_count)
+    if theme_id == "mario-course":
+        return mario_course_reward_events(correct_count)
+    if theme_id == "space-cadets":
+        return space_cadets_reward_events(correct_count)
+    if theme_id == "luigi-mansion":
+        return luigi_mansion_reward_events(correct_count)
+    if theme_id == "wizard-school":
+        return wizard_school_reward_events(correct_count)
+    if theme_id == "toybox":
+        return toybox_reward_events(correct_count)
+    if theme_id == "demigod-camp":
+        return demigod_camp_reward_events(correct_count)
+    return []
 
 
 def earned_badges(correct: int, streak: int, mastered: int) -> list[dict]:
@@ -1071,8 +1800,8 @@ def finalize_session(conn: sqlite3.Connection, session_id: int) -> dict:
     )
     sync_theme_unlocks(conn, child_id)
     crate_reward = None
-    if session["theme_id"] == "blockworks":
-        crate_reward = award_blockworks_crate(conn, child_id, session_id, correct_count)
+    if session["theme_id"] in REWARD_THEME_IDS:
+        crate_reward = award_theme_crate(conn, child_id, session_id, session["theme_id"], correct_count)
     summary = build_session_summary(conn, session_id)
     summary["crate_reward"] = crate_reward
     summary["newly_unlocked_themes"] = [
@@ -1172,10 +1901,10 @@ def build_session_summary(conn: sqlite3.Connection, session_id: int) -> dict:
         "accuracy": round((correct / len(rows)) * 100) if rows else 0,
         "misses": misses,
         "child_stats": child_stats(conn, session["child_id"]),
-        "reward_events": blockworks_reward_events(correct) if session["theme_id"] == "blockworks" else [],
+        "reward_events": theme_reward_events(session["theme_id"], correct),
         "crate_reward": {
             "opened": True,
-            "theme_id": "blockworks",
+            "theme_id": crate_row["theme_id"],
             "message": f"{crate_row['rarity'].title()} crate pull",
             "collectible": row_to_dict(crate_row),
         }

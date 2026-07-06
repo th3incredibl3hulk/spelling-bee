@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Five correct library selfie</title>
+  <desc id="desc">A wizard school celebration for five correct answers.</desc>
+  <rect width="720" height="520" fill="#2e1065"/>
+  <rect x="0" y="0" width="720" height="520" fill="url(#libraryGlow)" opacity="0.4"/>
+  <defs>
+    <radialGradient id="libraryGlow" cx="35%" cy="40%" r="50%">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#2e1065" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(90 96)">
+    <rect x="112" y="94" width="148" height="168" rx="12" fill="#7c2d12"/>
+    <rect x="84" y="80" width="88" height="126" rx="10" fill="#1e1b4b"/>
+    <rect x="200" y="80" width="88" height="126" rx="10" fill="#1e1b4b"/>
+    <rect x="130" y="0" width="116" height="116" rx="14" fill="#fde68a"/>
+    <circle cx="165" cy="44" r="10" fill="#111827"/>
+    <circle cx="211" cy="44" r="10" fill="#111827"/>
+    <rect x="248" y="120" width="10" height="140" rx="4" fill="#451a03" stroke="#fbbf24" stroke-width="4"/>
+    <circle cx="253" cy="108" r="10" fill="#fde68a"/>
+    <path d="M248 108 Q280 40 320 90" fill="none" stroke="#a78bfa" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <g transform="translate(346 254) rotate(-3)">
+    <rect x="0" y="0" width="260" height="118" rx="14" fill="#111827" stroke="#a78bfa" stroke-width="8"/>
+    <text x="130" y="46" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#fef3c7">5 CORRECT</text>
+    <text x="130" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#c4b5fd">SPELL SNAP!</text>
+  </g>
+  <g transform="translate(500 72)">
+    <ellipse cx="48" cy="56" rx="34" ry="26" fill="#f8fafc"/>
+    <circle cx="38" cy="48" r="6" fill="#111827"/>
+    <circle cx="58" cy="48" r="6" fill="#111827"/>
+    <path d="M20 30 L36 18 L52 30" fill="#f8fafc"/>
+    <path d="M44 30 L60 18 L76 30" fill="#f8fafc"/>
+  </g>
+</svg>

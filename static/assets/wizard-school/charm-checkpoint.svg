@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Charm checkpoint</title>
+  <desc id="desc">A glowing charm checkpoint for a strong spelling streak.</desc>
+  <rect width="720" height="520" fill="#1e1b4b"/>
+  <circle cx="360" cy="220" r="140" fill="#a78bfa" opacity="0.2"/>
+  <circle cx="360" cy="220" r="90" fill="#fde68a" opacity="0.35"/>
+  <g transform="translate(360 220)">
+    <path d="M0-72 L16-22 H68 L26 10 L42 62 L0 34 L-42 62 L-26 10 L-68-22 H-16 Z" fill="#fbbf24" stroke="#fef3c7" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="16" fill="#7c3aed"/>
+  </g>
+  <g transform="translate(124 372)">
+    <rect x="0" y="0" width="472" height="76" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="6"/>
+    <text x="236" y="31" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#fef3c7">CHARM CHECKPOINT</text>
+    <text x="236" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#c4b5fd">spelling streak enchanted</text>
+  </g>
+</svg>

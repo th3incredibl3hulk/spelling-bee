@@ -35,9 +35,9 @@
   {
     "id": "space-cadets",
     "name": "Space Cadets",
-    "description": "Mission lights, orbit sweeps, tactical patches, and drop-zone props.",
+    "description": "Helldivers-style drops, orbital strikes, stratagems, and Super Earth mission rewards.",
     "unlock_correct_count": 25,
-    "accent": "#60a5fa",
+    "accent": "#f97316",
     "background": "stars",
     "icon": "rocket",
     "reward_label": "Mission Patch",
@@ -46,7 +46,7 @@
   {
     "id": "luigi-mansion",
     "name": "Luigi's Mansion",
-    "description": "Flashlight beams, mansion keys, friendly ghosts, dusty halls, and spooky rewards.",
+    "description": "Luigi's Mansion flashlights, Poltergust pulls, mansion keys, and spooky-green rewards.",
     "unlock_correct_count": 35,
     "accent": "#22c55e",
     "background": "mansion",
@@ -57,7 +57,7 @@
   {
     "id": "wizard-school",
     "name": "Wizard School",
-    "description": "Lantern-lit library panels, spell cards, runes, and floating sparks.",
+    "description": "Hogwarts spell cards, Hedwig drops, Bertie Bott's beans, and house-point rewards.",
     "unlock_correct_count": 45,
     "accent": "#a78bfa",
     "background": "library",
@@ -68,7 +68,7 @@
   {
     "id": "toybox",
     "name": "Toybox Rescue",
-    "description": "Bright toy-shelf colors, rockets, dinosaurs, prize tokens, and launch pops.",
+    "description": "Toy Story shelf rescues, Buzz launches, Pizza Planet drops, and prize-box rewards.",
     "unlock_correct_count": 70,
     "accent": "#f59e0b",
     "background": "toybox",
@@ -79,7 +79,7 @@
   {
     "id": "demigod-camp",
     "name": "Demigod Camp",
-    "description": "Sea-blue quest maps, bronze shields, wave sweeps, and camp marks.",
+    "description": "Poseidon tridents, oracle prophecies, labyrinth runs, and Olympus victories.",
     "unlock_correct_count": 100,
     "accent": "#0891b2",
     "background": "camp",

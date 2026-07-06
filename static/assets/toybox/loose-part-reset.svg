@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Loose part reset</title>
+  <desc id="desc">A friendly loose-part reset card for a miss.</desc>
+  <rect width="720" height="520" fill="#fef3c7"/>
+  <rect y="320" width="720" height="200" fill="#fde68a"/>
+  <g transform="translate(286 140)">
+    <rect x="20" y="80" width="108" height="80" rx="10" fill="#ef4444" stroke="#111827" stroke-width="6" transform="rotate(-12 74 120)"/>
+    <circle cx="140" cy="100" r="24" fill="#60a5fa" stroke="#111827" stroke-width="5"/>
+    <rect x="170" y="150" width="60" height="20" rx="6" fill="#facc15" stroke="#111827" stroke-width="4" transform="rotate(18 200 160)"/>
+    <path d="M40 200 Q148 160 256 200" fill="none" stroke="#111827" stroke-width="4" stroke-dasharray="10 8"/>
+  </g>
+  <g transform="translate(124 392)">
+    <rect x="0" y="0" width="472" height="64" rx="12" fill="#111827"/>
+    <text x="236" y="42" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ffffff">BACK TO THE TOY BOX</text>
+  </g>
+</svg>

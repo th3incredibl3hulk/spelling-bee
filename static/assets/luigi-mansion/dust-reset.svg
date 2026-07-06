@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Dusty hallway reset</title>
+  <desc id="desc">A friendly dusty hallway reset card for a miss.</desc>
+  <rect width="720" height="520" fill="#312e81"/>
+  <path d="M0 320h720v200H0z" fill="#1f2937"/>
+  <g opacity="0.5" fill="#a78bfa">
+    <ellipse cx="120" cy="180" rx="48" ry="18"/>
+    <ellipse cx="360" cy="140" rx="64" ry="22"/>
+    <ellipse cx="580" cy="200" rx="52" ry="20"/>
+  </g>
+  <g transform="translate(286 140) rotate(-12)">
+    <rect x="56" y="0" width="32" height="180" rx="8" fill="#64748b" stroke="#cbd5e1" stroke-width="5"/>
+    <circle cx="72" cy="28" r="16" fill="#fde68a" opacity="0.45"/>
+    <path d="M48 180 H96 L84 220 H60 Z" fill="#334155"/>
+  </g>
+  <g transform="translate(124 392)">
+    <rect x="0" y="0" width="472" height="64" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="5"/>
+    <text x="236" y="42" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ecfdf5">FLASHLIGHT FLICKERED</text>
+  </g>
+</svg>

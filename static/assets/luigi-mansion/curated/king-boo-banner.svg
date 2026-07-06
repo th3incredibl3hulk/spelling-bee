@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" role="img" aria-labelledby="title desc">
+  <title id="title">King Boo tower banner</title>
+  <desc id="desc">Original King Boo-inspired tower banner art for reward moments.</desc>
+  <rect width="768" height="432" fill="#1e1b4b"/>
+  <path d="M0 300c100-60 200-60 300 0 110-70 220-70 320 0 90-50 148-50 148 0v132H0z" fill="#312e81"/>
+  <g transform="translate(300 70)">
+    <path d="M84 0c-8 36-36 56-36 92 0 44 36 80 80 80h8c44 0 80-36 80-80 0-36-28-56-36-92-20 16-44 16-64 0-20 16-44 16-64 0z" fill="#f8fafc" stroke="#a78bfa" stroke-width="8"/>
+    <circle cx="60" cy="118" r="14" fill="#ef4444"/>
+    <circle cx="108" cy="118" r="14" fill="#ef4444"/>
+    <path d="M72 150c16 12 32 12 48 0" fill="none" stroke="#111827" stroke-width="8" stroke-linecap="round"/>
+    <rect x="52" y="168" width="64" height="88" rx="28" fill="#f8fafc" opacity="0.9"/>
+    <path d="M20 120 Q84 40 148 120" fill="none" stroke="#c4b5fd" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <rect x="36" y="36" width="280" height="54" rx="10" fill="#111827" stroke="#a78bfa" stroke-width="4"/>
+  <text x="176" y="72" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ecfdf5">KING BOO TOWER</text>
+</svg>

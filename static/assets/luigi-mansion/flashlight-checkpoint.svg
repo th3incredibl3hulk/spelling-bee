@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Flashlight checkpoint</title>
+  <desc id="desc">A glowing flashlight checkpoint for a strong spelling streak.</desc>
+  <rect width="720" height="520" fill="#111827"/>
+  <radialGradient id="beam" cx="42%" cy="38%" r="45%">
+    <stop offset="0" stop-color="#fef9c3"/>
+    <stop offset=".55" stop-color="#fde68a" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#312e81" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="720" height="520" fill="url(#beam)"/>
+  <g transform="translate(286 108) rotate(-18)">
+    <rect x="56" y="0" width="36" height="220" rx="10" fill="#64748b" stroke="#ecfdf5" stroke-width="6"/>
+    <path d="M40 220 H108 L92 280 H56 Z" fill="#334155" stroke="#ecfdf5" stroke-width="6"/>
+    <circle cx="74" cy="36" r="22" fill="#fde68a" stroke="#ecfdf5" stroke-width="6"/>
+  </g>
+  <ellipse cx="300" cy="360" rx="140" ry="28" fill="#22c55e" opacity="0.25"/>
+  <g transform="translate(124 372)">
+    <rect x="0" y="0" width="472" height="76" rx="10" fill="#1f2937" stroke="#22c55e" stroke-width="6"/>
+    <text x="236" y="31" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="24" fill="#ecfdf5">FLASHLIGHT CHECKPOINT</text>
+    <text x="236" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#4ade80">spelling streak illuminated</text>
+  </g>
+</svg>

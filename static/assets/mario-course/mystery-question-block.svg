@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mystery question block</title>
+  <desc id="desc">A golden question block for Mario Course session rewards.</desc>
+  <rect width="720" height="520" fill="#7dd3fc"/>
+  <path d="M0 360c90-40 170-40 250 0 80-50 160-50 240 0 70-30 150-30 230 0v160H0z" fill="#22c55e"/>
+  <g transform="translate(214 88)">
+    <rect x="0" y="0" width="292" height="292" rx="18" fill="#facc15" stroke="#78350f" stroke-width="14"/>
+    <rect x="28" y="28" width="236" height="236" rx="12" fill="#fde047" stroke="#b45309" stroke-width="8"/>
+    <circle cx="42" cy="42" r="10" fill="#fff7ed"/>
+    <circle cx="250" cy="42" r="10" fill="#fff7ed"/>
+    <circle cx="42" cy="250" r="10" fill="#fff7ed"/>
+    <circle cx="250" cy="250" r="10" fill="#fff7ed"/>
+    <text x="146" y="188" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="132" fill="#78350f">?</text>
+  </g>
+  <g transform="translate(214 424)">
+    <rect x="0" y="0" width="292" height="54" rx="12" fill="#111827"/>
+    <text x="146" y="36" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="24" fill="#ffffff">? BLOCK CRATE</text>
+  </g>
+</svg>

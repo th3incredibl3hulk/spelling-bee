@@ -1432,6 +1432,20 @@ tr:last-child td {
   --theme-prop-ink: #78350f;
 }
 
+.theme-mario-course {
+  font-family: "Arial Black", Impact, Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.theme-mario-course .topbar,
+.theme-mario-course .setup-panel,
+.theme-mario-course .side-panel,
+.theme-mario-course .practice-panel,
+.theme-mario-course .summary-panel,
+.theme-card.theme-mario-course {
+  border-width: 3px;
+  box-shadow: 8px 8px 0 #7f1d1d;
+}
+
 .theme-mario-course .theme-stage {
   background:
     linear-gradient(0deg, #22c55e 0 28%, transparent 28%),
@@ -1449,31 +1463,183 @@ tr:last-child td {
   opacity: 0.35;
 }
 
+.theme-mario-course .stage-copy strong {
+  color: #ffffff;
+  text-shadow: 3px 3px 0 #7f1d1d;
+  text-transform: uppercase;
+}
+
+.theme-mario-course .stage-copy small {
+  color: #ffffff;
+  text-shadow: 2px 2px 0 rgba(127, 29, 29, 0.6);
+}
+
 .theme-mario-course .scene-prop,
-.theme-mario-course .fly-prop {
+.theme-mario-course .fly-prop,
+.theme-mario-course .xp-track,
+.theme-mario-course .reward-event-card,
+.theme-mario-course .collectible-card,
+.theme-mario-course .blockworks-milestone,
+.theme-mario-course .blockworks-pop-card {
   border: 3px solid #78350f;
   border-radius: 4px;
   box-shadow: 4px 4px 0 #78350f;
+  font-family: "Arial Black", Impact, sans-serif;
+}
+
+.theme-mario-course .xp-meter-head span,
+.theme-mario-course .xp-meter small {
+  color: #78350f;
+}
+
+.theme-mario-course .xp-fill {
+  background: linear-gradient(90deg, #22c55e 0 32%, #facc15 32% 66%, #ef4444 66% 100%);
 }
 
 .theme-mario-course .play-button,
 .theme-mario-course .btn.primary {
   background: #ef4444;
-  border-color: #7f1d1d;
+  border: 3px solid #7f1d1d;
   box-shadow: 4px 4px 0 #7f1d1d;
+}
+
+.theme-mario-course .grade-card.active,
+.theme-mario-course .theme-card.active,
+.theme-mario-course .segment.active {
+  box-shadow: 5px 5px 0 #7f1d1d;
+}
+
+.theme-mario-course .stage-logo {
+  display: block;
+  width: min(100%, 220px);
+  height: auto;
+  margin-bottom: 8px;
+  filter: drop-shadow(3px 3px 0 rgba(127, 29, 29, 0.45));
 }
 
 .theme-space-cadets,
 .theme-background-stars {
-  --accent: #60a5fa;
-  --theme-bg-a: #111827;
+  --accent: #f97316;
+  --theme-bg-a: #0f172a;
   --theme-bg-b: #1e3a8a;
-  --theme-surface: #172033;
-  --theme-ink: #eff6ff;
-  --theme-muted: #bfdbfe;
-  --theme-line: #3b82f6;
-  --theme-prop: #f97316;
-  --theme-prop-ink: #ffffff;
+  --theme-surface: #111827;
+  --theme-ink: #f8fafc;
+  --theme-muted: #cbd5e1;
+  --theme-line: #f97316;
+  --theme-prop: #fbbf24;
+  --theme-prop-ink: #111827;
+}
+
+.theme-space-cadets {
+  font-family: Impact, "Arial Black", Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.theme-space-cadets .topbar,
+.theme-space-cadets .setup-panel,
+.theme-space-cadets .side-panel,
+.theme-space-cadets .practice-panel,
+.theme-space-cadets .summary-panel,
+.theme-card.theme-space-cadets {
+  border-width: 3px;
+  box-shadow: 8px 8px 0 #0f172a;
+}
+
+.theme-space-cadets .theme-stage {
+  background:
+    linear-gradient(90deg, rgba(248, 250, 252, 0.08) 0 1px, transparent 1px 100%),
+    linear-gradient(0deg, rgba(248, 250, 252, 0.08) 0 1px, transparent 1px 100%),
+    radial-gradient(circle at 82% 18%, rgba(249, 115, 22, 0.35) 0 80px, transparent 81px),
+    linear-gradient(135deg, #0f172a 0%, #1e3a8a 48%, #7c2d12 100%);
+  background-size: 28px 28px, 28px 28px, auto, auto;
+  color: #f8fafc;
+}
+
+.theme-space-cadets .theme-stage::before {
+  background:
+    radial-gradient(circle at 18% 24%, rgba(255, 255, 255, 0.16) 0 3px, transparent 4px),
+    radial-gradient(circle at 72% 62%, rgba(255, 255, 255, 0.12) 0 4px, transparent 5px);
+  opacity: 1;
+}
+
+.theme-space-cadets .stage-copy strong {
+  color: #f8fafc;
+  text-shadow: 3px 3px 0 #0f172a;
+  text-transform: uppercase;
+}
+
+.theme-space-cadets .stage-copy small {
+  color: #fde68a;
+  text-shadow: 2px 2px 0 rgba(15, 23, 42, 0.8);
+}
+
+.theme-space-cadets .scene-prop,
+.theme-space-cadets .fly-prop,
+.theme-space-cadets .xp-track,
+.theme-space-cadets .reward-event-card,
+.theme-space-cadets .collectible-card,
+.theme-space-cadets .blockworks-milestone,
+.theme-space-cadets .blockworks-pop-card {
+  border: 3px solid #f97316;
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 #0f172a;
+  font-family: Impact, "Arial Black", sans-serif;
+}
+
+.theme-space-cadets .xp-meter-head span,
+.theme-space-cadets .xp-meter small {
+  color: #f8fafc;
+}
+
+.theme-space-cadets .xp-fill {
+  background: linear-gradient(90deg, #1e3a8a 0 32%, #f97316 32% 66%, #fbbf24 66% 100%);
+}
+
+.theme-space-cadets .play-button,
+.theme-space-cadets .btn.primary {
+  background: #f97316;
+  border: 3px solid #7c2d12;
+  box-shadow: 4px 4px 0 #0f172a;
+  color: #111827;
+}
+
+.theme-space-cadets .grade-card.active,
+.theme-space-cadets .theme-card.active,
+.theme-space-cadets .segment.active {
+  box-shadow: 5px 5px 0 #0f172a;
+}
+
+.theme-space-cadets .stage-logo {
+  display: block;
+  width: min(100%, 240px);
+  height: auto;
+  margin-bottom: 8px;
+  filter: drop-shadow(3px 3px 0 rgba(15, 23, 42, 0.6));
+}
+
+.theme-space-cadets .pill,
+.theme-space-cadets .session-card,
+.theme-space-cadets .field input,
+.theme-space-cadets .field select,
+.theme-space-cadets .field textarea,
+.theme-space-cadets .letter-box,
+.theme-space-cadets .btn.secondary {
+  border-color: color-mix(in srgb, var(--accent) 45%, #f8fafc);
+  background: rgba(15, 23, 42, 0.88);
+  color: var(--theme-ink);
+}
+
+.theme-space-cadets .topbar,
+.theme-space-cadets .practice-panel,
+.theme-space-cadets .summary-panel,
+.theme-space-cadets .setup-panel,
+.theme-space-cadets .side-panel {
+  color: var(--theme-ink);
+}
+
+.theme-space-cadets .muted,
+.theme-space-cadets .stage-copy small,
+.theme-space-cadets .stage-copy span {
+  color: var(--theme-muted);
 }
 
 .theme-luigi-mansion,
@@ -1487,6 +1653,20 @@ tr:last-child td {
   --theme-line: #22c55e;
   --theme-prop: #fef08a;
   --theme-prop-ink: #1e1b4b;
+}
+
+.theme-luigi-mansion {
+  font-family: Impact, "Arial Black", Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.theme-luigi-mansion .topbar,
+.theme-luigi-mansion .setup-panel,
+.theme-luigi-mansion .side-panel,
+.theme-luigi-mansion .practice-panel,
+.theme-luigi-mansion .summary-panel,
+.theme-card.theme-luigi-mansion {
+  border-width: 3px;
+  box-shadow: 8px 8px 0 #1e1b4b;
 }
 
 .theme-luigi-mansion .theme-stage {
@@ -1506,9 +1686,59 @@ tr:last-child td {
   opacity: 1;
 }
 
-.theme-luigi-mansion .stage-copy small,
-.theme-luigi-mansion .stage-copy span {
-  color: #dcfce7;
+.theme-luigi-mansion .stage-copy strong {
+  color: #ecfdf5;
+  text-shadow: 3px 3px 0 #1e1b4b;
+  text-transform: uppercase;
+}
+
+.theme-luigi-mansion .stage-copy small {
+  color: #bbf7d0;
+  text-shadow: 2px 2px 0 rgba(30, 27, 75, 0.8);
+}
+
+.theme-luigi-mansion .scene-prop,
+.theme-luigi-mansion .fly-prop,
+.theme-luigi-mansion .xp-track,
+.theme-luigi-mansion .reward-event-card,
+.theme-luigi-mansion .collectible-card,
+.theme-luigi-mansion .blockworks-milestone,
+.theme-luigi-mansion .blockworks-pop-card {
+  border: 3px solid #a78bfa;
+  border-radius: 6px;
+  box-shadow: 0 0 18px rgba(34, 197, 94, 0.32);
+  font-family: Impact, "Arial Black", sans-serif;
+}
+
+.theme-luigi-mansion .xp-meter-head span,
+.theme-luigi-mansion .xp-meter small {
+  color: #bbf7d0;
+}
+
+.theme-luigi-mansion .xp-fill {
+  background: linear-gradient(90deg, #312e81 0 32%, #22c55e 32% 66%, #fde68a 66% 100%);
+}
+
+.theme-luigi-mansion .play-button,
+.theme-luigi-mansion .btn.primary {
+  background: #22c55e;
+  border: 3px solid #14532d;
+  box-shadow: 4px 4px 0 #1e1b4b;
+  color: #052e16;
+}
+
+.theme-luigi-mansion .grade-card.active,
+.theme-luigi-mansion .theme-card.active,
+.theme-luigi-mansion .segment.active {
+  box-shadow: 5px 5px 0 #1e1b4b;
+}
+
+.theme-luigi-mansion .stage-logo {
+  display: block;
+  width: min(100%, 240px);
+  height: auto;
+  margin-bottom: 8px;
+  filter: drop-shadow(3px 3px 0 rgba(30, 27, 75, 0.6));
 }
 
 .theme-luigi-mansion .pill,
@@ -1524,10 +1754,9 @@ tr:last-child td {
   color: var(--theme-ink);
 }
 
-.theme-luigi-mansion .scene-prop,
-.theme-luigi-mansion .fly-prop {
-  border-color: #bbf7d0;
-  box-shadow: 0 0 18px rgba(34, 197, 94, 0.32);
+.theme-luigi-mansion .stage-copy small,
+.theme-luigi-mansion .stage-copy span {
+  color: #dcfce7;
 }
 
 .theme-wizard-school,
@@ -1536,11 +1765,111 @@ tr:last-child td {
   --theme-bg-a: #2e1065;
   --theme-bg-b: #fef3c7;
   --theme-surface: #fff7ed;
-  --theme-ink: #2e1065;
-  --theme-muted: #6d5b8d;
+  --theme-ink: #fef3c7;
+  --theme-muted: #ddd6fe;
   --theme-line: #c4b5fd;
   --theme-prop: #fef3c7;
   --theme-prop-ink: #3b0764;
+}
+
+.theme-wizard-school {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.theme-wizard-school .topbar,
+.theme-wizard-school .setup-panel,
+.theme-wizard-school .side-panel,
+.theme-wizard-school .practice-panel,
+.theme-wizard-school .summary-panel,
+.theme-card.theme-wizard-school {
+  border-width: 3px;
+  box-shadow: 8px 8px 0 #1e1b4b;
+}
+
+.theme-wizard-school .theme-stage {
+  background:
+    radial-gradient(circle at 20% 30%, rgba(253, 230, 138, 0.35) 0 80px, transparent 81px),
+    linear-gradient(90deg, rgba(196, 181, 253, 0.15) 0 1px, transparent 1px 100%),
+    linear-gradient(0deg, rgba(196, 181, 253, 0.12) 0 1px, transparent 1px 100%),
+    linear-gradient(135deg, #2e1065 0%, #4c1d95 48%, #1e1b4b 100%);
+  background-size: auto, 30px 30px, 30px 30px, auto;
+  color: #fef3c7;
+}
+
+.theme-wizard-school .theme-stage::before {
+  background:
+    radial-gradient(circle at 78% 22%, rgba(255, 255, 255, 0.18) 0 4px, transparent 5px),
+    radial-gradient(circle at 64% 68%, rgba(251, 191, 36, 0.2) 0 6px, transparent 7px);
+  opacity: 1;
+}
+
+.theme-wizard-school .stage-copy strong {
+  color: #fef3c7;
+  text-shadow: 3px 3px 0 #1e1b4b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.theme-wizard-school .stage-copy small {
+  color: #ddd6fe;
+  text-shadow: 2px 2px 0 rgba(30, 27, 75, 0.8);
+}
+
+.theme-wizard-school .scene-prop,
+.theme-wizard-school .fly-prop,
+.theme-wizard-school .xp-track,
+.theme-wizard-school .reward-event-card,
+.theme-wizard-school .collectible-card,
+.theme-wizard-school .blockworks-milestone,
+.theme-wizard-school .blockworks-pop-card {
+  border: 3px solid #c4b5fd;
+  border-radius: 8px;
+  box-shadow: 0 0 18px rgba(167, 139, 250, 0.28);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.theme-wizard-school .xp-meter-head span,
+.theme-wizard-school .xp-meter small {
+  color: #ddd6fe;
+}
+
+.theme-wizard-school .xp-fill {
+  background: linear-gradient(90deg, #7f1d1d 0 25%, #1d4ed8 25% 50%, #facc15 50% 75%, #166534 75% 100%);
+}
+
+.theme-wizard-school .play-button,
+.theme-wizard-school .btn.primary {
+  background: #7c3aed;
+  border: 3px solid #4c1d95;
+  box-shadow: 4px 4px 0 #1e1b4b;
+  color: #fef3c7;
+}
+
+.theme-wizard-school .grade-card.active,
+.theme-wizard-school .theme-card.active,
+.theme-wizard-school .segment.active {
+  box-shadow: 5px 5px 0 #1e1b4b;
+}
+
+.theme-wizard-school .stage-logo {
+  display: block;
+  width: min(100%, 260px);
+  height: auto;
+  margin-bottom: 8px;
+  filter: drop-shadow(3px 3px 0 rgba(30, 27, 75, 0.6));
+}
+
+.theme-wizard-school .pill,
+.theme-wizard-school .session-card,
+.theme-wizard-school .field input,
+.theme-wizard-school .field select,
+.theme-wizard-school .field textarea,
+.theme-wizard-school .answer-input,
+.theme-wizard-school .letter-box,
+.theme-wizard-school .btn.secondary {
+  border-color: color-mix(in srgb, var(--accent) 42%, #fef3c7);
+  background: rgba(30, 27, 75, 0.88);
+  color: var(--theme-ink);
 }
 
 .theme-toybox,
@@ -1549,11 +1878,109 @@ tr:last-child td {
   --theme-bg-a: #fef3c7;
   --theme-bg-b: #bfdbfe;
   --theme-surface: #ffffff;
-  --theme-ink: #263248;
+  --theme-ink: #1f2937;
   --theme-muted: #556070;
   --theme-line: #fbbf24;
   --theme-prop: #ef4444;
   --theme-prop-ink: #ffffff;
+}
+
+.theme-toybox {
+  font-family: Impact, "Arial Black", Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.theme-toybox .topbar,
+.theme-toybox .setup-panel,
+.theme-toybox .side-panel,
+.theme-toybox .practice-panel,
+.theme-toybox .summary-panel,
+.theme-card.theme-toybox {
+  border-width: 3px;
+  box-shadow: 8px 8px 0 #111827;
+}
+
+.theme-toybox .theme-stage {
+  background:
+    radial-gradient(circle at 18% 22%, rgba(255, 255, 255, 0.9) 0 36px, transparent 37px),
+    radial-gradient(circle at 28% 18%, rgba(255, 255, 255, 0.85) 0 48px, transparent 49px),
+    radial-gradient(circle at 72% 20%, rgba(255, 255, 255, 0.8) 0 40px, transparent 41px),
+    linear-gradient(180deg, #bfdbfe 0 62%, #fde68a 62% 100%);
+  color: #1f2937;
+}
+
+.theme-toybox .theme-stage::before {
+  background:
+    linear-gradient(45deg, rgba(255, 255, 255, 0.35) 25%, transparent 25% 50%, rgba(255, 255, 255, 0.35) 50% 75%, transparent 75%);
+  background-size: 32px 32px;
+  opacity: 0.35;
+}
+
+.theme-toybox .stage-copy strong {
+  color: #111827;
+  text-shadow: 3px 3px 0 #fbbf24;
+  text-transform: uppercase;
+}
+
+.theme-toybox .stage-copy small {
+  color: #7c2d12;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.theme-toybox .scene-prop,
+.theme-toybox .fly-prop,
+.theme-toybox .xp-track,
+.theme-toybox .reward-event-card,
+.theme-toybox .collectible-card,
+.theme-toybox .blockworks-milestone,
+.theme-toybox .blockworks-pop-card {
+  border: 3px solid #111827;
+  border-radius: 6px;
+  box-shadow: 4px 4px 0 #111827;
+  font-family: Impact, "Arial Black", sans-serif;
+}
+
+.theme-toybox .xp-meter-head span,
+.theme-toybox .xp-meter small {
+  color: #7c2d12;
+}
+
+.theme-toybox .xp-fill {
+  background: linear-gradient(90deg, #ef4444 0 25%, #facc15 25% 50%, #22c55e 50% 75%, #60a5fa 75% 100%);
+}
+
+.theme-toybox .play-button,
+.theme-toybox .btn.primary {
+  background: #ef4444;
+  border: 3px solid #111827;
+  box-shadow: 4px 4px 0 #111827;
+  color: #ffffff;
+}
+
+.theme-toybox .grade-card.active,
+.theme-toybox .theme-card.active,
+.theme-toybox .segment.active {
+  box-shadow: 5px 5px 0 #111827;
+}
+
+.theme-toybox .stage-logo {
+  display: block;
+  width: min(100%, 260px);
+  height: auto;
+  margin-bottom: 8px;
+  filter: drop-shadow(3px 3px 0 rgba(17, 24, 39, 0.35));
+}
+
+.theme-toybox .pill,
+.theme-toybox .session-card,
+.theme-toybox .field input,
+.theme-toybox .field select,
+.theme-toybox .field textarea,
+.theme-toybox .answer-input,
+.theme-toybox .letter-box,
+.theme-toybox .btn.secondary {
+  border-color: color-mix(in srgb, var(--accent) 45%, #111827);
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--theme-ink);
 }
 
 .theme-demigod-camp,
@@ -1567,6 +1994,104 @@ tr:last-child td {
   --theme-line: #67e8f9;
   --theme-prop: #f97316;
   --theme-prop-ink: #ffffff;
+}
+
+.theme-demigod-camp {
+  font-family: Impact, "Arial Black", Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.theme-demigod-camp .topbar,
+.theme-demigod-camp .setup-panel,
+.theme-demigod-camp .side-panel,
+.theme-demigod-camp .practice-panel,
+.theme-demigod-camp .summary-panel,
+.theme-card.theme-demigod-camp {
+  border-width: 3px;
+  box-shadow: 8px 8px 0 #164e63;
+}
+
+.theme-demigod-camp .theme-stage {
+  background:
+    radial-gradient(circle at 18% 22%, rgba(236, 254, 255, 0.9) 0 36px, transparent 37px),
+    radial-gradient(circle at 28% 18%, rgba(103, 232, 249, 0.45) 0 48px, transparent 49px),
+    radial-gradient(circle at 72% 20%, rgba(254, 215, 170, 0.55) 0 40px, transparent 41px),
+    linear-gradient(180deg, #0891b2 0 62%, #fed7aa 62% 100%);
+  color: #ecfeff;
+}
+
+.theme-demigod-camp .theme-stage::before {
+  background:
+    linear-gradient(45deg, rgba(236, 254, 255, 0.2) 25%, transparent 25% 50%, rgba(236, 254, 255, 0.2) 50% 75%, transparent 75%);
+  background-size: 32px 32px;
+  opacity: 0.35;
+}
+
+.theme-demigod-camp .stage-copy strong {
+  color: #ecfeff;
+  text-shadow: 3px 3px 0 #164e63;
+  text-transform: uppercase;
+}
+
+.theme-demigod-camp .stage-copy small {
+  color: #fed7aa;
+  text-shadow: 2px 2px 0 rgba(22, 78, 99, 0.8);
+}
+
+.theme-demigod-camp .scene-prop,
+.theme-demigod-camp .fly-prop,
+.theme-demigod-camp .xp-track,
+.theme-demigod-camp .reward-event-card,
+.theme-demigod-camp .collectible-card,
+.theme-demigod-camp .blockworks-milestone,
+.theme-demigod-camp .blockworks-pop-card {
+  border: 3px solid #164e63;
+  border-radius: 6px;
+  box-shadow: 4px 4px 0 #164e63;
+  font-family: Impact, "Arial Black", sans-serif;
+}
+
+.theme-demigod-camp .xp-meter-head span,
+.theme-demigod-camp .xp-meter small {
+  color: #fed7aa;
+}
+
+.theme-demigod-camp .xp-fill {
+  background: linear-gradient(90deg, #0891b2 0 25%, #f97316 25% 50%, #b45309 50% 75%, #164e63 75% 100%);
+}
+
+.theme-demigod-camp .play-button,
+.theme-demigod-camp .btn.primary {
+  background: #f97316;
+  border: 3px solid #164e63;
+  box-shadow: 4px 4px 0 #164e63;
+  color: #ffffff;
+}
+
+.theme-demigod-camp .grade-card.active,
+.theme-demigod-camp .theme-card.active,
+.theme-demigod-camp .segment.active {
+  box-shadow: 5px 5px 0 #164e63;
+}
+
+.theme-demigod-camp .stage-logo {
+  display: block;
+  width: min(100%, 260px);
+  height: auto;
+  margin-bottom: 8px;
+  filter: drop-shadow(3px 3px 0 rgba(22, 78, 99, 0.35));
+}
+
+.theme-demigod-camp .pill,
+.theme-demigod-camp .session-card,
+.theme-demigod-camp .field input,
+.theme-demigod-camp .field select,
+.theme-demigod-camp .field textarea,
+.theme-demigod-camp .answer-input,
+.theme-demigod-camp .letter-box,
+.theme-demigod-camp .btn.secondary {
+  border-color: color-mix(in srgb, var(--accent) 45%, #164e63);
+  background: rgba(236, 254, 255, 0.94);
+  color: var(--theme-ink);
 }
 
 .theme-silly-rhymes,
@@ -1606,31 +2131,6 @@ tr:last-child td {
   --theme-line: #7dd3fc;
   --theme-prop: #ffffff;
   --theme-prop-ink: #075985;
-}
-
-.theme-space-cadets .pill,
-.theme-space-cadets .session-card,
-.theme-space-cadets .field input,
-.theme-space-cadets .field select,
-.theme-space-cadets .field textarea,
-.theme-space-cadets .letter-box,
-.theme-space-cadets .btn.secondary {
-  border-color: color-mix(in srgb, var(--accent) 35%, #ffffff);
-  background: rgba(255, 255, 255, 0.92);
-}
-
-.theme-space-cadets .topbar,
-.theme-space-cadets .practice-panel,
-.theme-space-cadets .summary-panel,
-.theme-space-cadets .setup-panel,
-.theme-space-cadets .side-panel {
-  color: var(--theme-ink);
-}
-
-.theme-space-cadets .muted,
-.theme-space-cadets .stage-copy small,
-.theme-space-cadets .stage-copy span {
-  color: var(--theme-muted);
 }
 
 @media (max-width: 920px) {

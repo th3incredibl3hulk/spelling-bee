@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">Luigi's Mansion wordmark</title>
+  <desc id="desc">Stylized haunted mansion wordmark for the Luigi's Mansion theme.</desc>
+  <rect width="720" height="180" rx="10" fill="#1e1b4b"/>
+  <rect x="10" y="10" width="700" height="160" rx="8" fill="#312e81" stroke="#22c55e" stroke-width="4"/>
+  <text x="360" y="72" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="46" fill="#ecfdf5" letter-spacing="3">LUIGI'S MANSION</text>
+  <text x="360" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#4ade80" letter-spacing="8">GHOST HUNT</text>
+</svg>

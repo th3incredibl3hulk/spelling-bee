@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-labelledby="title desc">
+  <title id="title">Demigod Camp wordmark</title>
+  <desc id="desc">Original camp quest wordmark for the Demigod Camp spelling theme.</desc>
+  <rect width="720" height="200" fill="none"/>
+  <g transform="translate(36 28)">
+    <rect x="0" y="0" width="648" height="144" rx="18" fill="#0891b2" stroke="#164e63" stroke-width="8"/>
+    <rect x="18" y="18" width="612" height="108" rx="12" fill="#ecfeff" stroke="#164e63" stroke-width="4"/>
+    <text x="324" y="62" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="42" fill="#164e63">DEMIGOD</text>
+    <text x="324" y="112" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="42" fill="#f97316">CAMP</text>
+    <path d="M92 72 L108 24 L124 72 M108 72 V108" fill="none" stroke="#164e63" stroke-width="6" stroke-linecap="round"/>
+    <path d="M596 72 L612 24 L628 72 M612 72 V108" fill="none" stroke="#164e63" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

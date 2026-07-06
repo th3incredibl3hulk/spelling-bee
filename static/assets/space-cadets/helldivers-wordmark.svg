@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">Helldivers wordmark</title>
+  <desc id="desc">Stylized military wordmark inspired by the Helldivers franchise.</desc>
+  <rect width="720" height="180" rx="8" fill="#111827"/>
+  <rect x="12" y="12" width="696" height="156" rx="6" fill="#1f2937" stroke="#f97316" stroke-width="4"/>
+  <text x="360" y="78" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="54" fill="#f8fafc" letter-spacing="6">HELLDIVERS</text>
+  <text x="360" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#f97316" letter-spacing="12">SPACE CADETS</text>
+</svg>

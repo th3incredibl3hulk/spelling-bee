@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Super Earth emblem</title>
+  <desc id="desc">Original eagle emblem inspired by Super Earth iconography.</desc>
+  <circle cx="256" cy="256" r="236" fill="#111827" stroke="#f97316" stroke-width="16"/>
+  <circle cx="256" cy="256" r="188" fill="#1f2937" stroke="#f8fafc" stroke-width="8"/>
+  <path d="M256 96 L300 196 L408 206 L328 276 L352 384 L256 328 L160 384 L184 276 L104 206 L212 196 Z" fill="#f97316" stroke="#f8fafc" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="256" cy="256" r="42" fill="#111827" stroke="#f8fafc" stroke-width="6"/>
+  <path d="M220 256h72M256 220v72" stroke="#f8fafc" stroke-width="10" stroke-linecap="round"/>
+</svg>

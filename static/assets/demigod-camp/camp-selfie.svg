@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Five correct camp selfie</title>
+  <desc id="desc">A camp celebration card for five correct answers.</desc>
+  <rect width="720" height="520" fill="#0891b2"/>
+  <rect x="0" y="300" width="720" height="220" fill="#fed7aa"/>
+  <rect x="0" y="280" width="720" height="24" fill="#b45309"/>
+  <g transform="translate(90 96)">
+    <rect x="112" y="94" width="148" height="168" rx="12" fill="#164e63"/>
+    <circle cx="186" cy="72" r="52" fill="#fed7aa" stroke="#164e63" stroke-width="6"/>
+    <path d="M160 76 Q186 94 212 76" fill="none" stroke="#164e63" stroke-width="8" stroke-linecap="round"/>
+    <path d="M248 120 L320 90 L320 170 L248 200 Z" fill="#f97316" stroke="#164e63" stroke-width="6"/>
+    <path d="M284 90 L284 40 M268 56 L300 56" stroke="#164e63" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(346 254) rotate(-4)">
+    <rect x="0" y="0" width="260" height="118" rx="16" fill="#ecfeff" stroke="#164e63" stroke-width="8"/>
+    <text x="130" y="46" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="34" fill="#164e63">5 CORRECT</text>
+    <text x="130" y="84" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="26" fill="#f97316">CAMP SNAP!</text>
+  </g>
+</svg>

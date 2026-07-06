@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Olympus victory</title>
+  <desc id="desc">A quest victory screen for a perfect Demigod Camp spelling run.</desc>
+  <rect width="720" height="520" fill="#ccfbf1"/>
+  <rect x="32" y="32" width="656" height="456" rx="20" fill="#0891b2" stroke="#164e63" stroke-width="8"/>
+  <g opacity="0.95">
+    <rect x="94" y="88" width="532" height="110" rx="14" fill="#ecfeff" stroke="#164e63" stroke-width="8"/>
+    <text x="360" y="134" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="38" fill="#164e63">OLYMPUS VICTORY</text>
+    <text x="360" y="174" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#f97316">10 / 10 QUEST RUN</text>
+  </g>
+  <g transform="translate(180 250)">
+    <circle cx="48" cy="48" r="40" fill="#f97316" stroke="#164e63" stroke-width="6"/>
+    <circle cx="168" cy="48" r="40" fill="#b45309" stroke="#164e63" stroke-width="6"/>
+    <circle cx="288" cy="48" r="40" fill="#0891b2" stroke="#164e63" stroke-width="6"/>
+    <circle cx="408" cy="48" r="40" fill="#164e63" stroke="#ecfeff" stroke-width="6"/>
+  </g>
+  <g transform="translate(244 404)">
+    <rect x="0" y="0" width="232" height="54" rx="12" fill="#164e63"/>
+    <text x="116" y="36" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="24" fill="#ffffff">QUEST COMPLETE</text>
+  </g>
+</svg>

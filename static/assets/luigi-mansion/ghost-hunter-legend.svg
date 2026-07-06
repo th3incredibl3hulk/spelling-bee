@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ghost hunter legend card</title>
+  <desc id="desc">A rare glowing ghost hunter legend collectible card.</desc>
+  <rect width="720" height="520" fill="#0f172a"/>
+  <rect x="52" y="36" width="616" height="448" rx="18" fill="#22c55e" stroke="#ecfdf5" stroke-width="10"/>
+  <rect x="86" y="72" width="548" height="376" rx="14" fill="#312e81" stroke="#111827" stroke-width="10"/>
+  <g transform="translate(250 126)">
+    <rect x="82" y="116" width="118" height="142" rx="10" fill="#22c55e"/>
+    <rect x="42" y="100" width="80" height="116" rx="10" fill="#1d4ed8"/>
+    <rect x="160" y="100" width="80" height="116" rx="10" fill="#1d4ed8"/>
+    <rect x="88" y="0" width="106" height="106" rx="12" fill="#fde68a"/>
+    <rect x="76" y="132" width="132" height="130" rx="8" fill="#22c55e" stroke="#ecfdf5" stroke-width="6"/>
+    <rect x="70" y="274" width="52" height="96" rx="8" fill="#1e3a8a"/>
+    <rect x="164" y="274" width="52" height="96" rx="8" fill="#1e3a8a"/>
+    <circle cx="120" cy="42" r="8" fill="#111827"/>
+    <circle cx="162" cy="42" r="8" fill="#111827"/>
+  </g>
+  <g transform="translate(96 86)">
+    <rect x="0" y="0" width="236" height="64" rx="10" fill="#111827" stroke="#22c55e" stroke-width="5"/>
+    <text x="118" y="42" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ecfdf5">LEGEND PULL</text>
+  </g>
+  <text x="360" y="430" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="36" fill="#ecfdf5">GHOST HUNTER LEGEND</text>
+</svg>

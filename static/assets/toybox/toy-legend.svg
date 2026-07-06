@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Toy legend card</title>
+  <desc id="desc">A rare glowing toy legend collectible card.</desc>
+  <rect width="720" height="520" fill="#111827"/>
+  <rect x="52" y="36" width="616" height="448" rx="20" fill="#facc15" stroke="#ffffff" stroke-width="10"/>
+  <rect x="86" y="72" width="548" height="376" rx="16" fill="#ef4444" stroke="#111827" stroke-width="10"/>
+  <g transform="translate(250 126)">
+    <rect x="82" y="116" width="118" height="142" rx="10" fill="#7c2d12"/>
+    <rect x="42" y="100" width="80" height="116" rx="10" fill="#facc15"/>
+    <rect x="160" y="100" width="80" height="116" rx="10" fill="#facc15"/>
+    <rect x="88" y="0" width="106" height="106" rx="12" fill="#facc15"/>
+    <circle cx="120" cy="42" r="8" fill="#111827"/>
+    <circle cx="162" cy="42" r="8" fill="#111827"/>
+    <polygon points="248,120 300,90 300,150 248,180" fill="#1d4ed8" stroke="#111827" stroke-width="5"/>
+  </g>
+  <g transform="translate(96 86)">
+    <rect x="0" y="0" width="236" height="64" rx="12" fill="#111827"/>
+    <text x="118" y="42" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ffffff">LEGEND PULL</text>
+  </g>
+  <text x="360" y="430" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="36" fill="#ffffff">TOY LEGEND</text>
+</svg>

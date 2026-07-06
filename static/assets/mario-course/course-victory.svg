@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mario Course victory</title>
+  <desc id="desc">A flagpole victory screen for a perfect spelling run.</desc>
+  <rect width="720" height="520" fill="#38bdf8"/>
+  <path d="M0 340c80-50 150-50 220 0 90-60 180-60 280 0 80-40 160-40 220 0v180H0z" fill="#22c55e"/>
+  <rect y="380" width="720" height="140" fill="#15803d"/>
+  <g transform="translate(468 72)">
+    <rect x="24" y="16" width="14" height="312" rx="7" fill="#f8fafc" stroke="#111827" stroke-width="6"/>
+    <path d="M38 24h132l-28 44 28 44H38z" fill="#ef4444" stroke="#111827" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="31" cy="24" r="13" fill="#facc15" stroke="#111827" stroke-width="6"/>
+  </g>
+  <g opacity="0.95">
+    <rect x="64" y="64" width="592" height="110" rx="16" fill="#ffffff" stroke="#111827" stroke-width="8"/>
+    <text x="360" y="110" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="38" fill="#111827">COURSE CLEAR</text>
+    <text x="360" y="150" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="28" fill="#ef4444">10 / 10 SPELLING RUN</text>
+  </g>
+  <g fill="#facc15" stroke="#b45309" stroke-width="6">
+    <ellipse cx="120" cy="300" rx="22" ry="32"/>
+    <ellipse cx="200" cy="270" rx="22" ry="32"/>
+    <ellipse cx="280" cy="300" rx="22" ry="32"/>
+    <ellipse cx="360" cy="260" rx="22" ry="32"/>
+  </g>
+  <g transform="translate(244 404)">
+    <rect x="0" y="0" width="232" height="54" rx="12" fill="#111827"/>
+    <text x="116" y="36" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="26" fill="#ffffff">FLAGPOLE ENERGY</text>
+  </g>
+</svg>

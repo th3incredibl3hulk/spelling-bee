@@ -125,6 +125,240 @@ class ServerRulesTest(unittest.TestCase):
                 1,
             )
 
+    def test_mario_course_seven_correct_awards_collectible_crate(self):
+        with server.connect() as conn:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO child_theme_unlocks (child_id, theme_id, unlocked_at)
+                VALUES (1, 'mario-course', ?)
+                """,
+                (server.now_iso(),),
+            )
+            session = server.create_session(conn, {"child_id": 1, "grade_level": 2, "theme_id": "mario-course"})
+            result = None
+            for index, session_word in enumerate(session["words"]):
+                real_word = conn.execute(
+                    """
+                    SELECT w.word
+                    FROM session_words sw
+                    JOIN words w ON w.id = sw.word_id
+                    WHERE sw.id = ?
+                    """,
+                    (session_word["session_word_id"],),
+                ).fetchone()["word"]
+                answer = real_word if index < 7 else "miss"
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["summary"]["correct_count"], 7)
+            self.assertIsNotNone(result["summary"]["crate_reward"])
+            self.assertEqual(result["summary"]["crate_reward"]["theme_id"], "mario-course")
+            self.assertEqual(
+                conn.execute(
+                    "SELECT COUNT(*) AS total FROM child_collectibles WHERE child_id = 1 AND theme_id = 'mario-course'"
+                ).fetchone()["total"],
+                1,
+            )
+            self.assertEqual(len(result["summary"]["reward_events"]), 2)
+
+    def test_space_cadets_seven_correct_awards_collectible_crate(self):
+        with server.connect() as conn:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO child_theme_unlocks (child_id, theme_id, unlocked_at)
+                VALUES (1, 'space-cadets', ?)
+                """,
+                (server.now_iso(),),
+            )
+            session = server.create_session(conn, {"child_id": 1, "grade_level": 2, "theme_id": "space-cadets"})
+            result = None
+            for index, session_word in enumerate(session["words"]):
+                real_word = conn.execute(
+                    """
+                    SELECT w.word
+                    FROM session_words sw
+                    JOIN words w ON w.id = sw.word_id
+                    WHERE sw.id = ?
+                    """,
+                    (session_word["session_word_id"],),
+                ).fetchone()["word"]
+                answer = real_word if index < 7 else "miss"
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["summary"]["correct_count"], 7)
+            self.assertIsNotNone(result["summary"]["crate_reward"])
+            self.assertEqual(result["summary"]["crate_reward"]["theme_id"], "space-cadets")
+            self.assertEqual(
+                conn.execute(
+                    "SELECT COUNT(*) AS total FROM child_collectibles WHERE child_id = 1 AND theme_id = 'space-cadets'"
+                ).fetchone()["total"],
+                1,
+            )
+            self.assertEqual(len(result["summary"]["reward_events"]), 2)
+
+    def test_luigi_mansion_seven_correct_awards_collectible_crate(self):
+        with server.connect() as conn:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO child_theme_unlocks (child_id, theme_id, unlocked_at)
+                VALUES (1, 'luigi-mansion', ?)
+                """,
+                (server.now_iso(),),
+            )
+            session = server.create_session(conn, {"child_id": 1, "grade_level": 2, "theme_id": "luigi-mansion"})
+            result = None
+            for index, session_word in enumerate(session["words"]):
+                real_word = conn.execute(
+                    """
+                    SELECT w.word
+                    FROM session_words sw
+                    JOIN words w ON w.id = sw.word_id
+                    WHERE sw.id = ?
+                    """,
+                    (session_word["session_word_id"],),
+                ).fetchone()["word"]
+                answer = real_word if index < 7 else "miss"
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["summary"]["correct_count"], 7)
+            self.assertIsNotNone(result["summary"]["crate_reward"])
+            self.assertEqual(result["summary"]["crate_reward"]["theme_id"], "luigi-mansion")
+            self.assertEqual(
+                conn.execute(
+                    "SELECT COUNT(*) AS total FROM child_collectibles WHERE child_id = 1 AND theme_id = 'luigi-mansion'"
+                ).fetchone()["total"],
+                1,
+            )
+            self.assertEqual(len(result["summary"]["reward_events"]), 2)
+
+    def test_wizard_school_seven_correct_awards_collectible_crate(self):
+        with server.connect() as conn:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO child_theme_unlocks (child_id, theme_id, unlocked_at)
+                VALUES (1, 'wizard-school', ?)
+                """,
+                (server.now_iso(),),
+            )
+            session = server.create_session(conn, {"child_id": 1, "grade_level": 2, "theme_id": "wizard-school"})
+            result = None
+            for index, session_word in enumerate(session["words"]):
+                real_word = conn.execute(
+                    """
+                    SELECT w.word
+                    FROM session_words sw
+                    JOIN words w ON w.id = sw.word_id
+                    WHERE sw.id = ?
+                    """,
+                    (session_word["session_word_id"],),
+                ).fetchone()["word"]
+                answer = real_word if index < 7 else "miss"
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["summary"]["correct_count"], 7)
+            self.assertIsNotNone(result["summary"]["crate_reward"])
+            self.assertEqual(result["summary"]["crate_reward"]["theme_id"], "wizard-school")
+            self.assertEqual(
+                conn.execute(
+                    "SELECT COUNT(*) AS total FROM child_collectibles WHERE child_id = 1 AND theme_id = 'wizard-school'"
+                ).fetchone()["total"],
+                1,
+            )
+            self.assertEqual(len(result["summary"]["reward_events"]), 2)
+
+    def test_toybox_seven_correct_awards_collectible_crate(self):
+        with server.connect() as conn:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO child_theme_unlocks (child_id, theme_id, unlocked_at)
+                VALUES (1, 'toybox', ?)
+                """,
+                (server.now_iso(),),
+            )
+            session = server.create_session(conn, {"child_id": 1, "grade_level": 2, "theme_id": "toybox"})
+            result = None
+            for index, session_word in enumerate(session["words"]):
+                real_word = conn.execute(
+                    """
+                    SELECT w.word
+                    FROM session_words sw
+                    JOIN words w ON w.id = sw.word_id
+                    WHERE sw.id = ?
+                    """,
+                    (session_word["session_word_id"],),
+                ).fetchone()["word"]
+                answer = real_word if index < 7 else "miss"
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["summary"]["correct_count"], 7)
+            self.assertIsNotNone(result["summary"]["crate_reward"])
+            self.assertEqual(result["summary"]["crate_reward"]["theme_id"], "toybox")
+            self.assertEqual(
+                conn.execute(
+                    "SELECT COUNT(*) AS total FROM child_collectibles WHERE child_id = 1 AND theme_id = 'toybox'"
+                ).fetchone()["total"],
+                1,
+            )
+            self.assertEqual(len(result["summary"]["reward_events"]), 2)
+
+    def test_demigod_camp_seven_correct_awards_collectible_crate(self):
+        with server.connect() as conn:
+            conn.execute(
+                """
+                INSERT OR IGNORE INTO child_theme_unlocks (child_id, theme_id, unlocked_at)
+                VALUES (1, 'demigod-camp', ?)
+                """,
+                (server.now_iso(),),
+            )
+            session = server.create_session(conn, {"child_id": 1, "grade_level": 2, "theme_id": "demigod-camp"})
+            result = None
+            for index, session_word in enumerate(session["words"]):
+                real_word = conn.execute(
+                    """
+                    SELECT w.word
+                    FROM session_words sw
+                    JOIN words w ON w.id = sw.word_id
+                    WHERE sw.id = ?
+                    """,
+                    (session_word["session_word_id"],),
+                ).fetchone()["word"]
+                answer = real_word if index < 7 else "miss"
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["summary"]["correct_count"], 7)
+            self.assertIsNotNone(result["summary"]["crate_reward"])
+            self.assertEqual(result["summary"]["crate_reward"]["theme_id"], "demigod-camp")
+            self.assertEqual(
+                conn.execute(
+                    "SELECT COUNT(*) AS total FROM child_collectibles WHERE child_id = 1 AND theme_id = 'demigod-camp'"
+                ).fetchone()["total"],
+                1,
+            )
+            self.assertEqual(len(result["summary"]["reward_events"]), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

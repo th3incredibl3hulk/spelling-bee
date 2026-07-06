@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Poseidon emblem</title>
+  <desc id="desc">A sea-blue trident emblem for Demigod Camp rewards.</desc>
+  <circle cx="120" cy="120" r="108" fill="#0891b2" stroke="#164e63" stroke-width="8"/>
+  <circle cx="120" cy="120" r="84" fill="#ecfeff" stroke="#164e63" stroke-width="4"/>
+  <g transform="translate(120 120)" stroke="#164e63" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M0 58 V-48"/>
+    <path d="M-34 -48 L0 -78 L34 -48"/>
+    <path d="M-58 58 A58 58 0 0 1 58 58"/>
+  </g>
+</svg>

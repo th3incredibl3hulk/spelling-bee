@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Five correct extraction selfie</title>
+  <desc id="desc">A helldiver squad celebration for five correct answers.</desc>
+  <rect width="720" height="520" fill="#0f172a"/>
+  <path d="M0 360 L180 300 L320 340 L520 260 L720 320 V520 H0 Z" fill="#1e3a8a"/>
+  <g transform="translate(90 96)">
+    <rect x="112" y="94" width="148" height="168" rx="8" fill="#334155" stroke="#f8fafc" stroke-width="6"/>
+    <rect x="84" y="80" width="88" height="126" rx="8" fill="#475569"/>
+    <rect x="200" y="80" width="88" height="126" rx="8" fill="#475569"/>
+    <rect x="130" y="0" width="116" height="116" rx="8" fill="#64748b" stroke="#f97316" stroke-width="6"/>
+    <rect x="122" y="120" width="132" height="138" rx="6" fill="#1e3a8a" stroke="#f8fafc" stroke-width="6"/>
+    <rect x="120" y="268" width="54" height="112" rx="6" fill="#111827"/>
+    <rect x="204" y="268" width="54" height="112" rx="6" fill="#111827"/>
+    <circle cx="165" cy="48" r="8" fill="#f8fafc"/>
+    <circle cx="211" cy="48" r="8" fill="#f8fafc"/>
+    <rect x="148" y="18" width="80" height="20" rx="4" fill="#f97316"/>
+  </g>
+  <g transform="translate(346 254) rotate(-4)">
+    <rect x="0" y="0" width="260" height="118" rx="10" fill="#111827" stroke="#f97316" stroke-width="8"/>
+    <text x="130" y="46" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="34" fill="#f8fafc">5 CORRECT</text>
+    <text x="130" y="84" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="26" fill="#f97316">EXTRACTION READY</text>
+  </g>
+</svg>

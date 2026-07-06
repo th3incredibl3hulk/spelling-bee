@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Oracle reset</title>
+  <desc id="desc">A friendly oracle reset card for brave spellers.</desc>
+  <rect width="720" height="520" fill="#ecfeff"/>
+  <rect x="48" y="48" width="624" height="424" rx="20" fill="#0891b2" stroke="#164e63" stroke-width="8"/>
+  <g transform="translate(260 120)">
+    <rect x="0" y="80" width="200" height="180" rx="16" fill="#164e63" stroke="#ecfeff" stroke-width="6"/>
+    <path d="M100 80 L100 20 L120 80" fill="#fed7aa"/>
+    <text x="100" y="170" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="64" fill="#67e8f9">?</text>
+  </g>
+  <g transform="translate(156 360)">
+    <rect x="0" y="0" width="408" height="76" rx="12" fill="#164e63"/>
+    <text x="204" y="32" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="24" fill="#ffffff">ORACLE RESET</text>
+    <text x="204" y="58" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="18" fill="#fed7aa">the quest continues</text>
+  </g>
+</svg>

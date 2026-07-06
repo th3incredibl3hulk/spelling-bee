@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" role="img" aria-labelledby="title desc">
+  <title id="title">Illuminate sector banner</title>
+  <desc id="desc">Original Illuminate-inspired sector banner art for reward moments.</desc>
+  <rect width="768" height="432" fill="#0f172a"/>
+  <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity="0.8"/>
+    <stop offset="1" stop-color="#0f172a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="768" height="432" fill="url(#glow)"/>
+  <g transform="translate(320 100)">
+    <path d="M64 0 L88 88 H176 L104 142 L128 232 L64 178 L0 232 L24 142 L-48 88 H40 Z" fill="#c4b5fd" stroke="#f8fafc" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="64" cy="110" r="24" fill="#7c3aed"/>
+    <path d="M64 40v140M24 110h80" stroke="#ede9fe" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <rect x="36" y="36" width="300" height="54" rx="8" fill="#111827" stroke="#a78bfa" stroke-width="4"/>
+  <text x="186" y="72" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ede9fe">ILLUMINATE SECTOR</text>
+</svg>

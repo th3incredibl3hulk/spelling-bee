@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" role="img" aria-labelledby="title desc">
+  <title id="title">Andy's room banner</title>
+  <desc id="desc">Original cloud-wall room banner art for reward moments.</desc>
+  <rect width="768" height="432" fill="#bfdbfe"/>
+  <rect y="280" width="768" height="152" fill="#fde68a"/>
+  <g fill="#ffffff" opacity="0.95">
+    <ellipse cx="140" cy="100" rx="70" ry="36"/>
+    <ellipse cx="200" cy="92" rx="54" ry="28"/>
+    <ellipse cx="90" cy="92" rx="48" ry="24"/>
+    <ellipse cx="520" cy="80" rx="80" ry="40"/>
+    <ellipse cx="600" cy="72" rx="60" ry="30"/>
+    <ellipse cx="460" cy="76" rx="50" ry="26"/>
+  </g>
+  <rect x="120" y="300" width="180" height="24" fill="#7c2d12"/>
+  <rect x="460" y="300" width="180" height="24" fill="#7c2d12"/>
+  <text x="210" y="260" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="64" fill="#ef4444">ANDY</text>
+  <rect x="36" y="36" width="220" height="54" rx="10" fill="#111827"/>
+  <text x="146" y="72" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ffffff">CLOUD WALL</text>
+</svg>

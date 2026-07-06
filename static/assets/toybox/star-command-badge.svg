@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Star command badge</title>
+  <desc id="desc">Original space-ranger star command badge inspired by Toy Story.</desc>
+  <circle cx="256" cy="256" r="220" fill="#7c2d12" stroke="#fbbf24" stroke-width="16"/>
+  <circle cx="256" cy="256" r="170" fill="#1d4ed8" stroke="#f8fafc" stroke-width="10"/>
+  <path d="M256 96 L288 208 H404 L312 272 L344 384 L256 320 L168 384 L200 272 L108 208 H224 Z" fill="#fbbf24" stroke="#f8fafc" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="256" cy="256" r="36" fill="#7c2d12" stroke="#f8fafc" stroke-width="6"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Demigod legend card</title>
+  <desc id="desc">A rare glowing demigod legend collectible card.</desc>
+  <rect width="720" height="520" fill="#164e63"/>
+  <rect x="52" y="36" width="616" height="448" rx="20" fill="#67e8f9" stroke="#ecfeff" stroke-width="10"/>
+  <rect x="86" y="72" width="548" height="376" rx="16" fill="#0891b2" stroke="#164e63" stroke-width="10"/>
+  <g transform="translate(300 126)">
+    <path d="M60 200 V40 M20 40 H100 M40 80 H80 M40 120 H80" fill="none" stroke="#ecfeff" stroke-width="12" stroke-linecap="round"/>
+    <path d="M0 200 A60 60 0 0 0 120 200" fill="none" stroke="#f97316" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(96 86)">
+    <rect x="0" y="0" width="236" height="64" rx="12" fill="#164e63"/>
+    <text x="118" y="42" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ffffff">LEGEND PULL</text>
+  </g>
+  <text x="360" y="430" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="36" fill="#ffffff">DEMIGOD LEGEND</text>
+</svg>

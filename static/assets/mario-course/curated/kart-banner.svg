@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 432" role="img" aria-labelledby="title desc">
+  <title id="title">Rainbow road kart banner</title>
+  <desc id="desc">Rainbow road inspired kart course banner art for reward moments.</desc>
+  <rect width="768" height="432" fill="#0f172a"/>
+  <path d="M0 220 C120 180 220 260 340 210 C460 160 560 250 768 190 L768 432 L0 432 Z" fill="#312e81"/>
+  <path d="M0 260 C120 220 220 300 340 250 C460 200 560 290 768 230 L768 432 L0 432 Z" fill="#1d4ed8"/>
+  <path d="M40 300 H728" stroke="#ffffff" stroke-width="18" stroke-dasharray="36 24" stroke-linecap="round"/>
+  <path d="M80 320 C180 280 280 360 380 310 S580 340 688 300" fill="none" stroke="#ef4444" stroke-width="16" stroke-linecap="round"/>
+  <path d="M80 340 C180 300 280 380 380 330 S580 360 688 320" fill="none" stroke="#facc15" stroke-width="16" stroke-linecap="round"/>
+  <path d="M80 360 C180 320 280 400 380 350 S580 380 688 340" fill="none" stroke="#22c55e" stroke-width="16" stroke-linecap="round"/>
+  <g transform="translate(520 150) rotate(-8)">
+    <rect x="0" y="40" width="140" height="56" rx="16" fill="#ef4444" stroke="#111827" stroke-width="8"/>
+    <rect x="18" y="0" width="104" height="52" rx="14" fill="#2563eb" stroke="#111827" stroke-width="8"/>
+    <circle cx="34" cy="96" r="22" fill="#111827"/>
+    <circle cx="106" cy="96" r="22" fill="#111827"/>
+    <circle cx="34" cy="96" r="10" fill="#f8fafc"/>
+    <circle cx="106" cy="96" r="10" fill="#f8fafc"/>
+  </g>
+  <rect x="36" y="36" width="260" height="54" rx="12" fill="#111827" opacity="0.82"/>
+  <text x="166" y="72" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="28" fill="#ffffff">RAINBOW RUN</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Star power checkpoint</title>
+  <desc id="desc">A glowing star power checkpoint for a strong spelling streak.</desc>
+  <rect width="720" height="520" fill="#1e3a8a"/>
+  <circle cx="360" cy="260" r="180" fill="#fef08a" opacity="0.25"/>
+  <circle cx="360" cy="260" r="120" fill="#fde047" opacity="0.35"/>
+  <g transform="translate(360 260)">
+    <path d="M0-92 L26-28 L94-28 L38 12 L62 76 L0 36 L-62 76 L-38 12 L-94-28 L-26-28 Z" fill="#facc15" stroke="#78350f" stroke-width="10" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="18" fill="#fff7ed"/>
+  </g>
+  <g transform="translate(124 342)">
+    <rect x="0" y="0" width="472" height="76" rx="13" fill="#ffffff" stroke="#111827" stroke-width="7"/>
+    <text x="236" y="31" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="24" fill="#111827">STAR POWER CHECKPOINT</text>
+    <text x="236" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#ef4444">spelling streak saved</text>
+  </g>
+</svg>
