@@ -1,207 +1,5560 @@
 [
-  {"id":"g2-about","word":"about","grade_level":2,"definition":"on the subject of something","example_sentence":"We read a book about space.","difficulty_tags":["common"]},
-  {"id":"g2-after","word":"after","grade_level":2,"definition":"later than something","example_sentence":"We played outside after lunch.","difficulty_tags":["common"]},
-  {"id":"g2-again","word":"again","grade_level":2,"definition":"one more time","example_sentence":"Please read the word again.","difficulty_tags":["common"]},
-  {"id":"g2-because","word":"because","grade_level":2,"definition":"for the reason that","example_sentence":"I smiled because the joke was funny.","difficulty_tags":["tricky"]},
-  {"id":"g2-before","word":"before","grade_level":2,"definition":"earlier than something","example_sentence":"Brush your teeth before bed.","difficulty_tags":["common"]},
-  {"id":"g2-brother","word":"brother","grade_level":2,"definition":"a boy or man with the same parent","example_sentence":"My brother helped build the tower.","difficulty_tags":["common"]},
-  {"id":"g2-carry","word":"carry","grade_level":2,"definition":"to hold and move something","example_sentence":"Can you carry the box?","difficulty_tags":["common"]},
-  {"id":"g2-clean","word":"clean","grade_level":2,"definition":"not dirty","example_sentence":"The clean plate was on the table.","difficulty_tags":["common"]},
-  {"id":"g2-country","word":"country","grade_level":2,"definition":"a nation or land area","example_sentence":"Canada is a country north of us.","difficulty_tags":["common"]},
-  {"id":"g2-every","word":"every","grade_level":2,"definition":"each one in a group","example_sentence":"Every player had a turn.","difficulty_tags":["common"]},
-  {"id":"g2-family","word":"family","grade_level":2,"definition":"people who are related or care for each other","example_sentence":"Our family ate dinner together.","difficulty_tags":["common"]},
-  {"id":"g2-favorite","word":"favorite","grade_level":2,"definition":"liked best","example_sentence":"Blue is my favorite color.","difficulty_tags":["common"]},
-  {"id":"g2-friend","word":"friend","grade_level":2,"definition":"someone you like and trust","example_sentence":"My friend saved me a seat.","difficulty_tags":["common"]},
-  {"id":"g2-happy","word":"happy","grade_level":2,"definition":"feeling glad","example_sentence":"The puppy looked happy.","difficulty_tags":["common"]},
-  {"id":"g2-laugh","word":"laugh","grade_level":2,"definition":"to make a sound when something is funny","example_sentence":"The silly hat made us laugh.","difficulty_tags":["tricky"]},
-  {"id":"g2-little","word":"little","grade_level":2,"definition":"small in size","example_sentence":"A little bird sat on the fence.","difficulty_tags":["common"]},
-  {"id":"g2-money","word":"money","grade_level":2,"definition":"coins or bills used to buy things","example_sentence":"She saved her money for a book.","difficulty_tags":["common"]},
-  {"id":"g2-mother","word":"mother","grade_level":2,"definition":"a female parent","example_sentence":"His mother packed a snack.","difficulty_tags":["common"]},
-  {"id":"g2-number","word":"number","grade_level":2,"definition":"a word or symbol for counting","example_sentence":"Write the number on the line.","difficulty_tags":["common"]},
-  {"id":"g2-people","word":"people","grade_level":2,"definition":"more than one person","example_sentence":"Many people came to the park.","difficulty_tags":["tricky"]},
-  {"id":"g2-picture","word":"picture","grade_level":2,"definition":"a drawing or photo","example_sentence":"I drew a picture of a rocket.","difficulty_tags":["common"]},
-  {"id":"g2-pretty","word":"pretty","grade_level":2,"definition":"nice to look at","example_sentence":"The pretty flower opened in the sun.","difficulty_tags":["common"]},
-  {"id":"g2-school","word":"school","grade_level":2,"definition":"a place where students learn","example_sentence":"We walk to school each morning.","difficulty_tags":["common"]},
-  {"id":"g2-second","word":"second","grade_level":2,"definition":"number two in order","example_sentence":"He finished in second place.","difficulty_tags":["common"]},
-  {"id":"g2-should","word":"should","grade_level":2,"definition":"used to say what is right or expected","example_sentence":"You should wear a coat outside.","difficulty_tags":["tricky"]},
-  {"id":"g2-small","word":"small","grade_level":2,"definition":"not big","example_sentence":"The small cup fit in my hand.","difficulty_tags":["common"]},
-  {"id":"g2-sound","word":"sound","grade_level":2,"definition":"something you can hear","example_sentence":"The drum made a loud sound.","difficulty_tags":["common"]},
-  {"id":"g2-their","word":"their","grade_level":2,"definition":"belonging to them","example_sentence":"Their bikes were by the garage.","difficulty_tags":["homophone","tricky"]},
-  {"id":"g2-there","word":"there","grade_level":2,"definition":"in or at that place","example_sentence":"Put the shoes over there.","difficulty_tags":["homophone","tricky"]},
-  {"id":"g2-through","word":"through","grade_level":2,"definition":"from one side to the other","example_sentence":"The path went through the trees.","difficulty_tags":["tricky"]},
-  {"id":"g2-together","word":"together","grade_level":2,"definition":"with each other","example_sentence":"We solved the puzzle together.","difficulty_tags":["common"]},
-  {"id":"g2-turtle","word":"turtle","grade_level":2,"definition":"an animal with a hard shell","example_sentence":"The turtle moved slowly.","difficulty_tags":["common"]},
-  {"id":"g2-water","word":"water","grade_level":2,"definition":"a clear liquid people drink","example_sentence":"Drink water after practice.","difficulty_tags":["common"]},
-  {"id":"g2-where","word":"where","grade_level":2,"definition":"in what place","example_sentence":"Where did you put the pencil?","difficulty_tags":["common"]},
-  {"id":"g2-world","word":"world","grade_level":2,"definition":"the earth and all the people on it","example_sentence":"The map showed the whole world.","difficulty_tags":["common"]},
-  {"id":"g2-write","word":"write","grade_level":2,"definition":"to make words with letters","example_sentence":"Please write your name.","difficulty_tags":["homophone","tricky"]},
-  {"id":"g2-young","word":"young","grade_level":2,"definition":"not old","example_sentence":"The young tree needed water.","difficulty_tags":["common"]},
-  {"id":"g2-zipper","word":"zipper","grade_level":2,"definition":"a fastener with teeth","example_sentence":"The zipper on the jacket was stuck.","difficulty_tags":["common"]},
-
-  {"id":"g5-achieve","word":"achieve","grade_level":5,"definition":"to succeed at doing something","example_sentence":"The team worked hard to achieve its goal.","difficulty_tags":["challenge"]},
-  {"id":"g5-ancient","word":"ancient","grade_level":5,"definition":"very old","example_sentence":"The museum displayed an ancient vase.","difficulty_tags":["common"]},
-  {"id":"g5-audience","word":"audience","grade_level":5,"definition":"people watching or listening","example_sentence":"The audience clapped after the play.","difficulty_tags":["common"]},
-  {"id":"g5-bargain","word":"bargain","grade_level":5,"definition":"a good deal or low price","example_sentence":"The used bike was a bargain.","difficulty_tags":["common"]},
-  {"id":"g5-bicycle","word":"bicycle","grade_level":5,"definition":"a two-wheeled vehicle with pedals","example_sentence":"She rode her bicycle to the park.","difficulty_tags":["common"]},
-  {"id":"g5-bravery","word":"bravery","grade_level":5,"definition":"courage when something is hard","example_sentence":"The firefighter showed bravery.","difficulty_tags":["suffix"]},
-  {"id":"g5-calendar","word":"calendar","grade_level":5,"definition":"a chart of days, weeks, and months","example_sentence":"Mark the game on the calendar.","difficulty_tags":["tricky"]},
-  {"id":"g5-captain","word":"captain","grade_level":5,"definition":"a leader of a team, ship, or group","example_sentence":"The captain called the next play.","difficulty_tags":["common"]},
-  {"id":"g5-celebrate","word":"celebrate","grade_level":5,"definition":"to do something special for a happy event","example_sentence":"We celebrate birthdays with cake.","difficulty_tags":["common"]},
-  {"id":"g5-certain","word":"certain","grade_level":5,"definition":"sure or specific","example_sentence":"I am certain the answer is correct.","difficulty_tags":["common"]},
-  {"id":"g5-chocolate","word":"chocolate","grade_level":5,"definition":"a sweet food made from cocoa","example_sentence":"The cookie had chocolate chips.","difficulty_tags":["common"]},
-  {"id":"g5-community","word":"community","grade_level":5,"definition":"people who live or work together","example_sentence":"The community cleaned the playground.","difficulty_tags":["common"]},
-  {"id":"g5-curious","word":"curious","grade_level":5,"definition":"eager to learn or know","example_sentence":"The curious student asked a question.","difficulty_tags":["common"]},
-  {"id":"g5-daughter","word":"daughter","grade_level":5,"definition":"a female child","example_sentence":"Their daughter loves science.","difficulty_tags":["tricky"]},
-  {"id":"g5-decision","word":"decision","grade_level":5,"definition":"a choice you make","example_sentence":"The coach made a quick decision.","difficulty_tags":["suffix"]},
-  {"id":"g5-describe","word":"describe","grade_level":5,"definition":"to tell what something is like","example_sentence":"Can you describe the painting?","difficulty_tags":["common"]},
-  {"id":"g5-different","word":"different","grade_level":5,"definition":"not the same","example_sentence":"The twins wore different shoes.","difficulty_tags":["common"]},
-  {"id":"g5-discovery","word":"discovery","grade_level":5,"definition":"something found or learned for the first time","example_sentence":"The cave was an exciting discovery.","difficulty_tags":["suffix"]},
-  {"id":"g5-distance","word":"distance","grade_level":5,"definition":"the space between two places","example_sentence":"We measured the distance across the room.","difficulty_tags":["common"]},
-  {"id":"g5-enough","word":"enough","grade_level":5,"definition":"as much as needed","example_sentence":"There was enough paint for the whole wall.","difficulty_tags":["tricky"]},
-  {"id":"g5-experiment","word":"experiment","grade_level":5,"definition":"a test used to learn something","example_sentence":"The class started a plant experiment.","difficulty_tags":["common"]},
-  {"id":"g5-famous","word":"famous","grade_level":5,"definition":"known by many people","example_sentence":"The famous singer waved to the crowd.","difficulty_tags":["common"]},
-  {"id":"g5-february","word":"February","grade_level":5,"definition":"the second month of the year","example_sentence":"February is the shortest month.","difficulty_tags":["tricky"]},
-  {"id":"g5-flexible","word":"flexible","grade_level":5,"definition":"able to bend or change","example_sentence":"The flexible ruler bent without breaking.","difficulty_tags":["suffix"]},
-  {"id":"g5-freight","word":"freight","grade_level":5,"definition":"goods carried by train, truck, ship, or plane","example_sentence":"The train carried freight across the state.","difficulty_tags":["tricky"]},
-  {"id":"g5-government","word":"government","grade_level":5,"definition":"the group that makes rules for a place","example_sentence":"The local government repaired the road.","difficulty_tags":["common"]},
-  {"id":"g5-grammar","word":"grammar","grade_level":5,"definition":"the rules for using words and sentences","example_sentence":"Grammar helps writing make sense.","difficulty_tags":["common"]},
-  {"id":"g5-imagine","word":"imagine","grade_level":5,"definition":"to picture something in your mind","example_sentence":"Imagine a city under the sea.","difficulty_tags":["common"]},
-  {"id":"g5-interrupt","word":"interrupt","grade_level":5,"definition":"to stop someone while they are speaking or doing something","example_sentence":"Please do not interrupt the speaker.","difficulty_tags":["prefix"]},
-  {"id":"g5-language","word":"language","grade_level":5,"definition":"words people use to speak or write","example_sentence":"Spanish is a language spoken by many people.","difficulty_tags":["common"]},
-  {"id":"g5-library","word":"library","grade_level":5,"definition":"a place with books and information","example_sentence":"We borrowed a book from the library.","difficulty_tags":["common"]},
-  {"id":"g5-medicine","word":"medicine","grade_level":5,"definition":"something used to help people feel better","example_sentence":"The medicine helped his cough.","difficulty_tags":["common"]},
-  {"id":"g5-minute","word":"minute","grade_level":5,"definition":"sixty seconds","example_sentence":"Wait one minute before opening the door.","difficulty_tags":["common"]},
-  {"id":"g5-necessary","word":"necessary","grade_level":5,"definition":"needed or required","example_sentence":"A helmet is necessary for biking safely.","difficulty_tags":["tricky"]},
-  {"id":"g5-opposite","word":"opposite","grade_level":5,"definition":"completely different or across from","example_sentence":"The library is on the opposite side of town.","difficulty_tags":["common"]},
-  {"id":"g5-original","word":"original","grade_level":5,"definition":"first or new, not copied","example_sentence":"Her original story made everyone laugh.","difficulty_tags":["common"]},
-  {"id":"g5-particular","word":"particular","grade_level":5,"definition":"specific or special","example_sentence":"He wanted one particular kind of apple.","difficulty_tags":["challenge"]},
-  {"id":"g5-patience","word":"patience","grade_level":5,"definition":"the ability to wait calmly","example_sentence":"Training a puppy takes patience.","difficulty_tags":["suffix"]},
-  {"id":"g5-persuade","word":"persuade","grade_level":5,"definition":"to convince someone","example_sentence":"She tried to persuade her friend to join the club.","difficulty_tags":["challenge"]},
-  {"id":"g5-possible","word":"possible","grade_level":5,"definition":"able to happen or be done","example_sentence":"It is possible to finish before dinner.","difficulty_tags":["suffix"]},
-  {"id":"g5-probably","word":"probably","grade_level":5,"definition":"very likely","example_sentence":"It will probably rain this afternoon.","difficulty_tags":["tricky"]},
-  {"id":"g5-question","word":"question","grade_level":5,"definition":"something asked","example_sentence":"The student raised a hand to ask a question.","difficulty_tags":["common"]},
-  {"id":"g5-receive","word":"receive","grade_level":5,"definition":"to get something","example_sentence":"You will receive a letter tomorrow.","difficulty_tags":["tricky"]},
-  {"id":"g5-restaurant","word":"restaurant","grade_level":5,"definition":"a place where people buy and eat meals","example_sentence":"The restaurant served soup and bread.","difficulty_tags":["tricky"]},
-  {"id":"g5-shoulder","word":"shoulder","grade_level":5,"definition":"the part of the body where the arm joins","example_sentence":"He carried the bag on his shoulder.","difficulty_tags":["common"]},
-  {"id":"g5-sincerely","word":"sincerely","grade_level":5,"definition":"honestly or truly","example_sentence":"She sincerely thanked her teacher.","difficulty_tags":["suffix"]},
-  {"id":"g5-vegetable","word":"vegetable","grade_level":5,"definition":"a plant or part of a plant used as food","example_sentence":"A carrot is a crunchy vegetable.","difficulty_tags":["tricky"]},
-
-  {"id":"g7-accommodation","word":"accommodation","grade_level":7,"definition":"a place to stay or an adjustment that helps someone","example_sentence":"The hotel provided accommodation for the team.","difficulty_tags":["challenge"]},
-  {"id":"g7-analysis","word":"analysis","grade_level":7,"definition":"a careful study of parts or details","example_sentence":"The lab report included an analysis of the results.","difficulty_tags":["challenge"]},
-  {"id":"g7-appreciate","word":"appreciate","grade_level":7,"definition":"to understand the value of something","example_sentence":"I appreciate your help with the project.","difficulty_tags":["common"]},
-  {"id":"g7-architecture","word":"architecture","grade_level":7,"definition":"the art or style of designing buildings","example_sentence":"The city is known for modern architecture.","difficulty_tags":["challenge"]},
-  {"id":"g7-camouflage","word":"camouflage","grade_level":7,"definition":"a way to hide by blending in","example_sentence":"The jacket used camouflage colors.","difficulty_tags":["challenge"]},
-  {"id":"g7-category","word":"category","grade_level":7,"definition":"a group of similar things","example_sentence":"Place each book in the correct category.","difficulty_tags":["common"]},
-  {"id":"g7-cemetery","word":"cemetery","grade_level":7,"definition":"a place where people are buried","example_sentence":"The old cemetery was near the church.","difficulty_tags":["tricky"]},
-  {"id":"g7-conscience","word":"conscience","grade_level":7,"definition":"the feeling that helps you know right from wrong","example_sentence":"His conscience told him to admit the mistake.","difficulty_tags":["tricky"]},
-  {"id":"g7-conscious","word":"conscious","grade_level":7,"definition":"awake or aware","example_sentence":"She was conscious of the time during the test.","difficulty_tags":["tricky"]},
-  {"id":"g7-controversy","word":"controversy","grade_level":7,"definition":"strong public disagreement","example_sentence":"The decision caused a controversy in town.","difficulty_tags":["challenge"]},
-  {"id":"g7-courageous","word":"courageous","grade_level":7,"definition":"brave","example_sentence":"The courageous rescue worker entered the storm.","difficulty_tags":["suffix"]},
-  {"id":"g7-desperate","word":"desperate","grade_level":7,"definition":"feeling a strong need or worry","example_sentence":"The hikers were desperate for water.","difficulty_tags":["common"]},
-  {"id":"g7-dilemma","word":"dilemma","grade_level":7,"definition":"a hard choice between options","example_sentence":"Choosing between two teams was a dilemma.","difficulty_tags":["challenge"]},
-  {"id":"g7-environment","word":"environment","grade_level":7,"definition":"the natural world or surroundings","example_sentence":"The club planted trees to help the environment.","difficulty_tags":["common"]},
-  {"id":"g7-exaggerate","word":"exaggerate","grade_level":7,"definition":"to make something seem larger or more extreme","example_sentence":"Do not exaggerate the size of the fish.","difficulty_tags":["challenge"]},
-  {"id":"g7-extraordinary","word":"extraordinary","grade_level":7,"definition":"very unusual or amazing","example_sentence":"The athlete made an extraordinary catch.","difficulty_tags":["prefix","challenge"]},
-  {"id":"g7-fluorescent","word":"fluorescent","grade_level":7,"definition":"glowing brightly under certain light","example_sentence":"The fluorescent marker stood out on the poster.","difficulty_tags":["challenge"]},
-  {"id":"g7-guarantee","word":"guarantee","grade_level":7,"definition":"a promise that something will happen or work","example_sentence":"The store offered a guarantee on the bike.","difficulty_tags":["tricky"]},
-  {"id":"g7-hierarchy","word":"hierarchy","grade_level":7,"definition":"a system with levels of rank","example_sentence":"The chart showed the company's hierarchy.","difficulty_tags":["challenge"]},
-  {"id":"g7-hypothesis","word":"hypothesis","grade_level":7,"definition":"an idea that can be tested","example_sentence":"The scientist wrote a hypothesis before the experiment.","difficulty_tags":["science"]},
-  {"id":"g7-immediate","word":"immediate","grade_level":7,"definition":"happening right away","example_sentence":"The alarm needed immediate attention.","difficulty_tags":["common"]},
-  {"id":"g7-independent","word":"independent","grade_level":7,"definition":"able to do things without help","example_sentence":"The independent learner finished the assignment.","difficulty_tags":["prefix"]},
-  {"id":"g7-maintenance","word":"maintenance","grade_level":7,"definition":"work that keeps something in good condition","example_sentence":"The playground needed regular maintenance.","difficulty_tags":["challenge"]},
-  {"id":"g7-maneuver","word":"maneuver","grade_level":7,"definition":"a careful movement or plan","example_sentence":"The driver made a careful maneuver into the space.","difficulty_tags":["challenge"]},
-  {"id":"g7-miscellaneous","word":"miscellaneous","grade_level":7,"definition":"made of many different kinds","example_sentence":"The drawer held miscellaneous supplies.","difficulty_tags":["challenge"]},
-  {"id":"g7-negotiate","word":"negotiate","grade_level":7,"definition":"to discuss in order to reach an agreement","example_sentence":"The students tried to negotiate fair teams.","difficulty_tags":["common"]},
-  {"id":"g7-perseverance","word":"perseverance","grade_level":7,"definition":"continuing even when something is hard","example_sentence":"Finishing the puzzle took perseverance.","difficulty_tags":["challenge"]},
-  {"id":"g7-phenomenon","word":"phenomenon","grade_level":7,"definition":"an event or fact that can be observed","example_sentence":"A rainbow is a weather phenomenon.","difficulty_tags":["science"]},
-  {"id":"g7-privilege","word":"privilege","grade_level":7,"definition":"a special right or advantage","example_sentence":"Using the lab was a privilege.","difficulty_tags":["tricky"]},
-  {"id":"g7-pronunciation","word":"pronunciation","grade_level":7,"definition":"the way a word is spoken","example_sentence":"The dictionary showed the pronunciation.","difficulty_tags":["challenge"]},
-  {"id":"g7-questionnaire","word":"questionnaire","grade_level":7,"definition":"a list of questions used to collect information","example_sentence":"The survey used a short questionnaire.","difficulty_tags":["challenge"]},
-  {"id":"g7-recommendation","word":"recommendation","grade_level":7,"definition":"advice or a suggestion","example_sentence":"The coach gave a recommendation for new shoes.","difficulty_tags":["suffix"]},
-  {"id":"g7-resistance","word":"resistance","grade_level":7,"definition":"a force or effort against something","example_sentence":"The wind created resistance as we biked.","difficulty_tags":["science"]},
-  {"id":"g7-rhythm","word":"rhythm","grade_level":7,"definition":"a repeated beat or pattern","example_sentence":"The drummer kept a steady rhythm.","difficulty_tags":["tricky"]},
-  {"id":"g7-schedule","word":"schedule","grade_level":7,"definition":"a plan for when things happen","example_sentence":"The schedule listed each game time.","difficulty_tags":["common"]},
-  {"id":"g7-silhouette","word":"silhouette","grade_level":7,"definition":"a dark outline of a shape","example_sentence":"The sunset made a silhouette of the tree.","difficulty_tags":["challenge"]},
-  {"id":"g7-sophomore","word":"sophomore","grade_level":7,"definition":"a student in the second year of high school or college","example_sentence":"The sophomore joined the debate team.","difficulty_tags":["challenge"]},
-  {"id":"g7-sufficient","word":"sufficient","grade_level":7,"definition":"enough for what is needed","example_sentence":"The report had sufficient evidence.","difficulty_tags":["common"]},
-  {"id":"g7-temperature","word":"temperature","grade_level":7,"definition":"how hot or cold something is","example_sentence":"The temperature dropped after sunset.","difficulty_tags":["science"]},
-  {"id":"g7-unnecessary","word":"unnecessary","grade_level":7,"definition":"not needed","example_sentence":"The extra box was unnecessary.","difficulty_tags":["prefix"]},
-
-  {"id":"bonus-chapter","word":"chapter","grade_level":0,"definition":"a section of a book","example_sentence":"The hero opened the next chapter.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
-  {"id":"bonus-bookmark","word":"bookmark","grade_level":0,"definition":"a marker that saves your place in a book","example_sentence":"She tucked a bookmark between the pages.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
-  {"id":"bonus-fairy","word":"fairy","grade_level":0,"definition":"a small magical story character","example_sentence":"The fairy left a trail of sparkles.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
-  {"id":"bonus-dragon","word":"dragon","grade_level":0,"definition":"a large magical creature in many tales","example_sentence":"The dragon guarded the mountain pass.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
-  {"id":"bonus-castle","word":"castle","grade_level":0,"definition":"a large stone building from old stories","example_sentence":"The castle rose above the forest.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
-  {"id":"bonus-hero","word":"hero","grade_level":0,"definition":"the main brave character in a story","example_sentence":"The hero followed the map at dawn.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
-  {"id":"bonus-tale","word":"tale","grade_level":0,"definition":"a story, often with adventure or magic","example_sentence":"The tale began beside a quiet pond.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
-  {"id":"bonus-parchment","word":"parchment","grade_level":0,"definition":"an old type of paper used for writing","example_sentence":"The map was drawn on yellow parchment.","difficulty_tags":["bonus","challenge"],"theme_tags":["storybook"]},
-
-  {"id":"bonus-avatar","word":"avatar","grade_level":0,"definition":"a character or picture that represents a player","example_sentence":"Her avatar wore a red hat.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-  {"id":"bonus-obby","word":"obby","grade_level":0,"definition":"an obstacle course game","example_sentence":"The obby had moving platforms.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-  {"id":"bonus-builder","word":"builder","grade_level":0,"definition":"someone who makes or creates things","example_sentence":"The builder stacked the blocks neatly.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-  {"id":"bonus-tycoon","word":"tycoon","grade_level":0,"definition":"a powerful business leader or game style","example_sentence":"The tycoon game rewarded smart upgrades.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-  {"id":"bonus-respawn","word":"respawn","grade_level":0,"definition":"to return to play after being out","example_sentence":"The player waited to respawn.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-  {"id":"bonus-inventory","word":"inventory","grade_level":0,"definition":"a list or supply of items","example_sentence":"The inventory held tools and coins.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-  {"id":"bonus-crafting","word":"crafting","grade_level":0,"definition":"making something from parts","example_sentence":"Crafting a bridge used wood and stone.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-  {"id":"bonus-pixel","word":"pixel","grade_level":0,"definition":"a tiny square of color on a screen","example_sentence":"The pixel art showed a castle.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
-
-  {"id":"bonus-liberty","word":"liberty","grade_level":0,"definition":"freedom","example_sentence":"The squad defended liberty on the mission.","difficulty_tags":["bonus"],"theme_tags":["space-cadets"]},
-  {"id":"bonus-mission","word":"mission","grade_level":0,"definition":"an important job or task","example_sentence":"The mission started at dawn.","difficulty_tags":["bonus"],"theme_tags":["space-cadets"]},
-  {"id":"bonus-orbit","word":"orbit","grade_level":0,"definition":"the path around a planet or star","example_sentence":"The ship entered orbit above the moon.","difficulty_tags":["bonus"],"theme_tags":["space-cadets"]},
-  {"id":"bonus-squad","word":"squad","grade_level":0,"definition":"a small team working together","example_sentence":"The squad moved across the field.","difficulty_tags":["bonus"],"theme_tags":["space-cadets"]},
-  {"id":"bonus-stratagem","word":"stratagem","grade_level":0,"definition":"a clever plan","example_sentence":"The captain chose a careful stratagem.","difficulty_tags":["bonus","challenge"],"theme_tags":["space-cadets"]},
-  {"id":"bonus-galaxy","word":"galaxy","grade_level":0,"definition":"a huge group of stars","example_sentence":"The telescope showed a distant galaxy.","difficulty_tags":["bonus"],"theme_tags":["space-cadets"]},
-  {"id":"bonus-recruit","word":"recruit","grade_level":0,"definition":"a new member of a team","example_sentence":"The recruit learned the safety rules.","difficulty_tags":["bonus"],"theme_tags":["space-cadets"]},
-  {"id":"bonus-democracy","word":"democracy","grade_level":0,"definition":"government where people have a voice","example_sentence":"The class voted to practice democracy.","difficulty_tags":["bonus"],"theme_tags":["space-cadets"]},
-
-  {"id":"bonus-wizard","word":"wizard","grade_level":0,"definition":"a person in stories who can use magic","example_sentence":"The wizard studied an old spell book.","difficulty_tags":["bonus"],"theme_tags":["wizard-school"]},
-  {"id":"bonus-potion","word":"potion","grade_level":0,"definition":"a magical drink in stories","example_sentence":"The potion bubbled in the glass jar.","difficulty_tags":["bonus"],"theme_tags":["wizard-school"]},
-  {"id":"bonus-wand","word":"wand","grade_level":0,"definition":"a thin stick used for magic in stories","example_sentence":"The wand gave off a tiny spark.","difficulty_tags":["bonus"],"theme_tags":["wizard-school"]},
-  {"id":"bonus-phoenix","word":"phoenix","grade_level":0,"definition":"a mythical bird that rises again","example_sentence":"The phoenix spread its fiery wings.","difficulty_tags":["bonus","challenge"],"theme_tags":["wizard-school"]},
-  {"id":"bonus-hogwarts","word":"Hogwarts","grade_level":0,"definition":"a famous wizard school from the Harry Potter stories","example_sentence":"Hogwarts is hidden from ordinary streets.","difficulty_tags":["bonus","proper"],"theme_tags":["wizard-school"]},
-  {"id":"bonus-quidditch","word":"Quidditch","grade_level":0,"definition":"a flying broom sport from the Harry Potter stories","example_sentence":"Quidditch players chase enchanted balls.","difficulty_tags":["bonus","proper"],"theme_tags":["wizard-school"]},
-  {"id":"bonus-charm","word":"charm","grade_level":0,"definition":"a small spell or lucky object","example_sentence":"The charm made the feather float.","difficulty_tags":["bonus"],"theme_tags":["wizard-school"]},
-  {"id":"bonus-cauldron","word":"cauldron","grade_level":0,"definition":"a large pot used in stories for potions","example_sentence":"The cauldron steamed over the fire.","difficulty_tags":["bonus"],"theme_tags":["wizard-school"]},
-
-  {"id":"bonus-cowboy","word":"cowboy","grade_level":0,"definition":"a person who rides horses and works with cattle","example_sentence":"The cowboy tipped his hat.","difficulty_tags":["bonus"],"theme_tags":["toybox"]},
-  {"id":"bonus-astronaut","word":"astronaut","grade_level":0,"definition":"a person trained to travel in space","example_sentence":"The astronaut floated near the window.","difficulty_tags":["bonus"],"theme_tags":["toybox"]},
-  {"id":"bonus-dinosaur","word":"dinosaur","grade_level":0,"definition":"a reptile from long ago","example_sentence":"The toy dinosaur guarded the shelf.","difficulty_tags":["bonus"],"theme_tags":["toybox"]},
-  {"id":"bonus-slinky","word":"slinky","grade_level":0,"definition":"a spring toy that can walk down steps","example_sentence":"The slinky bounced down the stairs.","difficulty_tags":["bonus"],"theme_tags":["toybox"]},
-  {"id":"bonus-sheriff","word":"sheriff","grade_level":0,"definition":"a law officer in a town or county","example_sentence":"The sheriff badge shined on the vest.","difficulty_tags":["bonus"],"theme_tags":["toybox"]},
-  {"id":"bonus-playroom","word":"playroom","grade_level":0,"definition":"a room where children play","example_sentence":"The playroom floor was covered with blocks.","difficulty_tags":["bonus"],"theme_tags":["toybox"]},
-  {"id":"bonus-infinity","word":"infinity","grade_level":0,"definition":"endless space, time, or number","example_sentence":"The rocket flew toward infinity.","difficulty_tags":["bonus"],"theme_tags":["toybox"]},
-  {"id":"bonus-buzz","word":"Buzz","grade_level":0,"definition":"a short humming sound or a famous space toy name","example_sentence":"Buzz lifted the toy rocket.","difficulty_tags":["bonus","proper"],"theme_tags":["toybox"]},
-
-  {"id":"bonus-olympus","word":"Olympus","grade_level":0,"definition":"the mythic home of Greek gods","example_sentence":"The hero climbed toward Olympus.","difficulty_tags":["bonus","proper"],"theme_tags":["demigod-camp"]},
-  {"id":"bonus-oracle","word":"oracle","grade_level":0,"definition":"a person or message that gives prophecy in myths","example_sentence":"The oracle spoke in a quiet voice.","difficulty_tags":["bonus"],"theme_tags":["demigod-camp"]},
-  {"id":"bonus-trident","word":"trident","grade_level":0,"definition":"a spear with three points","example_sentence":"The trident flashed beside the sea.","difficulty_tags":["bonus"],"theme_tags":["demigod-camp"]},
-  {"id":"bonus-quest","word":"quest","grade_level":0,"definition":"a journey to complete an important task","example_sentence":"The campers began their quest at sunrise.","difficulty_tags":["bonus"],"theme_tags":["demigod-camp"]},
-  {"id":"bonus-labyrinth","word":"labyrinth","grade_level":0,"definition":"a maze with twisting paths","example_sentence":"The labyrinth seemed to change direction.","difficulty_tags":["bonus","challenge"],"theme_tags":["demigod-camp"]},
-  {"id":"bonus-prophecy","word":"prophecy","grade_level":0,"definition":"a prediction about the future","example_sentence":"The prophecy warned of a storm.","difficulty_tags":["bonus","challenge"],"theme_tags":["demigod-camp"]},
-  {"id":"bonus-ambrosia","word":"ambrosia","grade_level":0,"definition":"a magical food of the gods in Greek myths","example_sentence":"The hero packed ambrosia for the journey.","difficulty_tags":["bonus","challenge"],"theme_tags":["demigod-camp"]},
-  {"id":"bonus-demigod","word":"demigod","grade_level":0,"definition":"a mythic hero who is part god and part human","example_sentence":"The demigod trained at camp.","difficulty_tags":["bonus"],"theme_tags":["demigod-camp"]},
-
-  {"id":"bonus-trampoline","word":"trampoline","grade_level":0,"definition":"a springy mat used for jumping","example_sentence":"The trampoline launched the stunt high.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-headbutt","word":"headbutt","grade_level":0,"definition":"to bump with the head","example_sentence":"The stunt move was called a headbutt.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-haystack","word":"haystack","grade_level":0,"definition":"a pile of dried grass","example_sentence":"The haystack sat behind the barn.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-chaos","word":"chaos","grade_level":0,"definition":"a messy and confusing situation","example_sentence":"The yard was filled with harmless chaos.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-hoof","word":"hoof","grade_level":0,"definition":"the hard foot of some animals","example_sentence":"A hoof print marked the mud.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-simulator","word":"simulator","grade_level":0,"definition":"a game or tool that copies a real activity","example_sentence":"The simulator let players try funny stunts.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-barnyard","word":"barnyard","grade_level":0,"definition":"the area around a barn","example_sentence":"The barnyard gate swung open.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-trophy","word":"trophy","grade_level":0,"definition":"a prize for winning or achieving something","example_sentence":"The trophy sat on the top shelf.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-bleat","word":"bleat","grade_level":0,"definition":"the sound a goat or sheep makes","example_sentence":"A bleat echoed across the barnyard.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-ragdoll","word":"ragdoll","grade_level":0,"definition":"a floppy physics body that tumbles around","example_sentence":"The ragdoll goat bounced off the ramp.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-  {"id":"bonus-jetpack","word":"jetpack","grade_level":0,"definition":"a pack that pushes someone through the air","example_sentence":"The jetpack goat flew over the fence.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
-
-  {"id":"bonus-honk","word":"honk","grade_level":0,"definition":"a loud sound made by a horn or bird","example_sentence":"A honk echoed across the garden.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-waddle","word":"waddle","grade_level":0,"definition":"to walk with short side-to-side steps","example_sentence":"The character began to waddle down the path.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-picnic","word":"picnic","grade_level":0,"definition":"a meal eaten outdoors","example_sentence":"The picnic basket held sandwiches.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-gardener","word":"gardener","grade_level":0,"definition":"someone who grows and cares for plants","example_sentence":"The gardener watered the flowers.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-rake","word":"rake","grade_level":0,"definition":"a tool used to gather leaves or smooth soil","example_sentence":"The rake leaned against the fence.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-mischief","word":"mischief","grade_level":0,"definition":"playful trouble","example_sentence":"The quiet garden was ready for mischief.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-pond","word":"pond","grade_level":0,"definition":"a small body of water","example_sentence":"The pond reflected the clouds.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-bell","word":"bell","grade_level":0,"definition":"a hollow object that rings when struck","example_sentence":"The bell rang near the gate.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-ribbon","word":"ribbon","grade_level":0,"definition":"a strip of fabric tied in a bow","example_sentence":"The goose wore a red ribbon.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-shoelace","word":"shoelace","grade_level":0,"definition":"a string used to tie a shoe","example_sentence":"The shoelace was quietly untied.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-steal","word":"steal","grade_level":0,"definition":"to take something without permission","example_sentence":"The goose tried to steal the bell.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]}
+  {
+    "id": "g1-all",
+    "word": "all",
+    "grade_level": 1,
+    "definition": "The whole amount or every one",
+    "example_sentence": "We practiced all today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-an",
+    "word": "an",
+    "grade_level": 1,
+    "definition": "Used before a word that starts with a vowel sound",
+    "example_sentence": "I ate an apple.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-and",
+    "word": "and",
+    "grade_level": 1,
+    "definition": "Used to join words or ideas together",
+    "example_sentence": "Tom and Sue played.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-as",
+    "word": "as",
+    "grade_level": 1,
+    "definition": "In the same way, or while",
+    "example_sentence": "She ran as fast as me.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-bat",
+    "word": "bat",
+    "grade_level": 1,
+    "definition": "A flying animal, or a stick used in baseball",
+    "example_sentence": "I can spell bat.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-be",
+    "word": "be",
+    "grade_level": 1,
+    "definition": "To exist or to happen",
+    "example_sentence": "I want to be kind.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-been",
+    "word": "been",
+    "grade_level": 1,
+    "definition": "Past form of be",
+    "example_sentence": "Been is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-bell",
+    "word": "bell",
+    "grade_level": 1,
+    "definition": "Something that rings",
+    "example_sentence": "Bell is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-big",
+    "word": "big",
+    "grade_level": 1,
+    "definition": "Large in size",
+    "example_sentence": "We practiced big today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-block",
+    "word": "block",
+    "grade_level": 1,
+    "definition": "A substantial",
+    "example_sentence": "We practiced block today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-bone",
+    "word": "bone",
+    "grade_level": 1,
+    "definition": "A hard part inside the body",
+    "example_sentence": "Bone is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-brick",
+    "word": "brick",
+    "grade_level": 1,
+    "definition": "A hardened rectangular block of mud",
+    "example_sentence": "We practiced brick today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-bug",
+    "word": "bug",
+    "grade_level": 1,
+    "definition": "A small insect",
+    "example_sentence": "I can spell bug.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-bun",
+    "word": "bun",
+    "grade_level": 1,
+    "definition": "A senses referring to baked goods",
+    "example_sentence": "Can you write bun?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-by",
+    "word": "by",
+    "grade_level": 1,
+    "definition": "Near or through the work of",
+    "example_sentence": "We walked by the lake.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-cap",
+    "word": "cap",
+    "grade_level": 1,
+    "definition": "A kind of hat",
+    "example_sentence": "I can spell cap.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-chop",
+    "word": "chop",
+    "grade_level": 1,
+    "definition": "A cut of meat",
+    "example_sentence": "I can spell chop.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-cob",
+    "word": "cob",
+    "grade_level": 1,
+    "definition": "A corncob",
+    "example_sentence": "We practiced cob today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-come",
+    "word": "come",
+    "grade_level": 1,
+    "definition": "To move toward the speaker",
+    "example_sentence": "Come is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-cow",
+    "word": "cow",
+    "grade_level": 1,
+    "definition": "A farm animal that gives milk",
+    "example_sentence": "We practiced cow today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-cut",
+    "word": "cut",
+    "grade_level": 1,
+    "definition": "To incise",
+    "example_sentence": "Cut is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-dig",
+    "word": "dig",
+    "grade_level": 1,
+    "definition": "To move hard-packed earth out of the way",
+    "example_sentence": "I can spell dig.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-dog",
+    "word": "dog",
+    "grade_level": 1,
+    "definition": "A common pet animal",
+    "example_sentence": "I can spell dog.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-down",
+    "word": "down",
+    "grade_level": 1,
+    "definition": "Means from a higher position to a lower one",
+    "example_sentence": "I can spell down.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-drop",
+    "word": "drop",
+    "grade_level": 1,
+    "definition": "A small quantity of liquid",
+    "example_sentence": "Can you write drop?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-dry",
+    "word": "dry",
+    "grade_level": 1,
+    "definition": "Means free from or lacking moisture",
+    "example_sentence": "Can you write dry?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-duck",
+    "word": "duck",
+    "grade_level": 1,
+    "definition": "An aquatic bird of the family Anatidae",
+    "example_sentence": "Can you write duck?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-each",
+    "word": "each",
+    "grade_level": 1,
+    "definition": "Means individually",
+    "example_sentence": "We practiced each today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-fed",
+    "word": "fed",
+    "grade_level": 1,
+    "definition": "The Canadian federal government",
+    "example_sentence": "Fed is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-flow",
+    "word": "flow",
+    "grade_level": 1,
+    "definition": "A movement in people or things characterized with a continuous motion",
+    "example_sentence": "Flow is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-for",
+    "word": "for",
+    "grade_level": 1,
+    "definition": "An initialism of fellowship of reconciliation",
+    "example_sentence": "For is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-fox",
+    "word": "fox",
+    "grade_level": 1,
+    "definition": "A wild animal with a bushy tail",
+    "example_sentence": "We practiced fox today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-from",
+    "word": "from",
+    "grade_level": 1,
+    "definition": "The SQL From clause is the source of a rowset to be operated upon in a Data...",
+    "example_sentence": "From is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-game",
+    "word": "game",
+    "grade_level": 1,
+    "definition": "A playful or competitive activity",
+    "example_sentence": "I can spell game.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-glad",
+    "word": "glad",
+    "grade_level": 1,
+    "definition": "Means pleased",
+    "example_sentence": "Can you write glad?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-go",
+    "word": "go",
+    "grade_level": 1,
+    "definition": "To move from one place to another",
+    "example_sentence": "We practiced go today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-has",
+    "word": "has",
+    "grade_level": 1,
+    "definition": "A region in north eastern Albania and south western Kosovo",
+    "example_sentence": "Has is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-have",
+    "word": "have",
+    "grade_level": 1,
+    "definition": "To possess",
+    "example_sentence": "Can you write have?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-his",
+    "word": "his",
+    "grade_level": 1,
+    "definition": "Belonging to him",
+    "example_sentence": "His is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-hit",
+    "word": "hit",
+    "grade_level": 1,
+    "definition": "To strike",
+    "example_sentence": "I can spell hit.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-hook",
+    "word": "hook",
+    "grade_level": 1,
+    "definition": "A rod bent into a curved shape",
+    "example_sentence": "We practiced hook today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-hop",
+    "word": "hop",
+    "grade_level": 1,
+    "definition": "A short jump",
+    "example_sentence": "Hop is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-hut",
+    "word": "hut",
+    "grade_level": 1,
+    "definition": "A small",
+    "example_sentence": "I can spell hut.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-ink",
+    "word": "ink",
+    "grade_level": 1,
+    "definition": "A pigment -based fluid used for writing",
+    "example_sentence": "Ink is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-is",
+    "word": "is",
+    "grade_level": 1,
+    "definition": "A form of the verb to be",
+    "example_sentence": "We practiced is today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-kick",
+    "word": "kick",
+    "grade_level": 1,
+    "definition": "To strike or hit with the foot or other extremity of the leg",
+    "example_sentence": "We practiced kick today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-let",
+    "word": "let",
+    "grade_level": 1,
+    "definition": "To allow to",
+    "example_sentence": "Let is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-load",
+    "word": "load",
+    "grade_level": 1,
+    "definition": "A burden",
+    "example_sentence": "Load is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-long",
+    "word": "long",
+    "grade_level": 1,
+    "definition": "Means having much distance in space from one end to the other",
+    "example_sentence": "Long is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-lot",
+    "word": "lot",
+    "grade_level": 1,
+    "definition": "A large quantity or number",
+    "example_sentence": "Can you write lot?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-low",
+    "word": "low",
+    "grade_level": 1,
+    "definition": "Means situated close to",
+    "example_sentence": "Can you write low?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-luck",
+    "word": "luck",
+    "grade_level": 1,
+    "definition": "A something that happens to someone by chance",
+    "example_sentence": "Can you write luck?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-man",
+    "word": "man",
+    "grade_level": 1,
+    "definition": "An adult male human",
+    "example_sentence": "Can you write man?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-mat",
+    "word": "mat",
+    "grade_level": 1,
+    "definition": "A flat piece of coarse material used for wiping one\u2019s feet",
+    "example_sentence": "Can you write mat?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-mob",
+    "word": "mob",
+    "grade_level": 1,
+    "definition": "A large or disorderly group of people",
+    "example_sentence": "Mob is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-mop",
+    "word": "mop",
+    "grade_level": 1,
+    "definition": "An implement for washing floors or similar",
+    "example_sentence": "I can spell mop.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-more",
+    "word": "more",
+    "grade_level": 1,
+    "definition": "Means to a greater degree or extent",
+    "example_sentence": "More is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-mug",
+    "word": "mug",
+    "grade_level": 1,
+    "definition": "A large cup for beverages",
+    "example_sentence": "I can spell mug.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-must",
+    "word": "must",
+    "grade_level": 1,
+    "definition": "To do as a requirement",
+    "example_sentence": "I can spell must.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-name",
+    "word": "name",
+    "grade_level": 1,
+    "definition": "An any nounal word or phrase which indicates a particular person",
+    "example_sentence": "Name is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-no",
+    "word": "no",
+    "grade_level": 1,
+    "definition": "Not any, or used to refuse",
+    "example_sentence": "We practiced no today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-not",
+    "word": "not",
+    "grade_level": 1,
+    "definition": "Means negates the meaning of the modified verb",
+    "example_sentence": "I can spell not.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-note",
+    "word": "note",
+    "grade_level": 1,
+    "definition": "A symbol or annotation",
+    "example_sentence": "We practiced note today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-on",
+    "word": "on",
+    "grade_level": 1,
+    "definition": "Touching the top of something",
+    "example_sentence": "Can you write on?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-or",
+    "word": "or",
+    "grade_level": 1,
+    "definition": "Used to show a choice",
+    "example_sentence": "Cake or pie?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-other",
+    "word": "other",
+    "grade_level": 1,
+    "definition": "Means see other below",
+    "example_sentence": "We practiced other today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-part",
+    "word": "part",
+    "grade_level": 1,
+    "definition": "A portion",
+    "example_sentence": "I can spell part.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-pay",
+    "word": "pay",
+    "grade_level": 1,
+    "definition": "To give money or other compensation to in exchange for goods or services",
+    "example_sentence": "We practiced pay today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-people",
+    "word": "people",
+    "grade_level": 1,
+    "definition": "More than one person",
+    "example_sentence": "We practiced people today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-pig",
+    "word": "pig",
+    "grade_level": 1,
+    "definition": "A farm animal that oinks",
+    "example_sentence": "Pig is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-pit",
+    "word": "pit",
+    "grade_level": 1,
+    "definition": "A hole in the ground",
+    "example_sentence": "We practiced pit today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-play",
+    "word": "play",
+    "grade_level": 1,
+    "definition": "To act in a manner such that one has fun",
+    "example_sentence": "Play is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-pool",
+    "word": "pool",
+    "grade_level": 1,
+    "definition": "A small and rather deep area of fresh water",
+    "example_sentence": "Pool is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-ran",
+    "word": "ran",
+    "grade_level": 1,
+    "definition": "A yarns coiled on a spun-yarn winch",
+    "example_sentence": "Can you write ran?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-roof",
+    "word": "roof",
+    "grade_level": 1,
+    "definition": "The external covering at the top of a building",
+    "example_sentence": "I can spell roof.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-rose",
+    "word": "rose",
+    "grade_level": 1,
+    "definition": "A type of flower",
+    "example_sentence": "We practiced rose today.",
+    "difficulty_tags": [
+      "common",
+      "homophone"
+    ]
+  },
+  {
+    "id": "g1-run",
+    "word": "run",
+    "grade_level": 1,
+    "definition": "To move quickly on foot",
+    "example_sentence": "I can spell run.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-rut",
+    "word": "rut",
+    "grade_level": 1,
+    "definition": "A fixed routine",
+    "example_sentence": "Rut is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-sell",
+    "word": "sell",
+    "grade_level": 1,
+    "definition": "To transfer goods or provide services in exchange for money",
+    "example_sentence": "I can spell sell.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-shake",
+    "word": "shake",
+    "grade_level": 1,
+    "definition": "To cause to move rapidly in opposite directions alternatingly",
+    "example_sentence": "Can you write shake?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-she",
+    "word": "she",
+    "grade_level": 1,
+    "definition": "A girl or woman already mentioned",
+    "example_sentence": "She has a hat.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-sick",
+    "word": "sick",
+    "grade_level": 1,
+    "definition": "Means in poor health",
+    "example_sentence": "Can you write sick?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-snack",
+    "word": "snack",
+    "grade_level": 1,
+    "definition": "An item of food eaten between meals",
+    "example_sentence": "We practiced snack today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-sob",
+    "word": "sob",
+    "grade_level": 1,
+    "definition": "To weep with convulsive gasps",
+    "example_sentence": "We practiced sob today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-sock",
+    "word": "sock",
+    "grade_level": 1,
+    "definition": "A knitted or woven covering for the foot",
+    "example_sentence": "I can spell sock.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-spin",
+    "word": "spin",
+    "grade_level": 1,
+    "definition": "To rotate",
+    "example_sentence": "Can you write spin?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-spoon",
+    "word": "spoon",
+    "grade_level": 1,
+    "definition": "An implement for eating or serving",
+    "example_sentence": "Can you write spoon?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-stay",
+    "word": "stay",
+    "grade_level": 1,
+    "definition": "To remain in a particular place",
+    "example_sentence": "I can spell stay.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-sun",
+    "word": "sun",
+    "grade_level": 1,
+    "definition": "The star that gives Earth light",
+    "example_sentence": "I can spell sun.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-tame",
+    "word": "tame",
+    "grade_level": 1,
+    "definition": "Means accustomed to human contact",
+    "example_sentence": "We practiced tame today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-tan",
+    "word": "tan",
+    "grade_level": 1,
+    "definition": "A light",
+    "example_sentence": "Can you write tan?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-tell",
+    "word": "tell",
+    "grade_level": 1,
+    "definition": "To convey by speech",
+    "example_sentence": "I can spell tell.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-their",
+    "word": "their",
+    "grade_level": 1,
+    "definition": "Belonging to them",
+    "example_sentence": "We practiced their today.",
+    "difficulty_tags": [
+      "common",
+      "homophone"
+    ]
+  },
+  {
+    "id": "g1-there",
+    "word": "there",
+    "grade_level": 1,
+    "definition": "In that place",
+    "example_sentence": "I can spell there.",
+    "difficulty_tags": [
+      "common",
+      "homophone"
+    ]
+  },
+  {
+    "id": "g1-time",
+    "word": "time",
+    "grade_level": 1,
+    "definition": "The inevitable progression into the future with the passing of present and past events",
+    "example_sentence": "We practiced time today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-tooth",
+    "word": "tooth",
+    "grade_level": 1,
+    "definition": "A hard",
+    "example_sentence": "Tooth is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-tuck",
+    "word": "tuck",
+    "grade_level": 1,
+    "definition": "To pull or gather up",
+    "example_sentence": "I can spell tuck.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-up",
+    "word": "up",
+    "grade_level": 1,
+    "definition": "Toward a higher place",
+    "example_sentence": "Can you write up?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-use",
+    "word": "use",
+    "grade_level": 1,
+    "definition": "To utilize or employ",
+    "example_sentence": "We practiced use today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-water",
+    "word": "water",
+    "grade_level": 1,
+    "definition": "A barangay of Baco",
+    "example_sentence": "Can you write water?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-way",
+    "word": "way",
+    "grade_level": 1,
+    "definition": "A path or method",
+    "example_sentence": "I can spell way.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-well",
+    "word": "well",
+    "grade_level": 1,
+    "definition": "Means accurately",
+    "example_sentence": "Well is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-when",
+    "word": "when",
+    "grade_level": 1,
+    "definition": "At what time",
+    "example_sentence": "When is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-wig",
+    "word": "wig",
+    "grade_level": 1,
+    "definition": "A head of real or synthetic hair worn on the head to disguise baldness",
+    "example_sentence": "We practiced wig today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-win",
+    "word": "win",
+    "grade_level": 1,
+    "definition": "To reach some destination or object",
+    "example_sentence": "We practiced win today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-wood",
+    "word": "wood",
+    "grade_level": 1,
+    "definition": "The substance making up the central part of the trunk and branches of a tree. Used...",
+    "example_sentence": "I can spell wood.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-words",
+    "word": "words",
+    "grade_level": 1,
+    "definition": "A lyrics",
+    "example_sentence": "Words is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-would",
+    "word": "would",
+    "grade_level": 1,
+    "definition": "To past tense of will",
+    "example_sentence": "We practiced would today.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g1-write",
+    "word": "write",
+    "grade_level": 1,
+    "definition": "To form letters",
+    "example_sentence": "I can spell write.",
+    "difficulty_tags": [
+      "common",
+      "homophone",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g1-your",
+    "word": "your",
+    "grade_level": 1,
+    "definition": "Belonging to you",
+    "example_sentence": "Your is on our list.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-about",
+    "word": "about",
+    "grade_level": 2,
+    "definition": "on the subject of something",
+    "example_sentence": "We read a book about space.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-after",
+    "word": "after",
+    "grade_level": 2,
+    "definition": "later than something",
+    "example_sentence": "We played outside after lunch.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-again",
+    "word": "again",
+    "grade_level": 2,
+    "definition": "one more time",
+    "example_sentence": "Please read the word again.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-because",
+    "word": "because",
+    "grade_level": 2,
+    "definition": "for the reason that",
+    "example_sentence": "I smiled because the joke was funny.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-before",
+    "word": "before",
+    "grade_level": 2,
+    "definition": "earlier than something",
+    "example_sentence": "Brush your teeth before bed.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-brother",
+    "word": "brother",
+    "grade_level": 2,
+    "definition": "a boy or man with the same parent",
+    "example_sentence": "My brother helped build the tower.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-carry",
+    "word": "carry",
+    "grade_level": 2,
+    "definition": "to hold and move something",
+    "example_sentence": "Can you carry the box?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-clean",
+    "word": "clean",
+    "grade_level": 2,
+    "definition": "not dirty",
+    "example_sentence": "The clean plate was on the table.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-country",
+    "word": "country",
+    "grade_level": 2,
+    "definition": "a nation or land area",
+    "example_sentence": "Canada is a country north of us.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-every",
+    "word": "every",
+    "grade_level": 2,
+    "definition": "each one in a group",
+    "example_sentence": "Every player had a turn.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-family",
+    "word": "family",
+    "grade_level": 2,
+    "definition": "people who are related or care for each other",
+    "example_sentence": "Our family ate dinner together.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-favorite",
+    "word": "favorite",
+    "grade_level": 2,
+    "definition": "liked best",
+    "example_sentence": "Blue is my favorite color.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-friend",
+    "word": "friend",
+    "grade_level": 2,
+    "definition": "someone you like and trust",
+    "example_sentence": "My friend saved me a seat.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-happy",
+    "word": "happy",
+    "grade_level": 2,
+    "definition": "feeling glad",
+    "example_sentence": "The puppy looked happy.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-laugh",
+    "word": "laugh",
+    "grade_level": 2,
+    "definition": "to make a sound when something is funny",
+    "example_sentence": "The silly hat made us laugh.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-little",
+    "word": "little",
+    "grade_level": 2,
+    "definition": "small in size",
+    "example_sentence": "A little bird sat on the fence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-money",
+    "word": "money",
+    "grade_level": 2,
+    "definition": "coins or bills used to buy things",
+    "example_sentence": "She saved her money for a book.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-mother",
+    "word": "mother",
+    "grade_level": 2,
+    "definition": "a female parent",
+    "example_sentence": "His mother packed a snack.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-number",
+    "word": "number",
+    "grade_level": 2,
+    "definition": "a word or symbol for counting",
+    "example_sentence": "Write the number on the line.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-people",
+    "word": "people",
+    "grade_level": 2,
+    "definition": "more than one person",
+    "example_sentence": "Many people came to the park.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-picture",
+    "word": "picture",
+    "grade_level": 2,
+    "definition": "a drawing or photo",
+    "example_sentence": "I drew a picture of a rocket.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-pretty",
+    "word": "pretty",
+    "grade_level": 2,
+    "definition": "nice to look at",
+    "example_sentence": "The pretty flower opened in the sun.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-school",
+    "word": "school",
+    "grade_level": 2,
+    "definition": "a place where students learn",
+    "example_sentence": "We walk to school each morning.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-second",
+    "word": "second",
+    "grade_level": 2,
+    "definition": "number two in order",
+    "example_sentence": "He finished in second place.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-should",
+    "word": "should",
+    "grade_level": 2,
+    "definition": "used to say what is right or expected",
+    "example_sentence": "You should wear a coat outside.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-small",
+    "word": "small",
+    "grade_level": 2,
+    "definition": "not big",
+    "example_sentence": "The small cup fit in my hand.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-sound",
+    "word": "sound",
+    "grade_level": 2,
+    "definition": "something you can hear",
+    "example_sentence": "The drum made a loud sound.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-their",
+    "word": "their",
+    "grade_level": 2,
+    "definition": "belonging to them",
+    "example_sentence": "Their bikes were by the garage.",
+    "difficulty_tags": [
+      "homophone",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-there",
+    "word": "there",
+    "grade_level": 2,
+    "definition": "in or at that place",
+    "example_sentence": "Put the shoes over there.",
+    "difficulty_tags": [
+      "homophone",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-through",
+    "word": "through",
+    "grade_level": 2,
+    "definition": "from one side to the other",
+    "example_sentence": "The path went through the trees.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-together",
+    "word": "together",
+    "grade_level": 2,
+    "definition": "with each other",
+    "example_sentence": "We solved the puzzle together.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-turtle",
+    "word": "turtle",
+    "grade_level": 2,
+    "definition": "an animal with a hard shell",
+    "example_sentence": "The turtle moved slowly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-water",
+    "word": "water",
+    "grade_level": 2,
+    "definition": "a clear liquid people drink",
+    "example_sentence": "Drink water after practice.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-where",
+    "word": "where",
+    "grade_level": 2,
+    "definition": "in what place",
+    "example_sentence": "Where did you put the pencil?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-world",
+    "word": "world",
+    "grade_level": 2,
+    "definition": "the earth and all the people on it",
+    "example_sentence": "The map showed the whole world.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-write",
+    "word": "write",
+    "grade_level": 2,
+    "definition": "to make words with letters",
+    "example_sentence": "Please write your name.",
+    "difficulty_tags": [
+      "homophone",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g2-young",
+    "word": "young",
+    "grade_level": 2,
+    "definition": "not old",
+    "example_sentence": "The young tree needed water.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g2-zipper",
+    "word": "zipper",
+    "grade_level": 2,
+    "definition": "a fastener with teeth",
+    "example_sentence": "The zipper on the jacket was stuck.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-abuse",
+    "word": "abuse",
+    "grade_level": 4,
+    "definition": "An improper treatment or usage",
+    "example_sentence": "Our list includes abuse.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-across",
+    "word": "across",
+    "grade_level": 4,
+    "definition": "Means from one side to the other",
+    "example_sentence": "Please use across in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-actor",
+    "word": "actor",
+    "grade_level": 4,
+    "definition": "A person who acts a part in a theatrical play or in film or television",
+    "example_sentence": "I wrote actor three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-against",
+    "word": "against",
+    "grade_level": 4,
+    "definition": "A word students learn in grade 4.",
+    "example_sentence": "Please use against in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-alarm",
+    "word": "alarm",
+    "grade_level": 4,
+    "definition": "An any sound or information intended to give notice of approaching danger",
+    "example_sentence": "I wrote alarm three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-ankle",
+    "word": "ankle",
+    "grade_level": 4,
+    "definition": "The skeletal joint which connects the foot with the leg",
+    "example_sentence": "I wrote ankle three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-axe",
+    "word": "axe",
+    "grade_level": 4,
+    "definition": "A tool for felling trees or chopping wood etc. consisting of a heavy head flattened...",
+    "example_sentence": "She spelled axe correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-bargain",
+    "word": "bargain",
+    "grade_level": 4,
+    "definition": "An item purchased for significantly less than the usual",
+    "example_sentence": "Our list includes bargain.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-basin",
+    "word": "basin",
+    "grade_level": 4,
+    "definition": "A depression",
+    "example_sentence": "Please use basin in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-bay",
+    "word": "bay",
+    "grade_level": 4,
+    "definition": "A body of water contained by a concave shoreline",
+    "example_sentence": "Our list includes bay.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-believe",
+    "word": "believe",
+    "grade_level": 4,
+    "definition": "To accept as true",
+    "example_sentence": "I wrote believe three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-bridge",
+    "word": "bridge",
+    "grade_level": 4,
+    "definition": "A construction or natural feature that spans a divide",
+    "example_sentence": "Our list includes bridge.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-bubble",
+    "word": "bubble",
+    "grade_level": 4,
+    "definition": "A spherically contained volume of air or other gas",
+    "example_sentence": "Our list includes bubble.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-cannon",
+    "word": "cannon",
+    "grade_level": 4,
+    "definition": "A complete assembly",
+    "example_sentence": "I wrote cannon three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-castle",
+    "word": "castle",
+    "grade_level": 4,
+    "definition": "A large residential building or compound that is fortified and contains many defences",
+    "example_sentence": "Our list includes castle.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-catch",
+    "word": "catch",
+    "grade_level": 4,
+    "definition": "The act of seizing or capturing",
+    "example_sentence": "Please use catch in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-center",
+    "word": "center",
+    "grade_level": 4,
+    "definition": "The point in the interior of a circle that is equidistant from all points on the...",
+    "example_sentence": "Our list includes center.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-certain",
+    "word": "certain",
+    "grade_level": 4,
+    "definition": "Means sure in one's mind",
+    "example_sentence": "She spelled certain correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-chain",
+    "word": "chain",
+    "grade_level": 4,
+    "definition": "A series of interconnected rings or links usually made of metal",
+    "example_sentence": "I wrote chain three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-character",
+    "word": "character",
+    "grade_level": 4,
+    "definition": "A being involved in the action of a story",
+    "example_sentence": "She spelled character correctly.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-children",
+    "word": "children",
+    "grade_level": 4,
+    "definition": "A surname",
+    "example_sentence": "Please use children in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-choir",
+    "word": "choir",
+    "grade_level": 4,
+    "definition": "A group of people who sing together",
+    "example_sentence": "Please use choir in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-college",
+    "word": "college",
+    "grade_level": 4,
+    "definition": "An institution of higher education teaching undergraduates",
+    "example_sentence": "She spelled college correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-community",
+    "word": "community",
+    "grade_level": 4,
+    "definition": "A group sharing common characteristics",
+    "example_sentence": "Please use community in a sentence.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-compass",
+    "word": "compass",
+    "grade_level": 4,
+    "definition": "A magnetic or electronic device used to determine the cardinal directions",
+    "example_sentence": "Please use compass in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-compatible",
+    "word": "compatible",
+    "grade_level": 4,
+    "definition": "Means able to get along well",
+    "example_sentence": "I wrote compatible three times.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-compose",
+    "word": "compose",
+    "grade_level": 4,
+    "definition": "To construct by mental labor",
+    "example_sentence": "Our list includes compose.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-congress",
+    "word": "congress",
+    "grade_level": 4,
+    "definition": "A legislative body of a state",
+    "example_sentence": "She spelled congress correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-contest",
+    "word": "contest",
+    "grade_level": 4,
+    "definition": "A competition",
+    "example_sentence": "Please use contest in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-corner",
+    "word": "corner",
+    "grade_level": 4,
+    "definition": "The point where two converging lines meet",
+    "example_sentence": "She spelled corner correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-cotton",
+    "word": "cotton",
+    "grade_level": 4,
+    "definition": "A soft",
+    "example_sentence": "I wrote cotton three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-couldn-t",
+    "word": "couldn't",
+    "grade_level": 4,
+    "definition": "To could not",
+    "example_sentence": "Please use couldn't in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-council",
+    "word": "council",
+    "grade_level": 4,
+    "definition": "A committee that leads or governs",
+    "example_sentence": "She spelled council correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-courage",
+    "word": "courage",
+    "grade_level": 4,
+    "definition": "The ability to overcome one's fear",
+    "example_sentence": "I wrote courage three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-cousin",
+    "word": "cousin",
+    "grade_level": 4,
+    "definition": "A when used without a qualifying word: the child of a person's parent's brother or...",
+    "example_sentence": "Our list includes cousin.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-damage",
+    "word": "damage",
+    "grade_level": 4,
+    "definition": "An injury or harm",
+    "example_sentence": "Please use damage in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-deposit",
+    "word": "deposit",
+    "grade_level": 4,
+    "definition": "A money placed in a bank account",
+    "example_sentence": "Please use deposit in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-destroyed",
+    "word": "destroyed",
+    "grade_level": 4,
+    "definition": "Means damaged beyond repair",
+    "example_sentence": "I wrote destroyed three times.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-difference",
+    "word": "difference",
+    "grade_level": 4,
+    "definition": "The quality of being different",
+    "example_sentence": "Please use difference in a sentence.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-distraction",
+    "word": "distraction",
+    "grade_level": 4,
+    "definition": "A something that distracts",
+    "example_sentence": "I wrote distraction three times.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g4-early",
+    "word": "early",
+    "grade_level": 4,
+    "definition": "Means arriving a time before expected",
+    "example_sentence": "She spelled early correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-except",
+    "word": "except",
+    "grade_level": 4,
+    "definition": "To exclude",
+    "example_sentence": "She spelled except correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-export",
+    "word": "export",
+    "grade_level": 4,
+    "definition": "The act of exporting",
+    "example_sentence": "Our list includes export.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-extend",
+    "word": "extend",
+    "grade_level": 4,
+    "definition": "To cause to increase in extent",
+    "example_sentence": "She spelled extend correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-fatal",
+    "word": "fatal",
+    "grade_level": 4,
+    "definition": "Means causing death or destruction",
+    "example_sentence": "She spelled fatal correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-filled",
+    "word": "filled",
+    "grade_level": 4,
+    "definition": "Means that is now full",
+    "example_sentence": "Please use filled in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-fingers",
+    "word": "fingers",
+    "grade_level": 4,
+    "definition": "A slender jointed extremity of the human hand",
+    "example_sentence": "I wrote fingers three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-fountain",
+    "word": "fountain",
+    "grade_level": 4,
+    "definition": "An artificial",
+    "example_sentence": "She spelled fountain correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-fresh",
+    "word": "fresh",
+    "grade_level": 4,
+    "definition": "Means newly produced or obtained",
+    "example_sentence": "Our list includes fresh.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-friends",
+    "word": "friends",
+    "grade_level": 4,
+    "definition": "The Quakers",
+    "example_sentence": "I wrote friends three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-fugitive",
+    "word": "fugitive",
+    "grade_level": 4,
+    "definition": "A person who flees or escapes and travels secretly from place to place",
+    "example_sentence": "Please use fugitive in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-garbage",
+    "word": "garbage",
+    "grade_level": 4,
+    "definition": "An useless or disposable material",
+    "example_sentence": "Our list includes garbage.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-goose",
+    "word": "goose",
+    "grade_level": 4,
+    "definition": "An any of various grazing waterfowl of the family anatidae",
+    "example_sentence": "Please use goose in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-hammer",
+    "word": "hammer",
+    "grade_level": 4,
+    "definition": "A tool with a heavy head and a handle used for pounding",
+    "example_sentence": "I wrote hammer three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-heaven",
+    "word": "heaven",
+    "grade_level": 4,
+    "definition": "The abode of God or the gods",
+    "example_sentence": "I wrote heaven three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-hollow",
+    "word": "hollow",
+    "grade_level": 4,
+    "definition": "An unfilled space in something solid",
+    "example_sentence": "Please use hollow in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-hostile",
+    "word": "hostile",
+    "grade_level": 4,
+    "definition": "Means not friendly",
+    "example_sentence": "I wrote hostile three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-hotel",
+    "word": "hotel",
+    "grade_level": 4,
+    "definition": "An establishment that provides accommodation and other services for paying guests",
+    "example_sentence": "She spelled hotel correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-husband",
+    "word": "husband",
+    "grade_level": 4,
+    "definition": "A man in a marriage or marital relationship",
+    "example_sentence": "I wrote husband three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-illegal",
+    "word": "illegal",
+    "grade_level": 4,
+    "definition": "Means contrary to",
+    "example_sentence": "She spelled illegal correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-itself",
+    "word": "itself",
+    "grade_level": 4,
+    "definition": "A word students learn in grade 4.",
+    "example_sentence": "I wrote itself three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-jewel",
+    "word": "jewel",
+    "grade_level": 4,
+    "definition": "A valuable object used for personal ornamentation",
+    "example_sentence": "Our list includes jewel.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-keyboard",
+    "word": "keyboard",
+    "grade_level": 4,
+    "definition": "A set of keys laid out in a grid-like pattern",
+    "example_sentence": "She spelled keyboard correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-kingdom",
+    "word": "kingdom",
+    "grade_level": 4,
+    "definition": "A realm having a king or queen as its actual or nominal sovereign",
+    "example_sentence": "I wrote kingdom three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-language",
+    "word": "language",
+    "grade_level": 4,
+    "definition": "A body of words",
+    "example_sentence": "I wrote language three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-lower",
+    "word": "lower",
+    "grade_level": 4,
+    "definition": "Means bottom",
+    "example_sentence": "She spelled lower correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-member",
+    "word": "member",
+    "grade_level": 4,
+    "definition": "An one who belongs to a group",
+    "example_sentence": "I wrote member three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-memory",
+    "word": "memory",
+    "grade_level": 4,
+    "definition": "The ability of the brain to record information or impressions with the facility of...",
+    "example_sentence": "She spelled memory correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-mountain",
+    "word": "mountain",
+    "grade_level": 4,
+    "definition": "An elevation of land of considerable dimensions rising more or less abruptly",
+    "example_sentence": "Please use mountain in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-muffin",
+    "word": "muffin",
+    "grade_level": 4,
+    "definition": "A cupcake-shaped baked good",
+    "example_sentence": "I wrote muffin three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-neutral",
+    "word": "neutral",
+    "grade_level": 4,
+    "definition": "Means not taking sides in a conflict such as war",
+    "example_sentence": "I wrote neutral three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-nutrients",
+    "word": "nutrients",
+    "grade_level": 4,
+    "definition": "An open access peer-reviewed scientific journal publishing reviews",
+    "example_sentence": "I wrote nutrients three times.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-object",
+    "word": "object",
+    "grade_level": 4,
+    "definition": "A thing that has physical existence but is not alive",
+    "example_sentence": "She spelled object correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-perhaps",
+    "word": "perhaps",
+    "grade_level": 4,
+    "definition": "Means possibly",
+    "example_sentence": "Our list includes perhaps.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-pineapple",
+    "word": "pineapple",
+    "grade_level": 4,
+    "definition": "The ovoid fruit of the pineapple plant",
+    "example_sentence": "I wrote pineapple three times.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-poison",
+    "word": "poison",
+    "grade_level": 4,
+    "definition": "A substance that is harmful or lethal to a living organism when ingested",
+    "example_sentence": "Our list includes poison.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-population",
+    "word": "population",
+    "grade_level": 4,
+    "definition": "The people living within a political or geographical boundary",
+    "example_sentence": "Please use population in a sentence.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g4-portal",
+    "word": "portal",
+    "grade_level": 4,
+    "definition": "An entrance",
+    "example_sentence": "She spelled portal correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-potato",
+    "word": "potato",
+    "grade_level": 4,
+    "definition": "A plant of species Solanum tuberosum or its edible starchy tuber",
+    "example_sentence": "She spelled potato correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-prime",
+    "word": "prime",
+    "grade_level": 4,
+    "definition": "Means first in importance",
+    "example_sentence": "Our list includes prime.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-prince",
+    "word": "prince",
+    "grade_level": 4,
+    "definition": "The ruler or head of a principality",
+    "example_sentence": "Please use prince in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-problem",
+    "word": "problem",
+    "grade_level": 4,
+    "definition": "A difficulty that has to be resolved or dealt with",
+    "example_sentence": "I wrote problem three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-products",
+    "word": "products",
+    "grade_level": 4,
+    "definition": "An any tangible or intangible good or service that is a result of a process and that...",
+    "example_sentence": "Our list includes products.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-professional",
+    "word": "professional",
+    "grade_level": 4,
+    "definition": "A person who belongs to a profession",
+    "example_sentence": "Our list includes professional.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g4-public",
+    "word": "public",
+    "grade_level": 4,
+    "definition": "Means able to be known or seen by everyone",
+    "example_sentence": "She spelled public correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-puzzle",
+    "word": "puzzle",
+    "grade_level": 4,
+    "definition": "A thing such as a complicated matter or a problem which is difficult to make sense...",
+    "example_sentence": "She spelled puzzle correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-queen",
+    "word": "queen",
+    "grade_level": 4,
+    "definition": "A female monarch",
+    "example_sentence": "Please use queen in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-rather",
+    "word": "rather",
+    "grade_level": 4,
+    "definition": "Means used to specify a choice or preference",
+    "example_sentence": "Our list includes rather.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-region",
+    "word": "region",
+    "grade_level": 4,
+    "definition": "An any considerable and connected part of a space or surface",
+    "example_sentence": "I wrote region three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-reject",
+    "word": "reject",
+    "grade_level": 4,
+    "definition": "To refuse to accept",
+    "example_sentence": "Please use reject in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-remember",
+    "word": "remember",
+    "grade_level": 4,
+    "definition": "To recall from one's memory",
+    "example_sentence": "She spelled remember correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-reptile",
+    "word": "reptile",
+    "grade_level": 4,
+    "definition": "An any member of the class reptilia that is not a bird\u2014 a cold-blooded vertebrate...",
+    "example_sentence": "Please use reptile in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-resist",
+    "word": "resist",
+    "grade_level": 4,
+    "definition": "To oppose",
+    "example_sentence": "Our list includes resist.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-retain",
+    "word": "retain",
+    "grade_level": 4,
+    "definition": "To often followed by from: to hold back",
+    "example_sentence": "Our list includes retain.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-return",
+    "word": "return",
+    "grade_level": 4,
+    "definition": "To come or go back",
+    "example_sentence": "I wrote return three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-salute",
+    "word": "salute",
+    "grade_level": 4,
+    "definition": "An utterance or gesture expressing greeting or honor towards someone",
+    "example_sentence": "She spelled salute correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-seventy",
+    "word": "seventy",
+    "grade_level": 4,
+    "definition": "The translators of the Septuagint",
+    "example_sentence": "She spelled seventy correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-since",
+    "word": "since",
+    "grade_level": 4,
+    "definition": "Means from a specified time in the past",
+    "example_sentence": "Please use since in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-site",
+    "word": "site",
+    "grade_level": 4,
+    "definition": "A website",
+    "example_sentence": "Please use site in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-slavery",
+    "word": "slavery",
+    "grade_level": 4,
+    "definition": "An institution or social practice of owning human beings as property",
+    "example_sentence": "I wrote slavery three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-speed",
+    "word": "speed",
+    "grade_level": 4,
+    "definition": "The state of moving quickly or the capacity for rapid motion",
+    "example_sentence": "Please use speed in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-subject",
+    "word": "subject",
+    "grade_level": 4,
+    "definition": "The main topic of a paper",
+    "example_sentence": "She spelled subject correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-suddenly",
+    "word": "suddenly",
+    "grade_level": 4,
+    "definition": "Means happening quickly and with little or no warning",
+    "example_sentence": "She spelled suddenly correctly.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-syllables",
+    "word": "syllables",
+    "grade_level": 4,
+    "definition": "A unit of human speech which often forms words corresponding to one opening of the mouth",
+    "example_sentence": "She spelled syllables correctly.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-thirty",
+    "word": "thirty",
+    "grade_level": 4,
+    "definition": "A commercial lasting 30 seconds",
+    "example_sentence": "Please use thirty in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-today",
+    "word": "today",
+    "grade_level": 4,
+    "definition": "Means on the current day or date",
+    "example_sentence": "I wrote today three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-tomatoes",
+    "word": "tomatoes",
+    "grade_level": 4,
+    "definition": "The savory fruit of this plant",
+    "example_sentence": "Please use tomatoes in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-transport",
+    "word": "transport",
+    "grade_level": 4,
+    "definition": "To carry or bear from one place to another",
+    "example_sentence": "I wrote transport three times.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-tutor",
+    "word": "tutor",
+    "grade_level": 4,
+    "definition": "An one who teaches another in a one-on-one or small-group interaction",
+    "example_sentence": "Please use tutor in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-usefulness",
+    "word": "usefulness",
+    "grade_level": 4,
+    "definition": "The quality or degree of being useful",
+    "example_sentence": "Our list includes usefulness.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g4-vocal",
+    "word": "vocal",
+    "grade_level": 4,
+    "definition": "Means of",
+    "example_sentence": "I wrote vocal three times.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g4-yourself",
+    "word": "yourself",
+    "grade_level": 4,
+    "definition": "A word students learn in grade 4.",
+    "example_sentence": "Please use yourself in a sentence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-achieve",
+    "word": "achieve",
+    "grade_level": 5,
+    "definition": "to succeed at doing something",
+    "example_sentence": "The team worked hard to achieve its goal.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g5-ancient",
+    "word": "ancient",
+    "grade_level": 5,
+    "definition": "very old",
+    "example_sentence": "The museum displayed an ancient vase.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-audience",
+    "word": "audience",
+    "grade_level": 5,
+    "definition": "people watching or listening",
+    "example_sentence": "The audience clapped after the play.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-bargain",
+    "word": "bargain",
+    "grade_level": 5,
+    "definition": "a good deal or low price",
+    "example_sentence": "The used bike was a bargain.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-bicycle",
+    "word": "bicycle",
+    "grade_level": 5,
+    "definition": "a two-wheeled vehicle with pedals",
+    "example_sentence": "She rode her bicycle to the park.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-bravery",
+    "word": "bravery",
+    "grade_level": 5,
+    "definition": "courage when something is hard",
+    "example_sentence": "The firefighter showed bravery.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g5-calendar",
+    "word": "calendar",
+    "grade_level": 5,
+    "definition": "a chart of days, weeks, and months",
+    "example_sentence": "Mark the game on the calendar.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-captain",
+    "word": "captain",
+    "grade_level": 5,
+    "definition": "a leader of a team, ship, or group",
+    "example_sentence": "The captain called the next play.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-celebrate",
+    "word": "celebrate",
+    "grade_level": 5,
+    "definition": "to do something special for a happy event",
+    "example_sentence": "We celebrate birthdays with cake.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-certain",
+    "word": "certain",
+    "grade_level": 5,
+    "definition": "sure or specific",
+    "example_sentence": "I am certain the answer is correct.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-chocolate",
+    "word": "chocolate",
+    "grade_level": 5,
+    "definition": "a sweet food made from cocoa",
+    "example_sentence": "The cookie had chocolate chips.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-community",
+    "word": "community",
+    "grade_level": 5,
+    "definition": "people who live or work together",
+    "example_sentence": "The community cleaned the playground.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-curious",
+    "word": "curious",
+    "grade_level": 5,
+    "definition": "eager to learn or know",
+    "example_sentence": "The curious student asked a question.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-daughter",
+    "word": "daughter",
+    "grade_level": 5,
+    "definition": "a female child",
+    "example_sentence": "Their daughter loves science.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-decision",
+    "word": "decision",
+    "grade_level": 5,
+    "definition": "a choice you make",
+    "example_sentence": "The coach made a quick decision.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g5-describe",
+    "word": "describe",
+    "grade_level": 5,
+    "definition": "to tell what something is like",
+    "example_sentence": "Can you describe the painting?",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-different",
+    "word": "different",
+    "grade_level": 5,
+    "definition": "not the same",
+    "example_sentence": "The twins wore different shoes.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-discovery",
+    "word": "discovery",
+    "grade_level": 5,
+    "definition": "something found or learned for the first time",
+    "example_sentence": "The cave was an exciting discovery.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g5-distance",
+    "word": "distance",
+    "grade_level": 5,
+    "definition": "the space between two places",
+    "example_sentence": "We measured the distance across the room.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-enough",
+    "word": "enough",
+    "grade_level": 5,
+    "definition": "as much as needed",
+    "example_sentence": "There was enough paint for the whole wall.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-experiment",
+    "word": "experiment",
+    "grade_level": 5,
+    "definition": "a test used to learn something",
+    "example_sentence": "The class started a plant experiment.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-famous",
+    "word": "famous",
+    "grade_level": 5,
+    "definition": "known by many people",
+    "example_sentence": "The famous singer waved to the crowd.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-february",
+    "word": "February",
+    "grade_level": 5,
+    "definition": "the second month of the year",
+    "example_sentence": "February is the shortest month.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-flexible",
+    "word": "flexible",
+    "grade_level": 5,
+    "definition": "able to bend or change",
+    "example_sentence": "The flexible ruler bent without breaking.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g5-freight",
+    "word": "freight",
+    "grade_level": 5,
+    "definition": "goods carried by train, truck, ship, or plane",
+    "example_sentence": "The train carried freight across the state.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-government",
+    "word": "government",
+    "grade_level": 5,
+    "definition": "the group that makes rules for a place",
+    "example_sentence": "The local government repaired the road.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-grammar",
+    "word": "grammar",
+    "grade_level": 5,
+    "definition": "the rules for using words and sentences",
+    "example_sentence": "Grammar helps writing make sense.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-imagine",
+    "word": "imagine",
+    "grade_level": 5,
+    "definition": "to picture something in your mind",
+    "example_sentence": "Imagine a city under the sea.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-interrupt",
+    "word": "interrupt",
+    "grade_level": 5,
+    "definition": "to stop someone while they are speaking or doing something",
+    "example_sentence": "Please do not interrupt the speaker.",
+    "difficulty_tags": [
+      "prefix"
+    ]
+  },
+  {
+    "id": "g5-language",
+    "word": "language",
+    "grade_level": 5,
+    "definition": "words people use to speak or write",
+    "example_sentence": "Spanish is a language spoken by many people.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-library",
+    "word": "library",
+    "grade_level": 5,
+    "definition": "a place with books and information",
+    "example_sentence": "We borrowed a book from the library.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-medicine",
+    "word": "medicine",
+    "grade_level": 5,
+    "definition": "something used to help people feel better",
+    "example_sentence": "The medicine helped his cough.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-minute",
+    "word": "minute",
+    "grade_level": 5,
+    "definition": "sixty seconds",
+    "example_sentence": "Wait one minute before opening the door.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-necessary",
+    "word": "necessary",
+    "grade_level": 5,
+    "definition": "needed or required",
+    "example_sentence": "A helmet is necessary for biking safely.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-opposite",
+    "word": "opposite",
+    "grade_level": 5,
+    "definition": "completely different or across from",
+    "example_sentence": "The library is on the opposite side of town.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-original",
+    "word": "original",
+    "grade_level": 5,
+    "definition": "first or new, not copied",
+    "example_sentence": "Her original story made everyone laugh.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-particular",
+    "word": "particular",
+    "grade_level": 5,
+    "definition": "specific or special",
+    "example_sentence": "He wanted one particular kind of apple.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g5-patience",
+    "word": "patience",
+    "grade_level": 5,
+    "definition": "the ability to wait calmly",
+    "example_sentence": "Training a puppy takes patience.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g5-persuade",
+    "word": "persuade",
+    "grade_level": 5,
+    "definition": "to convince someone",
+    "example_sentence": "She tried to persuade her friend to join the club.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g5-possible",
+    "word": "possible",
+    "grade_level": 5,
+    "definition": "able to happen or be done",
+    "example_sentence": "It is possible to finish before dinner.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g5-probably",
+    "word": "probably",
+    "grade_level": 5,
+    "definition": "very likely",
+    "example_sentence": "It will probably rain this afternoon.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-question",
+    "word": "question",
+    "grade_level": 5,
+    "definition": "something asked",
+    "example_sentence": "The student raised a hand to ask a question.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-receive",
+    "word": "receive",
+    "grade_level": 5,
+    "definition": "to get something",
+    "example_sentence": "You will receive a letter tomorrow.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-restaurant",
+    "word": "restaurant",
+    "grade_level": 5,
+    "definition": "a place where people buy and eat meals",
+    "example_sentence": "The restaurant served soup and bread.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g5-shoulder",
+    "word": "shoulder",
+    "grade_level": 5,
+    "definition": "the part of the body where the arm joins",
+    "example_sentence": "He carried the bag on his shoulder.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g5-sincerely",
+    "word": "sincerely",
+    "grade_level": 5,
+    "definition": "honestly or truly",
+    "example_sentence": "She sincerely thanked her teacher.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g5-vegetable",
+    "word": "vegetable",
+    "grade_level": 5,
+    "definition": "a plant or part of a plant used as food",
+    "example_sentence": "A carrot is a crunchy vegetable.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-accidentally",
+    "word": "accidentally",
+    "grade_level": 6,
+    "definition": "Means unintentionally",
+    "example_sentence": "The test included accidentally.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-ambulance",
+    "word": "ambulance",
+    "grade_level": 6,
+    "definition": "An emergency vehicle designed for transporting seriously ill or injured people to a...",
+    "example_sentence": "Spell ambulance carefully.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-appearance",
+    "word": "appearance",
+    "grade_level": 6,
+    "definition": "The way something looks",
+    "example_sentence": "Spell appearance carefully.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-appointment",
+    "word": "appointment",
+    "grade_level": 6,
+    "definition": "An arrangement between people to meet",
+    "example_sentence": "The test included appointment.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-autumn",
+    "word": "autumn",
+    "grade_level": 6,
+    "definition": "A traditionally the third of the four seasons",
+    "example_sentence": "The test included autumn.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-capable",
+    "word": "capable",
+    "grade_level": 6,
+    "definition": "Means able and efficient",
+    "example_sentence": "Spell capable carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-comfortable",
+    "word": "comfortable",
+    "grade_level": 6,
+    "definition": "Means providing physical comfort and ease",
+    "example_sentence": "Spell comfortable carefully.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-complain",
+    "word": "complain",
+    "grade_level": 6,
+    "definition": "To express feelings of pain",
+    "example_sentence": "Spell complain carefully.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-concentration",
+    "word": "concentration",
+    "grade_level": 6,
+    "definition": "The act",
+    "example_sentence": "The test included concentration.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-cooperation",
+    "word": "cooperation",
+    "grade_level": 6,
+    "definition": "The act of cooperating",
+    "example_sentence": "He studied cooperation for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-creative",
+    "word": "creative",
+    "grade_level": 6,
+    "definition": "Means tending to create things",
+    "example_sentence": "He studied creative for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-decision",
+    "word": "decision",
+    "grade_level": 6,
+    "definition": "The act of deciding",
+    "example_sentence": "The test included decision.",
+    "difficulty_tags": [
+      "challenge",
+      "common",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-denominator",
+    "word": "denominator",
+    "grade_level": 6,
+    "definition": "The number or expression written below the line in a fraction",
+    "example_sentence": "We reviewed denominator in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-depth",
+    "word": "depth",
+    "grade_level": 6,
+    "definition": "The vertical distance below a surface",
+    "example_sentence": "The test included depth.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-descendant",
+    "word": "descendant",
+    "grade_level": 6,
+    "definition": "An one of the progeny of a specified person",
+    "example_sentence": "The test included descendant.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-disagreement",
+    "word": "disagreement",
+    "grade_level": 6,
+    "definition": "A condition of not agreeing or concurring",
+    "example_sentence": "We reviewed disagreement in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-disastrous",
+    "word": "disastrous",
+    "grade_level": 6,
+    "definition": "Means of the nature of a disaster",
+    "example_sentence": "He studied disastrous for homework.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-discussion",
+    "word": "discussion",
+    "grade_level": 6,
+    "definition": "A conversation or debate concerning a particular topic",
+    "example_sentence": "He studied discussion for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-distance",
+    "word": "distance",
+    "grade_level": 6,
+    "definition": "An amount of space between points",
+    "example_sentence": "He studied distance for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-earliest",
+    "word": "earliest",
+    "grade_level": 6,
+    "definition": "Means more early than",
+    "example_sentence": "We reviewed earliest in class.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-edition",
+    "word": "edition",
+    "grade_level": 6,
+    "definition": "The whole number of copies of a work printed and published at one time",
+    "example_sentence": "He studied edition for homework.",
+    "difficulty_tags": [
+      "common",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-elevator",
+    "word": "elevator",
+    "grade_level": 6,
+    "definition": "A permanent construction with a built-in platform or cab that can be raised and lowered",
+    "example_sentence": "Spell elevator carefully.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-emergency",
+    "word": "emergency",
+    "grade_level": 6,
+    "definition": "A situation which poses an immediate risk and which requires urgent attention",
+    "example_sentence": "He studied emergency for homework.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-emptiness",
+    "word": "emptiness",
+    "grade_level": 6,
+    "definition": "The state or feeling of being empty",
+    "example_sentence": "The test included emptiness.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-encouragement",
+    "word": "encouragement",
+    "grade_level": 6,
+    "definition": "A words or actions that increase someone's confidence",
+    "example_sentence": "We reviewed encouragement in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-encyclopedia",
+    "word": "encyclopedia",
+    "grade_level": 6,
+    "definition": "A comprehensive reference work with articles on a range of subjects",
+    "example_sentence": "The test included encyclopedia.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-establish",
+    "word": "establish",
+    "grade_level": 6,
+    "definition": "To form",
+    "example_sentence": "We reviewed establish in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-excitement",
+    "word": "excitement",
+    "grade_level": 6,
+    "definition": "The state of being excited",
+    "example_sentence": "He studied excitement for homework.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-experience",
+    "word": "experience",
+    "grade_level": 6,
+    "definition": "A collection of events and/or activities from which an individual or group may...",
+    "example_sentence": "The test included experience.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-exterior",
+    "word": "exterior",
+    "grade_level": 6,
+    "definition": "Means relating to the outside parts or surface of something",
+    "example_sentence": "Spell exterior carefully.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-faucet",
+    "word": "faucet",
+    "grade_level": 6,
+    "definition": "An exposed plumbing fitting",
+    "example_sentence": "Spell faucet carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-fierce",
+    "word": "fierce",
+    "grade_level": 6,
+    "definition": "Means exceedingly violent",
+    "example_sentence": "We reviewed fierce in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-forgiveness",
+    "word": "forgiveness",
+    "grade_level": 6,
+    "definition": "The action of forgiving",
+    "example_sentence": "The test included forgiveness.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-further",
+    "word": "further",
+    "grade_level": 6,
+    "definition": "Means more distant",
+    "example_sentence": "The test included further.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-gallon",
+    "word": "gallon",
+    "grade_level": 6,
+    "definition": "A 231 cubic inches or approximately 3.785 liters for liquids",
+    "example_sentence": "We reviewed gallon in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-grateful",
+    "word": "grateful",
+    "grade_level": 6,
+    "definition": "Means of a person or their actions",
+    "example_sentence": "Spell grateful carefully.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-grief",
+    "word": "grief",
+    "grade_level": 6,
+    "definition": "An emotional pain",
+    "example_sentence": "Spell grief carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-hangar",
+    "word": "hangar",
+    "grade_level": 6,
+    "definition": "A large garage-like structure where aircraft are kept",
+    "example_sentence": "We reviewed hangar in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-hanger",
+    "word": "hanger",
+    "grade_level": 6,
+    "definition": "A clothes hanger",
+    "example_sentence": "He studied hanger for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-headache",
+    "word": "headache",
+    "grade_level": 6,
+    "definition": "A pain or ache in the head",
+    "example_sentence": "He studied headache for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-heroes",
+    "word": "heroes",
+    "grade_level": 6,
+    "definition": "A comic about the titular team of fictional superheroes",
+    "example_sentence": "He studied heroes for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-honorable",
+    "word": "honorable",
+    "grade_level": 6,
+    "definition": "Means behaving in a manner that shows honor",
+    "example_sentence": "We reviewed honorable in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-horizon",
+    "word": "horizon",
+    "grade_level": 6,
+    "definition": "The visible horizontal line where the sky appears to meet the earth in the distance",
+    "example_sentence": "He studied horizon for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-hunger",
+    "word": "hunger",
+    "grade_level": 6,
+    "definition": "A need or compelling desire for food",
+    "example_sentence": "The test included hunger.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-ignore",
+    "word": "ignore",
+    "grade_level": 6,
+    "definition": "To deliberately not listen or pay attention to",
+    "example_sentence": "Spell ignore carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-importance",
+    "word": "importance",
+    "grade_level": 6,
+    "definition": "The quality or condition of being important or worthy of note",
+    "example_sentence": "We reviewed importance in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-independence",
+    "word": "independence",
+    "grade_level": 6,
+    "definition": "The quality or state of being independent",
+    "example_sentence": "The test included independence.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-injury",
+    "word": "injury",
+    "grade_level": 6,
+    "definition": "A damage to the body of a living thing",
+    "example_sentence": "He studied injury for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-inquire",
+    "word": "inquire",
+    "grade_level": 6,
+    "definition": "To ask",
+    "example_sentence": "Spell inquire carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-instead",
+    "word": "instead",
+    "grade_level": 6,
+    "definition": "Means in the place of something",
+    "example_sentence": "Spell instead carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-intermission",
+    "word": "intermission",
+    "grade_level": 6,
+    "definition": "A break",
+    "example_sentence": "He studied intermission for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-invitation",
+    "word": "invitation",
+    "grade_level": 6,
+    "definition": "The act of inviting",
+    "example_sentence": "Spell invitation carefully.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-involve",
+    "word": "involve",
+    "grade_level": 6,
+    "definition": "To cause or engage to become connected or implicated",
+    "example_sentence": "He studied involve for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-legal",
+    "word": "legal",
+    "grade_level": 6,
+    "definition": "Means relating to the law or to lawyers",
+    "example_sentence": "The test included legal.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-liquid",
+    "word": "liquid",
+    "grade_level": 6,
+    "definition": "A substance that is flowing",
+    "example_sentence": "The test included liquid.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-loaves",
+    "word": "loaves",
+    "grade_level": 6,
+    "definition": "A block of bread after baking",
+    "example_sentence": "We reviewed loaves in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-location",
+    "word": "location",
+    "grade_level": 6,
+    "definition": "A particular point or place in physical space",
+    "example_sentence": "The test included location.",
+    "difficulty_tags": [
+      "challenge",
+      "common",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-manner",
+    "word": "manner",
+    "grade_level": 6,
+    "definition": "A mode of action",
+    "example_sentence": "He studied manner for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-meant",
+    "word": "meant",
+    "grade_level": 6,
+    "definition": "To intend",
+    "example_sentence": "Spell meant carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-medicine",
+    "word": "medicine",
+    "grade_level": 6,
+    "definition": "A substance which specifically promotes healing when ingested or consumed in some way",
+    "example_sentence": "We reviewed medicine in class.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-minus",
+    "word": "minus",
+    "grade_level": 6,
+    "definition": "The minus sign",
+    "example_sentence": "The test included minus.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-misunderstand",
+    "word": "misunderstand",
+    "grade_level": 6,
+    "definition": "To understand incorrectly",
+    "example_sentence": "He studied misunderstand for homework.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-mixture",
+    "word": "mixture",
+    "grade_level": 6,
+    "definition": "A something produced by mixing",
+    "example_sentence": "We reviewed mixture in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-mouth",
+    "word": "mouth",
+    "grade_level": 6,
+    "definition": "The front opening of a creature through which food is ingested",
+    "example_sentence": "The test included mouth.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-multiple",
+    "word": "multiple",
+    "grade_level": 6,
+    "definition": "Means having more than one element",
+    "example_sentence": "The test included multiple.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-musician",
+    "word": "musician",
+    "grade_level": 6,
+    "definition": "A composer",
+    "example_sentence": "We reviewed musician in class.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-mute",
+    "word": "mute",
+    "grade_level": 6,
+    "definition": "Means not having the power of speech",
+    "example_sentence": "He studied mute for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-nationality",
+    "word": "nationality",
+    "grade_level": 6,
+    "definition": "A national origin or identity",
+    "example_sentence": "The test included nationality.",
+    "difficulty_tags": [
+      "challenge",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-negative",
+    "word": "negative",
+    "grade_level": 6,
+    "definition": "Means not positive or neutral",
+    "example_sentence": "Spell negative carefully.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-noticeable",
+    "word": "noticeable",
+    "grade_level": 6,
+    "definition": "Means capable of being seen or noticed",
+    "example_sentence": "We reviewed noticeable in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-numerator",
+    "word": "numerator",
+    "grade_level": 6,
+    "definition": "The number or expression written above the line in a fraction",
+    "example_sentence": "We reviewed numerator in class.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-occur",
+    "word": "occur",
+    "grade_level": 6,
+    "definition": "To happen or take place",
+    "example_sentence": "We reviewed occur in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-official",
+    "word": "official",
+    "grade_level": 6,
+    "definition": "Means approved by authority",
+    "example_sentence": "He studied official for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-original",
+    "word": "original",
+    "grade_level": 6,
+    "definition": "Means newly created",
+    "example_sentence": "He studied original for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-partial",
+    "word": "partial",
+    "grade_level": 6,
+    "definition": "Means existing as a part or portion",
+    "example_sentence": "The test included partial.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-passenger",
+    "word": "passenger",
+    "grade_level": 6,
+    "definition": "An one who rides or travels in a vehicle",
+    "example_sentence": "The test included passenger.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-performance",
+    "word": "performance",
+    "grade_level": 6,
+    "definition": "The act of performing",
+    "example_sentence": "He studied performance for homework.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-personal",
+    "word": "personal",
+    "grade_level": 6,
+    "definition": "Means of or pertaining to a particular person",
+    "example_sentence": "He studied personal for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-persuade",
+    "word": "persuade",
+    "grade_level": 6,
+    "definition": "To successfully convince to agree to",
+    "example_sentence": "He studied persuade for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-piano",
+    "word": "piano",
+    "grade_level": 6,
+    "definition": "A percussive keyboard musical instrument",
+    "example_sentence": "He studied piano for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-predict",
+    "word": "predict",
+    "grade_level": 6,
+    "definition": "To make a prediction: to forecast",
+    "example_sentence": "He studied predict for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-prefer",
+    "word": "prefer",
+    "grade_level": 6,
+    "definition": "To be in the habit of choosing something rather than something else",
+    "example_sentence": "We reviewed prefer in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-principal",
+    "word": "principal",
+    "grade_level": 6,
+    "definition": "Means primary",
+    "example_sentence": "The test included principal.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-purchase",
+    "word": "purchase",
+    "grade_level": 6,
+    "definition": "The acquisition of title to",
+    "example_sentence": "He studied purchase for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-purse",
+    "word": "purse",
+    "grade_level": 6,
+    "definition": "A small bag for carrying money",
+    "example_sentence": "The test included purse.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-quote",
+    "word": "quote",
+    "grade_level": 6,
+    "definition": "A statement attributed to a person",
+    "example_sentence": "Spell quote carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-radius",
+    "word": "radius",
+    "grade_level": 6,
+    "definition": "A line segment between any point of a circle or sphere and its center",
+    "example_sentence": "The test included radius.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-rapid",
+    "word": "rapid",
+    "grade_level": 6,
+    "definition": "Means very swift or quick",
+    "example_sentence": "He studied rapid for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-ratio",
+    "word": "ratio",
+    "grade_level": 6,
+    "definition": "A number representing a comparison between two named things",
+    "example_sentence": "He studied ratio for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-recently",
+    "word": "recently",
+    "grade_level": 6,
+    "definition": "Means in the recent past",
+    "example_sentence": "We reviewed recently in class.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-referred",
+    "word": "referred",
+    "grade_level": 6,
+    "definition": "To direct the attention of",
+    "example_sentence": "The test included referred.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-rehearse",
+    "word": "rehearse",
+    "grade_level": 6,
+    "definition": "To practise by recitation or repetition in private for experiment and improvement",
+    "example_sentence": "The test included rehearse.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-relief",
+    "word": "relief",
+    "grade_level": 6,
+    "definition": "The removal of stress or discomfort",
+    "example_sentence": "He studied relief for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-remarkable",
+    "word": "remarkable",
+    "grade_level": 6,
+    "definition": "Means worthy of remark",
+    "example_sentence": "Spell remarkable carefully.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-remind",
+    "word": "remind",
+    "grade_level": 6,
+    "definition": "To cause one to experience a memory",
+    "example_sentence": "We reviewed remind in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-remote",
+    "word": "remote",
+    "grade_level": 6,
+    "definition": "Means at a distance",
+    "example_sentence": "We reviewed remote in class.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-replacement",
+    "word": "replacement",
+    "grade_level": 6,
+    "definition": "A person or thing that takes the place of another",
+    "example_sentence": "The test included replacement.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-roam",
+    "word": "roam",
+    "grade_level": 6,
+    "definition": "To wander or travel freely and with no specific destination",
+    "example_sentence": "He studied roam for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-routine",
+    "word": "routine",
+    "grade_level": 6,
+    "definition": "A course of action to be followed regularly",
+    "example_sentence": "Spell routine carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-safety",
+    "word": "safety",
+    "grade_level": 6,
+    "definition": "The condition or feeling of being safe",
+    "example_sentence": "Spell safety carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-sailor",
+    "word": "sailor",
+    "grade_level": 6,
+    "definition": "A person who sails",
+    "example_sentence": "Spell sailor carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-salute",
+    "word": "salute",
+    "grade_level": 6,
+    "definition": "An utterance or gesture expressing greeting or honor towards someone",
+    "example_sentence": "He studied salute for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-scarcely",
+    "word": "scarcely",
+    "grade_level": 6,
+    "definition": "Means hardly: only just",
+    "example_sentence": "He studied scarcely for homework.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-scientific",
+    "word": "scientific",
+    "grade_level": 6,
+    "definition": "Means related or connected to science:",
+    "example_sentence": "The test included scientific.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g6-sentence",
+    "word": "sentence",
+    "grade_level": 6,
+    "definition": "A grammatically complete series of words consisting of a subject and predicate",
+    "example_sentence": "We reviewed sentence in class.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g6-session",
+    "word": "session",
+    "grade_level": 6,
+    "definition": "A period of time devoted to a particular activity",
+    "example_sentence": "Spell session carefully.",
+    "difficulty_tags": [
+      "common",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-shampoo",
+    "word": "shampoo",
+    "grade_level": 6,
+    "definition": "A commercial liquid soaplike product for washing hair or other fibers",
+    "example_sentence": "Spell shampoo carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-shelves",
+    "word": "shelves",
+    "grade_level": 6,
+    "definition": "A flat",
+    "example_sentence": "The test included shelves.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-shorten",
+    "word": "shorten",
+    "grade_level": 6,
+    "definition": "To make shorter",
+    "example_sentence": "Spell shorten carefully.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-silent",
+    "word": "silent",
+    "grade_level": 6,
+    "definition": "Means free from sound or noise",
+    "example_sentence": "Spell silent carefully.",
+    "difficulty_tags": [
+      "common",
+      "tricky"
+    ]
+  },
+  {
+    "id": "g6-simply",
+    "word": "simply",
+    "grade_level": 6,
+    "definition": "Means merely",
+    "example_sentence": "He studied simply for homework.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g6-skillful",
+    "word": "skillful",
+    "grade_level": 6,
+    "definition": "Means possessing skill",
+    "example_sentence": "We reviewed skillful in class.",
+    "difficulty_tags": [
+      "challenge",
+      "common"
+    ]
+  },
+  {
+    "id": "g7-accommodation",
+    "word": "accommodation",
+    "grade_level": 7,
+    "definition": "a place to stay or an adjustment that helps someone",
+    "example_sentence": "The hotel provided accommodation for the team.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-analysis",
+    "word": "analysis",
+    "grade_level": 7,
+    "definition": "a careful study of parts or details",
+    "example_sentence": "The lab report included an analysis of the results.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-appreciate",
+    "word": "appreciate",
+    "grade_level": 7,
+    "definition": "to understand the value of something",
+    "example_sentence": "I appreciate your help with the project.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-architecture",
+    "word": "architecture",
+    "grade_level": 7,
+    "definition": "the art or style of designing buildings",
+    "example_sentence": "The city is known for modern architecture.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-camouflage",
+    "word": "camouflage",
+    "grade_level": 7,
+    "definition": "a way to hide by blending in",
+    "example_sentence": "The jacket used camouflage colors.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-category",
+    "word": "category",
+    "grade_level": 7,
+    "definition": "a group of similar things",
+    "example_sentence": "Place each book in the correct category.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-cemetery",
+    "word": "cemetery",
+    "grade_level": 7,
+    "definition": "a place where people are buried",
+    "example_sentence": "The old cemetery was near the church.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g7-conscience",
+    "word": "conscience",
+    "grade_level": 7,
+    "definition": "the feeling that helps you know right from wrong",
+    "example_sentence": "His conscience told him to admit the mistake.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g7-conscious",
+    "word": "conscious",
+    "grade_level": 7,
+    "definition": "awake or aware",
+    "example_sentence": "She was conscious of the time during the test.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g7-controversy",
+    "word": "controversy",
+    "grade_level": 7,
+    "definition": "strong public disagreement",
+    "example_sentence": "The decision caused a controversy in town.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-courageous",
+    "word": "courageous",
+    "grade_level": 7,
+    "definition": "brave",
+    "example_sentence": "The courageous rescue worker entered the storm.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g7-desperate",
+    "word": "desperate",
+    "grade_level": 7,
+    "definition": "feeling a strong need or worry",
+    "example_sentence": "The hikers were desperate for water.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-dilemma",
+    "word": "dilemma",
+    "grade_level": 7,
+    "definition": "a hard choice between options",
+    "example_sentence": "Choosing between two teams was a dilemma.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-environment",
+    "word": "environment",
+    "grade_level": 7,
+    "definition": "the natural world or surroundings",
+    "example_sentence": "The club planted trees to help the environment.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-exaggerate",
+    "word": "exaggerate",
+    "grade_level": 7,
+    "definition": "to make something seem larger or more extreme",
+    "example_sentence": "Do not exaggerate the size of the fish.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-extraordinary",
+    "word": "extraordinary",
+    "grade_level": 7,
+    "definition": "very unusual or amazing",
+    "example_sentence": "The athlete made an extraordinary catch.",
+    "difficulty_tags": [
+      "prefix",
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-fluorescent",
+    "word": "fluorescent",
+    "grade_level": 7,
+    "definition": "glowing brightly under certain light",
+    "example_sentence": "The fluorescent marker stood out on the poster.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-guarantee",
+    "word": "guarantee",
+    "grade_level": 7,
+    "definition": "a promise that something will happen or work",
+    "example_sentence": "The store offered a guarantee on the bike.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g7-hierarchy",
+    "word": "hierarchy",
+    "grade_level": 7,
+    "definition": "a system with levels of rank",
+    "example_sentence": "The chart showed the company's hierarchy.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-hypothesis",
+    "word": "hypothesis",
+    "grade_level": 7,
+    "definition": "an idea that can be tested",
+    "example_sentence": "The scientist wrote a hypothesis before the experiment.",
+    "difficulty_tags": [
+      "science"
+    ]
+  },
+  {
+    "id": "g7-immediate",
+    "word": "immediate",
+    "grade_level": 7,
+    "definition": "happening right away",
+    "example_sentence": "The alarm needed immediate attention.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-independent",
+    "word": "independent",
+    "grade_level": 7,
+    "definition": "able to do things without help",
+    "example_sentence": "The independent learner finished the assignment.",
+    "difficulty_tags": [
+      "prefix"
+    ]
+  },
+  {
+    "id": "g7-maintenance",
+    "word": "maintenance",
+    "grade_level": 7,
+    "definition": "work that keeps something in good condition",
+    "example_sentence": "The playground needed regular maintenance.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-maneuver",
+    "word": "maneuver",
+    "grade_level": 7,
+    "definition": "a careful movement or plan",
+    "example_sentence": "The driver made a careful maneuver into the space.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-miscellaneous",
+    "word": "miscellaneous",
+    "grade_level": 7,
+    "definition": "made of many different kinds",
+    "example_sentence": "The drawer held miscellaneous supplies.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-negotiate",
+    "word": "negotiate",
+    "grade_level": 7,
+    "definition": "to discuss in order to reach an agreement",
+    "example_sentence": "The students tried to negotiate fair teams.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-perseverance",
+    "word": "perseverance",
+    "grade_level": 7,
+    "definition": "continuing even when something is hard",
+    "example_sentence": "Finishing the puzzle took perseverance.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-phenomenon",
+    "word": "phenomenon",
+    "grade_level": 7,
+    "definition": "an event or fact that can be observed",
+    "example_sentence": "A rainbow is a weather phenomenon.",
+    "difficulty_tags": [
+      "science"
+    ]
+  },
+  {
+    "id": "g7-privilege",
+    "word": "privilege",
+    "grade_level": 7,
+    "definition": "a special right or advantage",
+    "example_sentence": "Using the lab was a privilege.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g7-pronunciation",
+    "word": "pronunciation",
+    "grade_level": 7,
+    "definition": "the way a word is spoken",
+    "example_sentence": "The dictionary showed the pronunciation.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-questionnaire",
+    "word": "questionnaire",
+    "grade_level": 7,
+    "definition": "a list of questions used to collect information",
+    "example_sentence": "The survey used a short questionnaire.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-recommendation",
+    "word": "recommendation",
+    "grade_level": 7,
+    "definition": "advice or a suggestion",
+    "example_sentence": "The coach gave a recommendation for new shoes.",
+    "difficulty_tags": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "g7-resistance",
+    "word": "resistance",
+    "grade_level": 7,
+    "definition": "a force or effort against something",
+    "example_sentence": "The wind created resistance as we biked.",
+    "difficulty_tags": [
+      "science"
+    ]
+  },
+  {
+    "id": "g7-rhythm",
+    "word": "rhythm",
+    "grade_level": 7,
+    "definition": "a repeated beat or pattern",
+    "example_sentence": "The drummer kept a steady rhythm.",
+    "difficulty_tags": [
+      "tricky"
+    ]
+  },
+  {
+    "id": "g7-schedule",
+    "word": "schedule",
+    "grade_level": 7,
+    "definition": "a plan for when things happen",
+    "example_sentence": "The schedule listed each game time.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-silhouette",
+    "word": "silhouette",
+    "grade_level": 7,
+    "definition": "a dark outline of a shape",
+    "example_sentence": "The sunset made a silhouette of the tree.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-sophomore",
+    "word": "sophomore",
+    "grade_level": 7,
+    "definition": "a student in the second year of high school or college",
+    "example_sentence": "The sophomore joined the debate team.",
+    "difficulty_tags": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "g7-sufficient",
+    "word": "sufficient",
+    "grade_level": 7,
+    "definition": "enough for what is needed",
+    "example_sentence": "The report had sufficient evidence.",
+    "difficulty_tags": [
+      "common"
+    ]
+  },
+  {
+    "id": "g7-temperature",
+    "word": "temperature",
+    "grade_level": 7,
+    "definition": "how hot or cold something is",
+    "example_sentence": "The temperature dropped after sunset.",
+    "difficulty_tags": [
+      "science"
+    ]
+  },
+  {
+    "id": "g7-unnecessary",
+    "word": "unnecessary",
+    "grade_level": 7,
+    "definition": "not needed",
+    "example_sentence": "The extra box was unnecessary.",
+    "difficulty_tags": [
+      "prefix"
+    ]
+  },
+  {
+    "id": "bonus-ambrosia",
+    "word": "ambrosia",
+    "grade_level": 0,
+    "definition": "a magical food of the gods in Greek myths",
+    "example_sentence": "The hero packed ambrosia for the journey.",
+    "difficulty_tags": [
+      "bonus",
+      "challenge"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-astronaut",
+    "word": "astronaut",
+    "grade_level": 0,
+    "definition": "a person trained to travel in space",
+    "example_sentence": "The astronaut floated near the window.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-avatar",
+    "word": "avatar",
+    "grade_level": 0,
+    "definition": "a character or picture that represents a player",
+    "example_sentence": "Her avatar wore a red hat.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-barnyard",
+    "word": "barnyard",
+    "grade_level": 0,
+    "definition": "the area around a barn",
+    "example_sentence": "The barnyard gate swung open.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-bell",
+    "word": "bell",
+    "grade_level": 0,
+    "definition": "a hollow object that rings when struck",
+    "example_sentence": "The bell rang near the gate.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-bleat",
+    "word": "bleat",
+    "grade_level": 0,
+    "definition": "the sound a goat or sheep makes",
+    "example_sentence": "A bleat echoed across the barnyard.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-bookmark",
+    "word": "bookmark",
+    "grade_level": 0,
+    "definition": "a marker that saves your place in a book",
+    "example_sentence": "She tucked a bookmark between the pages.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-builder",
+    "word": "builder",
+    "grade_level": 0,
+    "definition": "someone who makes or creates things",
+    "example_sentence": "The builder stacked the blocks neatly.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-buzz",
+    "word": "Buzz",
+    "grade_level": 0,
+    "definition": "a short humming sound or a famous space toy name",
+    "example_sentence": "Buzz lifted the toy rocket.",
+    "difficulty_tags": [
+      "bonus",
+      "proper"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-castle",
+    "word": "castle",
+    "grade_level": 0,
+    "definition": "a large stone building from old stories",
+    "example_sentence": "The castle rose above the forest.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-cauldron",
+    "word": "cauldron",
+    "grade_level": 0,
+    "definition": "a large pot used in stories for potions",
+    "example_sentence": "The cauldron steamed over the fire.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  },
+  {
+    "id": "bonus-chaos",
+    "word": "chaos",
+    "grade_level": 0,
+    "definition": "a messy and confusing situation",
+    "example_sentence": "The yard was filled with harmless chaos.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-chapter",
+    "word": "chapter",
+    "grade_level": 0,
+    "definition": "a section of a book",
+    "example_sentence": "The hero opened the next chapter.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-charm",
+    "word": "charm",
+    "grade_level": 0,
+    "definition": "a small spell or lucky object",
+    "example_sentence": "The charm made the feather float.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  },
+  {
+    "id": "bonus-cowboy",
+    "word": "cowboy",
+    "grade_level": 0,
+    "definition": "a person who rides horses and works with cattle",
+    "example_sentence": "The cowboy tipped his hat.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-crafting",
+    "word": "crafting",
+    "grade_level": 0,
+    "definition": "making something from parts",
+    "example_sentence": "Crafting a bridge used wood and stone.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-demigod",
+    "word": "demigod",
+    "grade_level": 0,
+    "definition": "a mythic hero who is part god and part human",
+    "example_sentence": "The demigod trained at camp.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-democracy",
+    "word": "democracy",
+    "grade_level": 0,
+    "definition": "government where people have a voice",
+    "example_sentence": "The class voted to practice democracy.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-dinosaur",
+    "word": "dinosaur",
+    "grade_level": 0,
+    "definition": "a reptile from long ago",
+    "example_sentence": "The toy dinosaur guarded the shelf.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-dragon",
+    "word": "dragon",
+    "grade_level": 0,
+    "definition": "a large magical creature in many tales",
+    "example_sentence": "The dragon guarded the mountain pass.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-fairy",
+    "word": "fairy",
+    "grade_level": 0,
+    "definition": "a small magical story character",
+    "example_sentence": "The fairy left a trail of sparkles.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-galaxy",
+    "word": "galaxy",
+    "grade_level": 0,
+    "definition": "a huge group of stars",
+    "example_sentence": "The telescope showed a distant galaxy.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-gardener",
+    "word": "gardener",
+    "grade_level": 0,
+    "definition": "someone who grows and cares for plants",
+    "example_sentence": "The gardener watered the flowers.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-haystack",
+    "word": "haystack",
+    "grade_level": 0,
+    "definition": "a pile of dried grass",
+    "example_sentence": "The haystack sat behind the barn.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-headbutt",
+    "word": "headbutt",
+    "grade_level": 0,
+    "definition": "to bump with the head",
+    "example_sentence": "The stunt move was called a headbutt.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-hero",
+    "word": "hero",
+    "grade_level": 0,
+    "definition": "the main brave character in a story",
+    "example_sentence": "The hero followed the map at dawn.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-hogwarts",
+    "word": "Hogwarts",
+    "grade_level": 0,
+    "definition": "a famous wizard school from the Harry Potter stories",
+    "example_sentence": "Hogwarts is hidden from ordinary streets.",
+    "difficulty_tags": [
+      "bonus",
+      "proper"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  },
+  {
+    "id": "bonus-honk",
+    "word": "honk",
+    "grade_level": 0,
+    "definition": "a loud sound made by a horn or bird",
+    "example_sentence": "A honk echoed across the garden.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-hoof",
+    "word": "hoof",
+    "grade_level": 0,
+    "definition": "the hard foot of some animals",
+    "example_sentence": "A hoof print marked the mud.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-infinity",
+    "word": "infinity",
+    "grade_level": 0,
+    "definition": "endless space, time, or number",
+    "example_sentence": "The rocket flew toward infinity.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-inventory",
+    "word": "inventory",
+    "grade_level": 0,
+    "definition": "a list or supply of items",
+    "example_sentence": "The inventory held tools and coins.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-jetpack",
+    "word": "jetpack",
+    "grade_level": 0,
+    "definition": "a pack that pushes someone through the air",
+    "example_sentence": "The jetpack goat flew over the fence.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-labyrinth",
+    "word": "labyrinth",
+    "grade_level": 0,
+    "definition": "a maze with twisting paths",
+    "example_sentence": "The labyrinth seemed to change direction.",
+    "difficulty_tags": [
+      "bonus",
+      "challenge"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-liberty",
+    "word": "liberty",
+    "grade_level": 0,
+    "definition": "freedom",
+    "example_sentence": "The squad defended liberty on the mission.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-mischief",
+    "word": "mischief",
+    "grade_level": 0,
+    "definition": "playful trouble",
+    "example_sentence": "The quiet garden was ready for mischief.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-mission",
+    "word": "mission",
+    "grade_level": 0,
+    "definition": "an important job or task",
+    "example_sentence": "The mission started at dawn.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-obby",
+    "word": "obby",
+    "grade_level": 0,
+    "definition": "an obstacle course game",
+    "example_sentence": "The obby had moving platforms.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-olympus",
+    "word": "Olympus",
+    "grade_level": 0,
+    "definition": "the mythic home of Greek gods",
+    "example_sentence": "The hero climbed toward Olympus.",
+    "difficulty_tags": [
+      "bonus",
+      "proper"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-oracle",
+    "word": "oracle",
+    "grade_level": 0,
+    "definition": "a person or message that gives prophecy in myths",
+    "example_sentence": "The oracle spoke in a quiet voice.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-orbit",
+    "word": "orbit",
+    "grade_level": 0,
+    "definition": "the path around a planet or star",
+    "example_sentence": "The ship entered orbit above the moon.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-parchment",
+    "word": "parchment",
+    "grade_level": 0,
+    "definition": "an old type of paper used for writing",
+    "example_sentence": "The map was drawn on yellow parchment.",
+    "difficulty_tags": [
+      "bonus",
+      "challenge"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-phoenix",
+    "word": "phoenix",
+    "grade_level": 0,
+    "definition": "a mythical bird that rises again",
+    "example_sentence": "The phoenix spread its fiery wings.",
+    "difficulty_tags": [
+      "bonus",
+      "challenge"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  },
+  {
+    "id": "bonus-picnic",
+    "word": "picnic",
+    "grade_level": 0,
+    "definition": "a meal eaten outdoors",
+    "example_sentence": "The picnic basket held sandwiches.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-pixel",
+    "word": "pixel",
+    "grade_level": 0,
+    "definition": "a tiny square of color on a screen",
+    "example_sentence": "The pixel art showed a castle.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-playroom",
+    "word": "playroom",
+    "grade_level": 0,
+    "definition": "a room where children play",
+    "example_sentence": "The playroom floor was covered with blocks.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-pond",
+    "word": "pond",
+    "grade_level": 0,
+    "definition": "a small body of water",
+    "example_sentence": "The pond reflected the clouds.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-potion",
+    "word": "potion",
+    "grade_level": 0,
+    "definition": "a magical drink in stories",
+    "example_sentence": "The potion bubbled in the glass jar.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  },
+  {
+    "id": "bonus-prophecy",
+    "word": "prophecy",
+    "grade_level": 0,
+    "definition": "a prediction about the future",
+    "example_sentence": "The prophecy warned of a storm.",
+    "difficulty_tags": [
+      "bonus",
+      "challenge"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-quest",
+    "word": "quest",
+    "grade_level": 0,
+    "definition": "a journey to complete an important task",
+    "example_sentence": "The campers began their quest at sunrise.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-quidditch",
+    "word": "Quidditch",
+    "grade_level": 0,
+    "definition": "a flying broom sport from the Harry Potter stories",
+    "example_sentence": "Quidditch players chase enchanted balls.",
+    "difficulty_tags": [
+      "bonus",
+      "proper"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  },
+  {
+    "id": "bonus-ragdoll",
+    "word": "ragdoll",
+    "grade_level": 0,
+    "definition": "a floppy physics body that tumbles around",
+    "example_sentence": "The ragdoll goat bounced off the ramp.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-rake",
+    "word": "rake",
+    "grade_level": 0,
+    "definition": "a tool used to gather leaves or smooth soil",
+    "example_sentence": "The rake leaned against the fence.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-recruit",
+    "word": "recruit",
+    "grade_level": 0,
+    "definition": "a new member of a team",
+    "example_sentence": "The recruit learned the safety rules.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-respawn",
+    "word": "respawn",
+    "grade_level": 0,
+    "definition": "to return to play after being out",
+    "example_sentence": "The player waited to respawn.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-ribbon",
+    "word": "ribbon",
+    "grade_level": 0,
+    "definition": "a strip of fabric tied in a bow",
+    "example_sentence": "The goose wore a red ribbon.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-sheriff",
+    "word": "sheriff",
+    "grade_level": 0,
+    "definition": "a law officer in a town or county",
+    "example_sentence": "The sheriff badge shined on the vest.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-shoelace",
+    "word": "shoelace",
+    "grade_level": 0,
+    "definition": "a string used to tie a shoe",
+    "example_sentence": "The shoelace was quietly untied.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-simulator",
+    "word": "simulator",
+    "grade_level": 0,
+    "definition": "a game or tool that copies a real activity",
+    "example_sentence": "The simulator let players try funny stunts.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-slinky",
+    "word": "slinky",
+    "grade_level": 0,
+    "definition": "a spring toy that can walk down steps",
+    "example_sentence": "The slinky bounced down the stairs.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "toybox"
+    ]
+  },
+  {
+    "id": "bonus-squad",
+    "word": "squad",
+    "grade_level": 0,
+    "definition": "a small team working together",
+    "example_sentence": "The squad moved across the field.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-steal",
+    "word": "steal",
+    "grade_level": 0,
+    "definition": "to take something without permission",
+    "example_sentence": "The goose tried to steal the bell.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-stratagem",
+    "word": "stratagem",
+    "grade_level": 0,
+    "definition": "a clever plan",
+    "example_sentence": "The captain chose a careful stratagem.",
+    "difficulty_tags": [
+      "bonus",
+      "challenge"
+    ],
+    "theme_tags": [
+      "space-cadets"
+    ]
+  },
+  {
+    "id": "bonus-tale",
+    "word": "tale",
+    "grade_level": 0,
+    "definition": "a story, often with adventure or magic",
+    "example_sentence": "The tale began beside a quiet pond.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "storybook"
+    ]
+  },
+  {
+    "id": "bonus-trampoline",
+    "word": "trampoline",
+    "grade_level": 0,
+    "definition": "a springy mat used for jumping",
+    "example_sentence": "The trampoline launched the stunt high.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-trident",
+    "word": "trident",
+    "grade_level": 0,
+    "definition": "a spear with three points",
+    "example_sentence": "The trident flashed beside the sea.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "demigod-camp"
+    ]
+  },
+  {
+    "id": "bonus-trophy",
+    "word": "trophy",
+    "grade_level": 0,
+    "definition": "a prize for winning or achieving something",
+    "example_sentence": "The trophy sat on the top shelf.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "goat-yard"
+    ]
+  },
+  {
+    "id": "bonus-tycoon",
+    "word": "tycoon",
+    "grade_level": 0,
+    "definition": "a powerful business leader or game style",
+    "example_sentence": "The tycoon game rewarded smart upgrades.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "blockworks"
+    ]
+  },
+  {
+    "id": "bonus-waddle",
+    "word": "waddle",
+    "grade_level": 0,
+    "definition": "to walk with short side-to-side steps",
+    "example_sentence": "The character began to waddle down the path.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "garden-goose"
+    ]
+  },
+  {
+    "id": "bonus-wand",
+    "word": "wand",
+    "grade_level": 0,
+    "definition": "a thin stick used for magic in stories",
+    "example_sentence": "The wand gave off a tiny spark.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  },
+  {
+    "id": "bonus-wizard",
+    "word": "wizard",
+    "grade_level": 0,
+    "definition": "a person in stories who can use magic",
+    "example_sentence": "The wizard studied an old spell book.",
+    "difficulty_tags": [
+      "bonus"
+    ],
+    "theme_tags": [
+      "wizard-school"
+    ]
+  }
 ]

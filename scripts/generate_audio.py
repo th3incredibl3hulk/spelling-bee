@@ -155,7 +155,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--say-voice", default="", help="Optional macOS say voice.")
     parser.add_argument("--word-id", action="append", help="Generate only this word id. Can be repeated.")
     parser.add_argument("--word", action="append", help="Generate only this word text. Can be repeated.")
-    parser.add_argument("--grade-level", type=int, choices=(0, 2, 5, 7), help="Restrict by grade level.")
+    parser.add_argument("--grade-level", type=int, choices=(0, 1, 2, 4, 5, 6, 7), help="Restrict by grade level.")
     parser.add_argument("--list-missing", action="store_true", help="List words with missing audio and exit.")
     parser.add_argument("--dry-run", action="store_true", help="Show selected words without generating audio.")
     parser.add_argument("--overwrite", action="store_true")

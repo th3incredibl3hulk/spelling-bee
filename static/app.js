@@ -1031,6 +1031,28 @@ function gradeLabel(grade) {
   return grade === 0 ? "Bonus" : `Grade ${grade}`;
 }
 
+function gradeBlurb(grade) {
+  const blurbs = {
+    1: "First steps",
+    2: "Short words",
+    4: "Growing vocabulary",
+    5: "Bigger patterns",
+    6: "Trickier spellings",
+    7: "Challenge spellings",
+  };
+  return blurbs[grade] || "Practice words";
+}
+
+function gradeOptions(selected = "", includeBonus = true) {
+  const grades = (state.grades || []).map(
+    (grade) => `<option value="${grade}" ${Number(selected) === grade ? "selected" : ""}>${gradeLabel(grade)}</option>`
+  );
+  if (includeBonus) {
+    grades.push(`<option value="0" ${Number(selected) === 0 ? "selected" : ""}>Bonus</option>`);
+  }
+  return grades.join("");
+}
+
 function themeById(id) {
   return state.themes.find((theme) => theme.id === id) || state.themes[0];
 }
@@ -1347,7 +1369,7 @@ function renderSetup() {
   const gradeCards = state.grades.map((grade) => `
     <button class="grade-card ${state.selectedGrade === grade ? "active" : ""}" data-action="select-grade" data-grade="${grade}">
       <strong>${gradeLabel(grade)}</strong>
-      <span>${grade === 2 ? "Short words" : grade === 5 ? "Bigger patterns" : "Challenge spellings"}</span>
+      <span>${gradeBlurb(grade)}</span>
     </button>
   `).join("");
 
@@ -1761,10 +1783,7 @@ async function renderWords() {
           <div class="field">
             <label for="word-grade">Grade</label>
             <select id="word-grade" name="grade_level" ${draft.id ? "disabled" : ""}>
-              <option value="2" ${Number(draft.grade_level || 2) === 2 ? "selected" : ""}>Grade 2</option>
-              <option value="5" ${Number(draft.grade_level) === 5 ? "selected" : ""}>Grade 5</option>
-              <option value="7" ${Number(draft.grade_level) === 7 ? "selected" : ""}>Grade 7</option>
-              <option value="0" ${Number(draft.grade_level) === 0 ? "selected" : ""}>Bonus</option>
+              ${gradeOptions(draft.grade_level || state.grades[0] || 2)}
             </select>
           </div>
           <div class="field">
@@ -1793,10 +1812,7 @@ async function renderWords() {
           <div class="field">
             <label for="bulk-grade">Grade</label>
             <select id="bulk-grade" name="grade_level">
-              <option value="2">Grade 2</option>
-              <option value="5">Grade 5</option>
-              <option value="7">Grade 7</option>
-              <option value="0">Bonus</option>
+              ${gradeOptions(state.grades[0] || 2)}
             </select>
           </div>
           <div class="field">
@@ -1811,9 +1827,7 @@ async function renderWords() {
           <h2>Word Pool</h2>
           <select data-action="filter-words" aria-label="Filter words">
             <option value="" ${state.wordFilter === "" ? "selected" : ""}>All</option>
-            <option value="2" ${state.wordFilter === "2" ? "selected" : ""}>Grade 2</option>
-            <option value="5" ${state.wordFilter === "5" ? "selected" : ""}>Grade 5</option>
-            <option value="7" ${state.wordFilter === "7" ? "selected" : ""}>Grade 7</option>
+            ${(state.grades || []).map((grade) => `<option value="${grade}" ${state.wordFilter === String(grade) ? "selected" : ""}>${gradeLabel(grade)}</option>`).join("")}
             <option value="0" ${state.wordFilter === "0" ? "selected" : ""}>Bonus</option>
           </select>
         </div>

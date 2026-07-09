@@ -28,8 +28,8 @@ STATIC_DIR = ROOT / "static"
 DB_PATH = Path(os.environ.get("SPELLING_BEE_DB", DATA_DIR / "spelling_bee.sqlite"))
 SESSION_WORD_COUNT = 10
 MAX_HINTS_PER_WORD = 2
-GRADES = (2, 5, 7)
-XP_BY_GRADE = {2: 10, 5: 15, 7: 20, 0: 15}
+GRADES = (1, 2, 4, 5, 6, 7)
+XP_BY_GRADE = {1: 8, 2: 10, 4: 12, 5: 15, 6: 18, 7: 20, 0: 15}
 BLOCKWORKS_RANKS = [
     (0, "Guest"),
     (50, "Builder"),
