@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Five correct bleat selfie</title>
+  <desc id="desc">A goat celebration card for five correct answers.</desc>
+  <rect width="720" height="520" fill="#65a30d"/>
+  <rect x="0" y="300" width="720" height="220" fill="#fde68a"/>
+  <rect x="0" y="280" width="720" height="24" fill="#ca8a04"/>
+  <g transform="translate(90 96)">
+    <ellipse cx="186" cy="180" rx="74" ry="52" fill="#fde68a" stroke="#31511b" stroke-width="6"/>
+    <circle cx="186" cy="100" r="52" fill="#fde68a" stroke="#31511b" stroke-width="6"/>
+    <path d="M150 72 L130 36 M222 72 L242 36" fill="none" stroke="#31511b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M248 120 L320 90 L320 170 L248 200 Z" fill="#ca8a04" stroke="#31511b" stroke-width="6"/>
+    <text x="284" y="145" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="22" fill="#31511b">BLEAT</text>
+  </g>
+  <g transform="translate(346 254) rotate(-4)">
+    <rect x="0" y="0" width="260" height="118" rx="16" fill="#ecfccb" stroke="#31511b" stroke-width="8"/>
+    <text x="130" y="46" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="34" fill="#31511b">5 CORRECT</text>
+    <text x="130" y="84" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="26" fill="#ca8a04">STUNT SNAP!</text>
+  </g>
+</svg>

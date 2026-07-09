@@ -23,12 +23,97 @@ const THEME_TREATMENTS = {
   storybook: {
     className: "theme-storybook",
     scene: "Book Nook",
-    tagline: "Pages, bookmarks, margin notes, and gold stars.",
+    tagline: "Open books, bookmark trails, dragon tales, and final-chapter victories.",
     cardLine: "Paper trails and page pops",
-    props: ["PAGE", "STAR", "MAP", "INK", "A"],
+    props: ["PAGE", "STAR", "MAP", "INK", "TALE"],
     missProps: ["ERASE", "NOTE", "TRY"],
     correctMessages: ["Page turned.", "Bookmark earned.", "Chapter clear."],
-    missMessages: ["Margin note added.", "Revise the line.", "The page stays open."]
+    missMessages: ["Margin note added.", "Revise the line.", "The page stays open."],
+    brandLogo: "/assets/storybook/storybook-wordmark.svg",
+    brandMark: "/assets/storybook/book-emblem.svg",
+    stageImages: [
+      "/assets/storybook/curated/library-banner.jpg",
+      "/assets/storybook/curated/fairy-castle-banner.jpg"
+    ],
+    flyImages: [
+      "/assets/storybook/book-emblem.svg",
+      "/assets/storybook/chapter-checkpoint.svg",
+      "/assets/storybook/curated/alice-illustration.png",
+      "/assets/storybook/curated/oz-illustration.png",
+      "/assets/storybook/curated/dragon-banner.svg"
+    ],
+    missImages: [
+      "/assets/storybook/margin-note-reset.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/storybook/bookmark-selfie.svg",
+        title: "Page turn unlocked",
+        text: "Five correct answers in this run. Bookmark energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/storybook/chapter-checkpoint.svg",
+        title: "Chapter checkpoint",
+        text: "Seven correct answers. The story trunk lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/storybook/curated/dragon-banner.svg",
+        title: "Dragon tale bonus",
+        text: "Eight correct answers. The dragon is cheering."
+      },
+      {
+        threshold: 10,
+        image: "/assets/storybook/final-chapter-victory.svg",
+        title: "Final chapter",
+        text: "Perfect 10. That is author-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/storybook/chapter-checkpoint.svg",
+        title: "Chapter saved",
+        text: "The story run keeps moving."
+      },
+      {
+        image: "/assets/storybook/margin-note-reset.svg",
+        title: "Margin note found",
+        text: "Friendly reset bonus. Keep going."
+      },
+      {
+        image: "/assets/storybook/bookmark-selfie.svg",
+        title: "Bookmark photobomb",
+        text: "A quick page snap crashed the spelling round."
+      },
+      {
+        image: "/assets/storybook/curated/enchanted-forest-banner.svg",
+        title: "Forest drop",
+        text: "The enchanted forest showed up for that spelling win."
+      },
+      {
+        image: "/assets/storybook/curated/castle-tower-banner.svg",
+        title: "Castle tower found",
+        text: "A fairy-tale tower card popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/storybook/curated/library-banner.jpg",
+        title: "Library shelf bonus",
+        text: "The old book bindings are still glowing."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/storybook/margin-note-reset.svg",
+        title: "Margin note reset",
+        text: "Not scary. Just a pencil note back to the chapter."
+      }
+    ],
+    crateImage: "/assets/storybook/story-trunk-crate.svg",
+    sideImage: "/assets/storybook/curated/dragon-banner.svg",
+    sideLabel: "Dragon tale",
+    sideTitle: "Story watch"
   },
   blockworks: {
     className: "theme-blockworks",
@@ -695,39 +780,223 @@ const THEME_TREATMENTS = {
     sideLabel: "Labyrinth",
     sideTitle: "Oracle watch"
   },
-  "silly-rhymes": {
-    className: "theme-silly-rhymes",
-    scene: "Rhyme Machine",
-    tagline: "Bent labels, nonsense tiles, hop trails, and loud color pops.",
-    cardLine: "Nonsense tiles wiggle",
-    props: ["ZAP", "RHYME", "POP", "SNEE", "ZOO"],
-    missProps: ["WOB", "NOPE", "TRY"],
-    correctMessages: ["Rhyme gear clicked.", "Nonsense approved.", "Pop-word landed."],
-    missMessages: ["Wocket wobble.", "Rhyme gear slipped.", "Nonsense needs a tune-up."]
-  },
   "goat-yard": {
     className: "theme-goat-yard",
     scene: "Stunt Yard",
-    tagline: "Hay rails, trophies, ramp signs, and stunt-score bursts.",
+    tagline: "Goat Simulator 3 headbutts, trampolines, jetpack goats, and trophy chaos.",
     cardLine: "Stunt props crash through",
-    props: ["RAMP", "HAY", "STUNT", "TROPHY", "BOING"],
+    props: ["RAMP", "HAY", "BLEAT", "TROPHY", "BOING"],
     missProps: ["DENT", "RESET", "MUD"],
     correctMessages: ["Stunt landed.", "Trophy dent added.", "Ramp cleared."],
-    missMessages: ["Ramp reset.", "Hay stack absorbed it.", "Stunt replay queued."]
+    missMessages: ["Ragdoll reset.", "Hay stack absorbed it.", "Stunt replay queued."],
+    brandLogo: "/assets/goat-yard/goat-yard-wordmark.svg",
+    brandMark: "/assets/goat-yard/goat-emblem.svg",
+    stageImages: [
+      "/assets/goat-yard/curated/goat-simulator-3-cover.png",
+      "/assets/goat-yard/curated/goat-farm-banner.jpg"
+    ],
+    flyImages: [
+      "/assets/goat-yard/goat-emblem.svg",
+      "/assets/goat-yard/ramp-checkpoint.svg",
+      "/assets/goat-yard/curated/goat-simulator-3-cover.png",
+      "/assets/goat-yard/curated/goat-simulator-cover.jpg",
+      "/assets/goat-yard/curated/headbutt-banner.svg"
+    ],
+    missImages: [
+      "/assets/goat-yard/ragdoll-reset.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/goat-yard/bleat-selfie.svg",
+        title: "Stunt snap unlocked",
+        text: "Five correct answers in this run. Bleat energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/goat-yard/ramp-checkpoint.svg",
+        title: "Ramp checkpoint",
+        text: "Seven correct answers. The chaos crate lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/goat-yard/curated/headbutt-banner.svg",
+        title: "Headbutt bonus",
+        text: "Eight correct answers. Physics chaos unlocked."
+      },
+      {
+        threshold: 10,
+        image: "/assets/goat-yard/trophy-victory.svg",
+        title: "Trophy yard",
+        text: "Perfect 10. That is goat-simulator-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/goat-yard/ramp-checkpoint.svg",
+        title: "Stunt saved",
+        text: "The ragdoll run keeps moving."
+      },
+      {
+        image: "/assets/goat-yard/ragdoll-reset.svg",
+        title: "Ragdoll flop",
+        text: "Friendly reset bonus. Keep going."
+      },
+      {
+        image: "/assets/goat-yard/bleat-selfie.svg",
+        title: "Goat photobomb",
+        text: "A quick bleat snap crashed the spelling round."
+      },
+      {
+        image: "/assets/goat-yard/curated/jetpack-banner.svg",
+        title: "Jetpack goat drop",
+        text: "A jetpack goat showed up for that spelling win."
+      },
+      {
+        image: "/assets/goat-yard/curated/city-ramp-banner.svg",
+        title: "City ramp found",
+        text: "An open-world ramp card popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/goat-yard/curated/trampoline.png",
+        title: "Trampoline bounce",
+        text: "The trampoline is still wobbling."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/goat-yard/ragdoll-reset.svg",
+        title: "Ragdoll reset",
+        text: "Not scary. Just a floppy respawn back to the yard."
+      }
+    ],
+    crateImage: "/assets/goat-yard/chaos-crate.svg",
+    sideImage: "/assets/goat-yard/curated/headbutt-banner.svg",
+    sideLabel: "Headbutt lane",
+    sideTitle: "Chaos watch"
   },
   "garden-goose": {
     className: "theme-garden-goose",
     scene: "Garden Job",
-    tagline: "Picnic labels, rake marks, bell rings, and stealthy garden props.",
+    tagline: "Untitled Goose Game honks, ribbon bows, crowns, knives, and picnic chaos.",
     cardLine: "Garden props sneak across",
-    props: ["HONK", "BELL", "RAKE", "PICNIC", "POND"],
+    props: ["HONK", "BELL", "RAKE", "PICNIC", "BOW"],
     missProps: ["SHOE", "NOTE", "TRY"],
     correctMessages: ["Bell successfully borrowed.", "Garden job complete.", "Picnic item secured."],
-    missMessages: ["Rake trail corrected.", "Quiet mischief paused.", "Garden note added."]
+    missMessages: ["Shoelace untied.", "Quiet mischief paused.", "Garden note added."],
+    brandLogo: "/assets/garden-goose/garden-goose-wordmark.svg",
+    brandMark: "/assets/garden-goose/goose-emblem.svg",
+    stageImages: [
+      "/assets/garden-goose/curated/cover-banner.jpg",
+      "/assets/garden-goose/curated/goose-with-crown.jpeg"
+    ],
+    flyImages: [
+      "/assets/garden-goose/goose-emblem.svg",
+      "/assets/garden-goose/bell-checkpoint.svg",
+      "/assets/garden-goose/curated/goose-with-crown.jpeg",
+      "/assets/garden-goose/curated/goose-with-bow.png",
+      "/assets/garden-goose/curated/goose-party-hat.svg",
+      "/assets/garden-goose/curated/goose-knife.svg",
+      "/assets/garden-goose/curated/goose-sun-hat.svg",
+      "/assets/garden-goose/curated/goose-bowtie.svg",
+      "/assets/garden-goose/curated/present-reward.jpeg"
+    ],
+    missImages: [
+      "/assets/garden-goose/shoelace-reset.svg"
+    ],
+    milestoneStages: [
+      {
+        threshold: 5,
+        image: "/assets/garden-goose/mischief-selfie.svg",
+        title: "Mischief snap unlocked",
+        text: "Five correct answers in this run. Honk energy."
+      },
+      {
+        threshold: 7,
+        image: "/assets/garden-goose/bell-checkpoint.svg",
+        title: "Bell checkpoint",
+        text: "Seven correct answers. The honk crate lane is open."
+      },
+      {
+        threshold: 8,
+        image: "/assets/garden-goose/curated/picnic-banner.svg",
+        title: "Picnic bonus",
+        text: "Eight correct answers. The basket is unguarded."
+      },
+      {
+        threshold: 10,
+        image: "/assets/garden-goose/garden-victory.svg",
+        title: "Garden job done",
+        text: "Perfect 10. That is goose-level spelling."
+      }
+    ],
+    surpriseMoments: [
+      {
+        image: "/assets/garden-goose/bell-checkpoint.svg",
+        title: "Bell saved",
+        text: "The mischief run keeps moving."
+      },
+      {
+        image: "/assets/garden-goose/shoelace-reset.svg",
+        title: "Shoelace snag",
+        text: "Friendly reset bonus. Keep going."
+      },
+      {
+        image: "/assets/garden-goose/mischief-selfie.svg",
+        title: "Goose photobomb",
+        text: "A quick honk snap crashed the spelling round."
+      },
+      {
+        image: "/assets/garden-goose/curated/goose-with-crown.jpeg",
+        title: "Crown goose drop",
+        text: "Royal goose energy showed up for that spelling win."
+      },
+      {
+        image: "/assets/garden-goose/curated/goose-party-hat.svg",
+        title: "Party hat found",
+        text: "A party-hat goose popped in. Keep the run moving."
+      },
+      {
+        image: "/assets/garden-goose/curated/goose-knife.svg",
+        title: "Knife goose spotted",
+        text: "The village is not ready for this goose."
+      },
+      {
+        image: "/assets/garden-goose/curated/goose-sun-hat.svg",
+        title: "Sun hat stolen",
+        text: "The groundskeeper's hat is now goose property."
+      },
+      {
+        image: "/assets/garden-goose/curated/goose-bowtie.svg",
+        title: "Ribbon dressed",
+        text: "The goose posed for a garden portrait."
+      },
+      {
+        image: "/assets/garden-goose/curated/pub-performance-banner.svg",
+        title: "Pub performance",
+        text: "Honk, bow, flap wings. The patrons are impressed."
+      },
+      {
+        image: "/assets/garden-goose/curated/present-reward.jpeg",
+        title: "Present opened",
+        text: "A reward is waiting at home."
+      }
+    ],
+    missMoments: [
+      {
+        image: "/assets/garden-goose/shoelace-reset.svg",
+        title: "Shoelace reset",
+        text: "Not scary. Just an untied lace back to the garden."
+      }
+    ],
+    crateImage: "/assets/garden-goose/honk-crate.svg",
+    sideImage: "/assets/garden-goose/curated/goose-party-hat.svg",
+    sideLabel: "Party goose",
+    sideTitle: "Honk watch"
   }
 };
 
-const REWARD_THEME_IDS = new Set(["blockworks", "mario-course", "space-cadets", "luigi-mansion", "wizard-school", "toybox", "demigod-camp"]);
+const REWARD_THEME_IDS = new Set(["storybook", "blockworks", "mario-course", "space-cadets", "luigi-mansion", "wizard-school", "toybox", "demigod-camp", "goat-yard", "garden-goose"]);
 
 function hasRewardTheme(themeId) {
   return REWARD_THEME_IDS.has(themeId);

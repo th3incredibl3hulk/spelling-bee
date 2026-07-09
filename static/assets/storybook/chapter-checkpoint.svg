@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter checkpoint</title>
+  <desc id="desc">A chapter checkpoint for a strong Storybook Quest spelling streak.</desc>
+  <rect width="720" height="520" fill="#233047"/>
+  <circle cx="120" cy="80" r="6" fill="#fde68a" opacity="0.8"/>
+  <circle cx="220" cy="50" r="4" fill="#fde68a" opacity="0.7"/>
+  <circle cx="520" cy="70" r="5" fill="#fde68a" opacity="0.8"/>
+  <circle cx="620" cy="120" r="4" fill="#fde68a" opacity="0.6"/>
+  <g transform="translate(300 140)">
+    <path d="M60 220 L60 80 L100 40 L140 80 L140 220 Z" fill="#b45309" stroke="#fffaf0" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="100" cy="120" r="28" fill="#0f9f8f" stroke="#fffaf0" stroke-width="6"/>
+    <path d="M20 220 H180 L160 260 H40 Z" fill="#fde68a" stroke="#233047" stroke-width="6"/>
+    <path d="M100 40 L100 0 L120 40" fill="#fff7ed"/>
+    <path d="M40 180 Q100 120 160 180" fill="none" stroke="#0f9f8f" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <g transform="translate(124 372)">
+    <rect x="0" y="0" width="472" height="76" rx="12" fill="#0f9f8f" stroke="#fffaf0" stroke-width="6"/>
+    <text x="236" y="31" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">CHAPTER CHECKPOINT</text>
+    <text x="236" y="58" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#fde68a">story trunk lane open</text>
+  </g>
+</svg>

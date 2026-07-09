@@ -2,7 +2,7 @@
   {
     "id": "storybook",
     "name": "Storybook Quest",
-    "description": "Paper trails, bookmarks, margin notes, and page-turn rewards.",
+    "description": "Open books, bookmark trails, dragon tales, and final-chapter victories.",
     "unlock_correct_count": 0,
     "accent": "#0f9f8f",
     "background": "paper",
@@ -88,20 +88,9 @@
     "animation": "wave-rise"
   },
   {
-    "id": "silly-rhymes",
-    "name": "Silly Rhymes",
-    "description": "Bent rhyme labels, nonsense tiles, big color pops, and wobble motion.",
-    "unlock_correct_count": 130,
-    "accent": "#db2777",
-    "background": "rhyme",
-    "icon": "wand",
-    "reward_label": "Rhyme Badge",
-    "animation": "wiggle"
-  },
-  {
     "id": "goat-yard",
     "name": "Goat Yard",
-    "description": "Hay rails, ramps, trophies, and stunt props that crash across the screen.",
+    "description": "Goat Simulator 3 headbutts, trampolines, ragdoll chaos, and trophy-yard rewards.",
     "unlock_correct_count": 160,
     "accent": "#65a30d",
     "background": "yard",
@@ -112,7 +101,7 @@
   {
     "id": "garden-goose",
     "name": "Garden Goose",
-    "description": "Picnic labels, rake trails, bell rings, and sneaky garden-job props.",
+    "description": "Untitled Goose Game honks, ribbon bows, crowns, knives, and picnic chaos.",
     "unlock_correct_count": 200,
     "accent": "#0284c7",
     "background": "garden",

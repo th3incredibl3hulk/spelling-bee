@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Goose with sun hat</title>
+  <desc id="desc">A goose wearing the groundskeeper sun hat.</desc>
+  <rect width="720" height="520" fill="#fef08a"/>
+  <g transform="translate(240 110)">
+    <ellipse cx="100" cy="210" rx="82" ry="58" fill="#ffffff" stroke="#164e63" stroke-width="8"/>
+    <ellipse cx="100" cy="118" rx="54" ry="44" fill="#ffffff" stroke="#164e63" stroke-width="8"/>
+    <path d="M138 118 L178 106 L138 140 Z" fill="#f97316" stroke="#164e63" stroke-width="5"/>
+    <ellipse cx="100" cy="58" rx="70" ry="18" fill="#d4a574" stroke="#164e63" stroke-width="6"/>
+    <path d="M60 58 Q100 10 140 58" fill="#e7c9a0" stroke="#164e63" stroke-width="6"/>
+    <rect x="88" y="40" width="24" height="24" rx="4" fill="#b45309" stroke="#164e63" stroke-width="4"/>
+  </g>
+  <g transform="translate(214 404)">
+    <rect x="0" y="0" width="292" height="54" rx="12" fill="#164e63"/>
+    <text x="146" y="36" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">SUN HAT GOOSE</text>
+  </g>
+</svg>

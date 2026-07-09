@@ -127,6 +127,15 @@
   {"id":"g7-temperature","word":"temperature","grade_level":7,"definition":"how hot or cold something is","example_sentence":"The temperature dropped after sunset.","difficulty_tags":["science"]},
   {"id":"g7-unnecessary","word":"unnecessary","grade_level":7,"definition":"not needed","example_sentence":"The extra box was unnecessary.","difficulty_tags":["prefix"]},
 
+  {"id":"bonus-chapter","word":"chapter","grade_level":0,"definition":"a section of a book","example_sentence":"The hero opened the next chapter.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
+  {"id":"bonus-bookmark","word":"bookmark","grade_level":0,"definition":"a marker that saves your place in a book","example_sentence":"She tucked a bookmark between the pages.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
+  {"id":"bonus-fairy","word":"fairy","grade_level":0,"definition":"a small magical story character","example_sentence":"The fairy left a trail of sparkles.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
+  {"id":"bonus-dragon","word":"dragon","grade_level":0,"definition":"a large magical creature in many tales","example_sentence":"The dragon guarded the mountain pass.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
+  {"id":"bonus-castle","word":"castle","grade_level":0,"definition":"a large stone building from old stories","example_sentence":"The castle rose above the forest.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
+  {"id":"bonus-hero","word":"hero","grade_level":0,"definition":"the main brave character in a story","example_sentence":"The hero followed the map at dawn.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
+  {"id":"bonus-tale","word":"tale","grade_level":0,"definition":"a story, often with adventure or magic","example_sentence":"The tale began beside a quiet pond.","difficulty_tags":["bonus"],"theme_tags":["storybook"]},
+  {"id":"bonus-parchment","word":"parchment","grade_level":0,"definition":"an old type of paper used for writing","example_sentence":"The map was drawn on yellow parchment.","difficulty_tags":["bonus","challenge"],"theme_tags":["storybook"]},
+
   {"id":"bonus-avatar","word":"avatar","grade_level":0,"definition":"a character or picture that represents a player","example_sentence":"Her avatar wore a red hat.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
   {"id":"bonus-obby","word":"obby","grade_level":0,"definition":"an obstacle course game","example_sentence":"The obby had moving platforms.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
   {"id":"bonus-builder","word":"builder","grade_level":0,"definition":"someone who makes or creates things","example_sentence":"The builder stacked the blocks neatly.","difficulty_tags":["bonus"],"theme_tags":["blockworks"]},
@@ -172,15 +181,6 @@
   {"id":"bonus-ambrosia","word":"ambrosia","grade_level":0,"definition":"a magical food of the gods in Greek myths","example_sentence":"The hero packed ambrosia for the journey.","difficulty_tags":["bonus","challenge"],"theme_tags":["demigod-camp"]},
   {"id":"bonus-demigod","word":"demigod","grade_level":0,"definition":"a mythic hero who is part god and part human","example_sentence":"The demigod trained at camp.","difficulty_tags":["bonus"],"theme_tags":["demigod-camp"]},
 
-  {"id":"bonus-sneetch","word":"Sneetch","grade_level":0,"definition":"a playful creature name from a rhyming story","example_sentence":"The Sneetch marched across the beach.","difficulty_tags":["bonus","proper"],"theme_tags":["silly-rhymes"]},
-  {"id":"bonus-lorax","word":"Lorax","grade_level":0,"definition":"a story character who speaks for the trees","example_sentence":"The Lorax stood beside the stump.","difficulty_tags":["bonus","proper"],"theme_tags":["silly-rhymes"]},
-  {"id":"bonus-truffula","word":"Truffula","grade_level":0,"definition":"a bright tree from a rhyming story","example_sentence":"The Truffula tree waved in the wind.","difficulty_tags":["bonus","proper"],"theme_tags":["silly-rhymes"]},
-  {"id":"bonus-wocket","word":"wocket","grade_level":0,"definition":"a made-up rhyming word","example_sentence":"The wocket waited in the pocket.","difficulty_tags":["bonus"],"theme_tags":["silly-rhymes"]},
-  {"id":"bonus-grinch","word":"Grinch","grade_level":0,"definition":"a grumpy story character","example_sentence":"The Grinch made a sneaky plan.","difficulty_tags":["bonus","proper"],"theme_tags":["silly-rhymes"]},
-  {"id":"bonus-zizzer","word":"zizzer","grade_level":0,"definition":"a silly made-up word","example_sentence":"The zizzer zoomed past the window.","difficulty_tags":["bonus"],"theme_tags":["silly-rhymes"]},
-  {"id":"bonus-nonsense","word":"nonsense","grade_level":0,"definition":"words or ideas that do not make sense","example_sentence":"The poem was full of happy nonsense.","difficulty_tags":["bonus"],"theme_tags":["silly-rhymes"]},
-  {"id":"bonus-rhyme","word":"rhyme","grade_level":0,"definition":"words with matching sounds","example_sentence":"Time and climb almost rhyme.","difficulty_tags":["bonus"],"theme_tags":["silly-rhymes"]},
-
   {"id":"bonus-trampoline","word":"trampoline","grade_level":0,"definition":"a springy mat used for jumping","example_sentence":"The trampoline launched the stunt high.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
   {"id":"bonus-headbutt","word":"headbutt","grade_level":0,"definition":"to bump with the head","example_sentence":"The stunt move was called a headbutt.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
   {"id":"bonus-haystack","word":"haystack","grade_level":0,"definition":"a pile of dried grass","example_sentence":"The haystack sat behind the barn.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
@@ -189,6 +189,9 @@
   {"id":"bonus-simulator","word":"simulator","grade_level":0,"definition":"a game or tool that copies a real activity","example_sentence":"The simulator let players try funny stunts.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
   {"id":"bonus-barnyard","word":"barnyard","grade_level":0,"definition":"the area around a barn","example_sentence":"The barnyard gate swung open.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
   {"id":"bonus-trophy","word":"trophy","grade_level":0,"definition":"a prize for winning or achieving something","example_sentence":"The trophy sat on the top shelf.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
+  {"id":"bonus-bleat","word":"bleat","grade_level":0,"definition":"the sound a goat or sheep makes","example_sentence":"A bleat echoed across the barnyard.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
+  {"id":"bonus-ragdoll","word":"ragdoll","grade_level":0,"definition":"a floppy physics body that tumbles around","example_sentence":"The ragdoll goat bounced off the ramp.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
+  {"id":"bonus-jetpack","word":"jetpack","grade_level":0,"definition":"a pack that pushes someone through the air","example_sentence":"The jetpack goat flew over the fence.","difficulty_tags":["bonus"],"theme_tags":["goat-yard"]},
 
   {"id":"bonus-honk","word":"honk","grade_level":0,"definition":"a loud sound made by a horn or bird","example_sentence":"A honk echoed across the garden.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
   {"id":"bonus-waddle","word":"waddle","grade_level":0,"definition":"to walk with short side-to-side steps","example_sentence":"The character began to waddle down the path.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
@@ -197,5 +200,8 @@
   {"id":"bonus-rake","word":"rake","grade_level":0,"definition":"a tool used to gather leaves or smooth soil","example_sentence":"The rake leaned against the fence.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
   {"id":"bonus-mischief","word":"mischief","grade_level":0,"definition":"playful trouble","example_sentence":"The quiet garden was ready for mischief.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
   {"id":"bonus-pond","word":"pond","grade_level":0,"definition":"a small body of water","example_sentence":"The pond reflected the clouds.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
-  {"id":"bonus-bell","word":"bell","grade_level":0,"definition":"a hollow object that rings when struck","example_sentence":"The bell rang near the gate.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]}
+  {"id":"bonus-bell","word":"bell","grade_level":0,"definition":"a hollow object that rings when struck","example_sentence":"The bell rang near the gate.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
+  {"id":"bonus-ribbon","word":"ribbon","grade_level":0,"definition":"a strip of fabric tied in a bow","example_sentence":"The goose wore a red ribbon.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
+  {"id":"bonus-shoelace","word":"shoelace","grade_level":0,"definition":"a string used to tie a shoe","example_sentence":"The shoelace was quietly untied.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]},
+  {"id":"bonus-steal","word":"steal","grade_level":0,"definition":"to take something without permission","example_sentence":"The goose tried to steal the bell.","difficulty_tags":["bonus"],"theme_tags":["garden-goose"]}
 ]

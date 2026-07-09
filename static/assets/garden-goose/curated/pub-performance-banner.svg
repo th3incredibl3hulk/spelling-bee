@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Pub performance banner</title>
+  <desc id="desc">A pub performance scene for Garden Goose surprise moments.</desc>
+  <rect width="720" height="520" fill="#7c2d12"/>
+  <rect x="80" y="120" width="560" height="260" rx="16" fill="#b45309" stroke="#164e63" stroke-width="8"/>
+  <g transform="translate(300 180)">
+    <ellipse cx="60" cy="120" rx="50" ry="34" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+    <ellipse cx="60" cy="70" rx="32" ry="26" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+    <path d="M72 150 L92 130 L72 170 L52 130 Z" fill="#ef4444" stroke="#164e63" stroke-width="4"/>
+    <path d="M20 40 L0 20 L30 15 L20 -10 L40 5 L60 -15 L50 10 L80 15 Z" fill="#fef08a" stroke="#164e63" stroke-width="3"/>
+  </g>
+  <g transform="translate(214 404)">
+    <rect x="0" y="0" width="292" height="54" rx="12" fill="#164e63"/>
+    <text x="146" y="36" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">PUB PERFORMANCE</text>
+  </g>
+</svg>

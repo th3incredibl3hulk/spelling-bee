@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-labelledby="title desc">
+  <title id="title">Storybook Quest wordmark</title>
+  <desc id="desc">Original storybook quest wordmark for the default spelling theme.</desc>
+  <rect width="720" height="200" fill="none"/>
+  <g transform="translate(36 28)">
+    <rect x="0" y="0" width="648" height="144" rx="18" fill="#0f9f8f" stroke="#233047" stroke-width="8"/>
+    <rect x="18" y="18" width="612" height="108" rx="12" fill="#fffaf0" stroke="#233047" stroke-width="4"/>
+    <text x="324" y="62" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="38" font-weight="bold" fill="#233047">STORYBOOK</text>
+    <text x="324" y="112" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="38" font-weight="bold" fill="#b45309">QUEST</text>
+    <path d="M88 72 L104 28 L120 72 M104 72 V108" fill="none" stroke="#b45309" stroke-width="5" stroke-linecap="round"/>
+    <path d="M600 72 L616 28 L632 72 M616 72 V108" fill="none" stroke="#b45309" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

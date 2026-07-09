@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Trophy yard victory</title>
+  <desc id="desc">A trophy victory screen for a perfect Goat Yard spelling run.</desc>
+  <rect width="720" height="520" fill="#ecfccb"/>
+  <rect x="32" y="32" width="656" height="456" rx="20" fill="#65a30d" stroke="#31511b" stroke-width="8"/>
+  <g opacity="0.95">
+    <rect x="94" y="88" width="532" height="110" rx="14" fill="#ecfccb" stroke="#31511b" stroke-width="8"/>
+    <text x="360" y="134" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="38" fill="#31511b">TROPHY YARD</text>
+    <text x="360" y="174" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ca8a04">10 / 10 STUNT RUN</text>
+  </g>
+  <g transform="translate(300 250)">
+    <path d="M-40 60 H40 V20 H60 V60 H80 L60 100 H-60 Z" fill="#fde68a" stroke="#31511b" stroke-width="6"/>
+    <rect x="-20" y="100" width="40" height="24" fill="#ca8a04" stroke="#31511b" stroke-width="4"/>
+    <rect x="-36" y="124" width="72" height="16" rx="4" fill="#31511b"/>
+  </g>
+  <g transform="translate(244 404)">
+    <rect x="0" y="0" width="232" height="54" rx="12" fill="#31511b"/>
+    <text x="116" y="36" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="24" fill="#ffffff">MAX CHAOS</text>
+  </g>
+</svg>

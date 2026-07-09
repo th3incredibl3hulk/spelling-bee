@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Goose legend card</title>
+  <desc id="desc">A rare glowing goose legend collectible card.</desc>
+  <rect width="720" height="520" fill="#164e63"/>
+  <rect x="52" y="36" width="616" height="448" rx="20" fill="#7dd3fc" stroke="#f0f9ff" stroke-width="10"/>
+  <rect x="86" y="72" width="548" height="376" rx="16" fill="#0284c7" stroke="#164e63" stroke-width="10"/>
+  <g transform="translate(300 170)">
+    <ellipse cx="60" cy="50" rx="50" ry="34" fill="#ffffff" stroke="#f0f9ff" stroke-width="8"/>
+    <ellipse cx="60" cy="0" rx="32" ry="26" fill="#ffffff" stroke="#f0f9ff" stroke-width="8"/>
+    <path d="M88 0 L108 8 L88 16 Z" fill="#f97316" stroke="#164e63" stroke-width="4"/>
+    <path d="M20 -20 L0 -40 L30 -35 L20 -60 L40 -45 L60 -65 L50 -40 L80 -35 Z" fill="#fbbf24" stroke="#164e63" stroke-width="4"/>
+  </g>
+  <g transform="translate(96 86)">
+    <rect x="0" y="0" width="236" height="64" rx="12" fill="#164e63"/>
+    <text x="118" y="42" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="28" font-weight="bold" fill="#ffffff">LEGEND PULL</text>
+  </g>
+  <text x="360" y="430" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="bold" fill="#ffffff">GOOSE LEGEND</text>
+</svg>

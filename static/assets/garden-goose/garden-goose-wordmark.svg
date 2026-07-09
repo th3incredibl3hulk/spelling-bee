@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-labelledby="title desc">
+  <title id="title">Garden Goose wordmark</title>
+  <desc id="desc">Original Garden Goose wordmark for the Untitled Goose Game spelling theme.</desc>
+  <rect width="720" height="200" fill="none"/>
+  <g transform="translate(36 28)">
+    <rect x="0" y="0" width="648" height="144" rx="18" fill="#0284c7" stroke="#164e63" stroke-width="8"/>
+    <rect x="18" y="18" width="612" height="108" rx="12" fill="#f0f9ff" stroke="#164e63" stroke-width="4"/>
+    <text x="324" y="62" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="38" font-weight="bold" fill="#164e63">GARDEN</text>
+    <text x="324" y="112" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="38" font-weight="bold" fill="#f97316">GOOSE</text>
+  </g>
+</svg>

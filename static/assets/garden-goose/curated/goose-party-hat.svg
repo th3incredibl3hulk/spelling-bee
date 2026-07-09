@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Goose with party hat</title>
+  <desc id="desc">A goose wearing a party hat for Garden Goose surprise moments.</desc>
+  <rect width="720" height="520" fill="#dbeafe"/>
+  <rect x="0" y="360" width="720" height="160" fill="#dcfce7"/>
+  <g transform="translate(260 120)">
+    <ellipse cx="100" cy="200" rx="80" ry="56" fill="#ffffff" stroke="#164e63" stroke-width="8"/>
+    <ellipse cx="100" cy="100" rx="54" ry="44" fill="#ffffff" stroke="#164e63" stroke-width="8"/>
+    <path d="M138 100 L178 88 L138 122 Z" fill="#f97316" stroke="#164e63" stroke-width="5"/>
+    <circle cx="82" cy="88" r="7" fill="#164e63"/>
+    <path d="M70 40 L100 0 L130 40 L118 70 H82 Z" fill="#ef4444" stroke="#164e63" stroke-width="6"/>
+    <circle cx="100" cy="8" r="8" fill="#fef08a" stroke="#164e63" stroke-width="3"/>
+  </g>
+  <g transform="translate(244 404)">
+    <rect x="0" y="0" width="232" height="54" rx="12" fill="#164e63"/>
+    <text x="116" y="36" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">PARTY HAT</text>
+  </g>
+</svg>

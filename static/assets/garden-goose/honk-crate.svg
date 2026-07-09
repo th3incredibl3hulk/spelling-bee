@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Honk crate</title>
+  <desc id="desc">A picnic honk crate for Garden Goose session rewards.</desc>
+  <rect width="720" height="520" fill="#dcfce7"/>
+  <rect y="360" width="720" height="160" fill="#dbeafe"/>
+  <g transform="translate(142 92)">
+    <rect x="0" y="92" width="436" height="284" rx="18" fill="#b45309" stroke="#164e63" stroke-width="12"/>
+    <rect x="24" y="116" width="388" height="70" rx="10" fill="#0284c7" stroke="#164e63" stroke-width="6"/>
+    <rect x="24" y="210" width="388" height="70" rx="10" fill="#fef08a" stroke="#164e63" stroke-width="6"/>
+    <rect x="24" y="304" width="388" height="48" rx="10" fill="#164e63" stroke="#164e63" stroke-width="6"/>
+    <path d="M56 92 L218 0 L380 92 Z" fill="#0284c7" stroke="#164e63" stroke-width="10" stroke-linejoin="round"/>
+    <text x="218" y="250" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="72" font-weight="bold" fill="#f0f9ff">?</text>
+  </g>
+  <g transform="translate(214 424)">
+    <rect x="0" y="0" width="292" height="54" rx="12" fill="#164e63"/>
+    <text x="146" y="36" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">HONK CRATE</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Goat legend card</title>
+  <desc id="desc">A rare glowing goat legend collectible card.</desc>
+  <rect width="720" height="520" fill="#31511b"/>
+  <rect x="52" y="36" width="616" height="448" rx="20" fill="#bef264" stroke="#ecfccb" stroke-width="10"/>
+  <rect x="86" y="72" width="548" height="376" rx="16" fill="#65a30d" stroke="#31511b" stroke-width="10"/>
+  <g transform="translate(300 150)">
+    <ellipse cx="0" cy="40" rx="50" ry="34" fill="#fde68a" stroke="#ecfccb" stroke-width="8"/>
+    <circle cx="0" cy="-20" r="34" fill="#fde68a" stroke="#ecfccb" stroke-width="8"/>
+    <path d="M-16 -38 L-24 -62 M16 -38 L24 -62" fill="none" stroke="#ecfccb" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(96 86)">
+    <rect x="0" y="0" width="236" height="64" rx="12" fill="#31511b"/>
+    <text x="118" y="42" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="28" fill="#ffffff">LEGEND PULL</text>
+  </g>
+  <text x="360" y="430" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="36" fill="#ffffff">GOAT LEGEND</text>
+</svg>

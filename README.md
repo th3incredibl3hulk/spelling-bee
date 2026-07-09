@@ -67,6 +67,17 @@ their progress.
 - Grade 7 correct: 20 XP
 - Bonus/theme words: +5 XP
 
+Storybook Quest sessions (the default starter theme) use the same reward
+structure:
+
+- 5 correct: page-turn reward moment
+- 7 correct: chapter checkpoint and story trunk crate
+- 8 correct: dragon tale reward moment
+- 10 correct: final chapter victory
+
+The story trunk awards one local Storybook Quest collectible card the child has
+not already collected.
+
 BlockWorks sessions add rank, reward moments, and collectibles:
 
 - 5 correct: selfie reward moment
@@ -139,10 +150,32 @@ reward structure:
 The quest cache awards one local Demigod Camp collectible card the child has not
 already collected.
 
-Curated internet media lives under `static/assets/blockworks/curated/`,
+Goat Yard sessions (Goat Simulator 3-themed) use the same reward structure:
+
+- 5 correct: stunt snap reward moment
+- 7 correct: ramp checkpoint and chaos crate
+- 8 correct: headbutt bonus reward moment
+- 10 correct: trophy yard victory
+
+The chaos crate awards one local Goat Yard collectible card the child has not
+already collected.
+
+Garden Goose sessions (Untitled Goose Game-themed) use the same reward structure:
+
+- 5 correct: mischief snap reward moment
+- 7 correct: bell checkpoint and honk crate
+- 8 correct: picnic bonus reward moment
+- 10 correct: garden job done victory
+
+The honk crate awards one local Garden Goose collectible card the child has not
+already collected.
+
+Curated internet media lives under `static/assets/storybook/curated/`,
+`static/assets/blockworks/curated/`,
 `static/assets/mario-course/curated/`, `static/assets/space-cadets/curated/`,
 `static/assets/luigi-mansion/curated/`, `static/assets/wizard-school/curated/`,
-`static/assets/toybox/curated/`, and `static/assets/demigod-camp/curated/` and is served locally. Source URLs and
+`static/assets/toybox/curated/`, `static/assets/demigod-camp/curated/`,
+and `static/assets/goat-yard/curated/`, and `static/assets/garden-goose/curated/` and is served locally. Source URLs and
 runtime-use notes are listed in each theme's `SOURCE.md` so you can review or
 remove files before the kids use the app.
 

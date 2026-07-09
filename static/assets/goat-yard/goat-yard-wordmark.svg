@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-labelledby="title desc">
+  <title id="title">Goat Yard wordmark</title>
+  <desc id="desc">Original Goat Simulator 3 inspired wordmark for the Goat Yard spelling theme.</desc>
+  <rect width="720" height="200" fill="none"/>
+  <g transform="translate(36 28)">
+    <rect x="0" y="0" width="648" height="144" rx="18" fill="#65a30d" stroke="#31511b" stroke-width="8"/>
+    <rect x="18" y="18" width="612" height="108" rx="12" fill="#ecfccb" stroke="#31511b" stroke-width="4"/>
+    <text x="324" y="62" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="42" fill="#31511b">GOAT</text>
+    <text x="324" y="112" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="42" fill="#ca8a04">YARD</text>
+    <path d="M88 72 Q104 28 120 72 M104 72 V108" fill="none" stroke="#31511b" stroke-width="6" stroke-linecap="round"/>
+    <path d="M600 72 Q616 28 632 72 M616 72 V108" fill="none" stroke="#31511b" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

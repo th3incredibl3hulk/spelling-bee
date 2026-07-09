@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Shoelace reset</title>
+  <desc id="desc">A friendly shoelace untie reset card for brave spellers.</desc>
+  <rect width="720" height="520" fill="#f0f9ff"/>
+  <rect x="48" y="48" width="624" height="424" rx="20" fill="#dcfce7" stroke="#164e63" stroke-width="8"/>
+  <g transform="translate(280 160)">
+    <rect x="40" y="120" width="120" height="40" rx="8" fill="#78716c" stroke="#164e63" stroke-width="6"/>
+    <path d="M70 120 C90 180 110 180 130 120" fill="none" stroke="#164e63" stroke-width="8" stroke-linecap="round"/>
+    <path d="M80 120 C100 200 120 200 140 120" fill="none" stroke="#164e63" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="100" cy="80" rx="50" ry="34" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+    <ellipse cx="100" cy="30" rx="32" ry="26" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+  </g>
+  <g transform="translate(156 360)">
+    <rect x="0" y="0" width="408" height="76" rx="12" fill="#164e63"/>
+    <text x="204" y="32" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">SHOELACE RESET</text>
+    <text x="204" y="58" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#fef08a">sneak back into the garden</text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Goose emblem</title>
+  <desc id="desc">A honking goose emblem for Garden Goose rewards.</desc>
+  <circle cx="120" cy="120" r="108" fill="#0284c7" stroke="#164e63" stroke-width="8"/>
+  <circle cx="120" cy="120" r="84" fill="#f0f9ff" stroke="#164e63" stroke-width="4"/>
+  <g transform="translate(120 118)">
+    <ellipse cx="0" cy="20" rx="46" ry="30" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+    <ellipse cx="0" cy="-18" rx="30" ry="24" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+    <path d="M24 -18 L44 -10 L24 -6 Z" fill="#f97316" stroke="#164e63" stroke-width="4"/>
+    <circle cx="-8" cy="-22" r="5" fill="#164e63"/>
+    <path d="M-50 -8 Q-70 -28 -54 -48" fill="none" stroke="#164e63" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

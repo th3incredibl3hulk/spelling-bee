@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Storybook emblem</title>
+  <desc id="desc">An open-book emblem for Storybook Quest rewards.</desc>
+  <circle cx="120" cy="120" r="108" fill="#0f9f8f" stroke="#233047" stroke-width="8"/>
+  <circle cx="120" cy="120" r="84" fill="#fffaf0" stroke="#233047" stroke-width="4"/>
+  <g transform="translate(120 120)">
+    <path d="M-52 48 V-44 C-52 -58 -18 -58 0 -44 C18 -58 52 -58 52 -44 V48 C52 62 18 62 0 48 C-18 62 -52 62 -52 48 Z" fill="#fde68a" stroke="#233047" stroke-width="6"/>
+    <path d="M0 -44 V48" stroke="#233047" stroke-width="4"/>
+    <path d="M-28 -8 H-8 M-28 12 H-4 M20 -8 H40 M16 12 H40" stroke="#b45309" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

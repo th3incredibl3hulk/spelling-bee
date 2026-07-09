@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ragdoll reset</title>
+  <desc id="desc">A friendly ragdoll reset card for brave spellers.</desc>
+  <rect width="720" height="520" fill="#ecfccb"/>
+  <rect x="48" y="48" width="624" height="424" rx="20" fill="#65a30d" stroke="#31511b" stroke-width="8"/>
+  <g transform="translate(260 140)">
+    <circle cx="100" cy="40" r="32" fill="#fde68a" stroke="#31511b" stroke-width="6"/>
+    <path d="M60 100 L100 80 L140 120 L100 200 L60 160 Z" fill="#fde68a" stroke="#31511b" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M140 120 L180 80 M60 100 L20 140" fill="none" stroke="#31511b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(156 360)">
+    <rect x="0" y="0" width="408" height="76" rx="12" fill="#31511b"/>
+    <text x="204" y="32" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="24" fill="#ffffff">RAGDOLL RESET</text>
+    <text x="204" y="58" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="18" fill="#fde68a">respawn and headbutt again</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Goose with bow tie</title>
+  <desc id="desc">A goose dressed up with a ribbon bow for Garden Goose rewards.</desc>
+  <rect width="720" height="520" fill="#fce7f3"/>
+  <g transform="translate(240 110)">
+    <ellipse cx="100" cy="210" rx="82" ry="58" fill="#ffffff" stroke="#164e63" stroke-width="8"/>
+    <ellipse cx="100" cy="108" rx="54" ry="44" fill="#ffffff" stroke="#164e63" stroke-width="8"/>
+    <path d="M138 108 L178 96 L138 130 Z" fill="#f97316" stroke="#164e63" stroke-width="5"/>
+    <circle cx="82" cy="96" r="7" fill="#164e63"/>
+    <path d="M72 150 L100 130 L128 150 L100 170 Z" fill="#ef4444" stroke="#164e63" stroke-width="6"/>
+    <circle cx="100" cy="150" r="8" fill="#dc2626" stroke="#164e63" stroke-width="3"/>
+  </g>
+  <g transform="translate(244 404)">
+    <rect x="0" y="0" width="232" height="54" rx="12" fill="#164e63"/>
+    <text x="116" y="36" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">BOW GOOSE</text>
+  </g>
+</svg>

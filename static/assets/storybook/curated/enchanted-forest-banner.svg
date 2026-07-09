@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Enchanted forest banner</title>
+  <desc id="desc">An enchanted forest scene for Storybook Quest surprise moments.</desc>
+  <rect width="720" height="520" fill="#14532d"/>
+  <g transform="translate(80 280)">
+    <path d="M60 120 L100 0 L140 120 Z" fill="#166534" stroke="#052e16" stroke-width="6"/>
+    <path d="M180 120 L220 20 L260 120 Z" fill="#15803d" stroke="#052e16" stroke-width="6"/>
+    <path d="M300 120 L340 0 L380 120 Z" fill="#166534" stroke="#052e16" stroke-width="6"/>
+    <path d="M420 120 L460 30 L500 120 Z" fill="#15803d" stroke="#052e16" stroke-width="6"/>
+  </g>
+  <circle cx="540" cy="100" r="36" fill="#fde68a" opacity="0.9"/>
+  <g transform="translate(214 404)">
+    <rect x="0" y="0" width="292" height="54" rx="12" fill="#052e16"/>
+    <text x="146" y="36" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">ENCHANTED FOREST</text>
+  </g>
+</svg>

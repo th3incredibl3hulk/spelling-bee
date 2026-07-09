@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Five correct mischief selfie</title>
+  <desc id="desc">A garden mischief celebration for five correct answers.</desc>
+  <rect width="720" height="520" fill="#0284c7"/>
+  <rect x="0" y="300" width="720" height="220" fill="#dcfce7"/>
+  <g transform="translate(120 110)">
+    <ellipse cx="120" cy="150" rx="70" ry="48" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+    <ellipse cx="120" cy="70" rx="46" ry="38" fill="#ffffff" stroke="#164e63" stroke-width="6"/>
+    <path d="M158 70 L188 58 L158 86 Z" fill="#f97316" stroke="#164e63" stroke-width="4"/>
+    <circle cx="104" cy="62" r="6" fill="#164e63"/>
+    <path d="M220 120 L300 90 L300 170 L220 200 Z" fill="#fef08a" stroke="#164e63" stroke-width="6"/>
+    <text x="260" y="145" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="22" font-weight="bold" fill="#164e63">HONK</text>
+  </g>
+  <g transform="translate(346 254) rotate(-4)">
+    <rect x="0" y="0" width="260" height="118" rx="16" fill="#f0f9ff" stroke="#164e63" stroke-width="8"/>
+    <text x="130" y="46" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="34" font-weight="bold" fill="#164e63">5 CORRECT</text>
+    <text x="130" y="84" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="26" font-weight="bold" fill="#0284c7">MISCHIEF SNAP!</text>
+  </g>
+</svg>

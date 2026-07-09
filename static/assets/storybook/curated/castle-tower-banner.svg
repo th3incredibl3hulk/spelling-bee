@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Castle tower banner</title>
+  <desc id="desc">A fairy-tale castle tower for Storybook Quest surprise moments.</desc>
+  <rect width="720" height="520" fill="#e0f2fe"/>
+  <rect x="0" y="360" width="720" height="160" fill="#fff7ed"/>
+  <g transform="translate(220 80)">
+    <rect x="80" y="120" width="120" height="200" fill="#cbd5e1" stroke="#233047" stroke-width="8"/>
+    <path d="M60 120 L140 40 L220 120 Z" fill="#94a3b8" stroke="#233047" stroke-width="8"/>
+    <rect x="120" y="180" width="40" height="60" fill="#233047"/>
+    <rect x="40" y="200" width="60" height="120" fill="#cbd5e1" stroke="#233047" stroke-width="6"/>
+    <path d="M20 200 L70 140 L120 200 Z" fill="#94a3b8" stroke="#233047" stroke-width="6"/>
+    <rect x="180" y="200" width="60" height="120" fill="#cbd5e1" stroke="#233047" stroke-width="6"/>
+    <path d="M160 200 L210 140 L260 200 Z" fill="#94a3b8" stroke="#233047" stroke-width="6"/>
+  </g>
+</svg>

@@ -39,6 +39,78 @@ BLOCKWORKS_RANKS = [
     (900, "Legend"),
 ]
 LEVEL_XP_STEP = 100
+STORYBOOK_COLLECTIBLES = [
+    {
+        "id": "chapter-checkpoint",
+        "name": "Chapter Flex",
+        "rarity": "common",
+        "image_path": "/assets/storybook/chapter-checkpoint.svg",
+        "description": "A chapter checkpoint for steady spelling.",
+    },
+    {
+        "id": "bookmark-selfie",
+        "name": "Five Correct Page Turn",
+        "rarity": "common",
+        "image_path": "/assets/storybook/bookmark-selfie.svg",
+        "description": "A celebratory bookmark card for a five-correct run.",
+    },
+    {
+        "id": "margin-note-card",
+        "name": "Margin Note",
+        "rarity": "common",
+        "image_path": "/assets/storybook/margin-note-reset.svg",
+        "description": "A friendly margin-note reset card for brave spellers.",
+    },
+    {
+        "id": "alice-illustration",
+        "name": "Wonderland Scene",
+        "rarity": "rare",
+        "image_path": "/assets/storybook/curated/alice-illustration.png",
+        "description": "A classic Wonderland illustration for a story-style reward drop.",
+    },
+    {
+        "id": "oz-illustration",
+        "name": "Emerald Road",
+        "rarity": "rare",
+        "image_path": "/assets/storybook/curated/oz-illustration.png",
+        "description": "A Wizard of Oz illustration card for clean answers.",
+    },
+    {
+        "id": "book-emblem",
+        "name": "Open Book Badge",
+        "rarity": "rare",
+        "image_path": "/assets/storybook/book-emblem.svg",
+        "description": "A storybook badge reward for clean answers.",
+    },
+    {
+        "id": "dragon-tale",
+        "name": "Dragon Tale",
+        "rarity": "epic",
+        "image_path": "/assets/storybook/curated/dragon-banner.svg",
+        "description": "A fairy-tale dragon scene for an eight-correct storybook run.",
+    },
+    {
+        "id": "fairy-castle",
+        "name": "Fairy Castle",
+        "rarity": "epic",
+        "image_path": "/assets/storybook/curated/fairy-castle-banner.jpg",
+        "description": "A castle banner from the curated fairy-tale set.",
+    },
+    {
+        "id": "final-chapter",
+        "name": "Final Chapter",
+        "rarity": "epic",
+        "image_path": "/assets/storybook/final-chapter-victory.svg",
+        "description": "A full-session story card for boss-level spelling.",
+    },
+    {
+        "id": "story-legend",
+        "name": "Story Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/storybook/story-legend.svg",
+        "description": "A rare pull for high-scoring Storybook Quest sessions.",
+    },
+]
 BLOCKWORKS_COLLECTIBLES = [
     {
         "id": "obby-checkpoint",
@@ -543,7 +615,152 @@ DEMIGOD_CAMP_COLLECTIBLES = [
         "description": "A rare pull for high-scoring Demigod Camp sessions.",
     },
 ]
+GOAT_YARD_COLLECTIBLES = [
+    {
+        "id": "ramp-checkpoint",
+        "name": "Ramp Flex",
+        "rarity": "common",
+        "image_path": "/assets/goat-yard/ramp-checkpoint.svg",
+        "description": "A ramp checkpoint for steady spelling.",
+    },
+    {
+        "id": "bleat-selfie",
+        "name": "Five Correct Stunt Snap",
+        "rarity": "common",
+        "image_path": "/assets/goat-yard/bleat-selfie.svg",
+        "description": "A celebratory bleat card for a five-correct run.",
+    },
+    {
+        "id": "ragdoll-card",
+        "name": "Ragdoll Note",
+        "rarity": "common",
+        "image_path": "/assets/goat-yard/ragdoll-reset.svg",
+        "description": "A friendly ragdoll reset card for brave spellers.",
+    },
+    {
+        "id": "goat-simulator-3",
+        "name": "Goat Simulator 3",
+        "rarity": "rare",
+        "image_path": "/assets/goat-yard/curated/goat-simulator-3-cover.png",
+        "description": "A Goat Simulator 3 cover card for a chaos-style reward drop.",
+    },
+    {
+        "id": "goat-simulator-classic",
+        "name": "Goat Simulator Classic",
+        "rarity": "rare",
+        "image_path": "/assets/goat-yard/curated/goat-simulator-cover.jpg",
+        "description": "An original Goat Simulator cover card for clean answers.",
+    },
+    {
+        "id": "goat-emblem",
+        "name": "Stunt Goat Badge",
+        "rarity": "rare",
+        "image_path": "/assets/goat-yard/goat-emblem.svg",
+        "description": "A stunt-goat badge reward for clean answers.",
+    },
+    {
+        "id": "headbutt-chaos",
+        "name": "Headbutt Chaos",
+        "rarity": "epic",
+        "image_path": "/assets/goat-yard/curated/headbutt-banner.svg",
+        "description": "A headbutt scene for an eight-correct goat yard run.",
+    },
+    {
+        "id": "hay-bale-yard",
+        "name": "Hay Bale Yard",
+        "rarity": "epic",
+        "image_path": "/assets/goat-yard/curated/hay-bale-banner.jpg",
+        "description": "A barnyard hay card from the curated goat set.",
+    },
+    {
+        "id": "trophy-victory",
+        "name": "Trophy Yard",
+        "rarity": "epic",
+        "image_path": "/assets/goat-yard/trophy-victory.svg",
+        "description": "A full-session stunt card for boss-level spelling.",
+    },
+    {
+        "id": "goat-legend",
+        "name": "Goat Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/goat-yard/goat-legend.svg",
+        "description": "A rare pull for high-scoring Goat Yard sessions.",
+    },
+]
+GARDEN_GOOSE_COLLECTIBLES = [
+    {
+        "id": "bell-checkpoint",
+        "name": "Bell Flex",
+        "rarity": "common",
+        "image_path": "/assets/garden-goose/bell-checkpoint.svg",
+        "description": "A stolen bell checkpoint for steady spelling.",
+    },
+    {
+        "id": "mischief-selfie",
+        "name": "Five Correct Mischief Snap",
+        "rarity": "common",
+        "image_path": "/assets/garden-goose/mischief-selfie.svg",
+        "description": "A celebratory honk card for a five-correct run.",
+    },
+    {
+        "id": "shoelace-card",
+        "name": "Shoelace Note",
+        "rarity": "common",
+        "image_path": "/assets/garden-goose/shoelace-reset.svg",
+        "description": "A friendly shoelace reset card for brave spellers.",
+    },
+    {
+        "id": "goose-with-crown",
+        "name": "Crown Goose",
+        "rarity": "rare",
+        "image_path": "/assets/garden-goose/curated/goose-with-crown.jpeg",
+        "description": "A crowned goose card for completing every garden job.",
+    },
+    {
+        "id": "goose-with-bow",
+        "name": "Ribbon Goose",
+        "rarity": "rare",
+        "image_path": "/assets/garden-goose/curated/goose-with-bow.png",
+        "description": "A ribbon-dressed goose card from the back gardens.",
+    },
+    {
+        "id": "goose-emblem",
+        "name": "Honk Badge",
+        "rarity": "rare",
+        "image_path": "/assets/garden-goose/goose-emblem.svg",
+        "description": "A honking goose badge reward for clean answers.",
+    },
+    {
+        "id": "goose-party-hat",
+        "name": "Party Hat Goose",
+        "rarity": "epic",
+        "image_path": "/assets/garden-goose/curated/goose-party-hat.svg",
+        "description": "A party-hat goose scene for an eight-correct garden run.",
+    },
+    {
+        "id": "goose-knife",
+        "name": "Knife Goose",
+        "rarity": "epic",
+        "image_path": "/assets/garden-goose/curated/goose-knife.svg",
+        "description": "A knife-carrying goose card from the village chaos set.",
+    },
+    {
+        "id": "garden-victory",
+        "name": "Garden Job Done",
+        "rarity": "epic",
+        "image_path": "/assets/garden-goose/garden-victory.svg",
+        "description": "A full-session to-do list card for boss-level spelling.",
+    },
+    {
+        "id": "goose-legend",
+        "name": "Goose Legend",
+        "rarity": "legendary",
+        "image_path": "/assets/garden-goose/goose-legend.svg",
+        "description": "A rare pull for high-scoring Garden Goose sessions.",
+    },
+]
 THEME_COLLECTIBLES = {
+    "storybook": STORYBOOK_COLLECTIBLES,
     "blockworks": BLOCKWORKS_COLLECTIBLES,
     "mario-course": MARIO_COURSE_COLLECTIBLES,
     "space-cadets": SPACE_CADETS_COLLECTIBLES,
@@ -551,6 +768,8 @@ THEME_COLLECTIBLES = {
     "wizard-school": WIZARD_SCHOOL_COLLECTIBLES,
     "toybox": TOYBOX_COLLECTIBLES,
     "demigod-camp": DEMIGOD_CAMP_COLLECTIBLES,
+    "goat-yard": GOAT_YARD_COLLECTIBLES,
+    "garden-goose": GARDEN_GOOSE_COLLECTIBLES,
 }
 REWARD_THEME_IDS = frozenset(THEME_COLLECTIBLES)
 
@@ -1054,6 +1273,7 @@ def award_theme_crate(
             if collectible["id"] not in owned
         ]
     theme_label = {
+        "storybook": "Storybook Quest",
         "blockworks": "BlockWorks",
         "mario-course": "Mario Course",
         "space-cadets": "Space Cadets",
@@ -1061,6 +1281,8 @@ def award_theme_crate(
         "wizard-school": "Wizard School",
         "toybox": "Toybox Rescue",
         "demigod-camp": "Demigod Camp",
+        "goat-yard": "Goat Yard",
+        "garden-goose": "Garden Goose",
     }.get(theme_id, theme_id.replace("-", " ").title())
     if not candidates:
         return {
@@ -1105,6 +1327,47 @@ def award_blockworks_crate(
     correct_count: int,
 ) -> dict | None:
     return award_theme_crate(conn, child_id, session_id, "blockworks", correct_count)
+
+
+def storybook_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "bookmark-selfie",
+                "title": "Page turn unlocked",
+                "description": "Five correct answers triggered a bookmark snap card.",
+                "image_path": "/assets/storybook/bookmark-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "chapter-seven",
+                "title": "Chapter checkpoint",
+                "description": "Seven correct answers opened the story trunk lane.",
+                "image_path": "/assets/storybook/chapter-checkpoint.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "dragon-eight",
+                "title": "Dragon tale bonus",
+                "description": "Eight correct answers woke the fairy-tale dragon.",
+                "image_path": "/assets/storybook/curated/dragon-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "final-chapter",
+                "title": "Final chapter",
+                "description": "Perfect run. The story ends on a gold star.",
+                "image_path": "/assets/storybook/final-chapter-victory.svg",
+            }
+        )
+    return events
 
 
 def blockworks_reward_events(correct_count: int) -> list[dict]:
@@ -1394,7 +1657,91 @@ def demigod_camp_reward_events(correct_count: int) -> list[dict]:
     return events
 
 
+def goat_yard_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "bleat-selfie",
+                "title": "Stunt snap unlocked",
+                "description": "Five correct answers triggered a bleat snap card.",
+                "image_path": "/assets/goat-yard/bleat-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "ramp-seven",
+                "title": "Ramp checkpoint",
+                "description": "Seven correct answers opened the chaos crate lane.",
+                "image_path": "/assets/goat-yard/ramp-checkpoint.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "headbutt-eight",
+                "title": "Headbutt bonus",
+                "description": "Eight correct answers launched a physics headbutt.",
+                "image_path": "/assets/goat-yard/curated/headbutt-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "trophy-victory",
+                "title": "Trophy yard",
+                "description": "Perfect run. Maximum goat chaos achieved.",
+                "image_path": "/assets/goat-yard/trophy-victory.svg",
+            }
+        )
+    return events
+
+
+def garden_goose_reward_events(correct_count: int) -> list[dict]:
+    events = []
+    if correct_count >= 5:
+        events.append(
+            {
+                "id": "mischief-selfie",
+                "title": "Mischief snap unlocked",
+                "description": "Five correct answers triggered a honk snap card.",
+                "image_path": "/assets/garden-goose/mischief-selfie.svg",
+            }
+        )
+    if correct_count >= 7:
+        events.append(
+            {
+                "id": "bell-seven",
+                "title": "Bell checkpoint",
+                "description": "Seven correct answers opened the honk crate lane.",
+                "image_path": "/assets/garden-goose/bell-checkpoint.svg",
+            }
+        )
+    if correct_count >= 8:
+        events.append(
+            {
+                "id": "picnic-eight",
+                "title": "Picnic bonus",
+                "description": "Eight correct answers raided the picnic basket.",
+                "image_path": "/assets/garden-goose/curated/picnic-banner.svg",
+            }
+        )
+    if correct_count >= 10:
+        events.append(
+            {
+                "id": "garden-victory",
+                "title": "Garden job done",
+                "description": "Perfect run. The to-do list is complete.",
+                "image_path": "/assets/garden-goose/garden-victory.svg",
+            }
+        )
+    return events
+
+
 def theme_reward_events(theme_id: str, correct_count: int) -> list[dict]:
+    if theme_id == "storybook":
+        return storybook_reward_events(correct_count)
     if theme_id == "blockworks":
         return blockworks_reward_events(correct_count)
     if theme_id == "mario-course":
@@ -1409,6 +1756,10 @@ def theme_reward_events(theme_id: str, correct_count: int) -> list[dict]:
         return toybox_reward_events(correct_count)
     if theme_id == "demigod-camp":
         return demigod_camp_reward_events(correct_count)
+    if theme_id == "goat-yard":
+        return goat_yard_reward_events(correct_count)
+    if theme_id == "garden-goose":
+        return garden_goose_reward_events(correct_count)
     return []
 
 

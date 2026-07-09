@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Dragon tale bonus</title>
+  <desc id="desc">A fairy-tale dragon banner for an eight-correct Storybook Quest run.</desc>
+  <rect width="720" height="520" fill="#233047"/>
+  <g transform="translate(220 120)">
+    <path d="M40 220 Q80 80 160 120 Q200 40 260 100 Q300 60 340 140 Q380 80 420 180 Q460 120 500 220" fill="none" stroke="#0f9f8f" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="120" cy="130" r="18" fill="#fde68a" stroke="#fffaf0" stroke-width="4"/>
+    <path d="M80 180 Q120 150 150 190" fill="none" stroke="#b45309" stroke-width="10" stroke-linecap="round"/>
+    <path d="M360 150 L420 110 L400 190 Z" fill="#b45309" stroke="#fffaf0" stroke-width="4"/>
+  </g>
+  <g transform="translate(244 404)">
+    <rect x="0" y="0" width="232" height="54" rx="12" fill="#0f9f8f" stroke="#fffaf0" stroke-width="4"/>
+    <text x="116" y="36" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">DRAGON TALE</text>
+  </g>
+</svg>

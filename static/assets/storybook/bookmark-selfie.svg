@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Five correct bookmark selfie</title>
+  <desc id="desc">A bookmark celebration card for five correct answers.</desc>
+  <rect width="720" height="520" fill="#e0f2fe"/>
+  <rect x="0" y="300" width="720" height="220" fill="#fff7ed"/>
+  <rect x="0" y="280" width="720" height="24" fill="#e8d8b5"/>
+  <g transform="translate(90 96)">
+    <rect x="112" y="94" width="148" height="168" rx="12" fill="#fffaf0" stroke="#233047" stroke-width="6"/>
+    <rect x="168" y="40" width="36" height="120" fill="#0f9f8f" stroke="#233047" stroke-width="4"/>
+    <circle cx="186" cy="72" r="52" fill="#fde68a" stroke="#233047" stroke-width="6"/>
+    <path d="M160 76 Q186 94 212 76" fill="none" stroke="#233047" stroke-width="8" stroke-linecap="round"/>
+    <path d="M248 120 L320 90 L320 170 L248 200 Z" fill="#b45309" stroke="#233047" stroke-width="6"/>
+    <path d="M284 100 L284 50 M268 70 L300 70" stroke="#233047" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(346 254) rotate(-4)">
+    <rect x="0" y="0" width="260" height="118" rx="16" fill="#ffffff" stroke="#233047" stroke-width="8"/>
+    <text x="130" y="46" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="34" font-weight="bold" fill="#233047">5 CORRECT</text>
+    <text x="130" y="84" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="26" font-weight="bold" fill="#0f9f8f">PAGE TURN!</text>
+  </g>
+</svg>

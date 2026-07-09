@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ramp checkpoint</title>
+  <desc id="desc">A ramp checkpoint for a strong Goat Yard spelling streak.</desc>
+  <rect width="720" height="520" fill="#31511b"/>
+  <circle cx="120" cy="80" r="6" fill="#bef264" opacity="0.8"/>
+  <circle cx="520" cy="70" r="5" fill="#bef264" opacity="0.8"/>
+  <g transform="translate(300 140)">
+    <path d="M60 220 L60 80 L100 40 L140 80 L140 220 Z" fill="#ca8a04" stroke="#ecfccb" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="100" cy="120" r="28" fill="#65a30d" stroke="#ecfccb" stroke-width="6"/>
+    <path d="M20 220 H180 L160 260 H40 Z" fill="#fde68a" stroke="#ecfccb" stroke-width="6"/>
+    <path d="M-20 220 L80 160 L180 220 Z" fill="#78716c" stroke="#ecfccb" stroke-width="6"/>
+  </g>
+  <g transform="translate(124 372)">
+    <rect x="0" y="0" width="472" height="76" rx="12" fill="#65a30d" stroke="#ecfccb" stroke-width="6"/>
+    <text x="236" y="31" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="24" fill="#ffffff">RAMP CHECKPOINT</text>
+    <text x="236" y="58" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="18" fill="#fde68a">chaos crate lane open</text>
+  </g>
+</svg>

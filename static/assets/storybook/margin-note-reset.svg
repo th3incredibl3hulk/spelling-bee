@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Margin note reset</title>
+  <desc id="desc">A friendly margin note reset card for brave spellers.</desc>
+  <rect width="720" height="520" fill="#fffaf0"/>
+  <rect x="48" y="48" width="624" height="424" rx="20" fill="#e0f2fe" stroke="#233047" stroke-width="8"/>
+  <g transform="translate(260 120)">
+    <rect x="0" y="80" width="200" height="180" rx="16" fill="#ffffff" stroke="#233047" stroke-width="6"/>
+    <path d="M20 110 H180 M20 150 H140 M20 190 H160 M20 230 H120" stroke="#b45309" stroke-width="6" stroke-linecap="round"/>
+    <rect x="150" y="40" width="36" height="80" fill="#0f9f8f" stroke="#233047" stroke-width="4"/>
+  </g>
+  <g transform="translate(156 360)">
+    <rect x="0" y="0" width="408" height="76" rx="12" fill="#233047"/>
+    <text x="204" y="32" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="bold" fill="#ffffff">MARGIN NOTE</text>
+    <text x="204" y="58" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="18" fill="#fde68a">turn the page and try again</text>
+  </g>
+</svg>
