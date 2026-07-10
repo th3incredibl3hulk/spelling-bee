@@ -807,7 +807,8 @@ button {
   box-shadow: 0 12px 24px color-mix(in srgb, var(--accent) 24%, transparent);
 }
 
-.pattern {
+.pattern,
+.letter-entry {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -833,24 +834,22 @@ button {
   background: color-mix(in srgb, var(--accent) 12%, #ffffff);
 }
 
-.answer-form {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 10px;
+.letter-input {
+  padding: 0;
+  text-align: center;
+  font: inherit;
+  color: inherit;
 }
 
-.answer-input {
-  min-height: 56px;
-  border: 2px solid var(--line);
-  border-radius: var(--radius);
-  padding: 12px 14px;
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.answer-input:focus {
+.letter-input:focus {
   border-color: var(--accent);
   outline: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+
+.answer-form {
+  display: grid;
+  gap: 12px;
 }
 
 .feedback {
@@ -1423,7 +1422,7 @@ tr:last-child td {
 .theme-storybook .field input,
 .theme-storybook .field select,
 .theme-storybook .field textarea,
-.theme-storybook .answer-input,
+.theme-storybook .letter-input,
 .theme-storybook .letter-box,
 .theme-storybook .btn.secondary {
   border-color: color-mix(in srgb, var(--accent) 42%, #e8d8b5);
@@ -1845,7 +1844,7 @@ tr:last-child td {
 .theme-luigi-mansion .field input,
 .theme-luigi-mansion .field select,
 .theme-luigi-mansion .field textarea,
-.theme-luigi-mansion .answer-input,
+.theme-luigi-mansion .letter-input,
 .theme-luigi-mansion .letter-box,
 .theme-luigi-mansion .btn.secondary {
   border-color: color-mix(in srgb, var(--accent) 42%, #ffffff);
@@ -1963,7 +1962,7 @@ tr:last-child td {
 .theme-wizard-school .field input,
 .theme-wizard-school .field select,
 .theme-wizard-school .field textarea,
-.theme-wizard-school .answer-input,
+.theme-wizard-school .letter-input,
 .theme-wizard-school .letter-box,
 .theme-wizard-school .btn.secondary {
   border-color: color-mix(in srgb, var(--accent) 42%, #fef3c7);
@@ -2074,7 +2073,7 @@ tr:last-child td {
 .theme-toybox .field input,
 .theme-toybox .field select,
 .theme-toybox .field textarea,
-.theme-toybox .answer-input,
+.theme-toybox .letter-input,
 .theme-toybox .letter-box,
 .theme-toybox .btn.secondary {
   border-color: color-mix(in srgb, var(--accent) 45%, #111827);
@@ -2185,7 +2184,7 @@ tr:last-child td {
 .theme-demigod-camp .field input,
 .theme-demigod-camp .field select,
 .theme-demigod-camp .field textarea,
-.theme-demigod-camp .answer-input,
+.theme-demigod-camp .letter-input,
 .theme-demigod-camp .letter-box,
 .theme-demigod-camp .btn.secondary {
   border-color: color-mix(in srgb, var(--accent) 45%, #164e63);
@@ -2295,7 +2294,7 @@ tr:last-child td {
 .theme-goat-yard .field input,
 .theme-goat-yard .field select,
 .theme-goat-yard .field textarea,
-.theme-goat-yard .answer-input,
+.theme-goat-yard .letter-input,
 .theme-goat-yard .letter-box,
 .theme-goat-yard .btn.secondary {
   border-color: color-mix(in srgb, var(--accent) 45%, #31511b);
@@ -2407,7 +2406,7 @@ tr:last-child td {
 .theme-garden-goose .field input,
 .theme-garden-goose .field select,
 .theme-garden-goose .field textarea,
-.theme-garden-goose .answer-input,
+.theme-garden-goose .letter-input,
 .theme-garden-goose .letter-box,
 .theme-garden-goose .btn.secondary {
   border-color: color-mix(in srgb, var(--accent) 42%, #7dd3fc);
@@ -2492,7 +2491,8 @@ tr:last-child td {
     grid-template-columns: 1fr;
   }
 
-  .letter-box {
+  .letter-box,
+  .letter-input {
     width: 36px;
     height: 44px;
     font-size: 20px;

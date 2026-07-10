@@ -1490,9 +1490,6 @@ function renderSession() {
   const theme = themeById(session.theme_id) || { id: session.theme_id, name: session.theme_name };
   const treatment = treatmentFor(session.theme_id);
   const themeClass = `theme-shell ${treatment.className} theme-background-${session.theme_background}`;
-  const pattern = current.pattern.map((letter) => `
-    <span class="letter-box ${letter !== "_" ? "revealed" : ""}">${letter === "_" ? "" : escapeHtml(letter)}</span>
-  `).join("");
   const feedback = state.feedback ? renderFeedback(state.feedback) : "";
 
   app.innerHTML = `
@@ -1520,8 +1517,9 @@ function renderSession() {
                 <span class="pill">${current.max_hints - current.hints_used} hints left</span>
               </div>
             </div>
-            <div class="pattern" aria-label="Revealed letters">${pattern}</div>
-            ${feedback || renderAnswerForm(current)}
+            ${feedback
+              ? `<div class="pattern" aria-label="Answer pattern">${renderAnswerPattern(current, true)}</div>${feedback}`
+              : renderAnswerForm(current)}
             <div class="status-line">${escapeHtml(state.status)}</div>
           </div>
           <aside class="session-side">
@@ -1556,15 +1554,120 @@ function renderSession() {
       </section>
     </div>
   `;
+  if (!state.feedback) {
+    const form = app.querySelector('[data-form="answer"]');
+    if (form) setupLetterInputs(form);
+  }
+}
+
+function renderAnswerPattern(current, readonly = false) {
+  return current.pattern.map((letter, index) => {
+    if (letter !== "_") {
+      return `<span class="letter-box revealed" aria-hidden="true">${escapeHtml(letter)}</span>`;
+    }
+    if (readonly) {
+      return `<span class="letter-box" aria-hidden="true"></span>`;
+    }
+    return `<input
+      class="letter-box letter-input"
+      type="text"
+      maxlength="1"
+      data-letter-index="${index}"
+      autocomplete="off"
+      autocapitalize="characters"
+      spellcheck="false"
+      inputmode="text"
+      aria-label="Letter ${index + 1}"
+    >`;
+  }).join("");
 }
 
 function renderAnswerForm(current) {
   return `
     <form class="answer-form" data-form="answer">
-      <input class="answer-input" name="answer" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Spelling answer" autofocus>
+      <div class="letter-entry" aria-label="Spell the word">
+        ${renderAnswerPattern(current)}
+      </div>
       <button class="btn primary" type="submit">${icon("check")}Submit</button>
     </form>
   `;
+}
+
+function letterInputs(form) {
+  return [...form.querySelectorAll(".letter-input")];
+}
+
+function collectAnswerFromForm(form, pattern) {
+  const inputs = letterInputs(form);
+  let inputIndex = 0;
+  let answer = "";
+  for (const letter of pattern) {
+    if (letter === "_") {
+      answer += (inputs[inputIndex]?.value || "").trim();
+      inputIndex += 1;
+    } else {
+      answer += letter;
+    }
+  }
+  return answer;
+}
+
+function setupLetterInputs(form) {
+  const inputs = letterInputs(form);
+  if (!inputs.length) return;
+
+  const focusInput = (index) => {
+    const target = inputs[Math.max(0, Math.min(index, inputs.length - 1))];
+    target?.focus();
+    target?.select();
+  };
+
+  inputs.forEach((input, index) => {
+    input.addEventListener("input", () => {
+      const value = input.value.replace(/[^a-zA-Z]/g, "");
+      input.value = value ? value[value.length - 1].toUpperCase() : "";
+      if (input.value && index < inputs.length - 1) {
+        focusInput(index + 1);
+      }
+    });
+
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Backspace" && !input.value && index > 0) {
+        event.preventDefault();
+        focusInput(index - 1);
+        return;
+      }
+      if (event.key === "ArrowLeft" && index > 0) {
+        event.preventDefault();
+        focusInput(index - 1);
+        return;
+      }
+      if (event.key === "ArrowRight" && index < inputs.length - 1) {
+        event.preventDefault();
+        focusInput(index + 1);
+        return;
+      }
+      if (event.key === "Enter") {
+        event.preventDefault();
+        form.requestSubmit();
+      }
+    });
+
+    input.addEventListener("paste", (event) => {
+      event.preventDefault();
+      const text = (event.clipboardData?.getData("text") || "").replace(/[^a-zA-Z]/g, "");
+      if (!text) return;
+      let cursor = index;
+      for (const char of text) {
+        if (cursor >= inputs.length) break;
+        inputs[cursor].value = char.toUpperCase();
+        cursor += 1;
+      }
+      focusInput(Math.min(cursor, inputs.length - 1));
+    });
+  });
+
+  focusInput(0);
 }
 
 function renderFeedback(feedback) {
@@ -1872,12 +1975,12 @@ async function useHint() {
 
 async function submitAnswer(form) {
   const current = state.session.words[state.currentIndex];
-  const formData = new FormData(form);
+  const answer = collectAnswerFromForm(form, current.pattern);
   const result = await api(`/api/sessions/${state.session.id}/answer`, {
     method: "POST",
     body: JSON.stringify({
       session_word_id: current.session_word_id,
-      answer: formData.get("answer")
+      answer
     })
   });
   current.answered = true;
