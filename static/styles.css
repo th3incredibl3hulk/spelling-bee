@@ -2523,6 +2523,164 @@ tr:last-child td {
   }
 }
 
+/* Moon Mission — MECC / phosphor story mode */
+.theme-moon-mission {
+  --accent: #39ff14;
+  --line: #1f6b2a;
+  --ink: #c8ffc8;
+  --muted: #7dcf7d;
+  background:
+    radial-gradient(circle at top, rgba(57, 255, 20, 0.08), transparent 40%),
+    linear-gradient(180deg, #041105 0%, #0a1a0c 55%, #020603 100%);
+  color: var(--ink);
+}
+
+.theme-moon-mission .shell,
+.theme-moon-mission .practice-panel,
+.theme-moon-mission .session-card,
+.theme-moon-mission .side-panel,
+.theme-moon-mission .summary-panel,
+.theme-moon-mission .story-setup-card {
+  background: rgba(0, 12, 2, 0.82);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.theme-moon-mission .topbar,
+.theme-moon-mission .brand h1,
+.theme-moon-mission h2,
+.theme-moon-mission h3,
+.theme-moon-mission strong {
+  color: #d7ffd7;
+}
+
+.theme-moon-mission .muted,
+.theme-moon-mission .status-line {
+  color: var(--muted);
+}
+
+.theme-moon-mission .pill {
+  background: rgba(10, 40, 14, 0.9);
+  border-color: var(--line);
+  color: #b9ffb9;
+}
+
+.theme-moon-mission .pill.strong,
+.theme-moon-mission .story-lives {
+  color: #39ff14;
+}
+
+.theme-moon-mission .letter-box,
+.theme-moon-mission .letter-input {
+  background: #031004;
+  border-color: #2d8a3a;
+  color: #39ff14;
+}
+
+.theme-moon-mission .letter-box.revealed,
+.theme-moon-mission .letter-input:focus {
+  border-color: #39ff14;
+  box-shadow: 0 0 0 2px rgba(57, 255, 20, 0.2);
+}
+
+.theme-moon-mission .btn.primary {
+  background: #1f8a2d;
+  border-color: #39ff14;
+  color: #041105;
+}
+
+.theme-moon-mission .btn.secondary,
+.theme-moon-mission .btn.warn {
+  background: #0c1f10;
+  border-color: #2d8a3a;
+  color: #c8ffc8;
+}
+
+.theme-moon-mission .progress-fill {
+  background: linear-gradient(90deg, #146b22, #39ff14);
+}
+
+.story-frame,
+.story-setup-card {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid var(--line, #2d8a3a);
+  border-radius: var(--radius);
+}
+
+.story-frame {
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(57, 255, 20, 0.05), transparent 30%),
+    #020803;
+  box-shadow:
+    inset 0 0 0 1px rgba(57, 255, 20, 0.15),
+    inset 0 0 40px rgba(0, 0, 0, 0.65),
+    0 0 24px rgba(57, 255, 20, 0.12);
+}
+
+.story-pixel {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 3px solid #1f6b2a;
+  border-radius: 4px;
+  background: #020803;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  box-shadow:
+    inset 0 0 20px rgba(0, 0, 0, 0.35),
+    0 0 18px rgba(57, 255, 20, 0.12);
+}
+
+.story-setup-card .story-pixel,
+.story-art-preview {
+  max-width: 100%;
+}
+
+.story-art,
+.story-art-preview {
+  margin: 0;
+  padding: 14px 12px;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, "Lucida Console", monospace;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  white-space: pre;
+  color: #5cff4a;
+  background: #020803;
+  border: 2px solid #1f6b2a;
+  border-radius: 4px;
+}
+
+.story-beat-title {
+  margin: 0;
+  font-family: "IBM Plex Mono", "Courier New", Courier, monospace;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.story-narration {
+  margin: 0;
+  font-family: "IBM Plex Mono", "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.story-body {
+  align-items: start;
+}
+
+.story-summary .summary-art {
+  display: grid;
+  place-items: center;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .fly-prop,
   .fly-image,

@@ -469,6 +469,87 @@ class ServerRulesTest(unittest.TestCase):
             )
             self.assertEqual(len(result["summary"]["reward_events"]), 2)
 
+    def _word_for_session_word(self, conn, session_word_id):
+        return conn.execute(
+            """
+            SELECT w.word
+            FROM session_words sw
+            JOIN words w ON w.id = sw.word_id
+            WHERE sw.id = ?
+            """,
+            (session_word_id,),
+        ).fetchone()["word"]
+
+    def test_story_session_creates_pool_for_fifteen_corrects(self):
+        with server.connect() as conn:
+            session = server.create_session(
+                conn,
+                {"child_id": 1, "grade_level": 2, "mode": "story", "story_id": "moon-mission"},
+            )
+            self.assertEqual(session["mode"], "story")
+            self.assertEqual(len(session["words"]), server.STORY_SESSION_WORDS)
+            self.assertEqual(session["story"]["target_correct"], 15)
+            self.assertEqual(session["story"]["max_misses"], 3)
+            self.assertEqual(session["story"]["outcome"], "in_progress")
+            self.assertIsNotNone(session["story"]["beat"])
+
+    def test_story_fourth_miss_fails_mission(self):
+        with server.connect() as conn:
+            session = server.create_session(
+                conn,
+                {"child_id": 1, "grade_level": 2, "mode": "story"},
+            )
+            result = None
+            for index, session_word in enumerate(session["words"]):
+                answer = "zzzz" if index < 4 else self._word_for_session_word(conn, session_word["session_word_id"])
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+                if result["session_complete"]:
+                    break
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["story"]["outcome"], "failed")
+            self.assertEqual(result["summary"]["story_outcome"], "failed")
+            self.assertIn("didn't quite make it", result["summary"]["story"]["ending"]["narration"].lower())
+            finalized = conn.execute(
+                "SELECT finalized, story_outcome, correct_count FROM sessions WHERE id = ?",
+                (session["id"],),
+            ).fetchone()
+            self.assertEqual(finalized["finalized"], 1)
+            self.assertEqual(finalized["story_outcome"], "failed")
+            self.assertEqual(finalized["correct_count"], 0)
+
+    def test_story_fifteen_correct_completes_mission(self):
+        with server.connect() as conn:
+            session = server.create_session(
+                conn,
+                {"child_id": 1, "grade_level": 2, "mode": "story"},
+            )
+            result = None
+            corrects = 0
+            for index, session_word in enumerate(session["words"]):
+                # Allow up to 3 misses, then finish with corrects.
+                if index in {1, 3, 5}:
+                    answer = "zzzz"
+                else:
+                    answer = self._word_for_session_word(conn, session_word["session_word_id"])
+                    corrects += 1
+                result = server.submit_answer(
+                    conn,
+                    session["id"],
+                    {"session_word_id": session_word["session_word_id"], "answer": answer},
+                )
+                if result["session_complete"]:
+                    break
+            self.assertTrue(result["session_complete"])
+            self.assertEqual(result["story"]["outcome"], "completed")
+            self.assertGreaterEqual(result["story"]["correct_count"], 15)
+            self.assertEqual(result["summary"]["story_outcome"], "completed")
+            self.assertIn("mission complete", result["summary"]["story"]["ending"]["narration"].lower())
+            self.assertIsNone(result["summary"]["crate_reward"])
+
 
 if __name__ == "__main__":
     unittest.main()

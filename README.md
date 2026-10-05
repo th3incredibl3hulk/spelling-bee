@@ -20,6 +20,20 @@ python3 server.py --host 0.0.0.0 --port 8787
 The app creates `data/spelling_bee.sqlite` on startup and seeds children,
 themes, and word pools.
 
+## Moon Mission (story mode)
+
+Alongside Practice and Bonus, kids can pick **Moon Mission**: a MECC-style
+ASCII story about a spaceship flight to the Moon and back.
+
+- Choose a profile and grade, then select **Moon Mission** (theme picker hides).
+- Spell words to advance 15 story beats (preflight → splashdown → Navy rescue).
+- Up to **3 misses** are allowed; the **4th miss** ends the mission early with
+  “You didn’t quite make it.”
+- Correct answers still earn XP and update mastery. Progress lives in
+  `data/spelling_bee.sqlite` (unchanged by code updates).
+
+Story copy and art live in `data/stories.json`.
+
 ## Audio
 
 Generate static WAV prompts into `static/audio`:
@@ -55,7 +69,8 @@ This uses `espeak-ng` or `espeak` when available, then falls back to macOS
 python3 scripts/generate_audio.py --engine kokoro --voice af_heart --overwrite
 ```
 
-Each clip says the word, an example sentence when available, then the word again.
+Each clip says the word, pauses about two seconds, speaks an example sentence when
+available, then repeats the word.
 
 ## BlockWorks Game Layer
 

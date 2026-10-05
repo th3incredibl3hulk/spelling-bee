@@ -27,6 +27,11 @@ DATA_DIR = ROOT / "data"
 STATIC_DIR = ROOT / "static"
 DB_PATH = Path(os.environ.get("SPELLING_BEE_DB", DATA_DIR / "spelling_bee.sqlite"))
 SESSION_WORD_COUNT = 10
+STORY_WORD_COUNT = 15
+STORY_MAX_MISSES = 3
+STORY_SESSION_WORDS = STORY_WORD_COUNT + STORY_MAX_MISSES
+DEFAULT_STORY_ID = "moon-mission"
+ALLOWED_MODES = ("practice", "bonus", "story")
 MAX_HINTS_PER_WORD = 2
 GRADES = (1, 2, 4, 5, 6, 7)
 XP_BY_GRADE = {1: 8, 2: 10, 4: 12, 5: 15, 6: 18, 7: 20, 0: 15}
@@ -823,6 +828,8 @@ CREATE TABLE IF NOT EXISTS sessions (
   grade_level INTEGER NOT NULL,
   theme_id TEXT REFERENCES themes(id),
   mode TEXT NOT NULL DEFAULT 'practice',
+  story_id TEXT,
+  story_outcome TEXT,
   started_at TEXT NOT NULL,
   completed_at TEXT,
   total_words INTEGER NOT NULL,
@@ -912,6 +919,36 @@ def load_json(path: Path) -> list[dict]:
     return data
 
 
+def load_stories() -> list[dict]:
+    path = DATA_DIR / "stories.json"
+    if not path.exists():
+        return []
+    return load_json(path)
+
+
+def story_by_id(story_id: str | None) -> dict | None:
+    wanted = story_id or DEFAULT_STORY_ID
+    for story in load_stories():
+        if story.get("id") == wanted:
+            return story
+    return None
+
+
+def public_story(story: dict) -> dict:
+    beats = story.get("beats") or []
+    preview = beats[0] if beats else {}
+    return {
+        "id": story["id"],
+        "title": story.get("title", story["id"]),
+        "max_misses": int(story.get("max_misses", STORY_MAX_MISSES)),
+        "word_count": int(story.get("word_count", STORY_WORD_COUNT)),
+        "beat_count": len(beats),
+        "preview_title": preview.get("title", ""),
+        "preview_art": preview.get("art", ""),
+        "preview_image": preview.get("image_path", ""),
+    }
+
+
 def slugify(value: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.strip().lower()).strip("-")
     return slug or "word"
@@ -952,6 +989,10 @@ def run_migrations(conn: sqlite3.Connection) -> None:
     session_columns = table_columns(conn, "sessions")
     if "xp_earned" not in session_columns:
         conn.execute("ALTER TABLE sessions ADD COLUMN xp_earned INTEGER NOT NULL DEFAULT 0")
+    if "story_id" not in session_columns:
+        conn.execute("ALTER TABLE sessions ADD COLUMN story_id TEXT")
+    if "story_outcome" not in session_columns:
+        conn.execute("ALTER TABLE sessions ADD COLUMN story_outcome TEXT")
     attempt_columns = table_columns(conn, "word_attempts")
     if "xp_earned" not in attempt_columns:
         conn.execute("ALTER TABLE word_attempts ADD COLUMN xp_earned INTEGER NOT NULL DEFAULT 0")
@@ -1858,7 +1899,11 @@ def choose_words(
     grade_level: int,
     theme_id: str | None,
     mode: str,
+    count: int | None = None,
 ) -> list[sqlite3.Row]:
+    word_count = count if count is not None else (
+        STORY_SESSION_WORDS if mode == "story" else SESSION_WORD_COUNT
+    )
     base = list(
         conn.execute(
             """
@@ -1879,9 +1924,57 @@ def choose_words(
         candidates = bonus + base
     else:
         candidates = base
-    if len(candidates) < SESSION_WORD_COUNT:
+    if len(candidates) < word_count:
         raise ApiError(HTTPStatus.BAD_REQUEST, "Not enough words are available for that session.")
-    return weighted_sample(conn, child_id, candidates, SESSION_WORD_COUNT)
+    return weighted_sample(conn, child_id, candidates, word_count)
+
+
+def session_answer_counts(conn: sqlite3.Connection, session_id: int) -> tuple[int, int]:
+    row = conn.execute(
+        """
+        SELECT
+          COALESCE(SUM(CASE WHEN correct = 1 THEN 1 ELSE 0 END), 0) AS correct_count,
+          COALESCE(SUM(CASE WHEN correct = 0 THEN 1 ELSE 0 END), 0) AS miss_count
+        FROM session_words
+        WHERE session_id = ? AND answered_at IS NOT NULL
+        """,
+        (session_id,),
+    ).fetchone()
+    return int(row["correct_count"]), int(row["miss_count"])
+
+
+def story_state_for_session(conn: sqlite3.Connection, session: sqlite3.Row) -> dict | None:
+    if session["mode"] != "story":
+        return None
+    story = story_by_id(session["story_id"])
+    if not story:
+        return None
+    correct_count, miss_count = session_answer_counts(conn, session["id"])
+    max_misses = int(story.get("max_misses", STORY_MAX_MISSES))
+    target = int(story.get("word_count", STORY_WORD_COUNT))
+    beats = story.get("beats") or []
+    beat_index = min(correct_count, max(0, len(beats) - 1))
+    current_beat = beats[beat_index] if beats else None
+    outcome = session["story_outcome"] or "in_progress"
+    ending = None
+    if outcome in {"completed", "failed"}:
+        ending = (story.get("endings") or {}).get(outcome)
+    return {
+        "story_id": story["id"],
+        "title": story.get("title", story["id"]),
+        "max_misses": max_misses,
+        "misses": miss_count,
+        "misses_remaining": max(0, max_misses - miss_count),
+        "correct_count": correct_count,
+        "target_correct": target,
+        "step": min(correct_count + 1, target),
+        "beat_index": beat_index,
+        "beat": current_beat,
+        "outcome": outcome,
+        "ending": ending,
+        "beats": beats,
+        "endings": story.get("endings") or {},
+    }
 
 
 def serialize_session(conn: sqlite3.Connection, session_id: int) -> dict:
@@ -1931,7 +2024,7 @@ def serialize_session(conn: sqlite3.Connection, session_id: int) -> dict:
                 }
             )
         words.append(word_data)
-    return {
+    payload = {
         "id": session["id"],
         "child_id": session["child_id"],
         "child_name": session["child_name"],
@@ -1942,6 +2035,8 @@ def serialize_session(conn: sqlite3.Connection, session_id: int) -> dict:
         "theme_background": session["theme_background"] or "paper",
         "theme_icon": session["theme_icon"] or "spark",
         "mode": session["mode"],
+        "story_id": session["story_id"],
+        "story_outcome": session["story_outcome"],
         "started_at": session["started_at"],
         "completed_at": session["completed_at"],
         "total_words": session["total_words"],
@@ -1951,6 +2046,10 @@ def serialize_session(conn: sqlite3.Connection, session_id: int) -> dict:
         "words": words,
         "summary": build_session_summary(conn, session_id) if session["finalized"] else None,
     }
+    story_state = story_state_for_session(conn, session)
+    if story_state:
+        payload["story"] = story_state
+    return payload
 
 
 def create_session(conn: sqlite3.Connection, body: dict) -> dict:
@@ -1960,23 +2059,44 @@ def create_session(conn: sqlite3.Connection, body: dict) -> dict:
     except (TypeError, ValueError):
         raise ApiError(HTTPStatus.BAD_REQUEST, "Choose a child and grade level.")
     if grade_level not in GRADES:
-        raise ApiError(HTTPStatus.BAD_REQUEST, "Choose Grade 2, Grade 5, or Grade 7.")
+        raise ApiError(HTTPStatus.BAD_REQUEST, "Choose a supported grade level.")
     child = conn.execute("SELECT * FROM children WHERE id = ?", (child_id,)).fetchone()
     if not child:
         raise ApiError(HTTPStatus.NOT_FOUND, "Child profile not found.")
-    theme_id = body.get("theme_id") or child["selected_theme_id"] or "storybook"
-    if theme_id:
-        sync_theme_unlocks(conn, child_id)
-        if theme_id not in unlocked_theme_ids(conn, child_id):
-            raise ApiError(HTTPStatus.BAD_REQUEST, "That theme is still locked for this profile.")
-    mode = "bonus" if body.get("mode") == "bonus" else "practice"
+    mode = str(body.get("mode") or "practice").strip().lower()
+    if mode not in ALLOWED_MODES:
+        raise ApiError(HTTPStatus.BAD_REQUEST, "Choose Practice, Bonus, or Moon Mission.")
+    story_id = None
+    if mode == "story":
+        story = story_by_id(body.get("story_id") or DEFAULT_STORY_ID)
+        if not story:
+            raise ApiError(HTTPStatus.BAD_REQUEST, "Story not found.")
+        story_id = story["id"]
+        theme_id = None
+    else:
+        theme_id = body.get("theme_id") or child["selected_theme_id"] or "storybook"
+        if theme_id:
+            sync_theme_unlocks(conn, child_id)
+            if theme_id not in unlocked_theme_ids(conn, child_id):
+                raise ApiError(HTTPStatus.BAD_REQUEST, "That theme is still locked for this profile.")
     words = choose_words(conn, child_id, grade_level, theme_id, mode)
     cursor = conn.execute(
         """
-        INSERT INTO sessions (child_id, grade_level, theme_id, mode, started_at, total_words)
-        VALUES (?, ?, ?, ?, ?, ?)
+        INSERT INTO sessions (
+          child_id, grade_level, theme_id, mode, story_id, story_outcome, started_at, total_words
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """,
-        (child_id, grade_level, theme_id, mode, now_iso(), len(words)),
+        (
+            child_id,
+            grade_level,
+            theme_id,
+            mode,
+            story_id,
+            "in_progress" if mode == "story" else None,
+            now_iso(),
+            len(words),
+        ),
     )
     session_id = cursor.lastrowid
     for index, word in enumerate(words, start=1):
@@ -1987,10 +2107,11 @@ def create_session(conn: sqlite3.Connection, body: dict) -> dict:
             """,
             (session_id, word["id"], index, blank_pattern(word["word"])),
         )
-    conn.execute(
-        "UPDATE children SET selected_theme_id = ? WHERE id = ?",
-        (theme_id, child_id),
-    )
+    if theme_id:
+        conn.execute(
+            "UPDATE children SET selected_theme_id = ? WHERE id = ?",
+            (theme_id, child_id),
+        )
     return serialize_session(conn, session_id)
 
 
@@ -2041,7 +2162,7 @@ def submit_answer(conn: sqlite3.Connection, session_id: int, body: dict) -> dict
     row = conn.execute(
         """
         SELECT sw.*, w.word, w.definition, w.example_sentence, w.grade_level,
-               w.theme_tags, s.finalized, s.mode
+               w.theme_tags, s.finalized, s.mode, s.story_id
         FROM session_words sw
         JOIN words w ON w.id = sw.word_id
         JOIN sessions s ON s.id = sw.session_id
@@ -2066,6 +2187,7 @@ def submit_answer(conn: sqlite3.Connection, session_id: int, body: dict) -> dict
         """,
         (submitted, 1 if correct else 0, now_iso(), session_word_id),
     )
+    correct_count, miss_count = session_answer_counts(conn, session_id)
     remaining = conn.execute(
         """
         SELECT COUNT(*) AS total
@@ -2074,8 +2196,35 @@ def submit_answer(conn: sqlite3.Connection, session_id: int, body: dict) -> dict
         """,
         (session_id,),
     ).fetchone()["total"]
-    summary = finalize_session(conn, session_id) if remaining == 0 else None
-    return {
+
+    story_outcome = None
+    should_finalize = remaining == 0
+    allow_incomplete = False
+    if row["mode"] == "story":
+        story = story_by_id(row["story_id"])
+        max_misses = int((story or {}).get("max_misses", STORY_MAX_MISSES))
+        target = int((story or {}).get("word_count", STORY_WORD_COUNT))
+        if miss_count > max_misses:
+            story_outcome = "failed"
+            should_finalize = True
+            allow_incomplete = True
+        elif correct_count >= target:
+            story_outcome = "completed"
+            should_finalize = True
+            allow_incomplete = True
+        if story_outcome:
+            conn.execute(
+                "UPDATE sessions SET story_outcome = ? WHERE id = ?",
+                (story_outcome, session_id),
+            )
+
+    summary = (
+        finalize_session(conn, session_id, allow_incomplete=allow_incomplete)
+        if should_finalize
+        else None
+    )
+    session = conn.execute("SELECT * FROM sessions WHERE id = ?", (session_id,)).fetchone()
+    payload = {
         "session_word_id": session_word_id,
         "correct": correct,
         "submitted_answer": submitted,
@@ -2083,12 +2232,20 @@ def submit_answer(conn: sqlite3.Connection, session_id: int, body: dict) -> dict
         "definition": row["definition"],
         "example_sentence": row["example_sentence"],
         "xp_earned": xp_earned,
-        "session_complete": remaining == 0,
+        "session_complete": should_finalize,
         "summary": summary,
     }
+    story_state = story_state_for_session(conn, session) if session else None
+    if story_state:
+        payload["story"] = story_state
+    return payload
 
 
-def finalize_session(conn: sqlite3.Connection, session_id: int) -> dict:
+def finalize_session(
+    conn: sqlite3.Connection,
+    session_id: int,
+    allow_incomplete: bool = False,
+) -> dict:
     session = conn.execute("SELECT * FROM sessions WHERE id = ?", (session_id,)).fetchone()
     if not session:
         raise ApiError(HTTPStatus.NOT_FOUND, "Session not found.")
@@ -2098,7 +2255,7 @@ def finalize_session(conn: sqlite3.Connection, session_id: int) -> dict:
         "SELECT COUNT(*) AS total FROM session_words WHERE session_id = ? AND answered_at IS NULL",
         (session_id,),
     ).fetchone()["total"]
-    if incomplete:
+    if incomplete and not allow_incomplete:
         raise ApiError(HTTPStatus.BAD_REQUEST, "Finish all words before completing the session.")
 
     child_id = session["child_id"]
@@ -2110,7 +2267,7 @@ def finalize_session(conn: sqlite3.Connection, session_id: int) -> dict:
         SELECT sw.*, w.word, w.grade_level, w.theme_tags
         FROM session_words sw
         JOIN words w ON w.id = sw.word_id
-        WHERE sw.session_id = ?
+        WHERE sw.session_id = ? AND sw.answered_at IS NOT NULL
         ORDER BY sw.ordinal
         """,
         (session_id,),
@@ -2141,17 +2298,30 @@ def finalize_session(conn: sqlite3.Connection, session_id: int) -> dict:
         )
         update_mastery(conn, child_id, row["word_id"], bool(correct), row["answered_at"])
 
+    story_outcome = session["story_outcome"]
+    if session["mode"] == "story" and not story_outcome:
+        story = story_by_id(session["story_id"])
+        max_misses = int((story or {}).get("max_misses", STORY_MAX_MISSES))
+        target = int((story or {}).get("word_count", STORY_WORD_COUNT))
+        _, miss_count = session_answer_counts(conn, session_id)
+        if miss_count > max_misses:
+            story_outcome = "failed"
+        elif correct_count >= target:
+            story_outcome = "completed"
+        else:
+            story_outcome = "failed" if incomplete else "completed"
+
     conn.execute(
         """
         UPDATE sessions
-        SET completed_at = ?, correct_count = ?, xp_earned = ?, finalized = 1
+        SET completed_at = ?, correct_count = ?, xp_earned = ?, finalized = 1, story_outcome = ?
         WHERE id = ?
         """,
-        (now_iso(), correct_count, session_xp, session_id),
+        (now_iso(), correct_count, session_xp, story_outcome, session_id),
     )
     sync_theme_unlocks(conn, child_id)
     crate_reward = None
-    if session["theme_id"] in REWARD_THEME_IDS:
+    if session["mode"] != "story" and session["theme_id"] in REWARD_THEME_IDS:
         crate_reward = award_theme_crate(conn, child_id, session_id, session["theme_id"], correct_count)
     summary = build_session_summary(conn, session_id)
     summary["crate_reward"] = crate_reward
@@ -2234,6 +2404,8 @@ def build_session_summary(conn: sqlite3.Connection, session_id: int) -> dict:
         """,
         (session_id,),
     ).fetchone()
+    answered = [row for row in rows if row["correct"] is not None]
+    answered_correct = sum(1 for row in answered if row["correct"])
     misses = [
         {
             "ordinal": row["ordinal"],
@@ -2241,28 +2413,43 @@ def build_session_summary(conn: sqlite3.Connection, session_id: int) -> dict:
             "submitted_answer": row["submitted_answer"],
             "definition": row["definition"],
         }
-        for row in rows
+        for row in answered
         if not row["correct"]
     ]
-    return {
+    summary = {
         "session_id": session_id,
-        "correct_count": correct,
-        "total_words": len(rows),
+        "correct_count": answered_correct if session["mode"] == "story" else correct,
+        "total_words": len(answered) if session["mode"] == "story" else len(rows),
         "xp_earned": int(session["xp_earned"] or 0),
-        "accuracy": round((correct / len(rows)) * 100) if rows else 0,
+        "accuracy": round((answered_correct / len(answered)) * 100) if answered else 0,
         "misses": misses,
         "child_stats": child_stats(conn, session["child_id"]),
-        "reward_events": theme_reward_events(session["theme_id"], correct),
+        "reward_events": [] if session["mode"] == "story" else theme_reward_events(session["theme_id"], correct),
         "crate_reward": {
             "opened": True,
             "theme_id": crate_row["theme_id"],
             "message": f"{crate_row['rarity'].title()} crate pull",
             "collectible": row_to_dict(crate_row),
         }
-        if crate_row
+        if crate_row and session["mode"] != "story"
         else None,
         "newly_unlocked_themes": [],
+        "story_outcome": session["story_outcome"],
+        "story_id": session["story_id"],
     }
+    if session["mode"] == "story":
+        story = story_by_id(session["story_id"])
+        outcome = session["story_outcome"] or "failed"
+        ending = ((story or {}).get("endings") or {}).get(outcome)
+        summary["story"] = {
+            "story_id": session["story_id"],
+            "title": (story or {}).get("title", "Moon Mission"),
+            "outcome": outcome,
+            "ending": ending,
+            "max_misses": int((story or {}).get("max_misses", STORY_MAX_MISSES)),
+            "target_correct": int((story or {}).get("word_count", STORY_WORD_COUNT)),
+        }
+    return summary
 
 
 def abandon_session(conn: sqlite3.Connection, session_id: int) -> dict:
@@ -2541,7 +2728,15 @@ class AppHandler(SimpleHTTPRequestHandler):
         if method == "GET" and parts == ["api", "bootstrap"]:
             children = [public_child(conn, row) for row in conn.execute("SELECT * FROM children ORDER BY id")]
             themes = [public_theme(row) for row in conn.execute("SELECT * FROM themes ORDER BY unlock_correct_count")]
-            return {"children": children, "themes": themes, "grades": list(GRADES), "session_word_count": SESSION_WORD_COUNT}
+            return {
+                "children": children,
+                "themes": themes,
+                "grades": list(GRADES),
+                "session_word_count": SESSION_WORD_COUNT,
+                "story_word_count": STORY_WORD_COUNT,
+                "story_max_misses": STORY_MAX_MISSES,
+                "stories": [public_story(story) for story in load_stories()],
+            }
         if method == "GET" and parts == ["api", "dashboard"]:
             return dashboard(conn)
         if method == "GET" and parts == ["api", "words"]:

@@ -4,7 +4,7 @@
     "word": "all",
     "grade_level": 1,
     "definition": "The whole amount or every one",
-    "example_sentence": "We practiced all today.",
+    "example_sentence": "All of the kids lined up for recess.",
     "difficulty_tags": [
       "common"
     ]
@@ -14,7 +14,7 @@
     "word": "an",
     "grade_level": 1,
     "definition": "Used before a word that starts with a vowel sound",
-    "example_sentence": "I ate an apple.",
+    "example_sentence": "I ate an apple after lunch.",
     "difficulty_tags": [
       "common"
     ]
@@ -24,7 +24,7 @@
     "word": "and",
     "grade_level": 1,
     "definition": "Used to join words or ideas together",
-    "example_sentence": "Tom and Sue played.",
+    "example_sentence": "Tom and Sue played tag.",
     "difficulty_tags": [
       "common"
     ]
@@ -34,7 +34,7 @@
     "word": "as",
     "grade_level": 1,
     "definition": "In the same way, or while",
-    "example_sentence": "She ran as fast as me.",
+    "example_sentence": "She ran as fast as she could.",
     "difficulty_tags": [
       "common"
     ]
@@ -44,7 +44,7 @@
     "word": "bat",
     "grade_level": 1,
     "definition": "A flying animal, or a stick used in baseball",
-    "example_sentence": "I can spell bat.",
+    "example_sentence": "He swung the bat and hit the ball.",
     "difficulty_tags": [
       "common"
     ]
@@ -54,7 +54,7 @@
     "word": "be",
     "grade_level": 1,
     "definition": "To exist or to happen",
-    "example_sentence": "I want to be kind.",
+    "example_sentence": "Please be kind to your friends.",
     "difficulty_tags": [
       "common"
     ]
@@ -64,7 +64,7 @@
     "word": "been",
     "grade_level": 1,
     "definition": "Past form of be",
-    "example_sentence": "Been is on our list.",
+    "example_sentence": "I have been to the zoo twice.",
     "difficulty_tags": [
       "common"
     ]
@@ -74,7 +74,7 @@
     "word": "bell",
     "grade_level": 1,
     "definition": "Something that rings",
-    "example_sentence": "Bell is on our list.",
+    "example_sentence": "The school bell rang at noon.",
     "difficulty_tags": [
       "common"
     ]
@@ -84,7 +84,7 @@
     "word": "big",
     "grade_level": 1,
     "definition": "Large in size",
-    "example_sentence": "We practiced big today.",
+    "example_sentence": "That truck is too big for the garage.",
     "difficulty_tags": [
       "common"
     ]
@@ -94,7 +94,7 @@
     "word": "block",
     "grade_level": 1,
     "definition": "A substantial",
-    "example_sentence": "We practiced block today.",
+    "example_sentence": "She stacked one block on top of another.",
     "difficulty_tags": [
       "common"
     ]
@@ -104,7 +104,7 @@
     "word": "bone",
     "grade_level": 1,
     "definition": "A hard part inside the body",
-    "example_sentence": "Bone is on our list.",
+    "example_sentence": "The dog chewed on a bone.",
     "difficulty_tags": [
       "common"
     ]
@@ -114,7 +114,7 @@
     "word": "brick",
     "grade_level": 1,
     "definition": "A hardened rectangular block of mud",
-    "example_sentence": "We practiced brick today.",
+    "example_sentence": "Dad laid a red brick on the path.",
     "difficulty_tags": [
       "common"
     ]
@@ -124,7 +124,7 @@
     "word": "bug",
     "grade_level": 1,
     "definition": "A small insect",
-    "example_sentence": "I can spell bug.",
+    "example_sentence": "A tiny bug crawled on the leaf.",
     "difficulty_tags": [
       "common"
     ]
@@ -134,7 +134,7 @@
     "word": "bun",
     "grade_level": 1,
     "definition": "A senses referring to baked goods",
-    "example_sentence": "Can you write bun?",
+    "example_sentence": "I bought a warm cinnamon bun.",
     "difficulty_tags": [
       "common"
     ]
@@ -144,7 +144,7 @@
     "word": "by",
     "grade_level": 1,
     "definition": "Near or through the work of",
-    "example_sentence": "We walked by the lake.",
+    "example_sentence": "Please sit by the window.",
     "difficulty_tags": [
       "common"
     ]
@@ -154,7 +154,7 @@
     "word": "cap",
     "grade_level": 1,
     "definition": "A kind of hat",
-    "example_sentence": "I can spell cap.",
+    "example_sentence": "He put on his baseball cap.",
     "difficulty_tags": [
       "common"
     ]
@@ -164,7 +164,7 @@
     "word": "chop",
     "grade_level": 1,
     "definition": "A cut of meat",
-    "example_sentence": "I can spell chop.",
+    "example_sentence": "Help me chop the carrots for dinner.",
     "difficulty_tags": [
       "common"
     ]
@@ -174,7 +174,7 @@
     "word": "cob",
     "grade_level": 1,
     "definition": "A corncob",
-    "example_sentence": "We practiced cob today.",
+    "example_sentence": "We ate buttered corn on the cob.",
     "difficulty_tags": [
       "common"
     ]
@@ -184,7 +184,7 @@
     "word": "come",
     "grade_level": 1,
     "definition": "To move toward the speaker",
-    "example_sentence": "Come is on our list.",
+    "example_sentence": "Come inside before it rains.",
     "difficulty_tags": [
       "common"
     ]
@@ -194,7 +194,7 @@
     "word": "cow",
     "grade_level": 1,
     "definition": "A farm animal that gives milk",
-    "example_sentence": "We practiced cow today.",
+    "example_sentence": "The cow chewed grass in the field.",
     "difficulty_tags": [
       "common"
     ]
@@ -204,7 +204,7 @@
     "word": "cut",
     "grade_level": 1,
     "definition": "To incise",
-    "example_sentence": "Cut is on our list.",
+    "example_sentence": "Please cut the paper with scissors.",
     "difficulty_tags": [
       "common"
     ]
@@ -214,7 +214,7 @@
     "word": "dig",
     "grade_level": 1,
     "definition": "To move hard-packed earth out of the way",
-    "example_sentence": "I can spell dig.",
+    "example_sentence": "We dig holes in the sandbox.",
     "difficulty_tags": [
       "common"
     ]
@@ -224,7 +224,7 @@
     "word": "dog",
     "grade_level": 1,
     "definition": "A common pet animal",
-    "example_sentence": "I can spell dog.",
+    "example_sentence": "My dog wagged its tail.",
     "difficulty_tags": [
       "common"
     ]
@@ -234,7 +234,7 @@
     "word": "down",
     "grade_level": 1,
     "definition": "Means from a higher position to a lower one",
-    "example_sentence": "I can spell down.",
+    "example_sentence": "Climb down the ladder carefully.",
     "difficulty_tags": [
       "common"
     ]
@@ -244,7 +244,7 @@
     "word": "drop",
     "grade_level": 1,
     "definition": "A small quantity of liquid",
-    "example_sentence": "Can you write drop?",
+    "example_sentence": "Don't drop the glass of milk.",
     "difficulty_tags": [
       "common"
     ]
@@ -254,7 +254,7 @@
     "word": "dry",
     "grade_level": 1,
     "definition": "Means free from or lacking moisture",
-    "example_sentence": "Can you write dry?",
+    "example_sentence": "Hang the towels until they are dry.",
     "difficulty_tags": [
       "common"
     ]
@@ -264,7 +264,7 @@
     "word": "duck",
     "grade_level": 1,
     "definition": "An aquatic bird of the family Anatidae",
-    "example_sentence": "Can you write duck?",
+    "example_sentence": "A duck swam across the pond.",
     "difficulty_tags": [
       "common"
     ]
@@ -274,7 +274,7 @@
     "word": "each",
     "grade_level": 1,
     "definition": "Means individually",
-    "example_sentence": "We practiced each today.",
+    "example_sentence": "Each child got one sticker.",
     "difficulty_tags": [
       "common"
     ]
@@ -284,7 +284,7 @@
     "word": "fed",
     "grade_level": 1,
     "definition": "The Canadian federal government",
-    "example_sentence": "Fed is on our list.",
+    "example_sentence": "She fed the cat before school.",
     "difficulty_tags": [
       "common"
     ]
@@ -294,7 +294,7 @@
     "word": "flow",
     "grade_level": 1,
     "definition": "A movement in people or things characterized with a continuous motion",
-    "example_sentence": "Flow is on our list.",
+    "example_sentence": "Watch the water flow down the stream.",
     "difficulty_tags": [
       "common"
     ]
@@ -304,7 +304,7 @@
     "word": "for",
     "grade_level": 1,
     "definition": "An initialism of fellowship of reconciliation",
-    "example_sentence": "For is on our list.",
+    "example_sentence": "This gift is for my brother.",
     "difficulty_tags": [
       "common"
     ]
@@ -314,7 +314,7 @@
     "word": "fox",
     "grade_level": 1,
     "definition": "A wild animal with a bushy tail",
-    "example_sentence": "We practiced fox today.",
+    "example_sentence": "A fox ran across the snowy field.",
     "difficulty_tags": [
       "common"
     ]
@@ -324,7 +324,7 @@
     "word": "from",
     "grade_level": 1,
     "definition": "The SQL From clause is the source of a rowset to be operated upon in a Data...",
-    "example_sentence": "From is on our list.",
+    "example_sentence": "I walked home from school.",
     "difficulty_tags": [
       "common"
     ]
@@ -334,7 +334,7 @@
     "word": "game",
     "grade_level": 1,
     "definition": "A playful or competitive activity",
-    "example_sentence": "I can spell game.",
+    "example_sentence": "We played a board game after dinner.",
     "difficulty_tags": [
       "common"
     ]
@@ -344,7 +344,7 @@
     "word": "glad",
     "grade_level": 1,
     "definition": "Means pleased",
-    "example_sentence": "Can you write glad?",
+    "example_sentence": "I am glad you came to my party.",
     "difficulty_tags": [
       "common"
     ]
@@ -354,7 +354,7 @@
     "word": "go",
     "grade_level": 1,
     "definition": "To move from one place to another",
-    "example_sentence": "We practiced go today.",
+    "example_sentence": "Let's go to the park.",
     "difficulty_tags": [
       "common"
     ]
@@ -364,7 +364,7 @@
     "word": "has",
     "grade_level": 1,
     "definition": "A region in north eastern Albania and south western Kosovo",
-    "example_sentence": "Has is on our list.",
+    "example_sentence": "She has a blue backpack.",
     "difficulty_tags": [
       "common"
     ]
@@ -374,7 +374,7 @@
     "word": "have",
     "grade_level": 1,
     "definition": "To possess",
-    "example_sentence": "Can you write have?",
+    "example_sentence": "Do you have a pencil I can borrow?",
     "difficulty_tags": [
       "common"
     ]
@@ -384,7 +384,7 @@
     "word": "his",
     "grade_level": 1,
     "definition": "Belonging to him",
-    "example_sentence": "His is on our list.",
+    "example_sentence": "His lunchbox is on the shelf.",
     "difficulty_tags": [
       "common"
     ]
@@ -394,7 +394,7 @@
     "word": "hit",
     "grade_level": 1,
     "definition": "To strike",
-    "example_sentence": "I can spell hit.",
+    "example_sentence": "She hit the ball with the bat.",
     "difficulty_tags": [
       "common"
     ]
@@ -404,7 +404,7 @@
     "word": "hook",
     "grade_level": 1,
     "definition": "A rod bent into a curved shape",
-    "example_sentence": "We practiced hook today.",
+    "example_sentence": "Hang your coat on the hook.",
     "difficulty_tags": [
       "common"
     ]
@@ -414,7 +414,7 @@
     "word": "hop",
     "grade_level": 1,
     "definition": "A short jump",
-    "example_sentence": "Hop is on our list.",
+    "example_sentence": "The frog can hop across the rocks.",
     "difficulty_tags": [
       "common"
     ]
@@ -424,7 +424,7 @@
     "word": "hut",
     "grade_level": 1,
     "definition": "A small",
-    "example_sentence": "I can spell hut.",
+    "example_sentence": "We built a small hut from sticks.",
     "difficulty_tags": [
       "common"
     ]
@@ -434,7 +434,7 @@
     "word": "ink",
     "grade_level": 1,
     "definition": "A pigment -based fluid used for writing",
-    "example_sentence": "Ink is on our list.",
+    "example_sentence": "The pen left a spot of ink on my paper.",
     "difficulty_tags": [
       "common"
     ]
@@ -444,7 +444,7 @@
     "word": "is",
     "grade_level": 1,
     "definition": "A form of the verb to be",
-    "example_sentence": "We practiced is today.",
+    "example_sentence": "This is my favorite book.",
     "difficulty_tags": [
       "common"
     ]
@@ -454,7 +454,7 @@
     "word": "kick",
     "grade_level": 1,
     "definition": "To strike or hit with the foot or other extremity of the leg",
-    "example_sentence": "We practiced kick today.",
+    "example_sentence": "Kick the ball toward the goal.",
     "difficulty_tags": [
       "common"
     ]
@@ -464,7 +464,7 @@
     "word": "let",
     "grade_level": 1,
     "definition": "To allow to",
-    "example_sentence": "Let is on our list.",
+    "example_sentence": "Please let me help you.",
     "difficulty_tags": [
       "common"
     ]
@@ -474,7 +474,7 @@
     "word": "load",
     "grade_level": 1,
     "definition": "A burden",
-    "example_sentence": "Load is on our list.",
+    "example_sentence": "Help me load the boxes into the car.",
     "difficulty_tags": [
       "common"
     ]
@@ -484,7 +484,7 @@
     "word": "long",
     "grade_level": 1,
     "definition": "Means having much distance in space from one end to the other",
-    "example_sentence": "Long is on our list.",
+    "example_sentence": "The hallway is very long.",
     "difficulty_tags": [
       "common"
     ]
@@ -494,7 +494,7 @@
     "word": "lot",
     "grade_level": 1,
     "definition": "A large quantity or number",
-    "example_sentence": "Can you write lot?",
+    "example_sentence": "There are a lot of stars tonight.",
     "difficulty_tags": [
       "common"
     ]
@@ -504,7 +504,7 @@
     "word": "low",
     "grade_level": 1,
     "definition": "Means situated close to",
-    "example_sentence": "Can you write low?",
+    "example_sentence": "The plane flew low over the field.",
     "difficulty_tags": [
       "common"
     ]
@@ -514,7 +514,7 @@
     "word": "luck",
     "grade_level": 1,
     "definition": "A something that happens to someone by chance",
-    "example_sentence": "Can you write luck?",
+    "example_sentence": "I wish you good luck on the test.",
     "difficulty_tags": [
       "common"
     ]
@@ -524,7 +524,7 @@
     "word": "man",
     "grade_level": 1,
     "definition": "An adult male human",
-    "example_sentence": "Can you write man?",
+    "example_sentence": "The man waved from the porch.",
     "difficulty_tags": [
       "common"
     ]
@@ -534,7 +534,7 @@
     "word": "mat",
     "grade_level": 1,
     "definition": "A flat piece of coarse material used for wiping one\u2019s feet",
-    "example_sentence": "Can you write mat?",
+    "example_sentence": "Wipe your feet on the mat.",
     "difficulty_tags": [
       "common"
     ]
@@ -544,7 +544,7 @@
     "word": "mob",
     "grade_level": 1,
     "definition": "A large or disorderly group of people",
-    "example_sentence": "Mob is on our list.",
+    "example_sentence": "A noisy mob filled the street.",
     "difficulty_tags": [
       "common"
     ]
@@ -554,7 +554,7 @@
     "word": "mop",
     "grade_level": 1,
     "definition": "An implement for washing floors or similar",
-    "example_sentence": "I can spell mop.",
+    "example_sentence": "Use the mop to clean the floor.",
     "difficulty_tags": [
       "common"
     ]
@@ -564,7 +564,7 @@
     "word": "more",
     "grade_level": 1,
     "definition": "Means to a greater degree or extent",
-    "example_sentence": "More is on our list.",
+    "example_sentence": "May I have more juice, please?",
     "difficulty_tags": [
       "common"
     ]
@@ -574,7 +574,7 @@
     "word": "mug",
     "grade_level": 1,
     "definition": "A large cup for beverages",
-    "example_sentence": "I can spell mug.",
+    "example_sentence": "She drank cocoa from a big mug.",
     "difficulty_tags": [
       "common"
     ]
@@ -584,7 +584,7 @@
     "word": "must",
     "grade_level": 1,
     "definition": "To do as a requirement",
-    "example_sentence": "I can spell must.",
+    "example_sentence": "You must wear a helmet on your bike.",
     "difficulty_tags": [
       "common"
     ]
@@ -594,7 +594,7 @@
     "word": "name",
     "grade_level": 1,
     "definition": "An any nounal word or phrase which indicates a particular person",
-    "example_sentence": "Name is on our list.",
+    "example_sentence": "Please write your name on the line.",
     "difficulty_tags": [
       "common"
     ]
@@ -604,7 +604,7 @@
     "word": "no",
     "grade_level": 1,
     "definition": "Not any, or used to refuse",
-    "example_sentence": "We practiced no today.",
+    "example_sentence": "There are no cookies left.",
     "difficulty_tags": [
       "common"
     ]
@@ -614,7 +614,7 @@
     "word": "not",
     "grade_level": 1,
     "definition": "Means negates the meaning of the modified verb",
-    "example_sentence": "I can spell not.",
+    "example_sentence": "Please do not run in the hall.",
     "difficulty_tags": [
       "common"
     ]
@@ -624,7 +624,7 @@
     "word": "note",
     "grade_level": 1,
     "definition": "A symbol or annotation",
-    "example_sentence": "We practiced note today.",
+    "example_sentence": "I left a note on the fridge.",
     "difficulty_tags": [
       "common"
     ]
@@ -634,7 +634,7 @@
     "word": "on",
     "grade_level": 1,
     "definition": "Touching the top of something",
-    "example_sentence": "Can you write on?",
+    "example_sentence": "The book is on the table.",
     "difficulty_tags": [
       "common"
     ]
@@ -644,7 +644,7 @@
     "word": "or",
     "grade_level": 1,
     "definition": "Used to show a choice",
-    "example_sentence": "Cake or pie?",
+    "example_sentence": "Would you like milk or water?",
     "difficulty_tags": [
       "common"
     ]
@@ -654,7 +654,7 @@
     "word": "other",
     "grade_level": 1,
     "definition": "Means see other below",
-    "example_sentence": "We practiced other today.",
+    "example_sentence": "The other shoe is under the bed.",
     "difficulty_tags": [
       "common"
     ]
@@ -664,7 +664,7 @@
     "word": "part",
     "grade_level": 1,
     "definition": "A portion",
-    "example_sentence": "I can spell part.",
+    "example_sentence": "Which part of the puzzle goes here?",
     "difficulty_tags": [
       "common"
     ]
@@ -674,7 +674,7 @@
     "word": "pay",
     "grade_level": 1,
     "definition": "To give money or other compensation to in exchange for goods or services",
-    "example_sentence": "We practiced pay today.",
+    "example_sentence": "I will pay for the tickets.",
     "difficulty_tags": [
       "common"
     ]
@@ -684,7 +684,7 @@
     "word": "people",
     "grade_level": 1,
     "definition": "More than one person",
-    "example_sentence": "We practiced people today.",
+    "example_sentence": "Many people waited for the bus.",
     "difficulty_tags": [
       "common"
     ]
@@ -694,7 +694,7 @@
     "word": "pig",
     "grade_level": 1,
     "definition": "A farm animal that oinks",
-    "example_sentence": "Pig is on our list.",
+    "example_sentence": "The pig rolled in the mud.",
     "difficulty_tags": [
       "common"
     ]
@@ -704,7 +704,7 @@
     "word": "pit",
     "grade_level": 1,
     "definition": "A hole in the ground",
-    "example_sentence": "We practiced pit today.",
+    "example_sentence": "Don't fall into that deep pit.",
     "difficulty_tags": [
       "common"
     ]
@@ -714,7 +714,7 @@
     "word": "play",
     "grade_level": 1,
     "definition": "To act in a manner such that one has fun",
-    "example_sentence": "Play is on our list.",
+    "example_sentence": "Let's play outside after homework.",
     "difficulty_tags": [
       "common"
     ]
@@ -724,7 +724,7 @@
     "word": "pool",
     "grade_level": 1,
     "definition": "A small and rather deep area of fresh water",
-    "example_sentence": "Pool is on our list.",
+    "example_sentence": "We swam in the pool all afternoon.",
     "difficulty_tags": [
       "common"
     ]
@@ -734,7 +734,7 @@
     "word": "ran",
     "grade_level": 1,
     "definition": "A yarns coiled on a spun-yarn winch",
-    "example_sentence": "Can you write ran?",
+    "example_sentence": "He ran to catch the school bus.",
     "difficulty_tags": [
       "common"
     ]
@@ -744,7 +744,7 @@
     "word": "roof",
     "grade_level": 1,
     "definition": "The external covering at the top of a building",
-    "example_sentence": "I can spell roof.",
+    "example_sentence": "Snow covered the roof of the house.",
     "difficulty_tags": [
       "common"
     ]
@@ -754,7 +754,7 @@
     "word": "rose",
     "grade_level": 1,
     "definition": "A type of flower",
-    "example_sentence": "We practiced rose today.",
+    "example_sentence": "A pink rose bloomed in the garden.",
     "difficulty_tags": [
       "common",
       "homophone"
@@ -765,7 +765,7 @@
     "word": "run",
     "grade_level": 1,
     "definition": "To move quickly on foot",
-    "example_sentence": "I can spell run.",
+    "example_sentence": "I can run to the fence and back.",
     "difficulty_tags": [
       "common"
     ]
@@ -775,7 +775,7 @@
     "word": "rut",
     "grade_level": 1,
     "definition": "A fixed routine",
-    "example_sentence": "Rut is on our list.",
+    "example_sentence": "The wagon wheel stuck in a muddy rut.",
     "difficulty_tags": [
       "common"
     ]
@@ -785,7 +785,7 @@
     "word": "sell",
     "grade_level": 1,
     "definition": "To transfer goods or provide services in exchange for money",
-    "example_sentence": "I can spell sell.",
+    "example_sentence": "They sell fresh apples at the market.",
     "difficulty_tags": [
       "common"
     ]
@@ -795,7 +795,7 @@
     "word": "shake",
     "grade_level": 1,
     "definition": "To cause to move rapidly in opposite directions alternatingly",
-    "example_sentence": "Can you write shake?",
+    "example_sentence": "Shake the juice box before you drink.",
     "difficulty_tags": [
       "common"
     ]
@@ -805,7 +805,7 @@
     "word": "she",
     "grade_level": 1,
     "definition": "A girl or woman already mentioned",
-    "example_sentence": "She has a hat.",
+    "example_sentence": "She read the story out loud.",
     "difficulty_tags": [
       "common"
     ]
@@ -815,7 +815,7 @@
     "word": "sick",
     "grade_level": 1,
     "definition": "Means in poor health",
-    "example_sentence": "Can you write sick?",
+    "example_sentence": "I stayed home because I felt sick.",
     "difficulty_tags": [
       "common"
     ]
@@ -825,7 +825,7 @@
     "word": "snack",
     "grade_level": 1,
     "definition": "An item of food eaten between meals",
-    "example_sentence": "We practiced snack today.",
+    "example_sentence": "An apple makes a healthy snack.",
     "difficulty_tags": [
       "common"
     ]
@@ -835,7 +835,7 @@
     "word": "sob",
     "grade_level": 1,
     "definition": "To weep with convulsive gasps",
-    "example_sentence": "We practiced sob today.",
+    "example_sentence": "The sad puppy began to sob.",
     "difficulty_tags": [
       "common"
     ]
@@ -845,7 +845,7 @@
     "word": "sock",
     "grade_level": 1,
     "definition": "A knitted or woven covering for the foot",
-    "example_sentence": "I can spell sock.",
+    "example_sentence": "I can't find my other sock.",
     "difficulty_tags": [
       "common"
     ]
@@ -855,7 +855,7 @@
     "word": "spin",
     "grade_level": 1,
     "definition": "To rotate",
-    "example_sentence": "Can you write spin?",
+    "example_sentence": "Watch the toy top spin on the floor.",
     "difficulty_tags": [
       "common"
     ]
@@ -865,7 +865,7 @@
     "word": "spoon",
     "grade_level": 1,
     "definition": "An implement for eating or serving",
-    "example_sentence": "Can you write spoon?",
+    "example_sentence": "Stir the soup with a spoon.",
     "difficulty_tags": [
       "common"
     ]
@@ -875,7 +875,7 @@
     "word": "stay",
     "grade_level": 1,
     "definition": "To remain in a particular place",
-    "example_sentence": "I can spell stay.",
+    "example_sentence": "Please stay in your seat.",
     "difficulty_tags": [
       "common"
     ]
@@ -885,7 +885,7 @@
     "word": "sun",
     "grade_level": 1,
     "definition": "The star that gives Earth light",
-    "example_sentence": "I can spell sun.",
+    "example_sentence": "The sun warmed the playground.",
     "difficulty_tags": [
       "common"
     ]
@@ -895,7 +895,7 @@
     "word": "tame",
     "grade_level": 1,
     "definition": "Means accustomed to human contact",
-    "example_sentence": "We practiced tame today.",
+    "example_sentence": "The tame rabbit sat on my lap.",
     "difficulty_tags": [
       "common"
     ]
@@ -905,7 +905,7 @@
     "word": "tan",
     "grade_level": 1,
     "definition": "A light",
-    "example_sentence": "Can you write tan?",
+    "example_sentence": "His shoes were a light tan color.",
     "difficulty_tags": [
       "common"
     ]
@@ -915,7 +915,7 @@
     "word": "tell",
     "grade_level": 1,
     "definition": "To convey by speech",
-    "example_sentence": "I can spell tell.",
+    "example_sentence": "Please tell me your favorite animal.",
     "difficulty_tags": [
       "common"
     ]
@@ -925,7 +925,7 @@
     "word": "their",
     "grade_level": 1,
     "definition": "Belonging to them",
-    "example_sentence": "We practiced their today.",
+    "example_sentence": "Their coats are by the door.",
     "difficulty_tags": [
       "common",
       "homophone"
@@ -936,7 +936,7 @@
     "word": "there",
     "grade_level": 1,
     "definition": "In that place",
-    "example_sentence": "I can spell there.",
+    "example_sentence": "Put your shoes over there.",
     "difficulty_tags": [
       "common",
       "homophone"
@@ -947,7 +947,7 @@
     "word": "time",
     "grade_level": 1,
     "definition": "The inevitable progression into the future with the passing of present and past events",
-    "example_sentence": "We practiced time today.",
+    "example_sentence": "What time does the movie start?",
     "difficulty_tags": [
       "common"
     ]
@@ -957,7 +957,7 @@
     "word": "tooth",
     "grade_level": 1,
     "definition": "A hard",
-    "example_sentence": "Tooth is on our list.",
+    "example_sentence": "I lost a tooth last night.",
     "difficulty_tags": [
       "common"
     ]
@@ -967,7 +967,7 @@
     "word": "tuck",
     "grade_level": 1,
     "definition": "To pull or gather up",
-    "example_sentence": "I can spell tuck.",
+    "example_sentence": "Tuck the blanket under the mattress.",
     "difficulty_tags": [
       "common"
     ]
@@ -977,7 +977,7 @@
     "word": "up",
     "grade_level": 1,
     "definition": "Toward a higher place",
-    "example_sentence": "Can you write up?",
+    "example_sentence": "Look up at the bright moon.",
     "difficulty_tags": [
       "common"
     ]
@@ -987,7 +987,7 @@
     "word": "use",
     "grade_level": 1,
     "definition": "To utilize or employ",
-    "example_sentence": "We practiced use today.",
+    "example_sentence": "You may use my markers.",
     "difficulty_tags": [
       "common"
     ]
@@ -997,7 +997,7 @@
     "word": "water",
     "grade_level": 1,
     "definition": "A barangay of Baco",
-    "example_sentence": "Can you write water?",
+    "example_sentence": "Please water the plants today.",
     "difficulty_tags": [
       "common"
     ]
@@ -1007,7 +1007,7 @@
     "word": "way",
     "grade_level": 1,
     "definition": "A path or method",
-    "example_sentence": "I can spell way.",
+    "example_sentence": "Which way leads to the library?",
     "difficulty_tags": [
       "common"
     ]
@@ -1017,7 +1017,7 @@
     "word": "well",
     "grade_level": 1,
     "definition": "Means accurately",
-    "example_sentence": "Well is on our list.",
+    "example_sentence": "She can sing very well.",
     "difficulty_tags": [
       "common"
     ]
@@ -1027,7 +1027,7 @@
     "word": "when",
     "grade_level": 1,
     "definition": "At what time",
-    "example_sentence": "When is on our list.",
+    "example_sentence": "When does recess begin?",
     "difficulty_tags": [
       "common"
     ]
@@ -1037,7 +1037,7 @@
     "word": "wig",
     "grade_level": 1,
     "definition": "A head of real or synthetic hair worn on the head to disguise baldness",
-    "example_sentence": "We practiced wig today.",
+    "example_sentence": "The actor wore a curly wig.",
     "difficulty_tags": [
       "common"
     ]
@@ -1047,7 +1047,7 @@
     "word": "win",
     "grade_level": 1,
     "definition": "To reach some destination or object",
-    "example_sentence": "We practiced win today.",
+    "example_sentence": "Our team hopes to win the game.",
     "difficulty_tags": [
       "common"
     ]
@@ -1057,7 +1057,7 @@
     "word": "wood",
     "grade_level": 1,
     "definition": "The substance making up the central part of the trunk and branches of a tree. Used...",
-    "example_sentence": "I can spell wood.",
+    "example_sentence": "We built the shelf out of wood.",
     "difficulty_tags": [
       "common"
     ]
@@ -1067,7 +1067,7 @@
     "word": "words",
     "grade_level": 1,
     "definition": "A lyrics",
-    "example_sentence": "Words is on our list.",
+    "example_sentence": "Choose kind words when you speak.",
     "difficulty_tags": [
       "common"
     ]
@@ -1077,7 +1077,7 @@
     "word": "would",
     "grade_level": 1,
     "definition": "To past tense of will",
-    "example_sentence": "We practiced would today.",
+    "example_sentence": "Would you like a sandwich?",
     "difficulty_tags": [
       "common"
     ]
@@ -1087,7 +1087,7 @@
     "word": "write",
     "grade_level": 1,
     "definition": "To form letters",
-    "example_sentence": "I can spell write.",
+    "example_sentence": "Please write your name neatly.",
     "difficulty_tags": [
       "common",
       "homophone",
@@ -1099,7 +1099,7 @@
     "word": "your",
     "grade_level": 1,
     "definition": "Belonging to you",
-    "example_sentence": "Your is on our list.",
+    "example_sentence": "Is this your lunchbox?",
     "difficulty_tags": [
       "common"
     ]
@@ -1492,7 +1492,7 @@
     "word": "abuse",
     "grade_level": 4,
     "definition": "An improper treatment or usage",
-    "example_sentence": "Our list includes abuse.",
+    "example_sentence": "Never abuse a tool by using it the wrong way.",
     "difficulty_tags": [
       "common"
     ]
@@ -1502,7 +1502,7 @@
     "word": "across",
     "grade_level": 4,
     "definition": "Means from one side to the other",
-    "example_sentence": "Please use across in a sentence.",
+    "example_sentence": "We walked across the wooden bridge.",
     "difficulty_tags": [
       "common"
     ]
@@ -1512,7 +1512,7 @@
     "word": "actor",
     "grade_level": 4,
     "definition": "A person who acts a part in a theatrical play or in film or television",
-    "example_sentence": "I wrote actor three times.",
+    "example_sentence": "The actor bowed after the play.",
     "difficulty_tags": [
       "common"
     ]
@@ -1522,7 +1522,7 @@
     "word": "against",
     "grade_level": 4,
     "definition": "A word students learn in grade 4.",
-    "example_sentence": "Please use against in a sentence.",
+    "example_sentence": "Lean the ladder against the wall.",
     "difficulty_tags": [
       "common"
     ]
@@ -1532,7 +1532,7 @@
     "word": "alarm",
     "grade_level": 4,
     "definition": "An any sound or information intended to give notice of approaching danger",
-    "example_sentence": "I wrote alarm three times.",
+    "example_sentence": "The fire alarm woke everyone up.",
     "difficulty_tags": [
       "common"
     ]
@@ -1542,7 +1542,7 @@
     "word": "ankle",
     "grade_level": 4,
     "definition": "The skeletal joint which connects the foot with the leg",
-    "example_sentence": "I wrote ankle three times.",
+    "example_sentence": "She twisted her ankle during soccer.",
     "difficulty_tags": [
       "common"
     ]
@@ -1552,7 +1552,7 @@
     "word": "axe",
     "grade_level": 4,
     "definition": "A tool for felling trees or chopping wood etc. consisting of a heavy head flattened...",
-    "example_sentence": "She spelled axe correctly.",
+    "example_sentence": "The ranger used an axe to chop wood.",
     "difficulty_tags": [
       "common"
     ]
@@ -1562,7 +1562,7 @@
     "word": "bargain",
     "grade_level": 4,
     "definition": "An item purchased for significantly less than the usual",
-    "example_sentence": "Our list includes bargain.",
+    "example_sentence": "The used bike was a real bargain.",
     "difficulty_tags": [
       "common"
     ]
@@ -1572,7 +1572,7 @@
     "word": "basin",
     "grade_level": 4,
     "definition": "A depression",
-    "example_sentence": "Please use basin in a sentence.",
+    "example_sentence": "Wash your hands in the basin.",
     "difficulty_tags": [
       "common"
     ]
@@ -1582,7 +1582,7 @@
     "word": "bay",
     "grade_level": 4,
     "definition": "A body of water contained by a concave shoreline",
-    "example_sentence": "Our list includes bay.",
+    "example_sentence": "Boats floated quietly in the bay.",
     "difficulty_tags": [
       "common"
     ]
@@ -1592,7 +1592,7 @@
     "word": "believe",
     "grade_level": 4,
     "definition": "To accept as true",
-    "example_sentence": "I wrote believe three times.",
+    "example_sentence": "I believe you told the truth.",
     "difficulty_tags": [
       "common"
     ]
@@ -1602,7 +1602,7 @@
     "word": "bridge",
     "grade_level": 4,
     "definition": "A construction or natural feature that spans a divide",
-    "example_sentence": "Our list includes bridge.",
+    "example_sentence": "Cars crossed the long bridge.",
     "difficulty_tags": [
       "common"
     ]
@@ -1612,7 +1612,7 @@
     "word": "bubble",
     "grade_level": 4,
     "definition": "A spherically contained volume of air or other gas",
-    "example_sentence": "Our list includes bubble.",
+    "example_sentence": "A shiny bubble floated into the air.",
     "difficulty_tags": [
       "common"
     ]
@@ -1622,7 +1622,7 @@
     "word": "cannon",
     "grade_level": 4,
     "definition": "A complete assembly",
-    "example_sentence": "I wrote cannon three times.",
+    "example_sentence": "The old fort still had a rusty cannon.",
     "difficulty_tags": [
       "common"
     ]
@@ -1632,7 +1632,7 @@
     "word": "castle",
     "grade_level": 4,
     "definition": "A large residential building or compound that is fortified and contains many defences",
-    "example_sentence": "Our list includes castle.",
+    "example_sentence": "The castle stood on a rocky hill.",
     "difficulty_tags": [
       "common"
     ]
@@ -1642,7 +1642,7 @@
     "word": "catch",
     "grade_level": 4,
     "definition": "The act of seizing or capturing",
-    "example_sentence": "Please use catch in a sentence.",
+    "example_sentence": "Try to catch the ball with both hands.",
     "difficulty_tags": [
       "common"
     ]
@@ -1652,7 +1652,7 @@
     "word": "center",
     "grade_level": 4,
     "definition": "The point in the interior of a circle that is equidistant from all points on the...",
-    "example_sentence": "Our list includes center.",
+    "example_sentence": "Stand in the center of the circle.",
     "difficulty_tags": [
       "common"
     ]
@@ -1662,7 +1662,7 @@
     "word": "certain",
     "grade_level": 4,
     "definition": "Means sure in one's mind",
-    "example_sentence": "She spelled certain correctly.",
+    "example_sentence": "I am certain this answer is correct.",
     "difficulty_tags": [
       "common"
     ]
@@ -1672,7 +1672,7 @@
     "word": "chain",
     "grade_level": 4,
     "definition": "A series of interconnected rings or links usually made of metal",
-    "example_sentence": "I wrote chain three times.",
+    "example_sentence": "The bike chain needed oil.",
     "difficulty_tags": [
       "common"
     ]
@@ -1682,7 +1682,7 @@
     "word": "character",
     "grade_level": 4,
     "definition": "A being involved in the action of a story",
-    "example_sentence": "She spelled character correctly.",
+    "example_sentence": "My favorite character in the book is brave.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -1692,7 +1692,7 @@
     "word": "children",
     "grade_level": 4,
     "definition": "A surname",
-    "example_sentence": "Please use children in a sentence.",
+    "example_sentence": "The children lined up for lunch.",
     "difficulty_tags": [
       "common"
     ]
@@ -1702,7 +1702,7 @@
     "word": "choir",
     "grade_level": 4,
     "definition": "A group of people who sing together",
-    "example_sentence": "Please use choir in a sentence.",
+    "example_sentence": "The choir sang at the school concert.",
     "difficulty_tags": [
       "common"
     ]
@@ -1712,7 +1712,7 @@
     "word": "college",
     "grade_level": 4,
     "definition": "An institution of higher education teaching undergraduates",
-    "example_sentence": "She spelled college correctly.",
+    "example_sentence": "My cousin will start college next year.",
     "difficulty_tags": [
       "common"
     ]
@@ -1722,7 +1722,7 @@
     "word": "community",
     "grade_level": 4,
     "definition": "A group sharing common characteristics",
-    "example_sentence": "Please use community in a sentence.",
+    "example_sentence": "Our community planted trees in the park.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -1732,7 +1732,7 @@
     "word": "compass",
     "grade_level": 4,
     "definition": "A magnetic or electronic device used to determine the cardinal directions",
-    "example_sentence": "Please use compass in a sentence.",
+    "example_sentence": "Use a compass to find north.",
     "difficulty_tags": [
       "common"
     ]
@@ -1742,7 +1742,7 @@
     "word": "compatible",
     "grade_level": 4,
     "definition": "Means able to get along well",
-    "example_sentence": "I wrote compatible three times.",
+    "example_sentence": "These two games are compatible with our tablet.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -1752,7 +1752,7 @@
     "word": "compose",
     "grade_level": 4,
     "definition": "To construct by mental labor",
-    "example_sentence": "Our list includes compose.",
+    "example_sentence": "We will compose a short song in music class.",
     "difficulty_tags": [
       "common"
     ]
@@ -1762,7 +1762,7 @@
     "word": "congress",
     "grade_level": 4,
     "definition": "A legislative body of a state",
-    "example_sentence": "She spelled congress correctly.",
+    "example_sentence": "Congress meets to make new laws.",
     "difficulty_tags": [
       "common"
     ]
@@ -1772,7 +1772,7 @@
     "word": "contest",
     "grade_level": 4,
     "definition": "A competition",
-    "example_sentence": "Please use contest in a sentence.",
+    "example_sentence": "She entered an art contest at school.",
     "difficulty_tags": [
       "common"
     ]
@@ -1782,7 +1782,7 @@
     "word": "corner",
     "grade_level": 4,
     "definition": "The point where two converging lines meet",
-    "example_sentence": "She spelled corner correctly.",
+    "example_sentence": "Meet me at the corner of the street.",
     "difficulty_tags": [
       "common"
     ]
@@ -1792,7 +1792,7 @@
     "word": "cotton",
     "grade_level": 4,
     "definition": "A soft",
-    "example_sentence": "I wrote cotton three times.",
+    "example_sentence": "My soft shirt is made of cotton.",
     "difficulty_tags": [
       "common"
     ]
@@ -1802,7 +1802,7 @@
     "word": "couldn't",
     "grade_level": 4,
     "definition": "To could not",
-    "example_sentence": "Please use couldn't in a sentence.",
+    "example_sentence": "I couldn't open the jammed door.",
     "difficulty_tags": [
       "common"
     ]
@@ -1812,7 +1812,7 @@
     "word": "council",
     "grade_level": 4,
     "definition": "A committee that leads or governs",
-    "example_sentence": "She spelled council correctly.",
+    "example_sentence": "The student council planned the dance.",
     "difficulty_tags": [
       "common"
     ]
@@ -1822,7 +1822,7 @@
     "word": "courage",
     "grade_level": 4,
     "definition": "The ability to overcome one's fear",
-    "example_sentence": "I wrote courage three times.",
+    "example_sentence": "It takes courage to try something new.",
     "difficulty_tags": [
       "common"
     ]
@@ -1832,7 +1832,7 @@
     "word": "cousin",
     "grade_level": 4,
     "definition": "A when used without a qualifying word: the child of a person's parent's brother or...",
-    "example_sentence": "Our list includes cousin.",
+    "example_sentence": "My cousin is visiting this weekend.",
     "difficulty_tags": [
       "common"
     ]
@@ -1842,7 +1842,7 @@
     "word": "damage",
     "grade_level": 4,
     "definition": "An injury or harm",
-    "example_sentence": "Please use damage in a sentence.",
+    "example_sentence": "The storm caused damage to the roof.",
     "difficulty_tags": [
       "common"
     ]
@@ -1852,7 +1852,7 @@
     "word": "deposit",
     "grade_level": 4,
     "definition": "A money placed in a bank account",
-    "example_sentence": "Please use deposit in a sentence.",
+    "example_sentence": "Dad made a deposit at the bank.",
     "difficulty_tags": [
       "common"
     ]
@@ -1862,7 +1862,7 @@
     "word": "destroyed",
     "grade_level": 4,
     "definition": "Means damaged beyond repair",
-    "example_sentence": "I wrote destroyed three times.",
+    "example_sentence": "The old shed was destroyed by the storm.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -1872,7 +1872,7 @@
     "word": "difference",
     "grade_level": 4,
     "definition": "The quality of being different",
-    "example_sentence": "Please use difference in a sentence.",
+    "example_sentence": "Can you spot the difference in these pictures?",
     "difficulty_tags": [
       "challenge"
     ]
@@ -1882,7 +1882,7 @@
     "word": "distraction",
     "grade_level": 4,
     "definition": "A something that distracts",
-    "example_sentence": "I wrote distraction three times.",
+    "example_sentence": "The loud TV was a distraction while I studied.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -1893,7 +1893,7 @@
     "word": "early",
     "grade_level": 4,
     "definition": "Means arriving a time before expected",
-    "example_sentence": "She spelled early correctly.",
+    "example_sentence": "We arrived early for the show.",
     "difficulty_tags": [
       "common"
     ]
@@ -1903,7 +1903,7 @@
     "word": "except",
     "grade_level": 4,
     "definition": "To exclude",
-    "example_sentence": "She spelled except correctly.",
+    "example_sentence": "Everyone went outside except Mia.",
     "difficulty_tags": [
       "common"
     ]
@@ -1913,7 +1913,7 @@
     "word": "export",
     "grade_level": 4,
     "definition": "The act of exporting",
-    "example_sentence": "Our list includes export.",
+    "example_sentence": "The farm will export apples to other states.",
     "difficulty_tags": [
       "common"
     ]
@@ -1923,7 +1923,7 @@
     "word": "extend",
     "grade_level": 4,
     "definition": "To cause to increase in extent",
-    "example_sentence": "She spelled extend correctly.",
+    "example_sentence": "Please extend your arm for the nurse.",
     "difficulty_tags": [
       "common"
     ]
@@ -1933,7 +1933,7 @@
     "word": "fatal",
     "grade_level": 4,
     "definition": "Means causing death or destruction",
-    "example_sentence": "She spelled fatal correctly.",
+    "example_sentence": "The game warned that one wrong move could be fatal.",
     "difficulty_tags": [
       "common"
     ]
@@ -1943,7 +1943,7 @@
     "word": "filled",
     "grade_level": 4,
     "definition": "Means that is now full",
-    "example_sentence": "Please use filled in a sentence.",
+    "example_sentence": "She filled the pitcher with water.",
     "difficulty_tags": [
       "common"
     ]
@@ -1953,7 +1953,7 @@
     "word": "fingers",
     "grade_level": 4,
     "definition": "A slender jointed extremity of the human hand",
-    "example_sentence": "I wrote fingers three times.",
+    "example_sentence": "Count on your fingers if it helps.",
     "difficulty_tags": [
       "common"
     ]
@@ -1963,7 +1963,7 @@
     "word": "fountain",
     "grade_level": 4,
     "definition": "An artificial",
-    "example_sentence": "She spelled fountain correctly.",
+    "example_sentence": "We tossed a coin into the fountain.",
     "difficulty_tags": [
       "common"
     ]
@@ -1973,7 +1973,7 @@
     "word": "fresh",
     "grade_level": 4,
     "definition": "Means newly produced or obtained",
-    "example_sentence": "Our list includes fresh.",
+    "example_sentence": "The bakery smells like fresh bread.",
     "difficulty_tags": [
       "common"
     ]
@@ -1983,7 +1983,7 @@
     "word": "friends",
     "grade_level": 4,
     "definition": "The Quakers",
-    "example_sentence": "I wrote friends three times.",
+    "example_sentence": "I invited my friends to the picnic.",
     "difficulty_tags": [
       "common"
     ]
@@ -1993,7 +1993,7 @@
     "word": "fugitive",
     "grade_level": 4,
     "definition": "A person who flees or escapes and travels secretly from place to place",
-    "example_sentence": "Please use fugitive in a sentence.",
+    "example_sentence": "In the story, the fugitive hid in the forest.",
     "difficulty_tags": [
       "common"
     ]
@@ -2003,7 +2003,7 @@
     "word": "garbage",
     "grade_level": 4,
     "definition": "An useless or disposable material",
-    "example_sentence": "Our list includes garbage.",
+    "example_sentence": "Take the garbage out to the curb.",
     "difficulty_tags": [
       "common"
     ]
@@ -2013,7 +2013,7 @@
     "word": "goose",
     "grade_level": 4,
     "definition": "An any of various grazing waterfowl of the family anatidae",
-    "example_sentence": "Please use goose in a sentence.",
+    "example_sentence": "A goose honked beside the pond.",
     "difficulty_tags": [
       "common"
     ]
@@ -2023,7 +2023,7 @@
     "word": "hammer",
     "grade_level": 4,
     "definition": "A tool with a heavy head and a handle used for pounding",
-    "example_sentence": "I wrote hammer three times.",
+    "example_sentence": "He used a hammer to hang the picture.",
     "difficulty_tags": [
       "common"
     ]
@@ -2033,7 +2033,7 @@
     "word": "heaven",
     "grade_level": 4,
     "definition": "The abode of God or the gods",
-    "example_sentence": "I wrote heaven three times.",
+    "example_sentence": "The sunset looked like a painting of heaven.",
     "difficulty_tags": [
       "common"
     ]
@@ -2043,7 +2043,7 @@
     "word": "hollow",
     "grade_level": 4,
     "definition": "An unfilled space in something solid",
-    "example_sentence": "Please use hollow in a sentence.",
+    "example_sentence": "The birds nested inside the hollow log.",
     "difficulty_tags": [
       "common"
     ]
@@ -2053,7 +2053,7 @@
     "word": "hostile",
     "grade_level": 4,
     "definition": "Means not friendly",
-    "example_sentence": "I wrote hostile three times.",
+    "example_sentence": "The desert can be a hostile place for travelers.",
     "difficulty_tags": [
       "common"
     ]
@@ -2063,7 +2063,7 @@
     "word": "hotel",
     "grade_level": 4,
     "definition": "An establishment that provides accommodation and other services for paying guests",
-    "example_sentence": "She spelled hotel correctly.",
+    "example_sentence": "Our family stayed in a hotel near the beach.",
     "difficulty_tags": [
       "common"
     ]
@@ -2073,7 +2073,7 @@
     "word": "husband",
     "grade_level": 4,
     "definition": "A man in a marriage or marital relationship",
-    "example_sentence": "I wrote husband three times.",
+    "example_sentence": "In the story, the husband packed lunch for the trip.",
     "difficulty_tags": [
       "common"
     ]
@@ -2083,7 +2083,7 @@
     "word": "illegal",
     "grade_level": 4,
     "definition": "Means contrary to",
-    "example_sentence": "She spelled illegal correctly.",
+    "example_sentence": "It is illegal to drive without a license.",
     "difficulty_tags": [
       "common"
     ]
@@ -2093,7 +2093,7 @@
     "word": "itself",
     "grade_level": 4,
     "definition": "A word students learn in grade 4.",
-    "example_sentence": "I wrote itself three times.",
+    "example_sentence": "The door closed by itself.",
     "difficulty_tags": [
       "common"
     ]
@@ -2103,7 +2103,7 @@
     "word": "jewel",
     "grade_level": 4,
     "definition": "A valuable object used for personal ornamentation",
-    "example_sentence": "Our list includes jewel.",
+    "example_sentence": "The crown held a sparkling jewel.",
     "difficulty_tags": [
       "common"
     ]
@@ -2113,7 +2113,7 @@
     "word": "keyboard",
     "grade_level": 4,
     "definition": "A set of keys laid out in a grid-like pattern",
-    "example_sentence": "She spelled keyboard correctly.",
+    "example_sentence": "Type your password on the keyboard.",
     "difficulty_tags": [
       "common"
     ]
@@ -2123,7 +2123,7 @@
     "word": "kingdom",
     "grade_level": 4,
     "definition": "A realm having a king or queen as its actual or nominal sovereign",
-    "example_sentence": "I wrote kingdom three times.",
+    "example_sentence": "The map showed a faraway kingdom.",
     "difficulty_tags": [
       "common"
     ]
@@ -2133,7 +2133,7 @@
     "word": "language",
     "grade_level": 4,
     "definition": "A body of words",
-    "example_sentence": "I wrote language three times.",
+    "example_sentence": "Spanish is a language I want to learn.",
     "difficulty_tags": [
       "common"
     ]
@@ -2143,7 +2143,7 @@
     "word": "lower",
     "grade_level": 4,
     "definition": "Means bottom",
-    "example_sentence": "She spelled lower correctly.",
+    "example_sentence": "Please lower your voice in the library.",
     "difficulty_tags": [
       "common"
     ]
@@ -2153,7 +2153,7 @@
     "word": "member",
     "grade_level": 4,
     "definition": "An one who belongs to a group",
-    "example_sentence": "I wrote member three times.",
+    "example_sentence": "She is a member of the chess club.",
     "difficulty_tags": [
       "common"
     ]
@@ -2163,7 +2163,7 @@
     "word": "memory",
     "grade_level": 4,
     "definition": "The ability of the brain to record information or impressions with the facility of...",
-    "example_sentence": "She spelled memory correctly.",
+    "example_sentence": "That trip is my happiest memory.",
     "difficulty_tags": [
       "common"
     ]
@@ -2173,7 +2173,7 @@
     "word": "mountain",
     "grade_level": 4,
     "definition": "An elevation of land of considerable dimensions rising more or less abruptly",
-    "example_sentence": "Please use mountain in a sentence.",
+    "example_sentence": "Snow covered the top of the mountain.",
     "difficulty_tags": [
       "common"
     ]
@@ -2183,7 +2183,7 @@
     "word": "muffin",
     "grade_level": 4,
     "definition": "A cupcake-shaped baked good",
-    "example_sentence": "I wrote muffin three times.",
+    "example_sentence": "I packed a blueberry muffin for snack.",
     "difficulty_tags": [
       "common"
     ]
@@ -2193,7 +2193,7 @@
     "word": "neutral",
     "grade_level": 4,
     "definition": "Means not taking sides in a conflict such as war",
-    "example_sentence": "I wrote neutral three times.",
+    "example_sentence": "The referee stayed neutral during the game.",
     "difficulty_tags": [
       "common"
     ]
@@ -2203,7 +2203,7 @@
     "word": "nutrients",
     "grade_level": 4,
     "definition": "An open access peer-reviewed scientific journal publishing reviews",
-    "example_sentence": "I wrote nutrients three times.",
+    "example_sentence": "Vegetables give your body important nutrients.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -2213,7 +2213,7 @@
     "word": "object",
     "grade_level": 4,
     "definition": "A thing that has physical existence but is not alive",
-    "example_sentence": "She spelled object correctly.",
+    "example_sentence": "Name every object on the science table.",
     "difficulty_tags": [
       "common"
     ]
@@ -2223,7 +2223,7 @@
     "word": "perhaps",
     "grade_level": 4,
     "definition": "Means possibly",
-    "example_sentence": "Our list includes perhaps.",
+    "example_sentence": "Perhaps we can finish the puzzle tonight.",
     "difficulty_tags": [
       "common"
     ]
@@ -2233,7 +2233,7 @@
     "word": "pineapple",
     "grade_level": 4,
     "definition": "The ovoid fruit of the pineapple plant",
-    "example_sentence": "I wrote pineapple three times.",
+    "example_sentence": "We cut a sweet pineapple for dessert.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -2243,7 +2243,7 @@
     "word": "poison",
     "grade_level": 4,
     "definition": "A substance that is harmful or lethal to a living organism when ingested",
-    "example_sentence": "Our list includes poison.",
+    "example_sentence": "The label warned that the liquid was poison.",
     "difficulty_tags": [
       "common"
     ]
@@ -2253,7 +2253,7 @@
     "word": "population",
     "grade_level": 4,
     "definition": "The people living within a political or geographical boundary",
-    "example_sentence": "Please use population in a sentence.",
+    "example_sentence": "The city's population grew last year.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -2264,7 +2264,7 @@
     "word": "portal",
     "grade_level": 4,
     "definition": "An entrance",
-    "example_sentence": "She spelled portal correctly.",
+    "example_sentence": "In the game, a glowing portal opened.",
     "difficulty_tags": [
       "common"
     ]
@@ -2274,7 +2274,7 @@
     "word": "potato",
     "grade_level": 4,
     "definition": "A plant of species Solanum tuberosum or its edible starchy tuber",
-    "example_sentence": "She spelled potato correctly.",
+    "example_sentence": "Mash the potato with a little butter.",
     "difficulty_tags": [
       "common"
     ]
@@ -2284,7 +2284,7 @@
     "word": "prime",
     "grade_level": 4,
     "definition": "Means first in importance",
-    "example_sentence": "Our list includes prime.",
+    "example_sentence": "Two is the smallest prime number.",
     "difficulty_tags": [
       "common"
     ]
@@ -2294,7 +2294,7 @@
     "word": "prince",
     "grade_level": 4,
     "definition": "The ruler or head of a principality",
-    "example_sentence": "Please use prince in a sentence.",
+    "example_sentence": "The prince rode through the village.",
     "difficulty_tags": [
       "common"
     ]
@@ -2304,7 +2304,7 @@
     "word": "problem",
     "grade_level": 4,
     "definition": "A difficulty that has to be resolved or dealt with",
-    "example_sentence": "I wrote problem three times.",
+    "example_sentence": "We solved the math problem together.",
     "difficulty_tags": [
       "common"
     ]
@@ -2314,7 +2314,7 @@
     "word": "products",
     "grade_level": 4,
     "definition": "An any tangible or intangible good or service that is a result of a process and that...",
-    "example_sentence": "Our list includes products.",
+    "example_sentence": "The store sells many healthy products.",
     "difficulty_tags": [
       "common"
     ]
@@ -2324,7 +2324,7 @@
     "word": "professional",
     "grade_level": 4,
     "definition": "A person who belongs to a profession",
-    "example_sentence": "Our list includes professional.",
+    "example_sentence": "A professional chef taught our cooking class.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -2335,7 +2335,7 @@
     "word": "public",
     "grade_level": 4,
     "definition": "Means able to be known or seen by everyone",
-    "example_sentence": "She spelled public correctly.",
+    "example_sentence": "The park is a public place for everyone.",
     "difficulty_tags": [
       "common"
     ]
@@ -2345,7 +2345,7 @@
     "word": "puzzle",
     "grade_level": 4,
     "definition": "A thing such as a complicated matter or a problem which is difficult to make sense...",
-    "example_sentence": "She spelled puzzle correctly.",
+    "example_sentence": "This jigsaw puzzle has one hundred pieces.",
     "difficulty_tags": [
       "common"
     ]
@@ -2355,7 +2355,7 @@
     "word": "queen",
     "grade_level": 4,
     "definition": "A female monarch",
-    "example_sentence": "Please use queen in a sentence.",
+    "example_sentence": "The queen waved from the balcony.",
     "difficulty_tags": [
       "common"
     ]
@@ -2365,7 +2365,7 @@
     "word": "rather",
     "grade_level": 4,
     "definition": "Means used to specify a choice or preference",
-    "example_sentence": "Our list includes rather.",
+    "example_sentence": "I would rather walk than wait for the bus.",
     "difficulty_tags": [
       "common"
     ]
@@ -2375,7 +2375,7 @@
     "word": "region",
     "grade_level": 4,
     "definition": "An any considerable and connected part of a space or surface",
-    "example_sentence": "I wrote region three times.",
+    "example_sentence": "Our region had heavy rain this week.",
     "difficulty_tags": [
       "common"
     ]
@@ -2385,7 +2385,7 @@
     "word": "reject",
     "grade_level": 4,
     "definition": "To refuse to accept",
-    "example_sentence": "Please use reject in a sentence.",
+    "example_sentence": "Please don't reject a kind offer of help.",
     "difficulty_tags": [
       "common"
     ]
@@ -2395,7 +2395,7 @@
     "word": "remember",
     "grade_level": 4,
     "definition": "To recall from one's memory",
-    "example_sentence": "She spelled remember correctly.",
+    "example_sentence": "Remember to pack your library book.",
     "difficulty_tags": [
       "common"
     ]
@@ -2405,7 +2405,7 @@
     "word": "reptile",
     "grade_level": 4,
     "definition": "An any member of the class reptilia that is not a bird\u2014 a cold-blooded vertebrate...",
-    "example_sentence": "Please use reptile in a sentence.",
+    "example_sentence": "A snake is a reptile with dry scales.",
     "difficulty_tags": [
       "common"
     ]
@@ -2415,7 +2415,7 @@
     "word": "resist",
     "grade_level": 4,
     "definition": "To oppose",
-    "example_sentence": "Our list includes resist.",
+    "example_sentence": "Try to resist eating dessert before dinner.",
     "difficulty_tags": [
       "common"
     ]
@@ -2425,7 +2425,7 @@
     "word": "retain",
     "grade_level": 4,
     "definition": "To often followed by from: to hold back",
-    "example_sentence": "Our list includes retain.",
+    "example_sentence": "Plants retain water in their roots.",
     "difficulty_tags": [
       "common"
     ]
@@ -2435,7 +2435,7 @@
     "word": "return",
     "grade_level": 4,
     "definition": "To come or go back",
-    "example_sentence": "I wrote return three times.",
+    "example_sentence": "Please return the book to the shelf.",
     "difficulty_tags": [
       "common"
     ]
@@ -2445,7 +2445,7 @@
     "word": "salute",
     "grade_level": 4,
     "definition": "An utterance or gesture expressing greeting or honor towards someone",
-    "example_sentence": "She spelled salute correctly.",
+    "example_sentence": "The soldiers gave a sharp salute.",
     "difficulty_tags": [
       "common"
     ]
@@ -2455,7 +2455,7 @@
     "word": "seventy",
     "grade_level": 4,
     "definition": "The translators of the Septuagint",
-    "example_sentence": "She spelled seventy correctly.",
+    "example_sentence": "Grandpa turned seventy years old today.",
     "difficulty_tags": [
       "common"
     ]
@@ -2465,7 +2465,7 @@
     "word": "since",
     "grade_level": 4,
     "definition": "Means from a specified time in the past",
-    "example_sentence": "Please use since in a sentence.",
+    "example_sentence": "We have lived here since last summer.",
     "difficulty_tags": [
       "common"
     ]
@@ -2475,7 +2475,7 @@
     "word": "site",
     "grade_level": 4,
     "definition": "A website",
-    "example_sentence": "Please use site in a sentence.",
+    "example_sentence": "The building site was full of trucks.",
     "difficulty_tags": [
       "common"
     ]
@@ -2485,7 +2485,7 @@
     "word": "slavery",
     "grade_level": 4,
     "definition": "An institution or social practice of owning human beings as property",
-    "example_sentence": "I wrote slavery three times.",
+    "example_sentence": "We studied how slavery harmed people in history class.",
     "difficulty_tags": [
       "common"
     ]
@@ -2495,7 +2495,7 @@
     "word": "speed",
     "grade_level": 4,
     "definition": "The state of moving quickly or the capacity for rapid motion",
-    "example_sentence": "Please use speed in a sentence.",
+    "example_sentence": "Check your speed on the bike path.",
     "difficulty_tags": [
       "common"
     ]
@@ -2505,7 +2505,7 @@
     "word": "subject",
     "grade_level": 4,
     "definition": "The main topic of a paper",
-    "example_sentence": "She spelled subject correctly.",
+    "example_sentence": "Science is my favorite subject.",
     "difficulty_tags": [
       "common"
     ]
@@ -2515,7 +2515,7 @@
     "word": "suddenly",
     "grade_level": 4,
     "definition": "Means happening quickly and with little or no warning",
-    "example_sentence": "She spelled suddenly correctly.",
+    "example_sentence": "Suddenly the lights went out.",
     "difficulty_tags": [
       "common"
     ]
@@ -2525,7 +2525,7 @@
     "word": "syllables",
     "grade_level": 4,
     "definition": "A unit of human speech which often forms words corresponding to one opening of the mouth",
-    "example_sentence": "She spelled syllables correctly.",
+    "example_sentence": "Clap the syllables in the word butterfly.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -2535,7 +2535,7 @@
     "word": "thirty",
     "grade_level": 4,
     "definition": "A commercial lasting 30 seconds",
-    "example_sentence": "Please use thirty in a sentence.",
+    "example_sentence": "There are thirty students in our class.",
     "difficulty_tags": [
       "common"
     ]
@@ -2545,7 +2545,7 @@
     "word": "today",
     "grade_level": 4,
     "definition": "Means on the current day or date",
-    "example_sentence": "I wrote today three times.",
+    "example_sentence": "Today we have art after lunch.",
     "difficulty_tags": [
       "common"
     ]
@@ -2555,7 +2555,7 @@
     "word": "tomatoes",
     "grade_level": 4,
     "definition": "The savory fruit of this plant",
-    "example_sentence": "Please use tomatoes in a sentence.",
+    "example_sentence": "We picked ripe tomatoes from the garden.",
     "difficulty_tags": [
       "common"
     ]
@@ -2565,7 +2565,7 @@
     "word": "transport",
     "grade_level": 4,
     "definition": "To carry or bear from one place to another",
-    "example_sentence": "I wrote transport three times.",
+    "example_sentence": "Trucks transport food to the store.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -2575,7 +2575,7 @@
     "word": "tutor",
     "grade_level": 4,
     "definition": "An one who teaches another in a one-on-one or small-group interaction",
-    "example_sentence": "Please use tutor in a sentence.",
+    "example_sentence": "A tutor helped me with reading.",
     "difficulty_tags": [
       "common"
     ]
@@ -2585,7 +2585,7 @@
     "word": "usefulness",
     "grade_level": 4,
     "definition": "The quality or degree of being useful",
-    "example_sentence": "Our list includes usefulness.",
+    "example_sentence": "We discussed the usefulness of a checklist.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -2595,7 +2595,7 @@
     "word": "vocal",
     "grade_level": 4,
     "definition": "Means of",
-    "example_sentence": "I wrote vocal three times.",
+    "example_sentence": "She is very vocal about fairness on the team.",
     "difficulty_tags": [
       "common"
     ]
@@ -2605,7 +2605,7 @@
     "word": "yourself",
     "grade_level": 4,
     "definition": "A word students learn in grade 4.",
-    "example_sentence": "Please use yourself in a sentence.",
+    "example_sentence": "Give yourself time to finish the test.",
     "difficulty_tags": [
       "common"
     ]
@@ -3085,7 +3085,7 @@
     "word": "accidentally",
     "grade_level": 6,
     "definition": "Means unintentionally",
-    "example_sentence": "The test included accidentally.",
+    "example_sentence": "I accidentally spilled juice on my homework.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3095,7 +3095,7 @@
     "word": "ambulance",
     "grade_level": 6,
     "definition": "An emergency vehicle designed for transporting seriously ill or injured people to a...",
-    "example_sentence": "Spell ambulance carefully.",
+    "example_sentence": "An ambulance raced to the accident.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3105,7 +3105,7 @@
     "word": "appearance",
     "grade_level": 6,
     "definition": "The way something looks",
-    "example_sentence": "Spell appearance carefully.",
+    "example_sentence": "His neat appearance impressed the judges.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3115,7 +3115,7 @@
     "word": "appointment",
     "grade_level": 6,
     "definition": "An arrangement between people to meet",
-    "example_sentence": "The test included appointment.",
+    "example_sentence": "I have a dentist appointment on Friday.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3125,7 +3125,7 @@
     "word": "autumn",
     "grade_level": 6,
     "definition": "A traditionally the third of the four seasons",
-    "example_sentence": "The test included autumn.",
+    "example_sentence": "Leaves turn bright colors in autumn.",
     "difficulty_tags": [
       "common"
     ]
@@ -3135,7 +3135,7 @@
     "word": "capable",
     "grade_level": 6,
     "definition": "Means able and efficient",
-    "example_sentence": "Spell capable carefully.",
+    "example_sentence": "She is capable of solving hard puzzles.",
     "difficulty_tags": [
       "common"
     ]
@@ -3145,7 +3145,7 @@
     "word": "comfortable",
     "grade_level": 6,
     "definition": "Means providing physical comfort and ease",
-    "example_sentence": "Spell comfortable carefully.",
+    "example_sentence": "This chair is soft and comfortable.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3155,7 +3155,7 @@
     "word": "complain",
     "grade_level": 6,
     "definition": "To express feelings of pain",
-    "example_sentence": "Spell complain carefully.",
+    "example_sentence": "Don't complain until you try the new lunch.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3166,7 +3166,7 @@
     "word": "concentration",
     "grade_level": 6,
     "definition": "The act",
-    "example_sentence": "The test included concentration.",
+    "example_sentence": "Quiet rooms help my concentration.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -3177,7 +3177,7 @@
     "word": "cooperation",
     "grade_level": 6,
     "definition": "The act of cooperating",
-    "example_sentence": "He studied cooperation for homework.",
+    "example_sentence": "Winning took cooperation from the whole team.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -3188,7 +3188,7 @@
     "word": "creative",
     "grade_level": 6,
     "definition": "Means tending to create things",
-    "example_sentence": "He studied creative for homework.",
+    "example_sentence": "His creative poster won first prize.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3199,7 +3199,7 @@
     "word": "decision",
     "grade_level": 6,
     "definition": "The act of deciding",
-    "example_sentence": "The test included decision.",
+    "example_sentence": "Choosing a book was a hard decision.",
     "difficulty_tags": [
       "challenge",
       "common",
@@ -3211,7 +3211,7 @@
     "word": "denominator",
     "grade_level": 6,
     "definition": "The number or expression written below the line in a fraction",
-    "example_sentence": "We reviewed denominator in class.",
+    "example_sentence": "In three-fourths, four is the denominator.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3221,7 +3221,7 @@
     "word": "depth",
     "grade_level": 6,
     "definition": "The vertical distance below a surface",
-    "example_sentence": "The test included depth.",
+    "example_sentence": "Measure the depth of the pool carefully.",
     "difficulty_tags": [
       "common"
     ]
@@ -3231,7 +3231,7 @@
     "word": "descendant",
     "grade_level": 6,
     "definition": "An one of the progeny of a specified person",
-    "example_sentence": "The test included descendant.",
+    "example_sentence": "She is a descendant of early settlers.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3241,7 +3241,7 @@
     "word": "disagreement",
     "grade_level": 6,
     "definition": "A condition of not agreeing or concurring",
-    "example_sentence": "We reviewed disagreement in class.",
+    "example_sentence": "They settled their disagreement calmly.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3251,7 +3251,7 @@
     "word": "disastrous",
     "grade_level": 6,
     "definition": "Means of the nature of a disaster",
-    "example_sentence": "He studied disastrous for homework.",
+    "example_sentence": "The disastrous storm flooded the road.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3261,7 +3261,7 @@
     "word": "discussion",
     "grade_level": 6,
     "definition": "A conversation or debate concerning a particular topic",
-    "example_sentence": "He studied discussion for homework.",
+    "example_sentence": "Our class had a discussion about recycling.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -3272,7 +3272,7 @@
     "word": "distance",
     "grade_level": 6,
     "definition": "An amount of space between points",
-    "example_sentence": "He studied distance for homework.",
+    "example_sentence": "Measure the distance between the two desks.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3283,7 +3283,7 @@
     "word": "earliest",
     "grade_level": 6,
     "definition": "Means more early than",
-    "example_sentence": "We reviewed earliest in class.",
+    "example_sentence": "The earliest bus leaves at six o'clock.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3294,7 +3294,7 @@
     "word": "edition",
     "grade_level": 6,
     "definition": "The whole number of copies of a work printed and published at one time",
-    "example_sentence": "He studied edition for homework.",
+    "example_sentence": "I bought the newest edition of the atlas.",
     "difficulty_tags": [
       "common",
       "tricky"
@@ -3305,7 +3305,7 @@
     "word": "elevator",
     "grade_level": 6,
     "definition": "A permanent construction with a built-in platform or cab that can be raised and lowered",
-    "example_sentence": "Spell elevator carefully.",
+    "example_sentence": "Take the elevator to the third floor.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3316,7 +3316,7 @@
     "word": "emergency",
     "grade_level": 6,
     "definition": "A situation which poses an immediate risk and which requires urgent attention",
-    "example_sentence": "He studied emergency for homework.",
+    "example_sentence": "Call an adult in an emergency.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3326,7 +3326,7 @@
     "word": "emptiness",
     "grade_level": 6,
     "definition": "The state or feeling of being empty",
-    "example_sentence": "The test included emptiness.",
+    "example_sentence": "The emptiness of the quiet gym felt strange.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3336,7 +3336,7 @@
     "word": "encouragement",
     "grade_level": 6,
     "definition": "A words or actions that increase someone's confidence",
-    "example_sentence": "We reviewed encouragement in class.",
+    "example_sentence": "Her encouragement helped me keep trying.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3346,7 +3346,7 @@
     "word": "encyclopedia",
     "grade_level": 6,
     "definition": "A comprehensive reference work with articles on a range of subjects",
-    "example_sentence": "The test included encyclopedia.",
+    "example_sentence": "I looked up volcanoes in the encyclopedia.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3356,7 +3356,7 @@
     "word": "establish",
     "grade_level": 6,
     "definition": "To form",
-    "example_sentence": "We reviewed establish in class.",
+    "example_sentence": "The club will establish new rules today.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3366,7 +3366,7 @@
     "word": "excitement",
     "grade_level": 6,
     "definition": "The state of being excited",
-    "example_sentence": "He studied excitement for homework.",
+    "example_sentence": "Excitement filled the room before the show.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3376,7 +3376,7 @@
     "word": "experience",
     "grade_level": 6,
     "definition": "A collection of events and/or activities from which an individual or group may...",
-    "example_sentence": "The test included experience.",
+    "example_sentence": "Camping was a new experience for me.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3386,7 +3386,7 @@
     "word": "exterior",
     "grade_level": 6,
     "definition": "Means relating to the outside parts or surface of something",
-    "example_sentence": "Spell exterior carefully.",
+    "example_sentence": "Paint the exterior of the shed this weekend.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3397,7 +3397,7 @@
     "word": "faucet",
     "grade_level": 6,
     "definition": "An exposed plumbing fitting",
-    "example_sentence": "Spell faucet carefully.",
+    "example_sentence": "Turn off the faucet when you finish.",
     "difficulty_tags": [
       "common"
     ]
@@ -3407,7 +3407,7 @@
     "word": "fierce",
     "grade_level": 6,
     "definition": "Means exceedingly violent",
-    "example_sentence": "We reviewed fierce in class.",
+    "example_sentence": "A fierce wind shook the trees.",
     "difficulty_tags": [
       "common"
     ]
@@ -3417,7 +3417,7 @@
     "word": "forgiveness",
     "grade_level": 6,
     "definition": "The action of forgiving",
-    "example_sentence": "The test included forgiveness.",
+    "example_sentence": "He asked for forgiveness after the mistake.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3427,7 +3427,7 @@
     "word": "further",
     "grade_level": 6,
     "definition": "Means more distant",
-    "example_sentence": "The test included further.",
+    "example_sentence": "Walk a little further down the path.",
     "difficulty_tags": [
       "common"
     ]
@@ -3437,7 +3437,7 @@
     "word": "gallon",
     "grade_level": 6,
     "definition": "A 231 cubic inches or approximately 3.785 liters for liquids",
-    "example_sentence": "We reviewed gallon in class.",
+    "example_sentence": "We bought a gallon of milk.",
     "difficulty_tags": [
       "common"
     ]
@@ -3447,7 +3447,7 @@
     "word": "grateful",
     "grade_level": 6,
     "definition": "Means of a person or their actions",
-    "example_sentence": "Spell grateful carefully.",
+    "example_sentence": "I am grateful for your help.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3458,7 +3458,7 @@
     "word": "grief",
     "grade_level": 6,
     "definition": "An emotional pain",
-    "example_sentence": "Spell grief carefully.",
+    "example_sentence": "The story showed the family's grief with care.",
     "difficulty_tags": [
       "common"
     ]
@@ -3468,7 +3468,7 @@
     "word": "hangar",
     "grade_level": 6,
     "definition": "A large garage-like structure where aircraft are kept",
-    "example_sentence": "We reviewed hangar in class.",
+    "example_sentence": "The airplane waited inside the hangar.",
     "difficulty_tags": [
       "common"
     ]
@@ -3478,7 +3478,7 @@
     "word": "hanger",
     "grade_level": 6,
     "definition": "A clothes hanger",
-    "example_sentence": "He studied hanger for homework.",
+    "example_sentence": "Hang your shirt on a hanger.",
     "difficulty_tags": [
       "common"
     ]
@@ -3488,7 +3488,7 @@
     "word": "headache",
     "grade_level": 6,
     "definition": "A pain or ache in the head",
-    "example_sentence": "He studied headache for homework.",
+    "example_sentence": "Loud noise gave me a headache.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3499,7 +3499,7 @@
     "word": "heroes",
     "grade_level": 6,
     "definition": "A comic about the titular team of fictional superheroes",
-    "example_sentence": "He studied heroes for homework.",
+    "example_sentence": "Firefighters are everyday heroes.",
     "difficulty_tags": [
       "common"
     ]
@@ -3509,7 +3509,7 @@
     "word": "honorable",
     "grade_level": 6,
     "definition": "Means behaving in a manner that shows honor",
-    "example_sentence": "We reviewed honorable in class.",
+    "example_sentence": "Returning the wallet was an honorable choice.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3519,7 +3519,7 @@
     "word": "horizon",
     "grade_level": 6,
     "definition": "The visible horizontal line where the sky appears to meet the earth in the distance",
-    "example_sentence": "He studied horizon for homework.",
+    "example_sentence": "The sun sank below the horizon.",
     "difficulty_tags": [
       "common"
     ]
@@ -3529,7 +3529,7 @@
     "word": "hunger",
     "grade_level": 6,
     "definition": "A need or compelling desire for food",
-    "example_sentence": "The test included hunger.",
+    "example_sentence": "Hunger made us hurry to lunch.",
     "difficulty_tags": [
       "common"
     ]
@@ -3539,7 +3539,7 @@
     "word": "ignore",
     "grade_level": 6,
     "definition": "To deliberately not listen or pay attention to",
-    "example_sentence": "Spell ignore carefully.",
+    "example_sentence": "Please don't ignore the safety rules.",
     "difficulty_tags": [
       "common"
     ]
@@ -3549,7 +3549,7 @@
     "word": "importance",
     "grade_level": 6,
     "definition": "The quality or condition of being important or worthy of note",
-    "example_sentence": "We reviewed importance in class.",
+    "example_sentence": "He explained the importance of honesty.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3559,7 +3559,7 @@
     "word": "independence",
     "grade_level": 6,
     "definition": "The quality or state of being independent",
-    "example_sentence": "The test included independence.",
+    "example_sentence": "The holiday celebrates independence.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3569,7 +3569,7 @@
     "word": "injury",
     "grade_level": 6,
     "definition": "A damage to the body of a living thing",
-    "example_sentence": "He studied injury for homework.",
+    "example_sentence": "An ice pack helped her ankle injury.",
     "difficulty_tags": [
       "common"
     ]
@@ -3579,7 +3579,7 @@
     "word": "inquire",
     "grade_level": 6,
     "definition": "To ask",
-    "example_sentence": "Spell inquire carefully.",
+    "example_sentence": "Inquire at the desk if you need help.",
     "difficulty_tags": [
       "common"
     ]
@@ -3589,7 +3589,7 @@
     "word": "instead",
     "grade_level": 6,
     "definition": "Means in the place of something",
-    "example_sentence": "Spell instead carefully.",
+    "example_sentence": "I chose water instead of soda.",
     "difficulty_tags": [
       "common"
     ]
@@ -3599,7 +3599,7 @@
     "word": "intermission",
     "grade_level": 6,
     "definition": "A break",
-    "example_sentence": "He studied intermission for homework.",
+    "example_sentence": "We bought popcorn during intermission.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -3610,7 +3610,7 @@
     "word": "invitation",
     "grade_level": 6,
     "definition": "The act of inviting",
-    "example_sentence": "Spell invitation carefully.",
+    "example_sentence": "I mailed an invitation to the party.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -3621,7 +3621,7 @@
     "word": "involve",
     "grade_level": 6,
     "definition": "To cause or engage to become connected or implicated",
-    "example_sentence": "He studied involve for homework.",
+    "example_sentence": "The project will involve measuring and drawing.",
     "difficulty_tags": [
       "common"
     ]
@@ -3631,7 +3631,7 @@
     "word": "legal",
     "grade_level": 6,
     "definition": "Means relating to the law or to lawyers",
-    "example_sentence": "The test included legal.",
+    "example_sentence": "Wearing a seat belt is a legal requirement.",
     "difficulty_tags": [
       "common"
     ]
@@ -3641,7 +3641,7 @@
     "word": "liquid",
     "grade_level": 6,
     "definition": "A substance that is flowing",
-    "example_sentence": "The test included liquid.",
+    "example_sentence": "Water is a liquid that can freeze.",
     "difficulty_tags": [
       "common"
     ]
@@ -3651,7 +3651,7 @@
     "word": "loaves",
     "grade_level": 6,
     "definition": "A block of bread after baking",
-    "example_sentence": "We reviewed loaves in class.",
+    "example_sentence": "She baked two loaves of bread.",
     "difficulty_tags": [
       "common"
     ]
@@ -3661,7 +3661,7 @@
     "word": "location",
     "grade_level": 6,
     "definition": "A particular point or place in physical space",
-    "example_sentence": "The test included location.",
+    "example_sentence": "Mark the treasure's location on the map.",
     "difficulty_tags": [
       "challenge",
       "common",
@@ -3673,7 +3673,7 @@
     "word": "manner",
     "grade_level": 6,
     "definition": "A mode of action",
-    "example_sentence": "He studied manner for homework.",
+    "example_sentence": "Speak in a polite manner.",
     "difficulty_tags": [
       "common"
     ]
@@ -3683,7 +3683,7 @@
     "word": "meant",
     "grade_level": 6,
     "definition": "To intend",
-    "example_sentence": "Spell meant carefully.",
+    "example_sentence": "I meant to call you yesterday.",
     "difficulty_tags": [
       "common"
     ]
@@ -3693,7 +3693,7 @@
     "word": "medicine",
     "grade_level": 6,
     "definition": "A substance which specifically promotes healing when ingested or consumed in some way",
-    "example_sentence": "We reviewed medicine in class.",
+    "example_sentence": "Take your medicine with a glass of water.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3704,7 +3704,7 @@
     "word": "minus",
     "grade_level": 6,
     "definition": "The minus sign",
-    "example_sentence": "The test included minus.",
+    "example_sentence": "Ten minus four equals six.",
     "difficulty_tags": [
       "common"
     ]
@@ -3714,7 +3714,7 @@
     "word": "misunderstand",
     "grade_level": 6,
     "definition": "To understand incorrectly",
-    "example_sentence": "He studied misunderstand for homework.",
+    "example_sentence": "Don't misunderstand the directions on the test.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3724,7 +3724,7 @@
     "word": "mixture",
     "grade_level": 6,
     "definition": "A something produced by mixing",
-    "example_sentence": "We reviewed mixture in class.",
+    "example_sentence": "Stir the pancake mixture until it is smooth.",
     "difficulty_tags": [
       "common"
     ]
@@ -3734,7 +3734,7 @@
     "word": "mouth",
     "grade_level": 6,
     "definition": "The front opening of a creature through which food is ingested",
-    "example_sentence": "The test included mouth.",
+    "example_sentence": "Cover your mouth when you cough.",
     "difficulty_tags": [
       "common"
     ]
@@ -3744,7 +3744,7 @@
     "word": "multiple",
     "grade_level": 6,
     "definition": "Means having more than one element",
-    "example_sentence": "The test included multiple.",
+    "example_sentence": "The word has multiple meanings.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3755,7 +3755,7 @@
     "word": "musician",
     "grade_level": 6,
     "definition": "A composer",
-    "example_sentence": "We reviewed musician in class.",
+    "example_sentence": "The musician practiced the flute daily.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3766,7 +3766,7 @@
     "word": "mute",
     "grade_level": 6,
     "definition": "Means not having the power of speech",
-    "example_sentence": "He studied mute for homework.",
+    "example_sentence": "Press mute if the video is too loud.",
     "difficulty_tags": [
       "common"
     ]
@@ -3776,7 +3776,7 @@
     "word": "nationality",
     "grade_level": 6,
     "definition": "A national origin or identity",
-    "example_sentence": "The test included nationality.",
+    "example_sentence": "She wrote her nationality on the form.",
     "difficulty_tags": [
       "challenge",
       "tricky"
@@ -3787,7 +3787,7 @@
     "word": "negative",
     "grade_level": 6,
     "definition": "Means not positive or neutral",
-    "example_sentence": "Spell negative carefully.",
+    "example_sentence": "Zero is not a negative number.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3798,7 +3798,7 @@
     "word": "noticeable",
     "grade_level": 6,
     "definition": "Means capable of being seen or noticed",
-    "example_sentence": "We reviewed noticeable in class.",
+    "example_sentence": "There was a noticeable crack in the vase.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3808,7 +3808,7 @@
     "word": "numerator",
     "grade_level": 6,
     "definition": "The number or expression written above the line in a fraction",
-    "example_sentence": "We reviewed numerator in class.",
+    "example_sentence": "In one-half, one is the numerator.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3818,7 +3818,7 @@
     "word": "occur",
     "grade_level": 6,
     "definition": "To happen or take place",
-    "example_sentence": "We reviewed occur in class.",
+    "example_sentence": "Thunderstorms can occur in the afternoon.",
     "difficulty_tags": [
       "common"
     ]
@@ -3828,7 +3828,7 @@
     "word": "official",
     "grade_level": 6,
     "definition": "Means approved by authority",
-    "example_sentence": "He studied official for homework.",
+    "example_sentence": "The official score was posted online.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3839,7 +3839,7 @@
     "word": "original",
     "grade_level": 6,
     "definition": "Means newly created",
-    "example_sentence": "He studied original for homework.",
+    "example_sentence": "Keep your original receipt in a safe place.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3850,7 +3850,7 @@
     "word": "partial",
     "grade_level": 6,
     "definition": "Means existing as a part or portion",
-    "example_sentence": "The test included partial.",
+    "example_sentence": "We only finished a partial section of the mural.",
     "difficulty_tags": [
       "common"
     ]
@@ -3860,7 +3860,7 @@
     "word": "passenger",
     "grade_level": 6,
     "definition": "An one who rides or travels in a vehicle",
-    "example_sentence": "The test included passenger.",
+    "example_sentence": "Each passenger needs a ticket.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3870,7 +3870,7 @@
     "word": "performance",
     "grade_level": 6,
     "definition": "The act of performing",
-    "example_sentence": "He studied performance for homework.",
+    "example_sentence": "Her piano performance earned loud applause.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3880,7 +3880,7 @@
     "word": "personal",
     "grade_level": 6,
     "definition": "Means of or pertaining to a particular person",
-    "example_sentence": "He studied personal for homework.",
+    "example_sentence": "Keep your personal password private.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3891,7 +3891,7 @@
     "word": "persuade",
     "grade_level": 6,
     "definition": "To successfully convince to agree to",
-    "example_sentence": "He studied persuade for homework.",
+    "example_sentence": "Can you persuade him to join the club?",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3902,7 +3902,7 @@
     "word": "piano",
     "grade_level": 6,
     "definition": "A percussive keyboard musical instrument",
-    "example_sentence": "He studied piano for homework.",
+    "example_sentence": "She practiced the piano every evening.",
     "difficulty_tags": [
       "common"
     ]
@@ -3912,7 +3912,7 @@
     "word": "predict",
     "grade_level": 6,
     "definition": "To make a prediction: to forecast",
-    "example_sentence": "He studied predict for homework.",
+    "example_sentence": "Scientists predict rain for tomorrow.",
     "difficulty_tags": [
       "common"
     ]
@@ -3922,7 +3922,7 @@
     "word": "prefer",
     "grade_level": 6,
     "definition": "To be in the habit of choosing something rather than something else",
-    "example_sentence": "We reviewed prefer in class.",
+    "example_sentence": "I prefer apples to oranges.",
     "difficulty_tags": [
       "common"
     ]
@@ -3932,7 +3932,7 @@
     "word": "principal",
     "grade_level": 6,
     "definition": "Means primary",
-    "example_sentence": "The test included principal.",
+    "example_sentence": "The principal spoke at the assembly.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -3942,7 +3942,7 @@
     "word": "purchase",
     "grade_level": 6,
     "definition": "The acquisition of title to",
-    "example_sentence": "He studied purchase for homework.",
+    "example_sentence": "We will purchase supplies for the project.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -3953,7 +3953,7 @@
     "word": "purse",
     "grade_level": 6,
     "definition": "A small bag for carrying money",
-    "example_sentence": "The test included purse.",
+    "example_sentence": "She put her keys in her purse.",
     "difficulty_tags": [
       "common"
     ]
@@ -3963,7 +3963,7 @@
     "word": "quote",
     "grade_level": 6,
     "definition": "A statement attributed to a person",
-    "example_sentence": "Spell quote carefully.",
+    "example_sentence": "Copy the quote carefully from the book.",
     "difficulty_tags": [
       "common"
     ]
@@ -3973,7 +3973,7 @@
     "word": "radius",
     "grade_level": 6,
     "definition": "A line segment between any point of a circle or sphere and its center",
-    "example_sentence": "The test included radius.",
+    "example_sentence": "Draw a circle with a two-inch radius.",
     "difficulty_tags": [
       "common"
     ]
@@ -3983,7 +3983,7 @@
     "word": "rapid",
     "grade_level": 6,
     "definition": "Means very swift or quick",
-    "example_sentence": "He studied rapid for homework.",
+    "example_sentence": "The river's rapid current looked dangerous.",
     "difficulty_tags": [
       "common"
     ]
@@ -3993,7 +3993,7 @@
     "word": "ratio",
     "grade_level": 6,
     "definition": "A number representing a comparison between two named things",
-    "example_sentence": "He studied ratio for homework.",
+    "example_sentence": "The ratio of boys to girls was even.",
     "difficulty_tags": [
       "common"
     ]
@@ -4003,7 +4003,7 @@
     "word": "recently",
     "grade_level": 6,
     "definition": "Means in the recent past",
-    "example_sentence": "We reviewed recently in class.",
+    "example_sentence": "I recently finished a mystery novel.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -4014,7 +4014,7 @@
     "word": "referred",
     "grade_level": 6,
     "definition": "To direct the attention of",
-    "example_sentence": "The test included referred.",
+    "example_sentence": "The doctor referred her to a specialist.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -4025,7 +4025,7 @@
     "word": "rehearse",
     "grade_level": 6,
     "definition": "To practise by recitation or repetition in private for experiment and improvement",
-    "example_sentence": "The test included rehearse.",
+    "example_sentence": "The actors will rehearse the play tonight.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -4036,7 +4036,7 @@
     "word": "relief",
     "grade_level": 6,
     "definition": "The removal of stress or discomfort",
-    "example_sentence": "He studied relief for homework.",
+    "example_sentence": "Finishing the test brought me relief.",
     "difficulty_tags": [
       "common"
     ]
@@ -4046,7 +4046,7 @@
     "word": "remarkable",
     "grade_level": 6,
     "definition": "Means worthy of remark",
-    "example_sentence": "Spell remarkable carefully.",
+    "example_sentence": "The museum had a remarkable dinosaur fossil.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -4056,7 +4056,7 @@
     "word": "remind",
     "grade_level": 6,
     "definition": "To cause one to experience a memory",
-    "example_sentence": "We reviewed remind in class.",
+    "example_sentence": "Please remind me to pack my lunch.",
     "difficulty_tags": [
       "common"
     ]
@@ -4066,7 +4066,7 @@
     "word": "remote",
     "grade_level": 6,
     "definition": "Means at a distance",
-    "example_sentence": "We reviewed remote in class.",
+    "example_sentence": "They camped in a remote forest.",
     "difficulty_tags": [
       "common"
     ]
@@ -4076,7 +4076,7 @@
     "word": "replacement",
     "grade_level": 6,
     "definition": "A person or thing that takes the place of another",
-    "example_sentence": "The test included replacement.",
+    "example_sentence": "I need a replacement for my broken pencil.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -4086,7 +4086,7 @@
     "word": "roam",
     "grade_level": 6,
     "definition": "To wander or travel freely and with no specific destination",
-    "example_sentence": "He loved to roam in the hillside.",
+    "example_sentence": "Deer roam freely through the valley.",
     "difficulty_tags": [
       "common"
     ]
@@ -4096,7 +4096,7 @@
     "word": "routine",
     "grade_level": 6,
     "definition": "A course of action to be followed regularly",
-    "example_sentence": "Spell routine carefully.",
+    "example_sentence": "Brushing your teeth is part of a healthy routine.",
     "difficulty_tags": [
       "common"
     ]
@@ -4106,7 +4106,7 @@
     "word": "safety",
     "grade_level": 6,
     "definition": "The condition or feeling of being safe",
-    "example_sentence": "Spell safety carefully.",
+    "example_sentence": "Wear a helmet for safety on your bike.",
     "difficulty_tags": [
       "common"
     ]
@@ -4116,7 +4116,7 @@
     "word": "sailor",
     "grade_level": 6,
     "definition": "A person who sails",
-    "example_sentence": "Spell sailor carefully.",
+    "example_sentence": "The sailor tied the rope to the dock.",
     "difficulty_tags": [
       "common"
     ]
@@ -4126,7 +4126,7 @@
     "word": "salute",
     "grade_level": 6,
     "definition": "An utterance or gesture expressing greeting or honor towards someone",
-    "example_sentence": "He studied salute for homework.",
+    "example_sentence": "The soldiers gave a sharp salute.",
     "difficulty_tags": [
       "common"
     ]
@@ -4136,7 +4136,7 @@
     "word": "scarcely",
     "grade_level": 6,
     "definition": "Means hardly: only just",
-    "example_sentence": "He studied scarcely for homework.",
+    "example_sentence": "We had scarcely sat down when the show began.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -4147,7 +4147,7 @@
     "word": "scientific",
     "grade_level": 6,
     "definition": "Means related or connected to science:",
-    "example_sentence": "The test included scientific.",
+    "example_sentence": "We followed the scientific method in lab.",
     "difficulty_tags": [
       "challenge"
     ]
@@ -4157,7 +4157,7 @@
     "word": "sentence",
     "grade_level": 6,
     "definition": "A grammatically complete series of words consisting of a subject and predicate",
-    "example_sentence": "We reviewed sentence in class.",
+    "example_sentence": "Write a complete sentence with a capital letter.",
     "difficulty_tags": [
       "challenge",
       "common"
@@ -4168,7 +4168,7 @@
     "word": "session",
     "grade_level": 6,
     "definition": "A period of time devoted to a particular activity",
-    "example_sentence": "Spell session carefully.",
+    "example_sentence": "Our practice session lasted one hour.",
     "difficulty_tags": [
       "common",
       "tricky"
@@ -4179,7 +4179,7 @@
     "word": "shampoo",
     "grade_level": 6,
     "definition": "A commercial liquid soaplike product for washing hair or other fibers",
-    "example_sentence": "Spell shampoo carefully.",
+    "example_sentence": "Wash your hair with shampoo and rinse well.",
     "difficulty_tags": [
       "common"
     ]
@@ -4189,7 +4189,7 @@
     "word": "shelves",
     "grade_level": 6,
     "definition": "A flat",
-    "example_sentence": "The test included shelves.",
+    "example_sentence": "Put the books back on the shelves.",
     "difficulty_tags": [
       "common"
     ]
@@ -4199,7 +4199,7 @@
     "word": "shorten",
     "grade_level": 6,
     "definition": "To make shorter",
-    "example_sentence": "Spell shorten carefully.",
+    "example_sentence": "Shorten the rope so it won't drag.",
     "difficulty_tags": [
       "common"
     ]
@@ -4209,7 +4209,7 @@
     "word": "silent",
     "grade_level": 6,
     "definition": "Means free from sound or noise",
-    "example_sentence": "Spell silent carefully.",
+    "example_sentence": "The library was silent during reading time.",
     "difficulty_tags": [
       "common",
       "tricky"
@@ -4220,7 +4220,7 @@
     "word": "simply",
     "grade_level": 6,
     "definition": "Means merely",
-    "example_sentence": "He studied simply for homework.",
+    "example_sentence": "The directions were simply written and clear.",
     "difficulty_tags": [
       "common"
     ]
@@ -4230,7 +4230,7 @@
     "word": "skillful",
     "grade_level": 6,
     "definition": "Means possessing skill",
-    "example_sentence": "We reviewed skillful in class.",
+    "example_sentence": "The skillful potter shaped the clay cup.",
     "difficulty_tags": [
       "challenge",
       "common"

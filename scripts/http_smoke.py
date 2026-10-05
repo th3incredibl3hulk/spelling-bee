@@ -43,6 +43,14 @@ def main() -> None:
     abandoned = request(base_url, f"/api/sessions/{session['id']}/abandon", {})
     if not abandoned.get("abandoned"):
         raise SystemExit("abandon endpoint failed")
+    story = request(
+        base_url,
+        "/api/sessions",
+        {"child_id": child["id"], "grade_level": 2, "mode": "story", "story_id": "moon-mission"},
+    )
+    if story.get("mode") != "story" or len(story.get("words", [])) < 15:
+        raise SystemExit("story session create failed")
+    request(base_url, f"/api/sessions/{story['id']}/abandon", {})
     dashboard = request(base_url, "/api/dashboard")
     print(
         json.dumps(
@@ -50,7 +58,9 @@ def main() -> None:
                 "health": health["ok"],
                 "children": len(bootstrap["children"]),
                 "themes": len(bootstrap["themes"]),
+                "stories": len(bootstrap.get("stories") or []),
                 "session_words": len(session["words"]),
+                "story_words": len(story["words"]),
                 "dashboard_children": len(dashboard["children"]),
             },
             indent=2,

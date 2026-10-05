@@ -1,0 +1,110 @@
+[
+  {
+    "id": "moon-mission",
+    "title": "Moon Mission",
+    "max_misses": 3,
+    "word_count": 15,
+    "beats": [
+      {
+        "id": "preflight",
+        "title": "Preflight Check",
+        "narration": "Mission Control is ready. Spell the word to clear the pad for launch.",
+        "image_path": "/assets/moon-mission/preflight.png"
+      },
+      {
+        "id": "countdown",
+        "title": "Countdown",
+        "narration": "T-minus... engines humming. Spell true and the clock keeps ticking.",
+        "image_path": "/assets/moon-mission/countdown.png"
+      },
+      {
+        "id": "liftoff",
+        "title": "Liftoff",
+        "narration": "Ignition! The rocket climbs. A correct spelling keeps the climb steady.",
+        "image_path": "/assets/moon-mission/liftoff.png"
+      },
+      {
+        "id": "orbit",
+        "title": "Earth Orbit",
+        "narration": "You're circling the blue marble. Spell to hold your course.",
+        "image_path": "/assets/moon-mission/orbit.png"
+      },
+      {
+        "id": "coast",
+        "title": "Coast to the Moon",
+        "narration": "Long quiet stretch through the dark. One good word at a time.",
+        "image_path": "/assets/moon-mission/coast.png"
+      },
+      {
+        "id": "approach",
+        "title": "Lunar Approach",
+        "narration": "The Moon fills the window. Spell carefully on final approach.",
+        "image_path": "/assets/moon-mission/approach.png"
+      },
+      {
+        "id": "touchdown",
+        "title": "Touchdown",
+        "narration": "Contact light! Soft landing on dusty ground.",
+        "image_path": "/assets/moon-mission/touchdown.png"
+      },
+      {
+        "id": "explore",
+        "title": "Flag and Explore",
+        "narration": "Boots on regolith. Plant the flag with a solid spelling.",
+        "image_path": "/assets/moon-mission/explore.png"
+      },
+      {
+        "id": "samples",
+        "title": "Sample Collection",
+        "narration": "Scoop rocks for the trip home. Spell to fill the bag.",
+        "image_path": "/assets/moon-mission/samples.png"
+      },
+      {
+        "id": "ascent",
+        "title": "Return Ascent",
+        "narration": "Ascent stage firing. Leave the Moon behind.",
+        "image_path": "/assets/moon-mission/ascent.png"
+      },
+      {
+        "id": "leave-orbit",
+        "title": "Leave Lunar Orbit",
+        "narration": "Trans-Earth injection. Point home and spell true.",
+        "image_path": "/assets/moon-mission/leave-orbit.png"
+      },
+      {
+        "id": "reentry",
+        "title": "Re-entry",
+        "narration": "Atmosphere ahead. Heat shield glowing. Hold the spelling line!",
+        "image_path": "/assets/moon-mission/reentry.png"
+      },
+      {
+        "id": "splashdown",
+        "title": "Splashdown",
+        "narration": "Chutes open. Splash! The ocean catches you.",
+        "image_path": "/assets/moon-mission/splashdown.png"
+      },
+      {
+        "id": "recovery",
+        "title": "Navy Recovery",
+        "narration": "A recovery ship steams in. Spell to climb aboard.",
+        "image_path": "/assets/moon-mission/recovery.png"
+      },
+      {
+        "id": "home",
+        "title": "Welcome Home",
+        "narration": "One last word and the mission is in the history books.",
+        "image_path": "/assets/moon-mission/home.png"
+      }
+    ],
+    "endings": {
+      "completed": {
+        "narration": "Mission complete! Splashdown secured, the Navy has the crew, and you spelled your way to the Moon and back.",
+        "image_path": "/assets/moon-mission/ending-completed.png"
+      },
+      "failed": {
+        "narration": "You didn't quite make it. Too many missed spellings aborted the mission. Try again, astronaut.",
+        "image_path": "/assets/moon-mission/ending-failed.png"
+      }
+    }
+  }
+]

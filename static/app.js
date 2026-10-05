@@ -4,6 +4,10 @@ const state = {
   children: [],
   themes: [],
   grades: [],
+  stories: [],
+  sessionWordCount: 10,
+  storyWordCount: 15,
+  storyMaxMisses: 3,
   selectedChild: null,
   selectedGrade: 2,
   selectedThemeId: "storybook",
@@ -1299,6 +1303,10 @@ async function loadBootstrap() {
   state.children = data.children.map(normalizeChild);
   state.themes = data.themes;
   state.grades = data.grades;
+  state.stories = data.stories || [];
+  state.sessionWordCount = data.session_word_count || 10;
+  state.storyWordCount = data.story_word_count || 15;
+  state.storyMaxMisses = data.story_max_misses || 3;
   if (state.selectedChild) {
     state.selectedChild = childById(state.selectedChild.id) || state.children[0];
   }
@@ -1405,18 +1413,33 @@ function renderSetup() {
         <div class="section-title"><h3>Challenge</h3></div>
         <div class="grid grade-grid">${gradeCards}</div>
 
-        <div class="section-title"><h3>Theme</h3></div>
-        <div class="grid theme-grid">${themeCards}</div>
+        ${state.mode === "story" ? `
+          <div class="section-title"><h3>Moon Mission</h3></div>
+          <p class="muted">Spell ${SESSION_WORD_COUNT()} words to fly to the Moon and home again. Miss up to ${state.storyMaxMisses} times.</p>
+          ${(state.stories[0] && state.stories[0].preview_image)
+            ? `<img class="story-pixel" src="${escapeHtml(state.stories[0].preview_image)}" alt="${escapeHtml(state.stories[0].preview_title || "Moon Mission preview")}">`
+            : `<pre class="story-art story-art-preview">${escapeHtml((state.stories[0] && state.stories[0].preview_art) || "MOON MISSION")}</pre>`}
+        ` : `
+          <div class="section-title"><h3>Theme</h3></div>
+          <div class="grid theme-grid">${themeCards}</div>
+        `}
       </div>
       <aside class="side-panel">
-        ${renderThemeStage(selectedTheme, selectedTreatment)}
+        ${state.mode === "story" ? `
+          <div class="story-setup-card">
+            <strong>Moon Mission</strong>
+            <p>MECC-style story spelling. Advance the flight with each correct word.</p>
+          </div>
+        ` : renderThemeStage(selectedTheme, selectedTreatment)}
         <div class="segmented">
           <button class="segment ${state.mode === "practice" ? "active" : ""}" data-action="select-mode" data-mode="practice">Practice</button>
           <button class="segment ${state.mode === "bonus" ? "active" : ""}" data-action="select-mode" data-mode="bonus">Bonus</button>
+          <button class="segment ${state.mode === "story" ? "active" : ""}" data-action="select-mode" data-mode="story">Moon Mission</button>
         </div>
         <div class="metric-line">
-          <span class="pill strong">${SESSION_WORD_COUNT()} words</span>
-          ${hasRewardTheme(selectedTheme.id) ? `<span class="pill strong">${escapeHtml(child.stats.xp.rank)}</span>` : ""}
+          <span class="pill strong">${SESSION_WORD_COUNT()} ${state.mode === "story" ? "steps" : "words"}</span>
+          ${state.mode === "story" ? `<span class="pill">${state.storyMaxMisses} misses OK</span>` : ""}
+          ${state.mode !== "story" && hasRewardTheme(selectedTheme.id) ? `<span class="pill strong">${escapeHtml(child.stats.xp.rank)}</span>` : ""}
           <span class="pill">2 hints each</span>
           <span class="pill">1 try</span>
         </div>
@@ -1429,11 +1452,20 @@ function renderSetup() {
         </div>
       </aside>
     </section>
-  `, "go-home", `theme-shell theme-setup ${selectedTreatment.className}`);
+  `, "go-home", state.mode === "story" ? "theme-shell theme-setup theme-moon-mission" : `theme-shell theme-setup ${selectedTreatment.className}`);
 }
 
 function SESSION_WORD_COUNT() {
-  return 10;
+  if (state.mode === "story") {
+    return state.storyWordCount || 15;
+  }
+  return state.sessionWordCount || 10;
+}
+
+function modeLabel(mode) {
+  if (mode === "bonus") return "Bonus";
+  if (mode === "story") return "Moon Mission";
+  return "Practice";
 }
 
 function renderChildEditor() {
@@ -1485,6 +1517,10 @@ function renderSession() {
     renderSummary();
     return;
   }
+  if (session.mode === "story") {
+    renderStorySession();
+    return;
+  }
   const current = session.words[state.currentIndex];
   const progress = Math.round((session.answered_count / session.total_words) * 100);
   const theme = themeById(session.theme_id) || { id: session.theme_id, name: session.theme_name };
@@ -1500,7 +1536,7 @@ function renderSession() {
           <div class="theme-session-head">
             ${renderThemeStage(theme, treatment, "compact")}
             <div class="session-meter">
-              <span class="pill strong">${session.mode === "bonus" ? "Bonus" : "Practice"}</span>
+              <span class="pill strong">${modeLabel(session.mode)}</span>
               <span class="pill">Word ${current.ordinal} of ${session.total_words}</span>
             </div>
           </div>
@@ -1549,6 +1585,85 @@ function renderSession() {
             ${renderThemeMilestone("side")}
             <button class="btn secondary" data-action="use-hint" ${current.hints_used >= current.max_hints || current.answered ? "disabled" : ""}>${icon("hint")}Hint</button>
             <button class="btn warn" data-action="abandon-session">End Session</button>
+          </aside>
+        </div>
+      </section>
+    </div>
+  `;
+  if (!state.feedback) {
+    const form = app.querySelector('[data-form="answer"]');
+    if (form) setupLetterInputs(form);
+  }
+}
+
+function currentStoryBeat(session) {
+  const story = session.story || {};
+  if (story.outcome === "completed" || story.outcome === "failed") {
+    return story.ending || null;
+  }
+  return story.beat || null;
+}
+
+function renderStorySession() {
+  const session = state.session;
+  const current = session.words[state.currentIndex];
+  const story = session.story || {};
+  const beat = currentStoryBeat(session) || {};
+  const target = story.target_correct || state.storyWordCount || 15;
+  const progress = Math.round(((story.correct_count || 0) / target) * 100);
+  const feedback = state.feedback ? renderFeedback(state.feedback) : "";
+  const lives = "♥".repeat(story.misses_remaining || 0) + "♡".repeat(Math.max(0, (story.max_misses || 3) - (story.misses_remaining || 0)));
+
+  app.innerHTML = `
+    <div class="shell session-shell theme-moon-mission">
+      ${topbar(`${session.child_name} - Moon Mission`, "back-to-setup")}
+      <section class="practice-panel story-panel">
+        <div class="practice-head">
+          <div class="session-meter">
+            <span class="pill strong">Moon Mission</span>
+            <span class="pill">Step ${story.step || 1} of ${target}</span>
+            <span class="pill story-lives" aria-label="Lives remaining">${lives || "♡♡♡"}</span>
+          </div>
+          <div class="progress-bar" aria-label="Mission progress">
+            <div class="progress-fill" style="--progress: ${progress}%"></div>
+          </div>
+        </div>
+        <div class="practice-body story-body">
+          <div class="word-zone story-zone">
+            <div class="story-frame">
+              <h2 class="story-beat-title">${escapeHtml(beat.title || story.title || "Moon Mission")}</h2>
+              ${beat.image_path
+                ? `<img class="story-pixel" src="${escapeHtml(beat.image_path)}" alt="${escapeHtml(beat.title || "Mission scene")}">`
+                : `<pre class="story-art" aria-label="Mission scene">${escapeHtml(beat.art || "")}</pre>`}
+              <p class="story-narration">${escapeHtml(beat.narration || "")}</p>
+            </div>
+            <div class="audio-pad">
+              <button class="play-button" data-action="play-audio" title="Play word" aria-label="Play word">&gt;</button>
+              <div>
+                <span class="pill">${current.word_length} letters</span>
+                <span class="pill">${current.max_hints - current.hints_used} hints left</span>
+              </div>
+            </div>
+            ${feedback
+              ? `<div class="pattern" aria-label="Answer pattern">${renderAnswerPattern(current, true)}</div>${feedback}`
+              : renderAnswerForm(current)}
+            <div class="status-line">${escapeHtml(state.status)}</div>
+          </div>
+          <aside class="session-side story-side">
+            <div class="session-card">
+              <span class="muted">Mission step</span>
+              <strong>${story.correct_count || 0}/${target}</strong>
+            </div>
+            <div class="session-card">
+              <span class="muted">Misses left</span>
+              <strong>${story.misses_remaining ?? story.max_misses ?? 3}</strong>
+            </div>
+            <div class="session-card">
+              <span class="muted">XP this run</span>
+              <strong>${session.xp_earned || 0}</strong>
+            </div>
+            <button class="btn secondary" data-action="use-hint" ${current.hints_used >= current.max_hints || current.answered ? "disabled" : ""}>${icon("hint")}Hint</button>
+            <button class="btn warn" data-action="abandon-session">Abort Mission</button>
           </aside>
         </div>
       </section>
@@ -1672,6 +1787,28 @@ function setupLetterInputs(form) {
 
 function renderFeedback(feedback) {
   const done = feedback.session_complete;
+  const isStory = state.session?.mode === "story";
+  if (isStory) {
+    const story = feedback.story || state.session.story || {};
+    const title = feedback.correct
+      ? (done && story.outcome === "completed" ? "Mission advanced — splashdown secured!" : "Course corrected. Mission advancing.")
+      : (done && story.outcome === "failed" ? "You didn't quite make it." : "Missed spelling. One life down.");
+    const nextLabel = done
+      ? (story.outcome === "completed" ? "Mission Report" : "Mission Report")
+      : "Continue";
+    return `
+      <div class="feedback ${feedback.correct ? "" : "miss"}">
+        <strong>${escapeHtml(title)}</strong>
+        ${feedback.correct ? "" : `<span>Correct spelling: <b>${escapeHtml(feedback.correct_word)}</b></span>`}
+        ${feedback.correct && feedback.xp_earned ? `<span class="xp-toast">+${feedback.xp_earned} XP</span>` : ""}
+        ${!feedback.correct && story.misses_remaining != null ? `<span class="muted">${story.misses_remaining} miss${story.misses_remaining === 1 ? "" : "es"} left</span>` : ""}
+        ${feedback.definition ? `<span>${escapeHtml(feedback.definition)}</span>` : ""}
+        <div class="form-actions">
+          <button class="btn primary" data-action="${done ? "show-summary" : "next-word"}">${icon("next")}${nextLabel}</button>
+        </div>
+      </div>
+    `;
+  }
   const treatment = treatmentFor(state.session?.theme_id);
   const props = feedback.surpriseProps || buildSurpriseProps(treatment, feedback.correct);
   const title = feedback.themeMessage || (feedback.correct ? treatment.correctMessages[0] : treatment.missMessages[0]);
@@ -1697,6 +1834,10 @@ function renderSummary() {
   summary.child_stats = normalizeChild({ stats: summary.child_stats || {} }).stats;
   summary.reward_events = summary.reward_events || [];
   summary.newly_unlocked_themes = summary.newly_unlocked_themes || [];
+  if (state.session.mode === "story") {
+    renderStorySummary(summary);
+    return;
+  }
   const theme = themeById(state.session.theme_id) || { id: state.session.theme_id, name: state.session.theme_name };
   const treatment = treatmentFor(state.session.theme_id);
   const misses = summary.misses.length
@@ -1742,6 +1883,42 @@ function renderSummary() {
       </div>
     </section>
   `, "", `theme-shell theme-summary ${treatment.className}`);
+}
+
+function renderStorySummary(summary) {
+  const story = summary.story || {};
+  const ending = story.ending || {};
+  const won = story.outcome === "completed";
+  const misses = summary.misses.length
+    ? summary.misses.map((miss) => `<span class="pill">${escapeHtml(miss.word)}</span>`).join("")
+    : `<span class="pill good">No misses</span>`;
+
+  app.innerHTML = shell("Mission report", `
+    <section class="summary-panel story-summary">
+      <div>
+        <h2>${won ? "Mission Complete" : "Mission Incomplete"}</h2>
+        <p class="story-narration">${escapeHtml(ending.narration || (won ? "Splashdown and recovery secured." : "You didn't quite make it."))}</p>
+        <div class="metric-line">
+          <span class="pill strong">${summary.correct_count}/${story.target_correct || state.storyWordCount} steps</span>
+          <span class="pill strong">+${summary.xp_earned || 0} XP</span>
+          <span class="pill">${escapeHtml(summary.child_stats.xp.rank)}</span>
+          <span class="pill">${summary.accuracy}% accuracy</span>
+        </div>
+        ${renderXpMeter(summary.child_stats.xp)}
+        <div class="section-title"><h3>Misses</h3></div>
+        <div class="miss-list">${misses}</div>
+        <div class="form-actions" style="margin-top: 20px;">
+          <button class="btn primary" data-action="back-to-setup">${icon("play")}Fly Again</button>
+          <button class="btn secondary" data-action="go-home">${icon("back")}Profiles</button>
+        </div>
+      </div>
+      <div class="summary-art">
+        ${ending.image_path
+          ? `<img class="story-pixel" src="${escapeHtml(ending.image_path)}" alt="${won ? "Mission complete" : "Mission aborted"}">`
+          : `<pre class="story-art">${escapeHtml(ending.art || "")}</pre>`}
+      </div>
+    </section>
+  `, "", "theme-shell theme-summary theme-moon-mission");
 }
 
 async function renderDashboard() {
@@ -1947,14 +2124,19 @@ async function renderWords() {
 
 async function startSession() {
   state.status = "";
+  const payload = {
+    child_id: state.selectedChild.id,
+    grade_level: state.selectedGrade,
+    mode: state.mode
+  };
+  if (state.mode !== "story") {
+    payload.theme_id = state.selectedThemeId;
+  } else {
+    payload.story_id = "moon-mission";
+  }
   const session = await api("/api/sessions", {
     method: "POST",
-    body: JSON.stringify({
-      child_id: state.selectedChild.id,
-      grade_level: state.selectedGrade,
-      theme_id: state.selectedThemeId,
-      mode: state.mode
-    })
+    body: JSON.stringify(payload)
   });
   state.session = session;
   state.currentIndex = 0;
@@ -1989,19 +2171,34 @@ async function submitAnswer(form) {
   current.correct_word = result.correct_word;
   current.definition = result.definition;
   current.example_sentence = result.example_sentence;
-  const treatment = treatmentFor(state.session.theme_id);
   state.session.answered_count += 1;
   state.session.correct_count += result.correct ? 1 : 0;
   state.session.xp_earned = (state.session.xp_earned || 0) + (result.xp_earned || 0);
-  result.themeMessage = randomItem(result.correct ? treatment.correctMessages : treatment.missMessages);
-  result.surpriseProps = buildSurpriseProps(treatment, result.correct);
-  result.surpriseMoment = buildThemeMoment(result.correct);
+  if (result.story) {
+    state.session.story = result.story;
+    state.session.story_outcome = result.story.outcome;
+  }
+  if (state.session.mode !== "story") {
+    const treatment = treatmentFor(state.session.theme_id);
+    result.themeMessage = randomItem(result.correct ? treatment.correctMessages : treatment.missMessages);
+    result.surpriseProps = buildSurpriseProps(treatment, result.correct);
+    result.surpriseMoment = buildThemeMoment(result.correct);
+  }
   state.feedback = result;
   if (result.session_complete) {
     state.session.summary = result.summary;
     await loadBootstrap();
   }
   renderSession();
+}
+
+function advanceToNextWord() {
+  const words = state.session.words;
+  let next = state.currentIndex + 1;
+  while (next < words.length && words[next].answered) {
+    next += 1;
+  }
+  state.currentIndex = Math.min(next, words.length - 1);
 }
 
 async function playCurrentAudio() {
@@ -2124,9 +2321,10 @@ document.addEventListener("click", async (event) => {
       await useHint();
     } else if (action === "next-word") {
       state.feedback = null;
-      state.currentIndex = Math.min(state.currentIndex + 1, state.session.words.length - 1);
+      advanceToNextWord();
       renderSession();
     } else if (action === "show-summary") {
+      state.feedback = null;
       renderSummary();
     } else if (action === "abandon-session") {
       await abandonSession();

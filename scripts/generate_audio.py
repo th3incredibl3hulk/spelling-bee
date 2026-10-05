@@ -22,11 +22,27 @@ sys.path.insert(0, str(ROOT))
 import server  # noqa: E402
 
 
-def prompt_text(word: str, sentence: str) -> str:
+PAUSE_SECONDS = 2.0
+KOKORO_SAMPLE_RATE = 24000
+
+
+def prompt_parts(word: str, sentence: str) -> tuple[str, str]:
+    """Return (intro, outro) spoken segments with a pause between them."""
+    intro = f"Your word is: {word}."
     sentence = sentence.strip()
     if sentence:
-        return f"Your word is: {word}. {sentence} {word}."
-    return f"Your word is: {word}. {word}."
+        outro = f"{sentence} {word}."
+    else:
+        outro = f"{word}."
+    return intro, outro
+
+
+def prompt_text(word: str, sentence: str, *, pause_seconds: float = PAUSE_SECONDS) -> str:
+    """Single-string prompt for engines that support embedded silence markers."""
+    intro, outro = prompt_parts(word, sentence)
+    # macOS `say` understands [[slnc N]] as N milliseconds of silence.
+    silence_ms = max(0, int(pause_seconds * 1000))
+    return f"{intro} [[slnc {silence_ms}]] {outro}"
 
 
 def output_path(audio_word_path: str) -> Path:
@@ -47,7 +63,8 @@ def validate_wav(target: Path) -> None:
         raise RuntimeError(f"Generated audio is empty: {target}")
 
 
-def generate_with_say(text: str, target: Path, say_voice: str = "") -> None:
+def generate_with_say(word: str, sentence: str, target: Path, say_voice: str = "") -> None:
+    text = prompt_text(word, sentence, pause_seconds=PAUSE_SECONDS)
     temp_aiff = target.with_suffix(".tmp.aiff")
     say_cmd = ["say"]
     if say_voice:
@@ -64,16 +81,39 @@ def generate_with_say(text: str, target: Path, say_voice: str = "") -> None:
     validate_wav(target)
 
 
-def generate_with_espeak(text: str, target: Path, command: str, voice: str) -> None:
+def generate_with_espeak(word: str, sentence: str, target: Path, command: str, voice: str) -> None:
+    intro, outro = prompt_parts(word, sentence)
+    # espeak has no reliable long silence marker; speak intro/outro with a gap via sox if present,
+    # otherwise insert a spoken ellipsis pause as a weaker fallback.
+    text = f"{intro} ... ... {outro}"
     cmd = [command]
     if voice:
         cmd.extend(["-v", voice])
-    cmd.extend(["-w", str(target), text])
+    cmd.extend(["-g", "20", "-w", str(target), text])
     subprocess.run(cmd, check=True)
     validate_wav(target)
 
 
-def generate_with_kokoro(text: str, target: Path, voice: str) -> None:
+def _to_numpy_audio(audio):
+    import numpy as np
+
+    if hasattr(audio, "detach"):
+        audio = audio.detach().cpu().numpy()
+    return np.asarray(audio, dtype=np.float32).reshape(-1)
+
+
+def _kokoro_speak(pipeline, text: str, voice: str):
+    import numpy as np
+
+    chunks = []
+    for _, _, audio in pipeline(text, voice=voice, speed=1):
+        chunks.append(_to_numpy_audio(audio))
+    if not chunks:
+        raise RuntimeError("Kokoro did not return audio.")
+    return chunks[0] if len(chunks) == 1 else np.concatenate(chunks)
+
+
+def generate_with_kokoro(word: str, sentence: str, target: Path, voice: str) -> None:
     try:
         import numpy as np
         import soundfile as sf
@@ -83,14 +123,17 @@ def generate_with_kokoro(text: str, target: Path, voice: str) -> None:
             "Kokoro generation requires local packages: kokoro, soundfile, and numpy."
         ) from exc
 
-    pipeline = KPipeline(lang_code="a")
-    chunks = []
-    for _, _, audio in pipeline(text, voice=voice, speed=1):
-        chunks.append(audio)
-    if not chunks:
-        raise RuntimeError("Kokoro did not return audio.")
-    audio = chunks[0] if len(chunks) == 1 else np.concatenate(chunks)
-    sf.write(target, audio, 24000)
+    intro, outro = prompt_parts(word, sentence)
+    # Suppress the model-default repo warning; behavior is unchanged.
+    try:
+        pipeline = KPipeline(lang_code="a", repo_id="hexgrad/Kokoro-82M")
+    except TypeError:
+        pipeline = KPipeline(lang_code="a")
+    intro_audio = _kokoro_speak(pipeline, intro, voice)
+    outro_audio = _kokoro_speak(pipeline, outro, voice)
+    silence = np.zeros(int(KOKORO_SAMPLE_RATE * PAUSE_SECONDS), dtype=np.float32)
+    audio = np.concatenate([intro_audio, silence, outro_audio])
+    sf.write(target, audio, KOKORO_SAMPLE_RATE)
     validate_wav(target)
 
 
@@ -182,17 +225,18 @@ def main() -> None:
         if target.exists() and not args.overwrite:
             skipped += 1
             continue
-        text = prompt_text(row["word"], row["example_sentence"] or "")
+        word = row["word"]
+        sentence = row["example_sentence"] or ""
         engine = auto_engine[0] if auto_engine else args.engine
         if engine == "kokoro":
-            generate_with_kokoro(text, target, args.voice)
+            generate_with_kokoro(word, sentence, target, args.voice)
         elif engine == "espeak":
             command = auto_engine[1] if auto_engine else shutil.which("espeak-ng") or shutil.which("espeak")
             if not command:
                 raise RuntimeError("espeak or espeak-ng was not found.")
-            generate_with_espeak(text, target, command, args.espeak_voice)
+            generate_with_espeak(word, sentence, target, command, args.espeak_voice)
         else:
-            generate_with_say(text, target, args.say_voice)
+            generate_with_say(word, sentence, target, args.say_voice)
         generated += 1
         print(f"generated {target.relative_to(ROOT)}")
     print(f"done: {generated} generated, {skipped} skipped")
