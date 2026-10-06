@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT))
 import server  # noqa: E402
 
 
-PAUSE_SECONDS = 2.0
+PAUSE_SECONDS = 1.0
 KOKORO_SAMPLE_RATE = 24000
 
 

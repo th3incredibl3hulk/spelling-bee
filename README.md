@@ -69,7 +69,7 @@ This uses `espeak-ng` or `espeak` when available, then falls back to macOS
 python3 scripts/generate_audio.py --engine kokoro --voice af_heart --overwrite
 ```
 
-Each clip says the word, pauses about two seconds, speaks an example sentence when
+Each clip says the word, pauses about one second, speaks an example sentence when
 available, then repeats the word.
 
 ## BlockWorks Game Layer
